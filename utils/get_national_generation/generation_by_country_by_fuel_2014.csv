@@ -1,0 +1,2101 @@
+country,fuel,generation_gwh_2014
+Canada,Cogeneration,0
+Canada,Nuclear,107678.0
+Canada,Coal,64718.0
+Canada,Petcoke,0
+Canada,Other,2261.0
+Canada,Waste,265.0
+Canada,Wind,22538.0
+Canada,Hydro,382574.0
+Canada,Oil,7974.0
+Canada,Gas,61355.0
+Canada,Biomass,5090.0
+Canada,Wave_and_Tidal,16.0
+Canada,Geothermal,0.0
+Canada,Solar,1756.0
+Canada,Total,656225.0
+Turkmenistan,Cogeneration,0
+Turkmenistan,Nuclear,0.0
+Turkmenistan,Coal,0.0
+Turkmenistan,Petcoke,0
+Turkmenistan,Other,0.0
+Turkmenistan,Waste,0.0
+Turkmenistan,Wind,0.0
+Turkmenistan,Hydro,0.0
+Turkmenistan,Oil,0.0
+Turkmenistan,Gas,20400.0
+Turkmenistan,Biomass,0.0
+Turkmenistan,Wave_and_Tidal,0.0
+Turkmenistan,Geothermal,0.0
+Turkmenistan,Solar,0.0
+Turkmenistan,Total,20400.0
+Montenegro,Cogeneration,0
+Montenegro,Nuclear,0.0
+Montenegro,Coal,1422.0
+Montenegro,Petcoke,0
+Montenegro,Other,0.0
+Montenegro,Waste,0.0
+Montenegro,Wind,0.0
+Montenegro,Hydro,1752.0
+Montenegro,Oil,0.0
+Montenegro,Gas,0.0
+Montenegro,Biomass,0.0
+Montenegro,Wave_and_Tidal,0.0
+Montenegro,Geothermal,0.0
+Montenegro,Solar,0.0
+Montenegro,Total,3174.0
+Lithuania,Cogeneration,0
+Lithuania,Nuclear,0.0
+Lithuania,Coal,2.0
+Lithuania,Petcoke,0
+Lithuania,Other,243.0
+Lithuania,Waste,72.0
+Lithuania,Wind,639.0
+Lithuania,Hydro,1088.0
+Lithuania,Oil,160.0
+Lithuania,Gas,1749.0
+Lithuania,Biomass,371.0
+Lithuania,Wave_and_Tidal,0.0
+Lithuania,Geothermal,0.0
+Lithuania,Solar,73.0
+Lithuania,Total,4397.0
+Cambodia,Cogeneration,0
+Cambodia,Nuclear,0.0
+Cambodia,Coal,863.0
+Cambodia,Petcoke,0
+Cambodia,Other,0.0
+Cambodia,Waste,0.0
+Cambodia,Wind,0.0
+Cambodia,Hydro,1852.0
+Cambodia,Oil,327.0
+Cambodia,Gas,0.0
+Cambodia,Biomass,14.0
+Cambodia,Wave_and_Tidal,0.0
+Cambodia,Geothermal,0.0
+Cambodia,Solar,3.0
+Cambodia,Total,3059.0
+Ethiopia,Cogeneration,0
+Ethiopia,Nuclear,0.0
+Ethiopia,Coal,0.0
+Ethiopia,Petcoke,0
+Ethiopia,Other,0.0
+Ethiopia,Waste,0.0
+Ethiopia,Wind,392.0
+Ethiopia,Hydro,9195.0
+Ethiopia,Oil,9.0
+Ethiopia,Gas,0.0
+Ethiopia,Biomass,0.0
+Ethiopia,Wave_and_Tidal,0.0
+Ethiopia,Geothermal,19.0
+Ethiopia,Solar,0.0
+Ethiopia,Total,9615.0
+Argentina,Cogeneration,0
+Argentina,Nuclear,5756.0
+Argentina,Coal,4038.0
+Argentina,Petcoke,0
+Argentina,Other,0.0
+Argentina,Waste,0.0
+Argentina,Wind,730.0
+Argentina,Hydro,41348.0
+Argentina,Oil,19540.0
+Argentina,Gas,67378.0
+Argentina,Biomass,2780.0
+Argentina,Wave_and_Tidal,0.0
+Argentina,Geothermal,0.0
+Argentina,Solar,16.0
+Argentina,Total,141586.0
+Bolivia,Cogeneration,0
+Bolivia,Nuclear,0.0
+Bolivia,Coal,0.0
+Bolivia,Petcoke,0
+Bolivia,Other,0.0
+Bolivia,Waste,0.0
+Bolivia,Wind,8.0
+Bolivia,Hydro,2251.0
+Bolivia,Oil,175.0
+Bolivia,Gas,6128.0
+Bolivia,Biomass,187.0
+Bolivia,Wave_and_Tidal,0.0
+Bolivia,Geothermal,0.0
+Bolivia,Solar,6.0
+Bolivia,Total,8755.0
+Cameroon,Cogeneration,0
+Cameroon,Nuclear,0.0
+Cameroon,Coal,0.0
+Cameroon,Petcoke,0
+Cameroon,Other,0.0
+Cameroon,Waste,0.0
+Cameroon,Wind,0.0
+Cameroon,Hydro,5068.0
+Cameroon,Oil,886.0
+Cameroon,Gas,896.0
+Cameroon,Biomass,72.0
+Cameroon,Wave_and_Tidal,0.0
+Cameroon,Geothermal,0.0
+Cameroon,Solar,0.0
+Cameroon,Total,6922.0
+Ghana,Cogeneration,0
+Ghana,Nuclear,0.0
+Ghana,Coal,0.0
+Ghana,Petcoke,0
+Ghana,Other,0.0
+Ghana,Waste,0.0
+Ghana,Wind,0.0
+Ghana,Hydro,8387.0
+Ghana,Oil,2213.0
+Ghana,Gas,2359.0
+Ghana,Biomass,0.0
+Ghana,Wave_and_Tidal,0.0
+Ghana,Geothermal,0.0
+Ghana,Solar,4.0
+Ghana,Total,12963.0
+Saudi Arabia,Cogeneration,0
+Saudi Arabia,Nuclear,0.0
+Saudi Arabia,Coal,0.0
+Saudi Arabia,Petcoke,0
+Saudi Arabia,Other,0.0
+Saudi Arabia,Waste,0.0
+Saudi Arabia,Wind,0.0
+Saudi Arabia,Hydro,0.0
+Saudi Arabia,Oil,152285.0
+Saudi Arabia,Gas,159520.0
+Saudi Arabia,Biomass,0.0
+Saudi Arabia,Wave_and_Tidal,0.0
+Saudi Arabia,Geothermal,0.0
+Saudi Arabia,Solar,1.0
+Saudi Arabia,Total,311806.0
+Slovenia,Cogeneration,0
+Slovenia,Nuclear,6370.0
+Slovenia,Coal,3759.0
+Slovenia,Petcoke,0
+Slovenia,Other,0.0
+Slovenia,Waste,7.0
+Slovenia,Wind,4.0
+Slovenia,Hydro,6366.0
+Slovenia,Oil,42.0
+Slovenia,Gas,374.0
+Slovenia,Biomass,258.0
+Slovenia,Wave_and_Tidal,0.0
+Slovenia,Geothermal,0.0
+Slovenia,Solar,257.0
+Slovenia,Total,17437.0
+Guatemala,Cogeneration,0
+Guatemala,Nuclear,0.0
+Guatemala,Coal,1855.0
+Guatemala,Petcoke,0
+Guatemala,Other,0.0
+Guatemala,Waste,0.0
+Guatemala,Wind,0.0
+Guatemala,Hydro,4848.0
+Guatemala,Oil,1512.0
+Guatemala,Gas,0.0
+Guatemala,Biomass,2256.0
+Guatemala,Wave_and_Tidal,0.0
+Guatemala,Geothermal,247.0
+Guatemala,Solar,7.0
+Guatemala,Total,10725.0
+Bosnia and Herzegovina,Cogeneration,0
+Bosnia and Herzegovina,Nuclear,0.0
+Bosnia and Herzegovina,Coal,10151.0
+Bosnia and Herzegovina,Petcoke,0
+Bosnia and Herzegovina,Other,0.0
+Bosnia and Herzegovina,Waste,0.0
+Bosnia and Herzegovina,Wind,0.0
+Bosnia and Herzegovina,Hydro,5935.0
+Bosnia and Herzegovina,Oil,44.0
+Bosnia and Herzegovina,Gas,30.0
+Bosnia and Herzegovina,Biomass,0.0
+Bosnia and Herzegovina,Wave_and_Tidal,0.0
+Bosnia and Herzegovina,Geothermal,0.0
+Bosnia and Herzegovina,Solar,0.0
+Bosnia and Herzegovina,Total,16160.0
+Germany,Cogeneration,0
+Germany,Nuclear,97129.0
+Germany,Coal,284911.0
+Germany,Petcoke,0
+Germany,Other,2023.0
+Germany,Waste,13503.0
+Germany,Wind,57357.0
+Germany,Hydro,25444.0
+Germany,Oil,5659.0
+Germany,Gas,62270.0
+Germany,Biomass,43345.0
+Germany,Wave_and_Tidal,0.0
+Germany,Geothermal,98.0
+Germany,Solar,36056.0
+Germany,Total,627795.0
+Spain,Cogeneration,0
+Spain,Nuclear,57305.0
+Spain,Coal,45295.0
+Spain,Petcoke,0
+Spain,Other,0.0
+Spain,Waste,1372.0
+Spain,Wind,52013.0
+Spain,Hydro,42970.0
+Spain,Oil,14121.0
+Spain,Gas,47273.0
+Spain,Biomass,4728.0
+Spain,Wave_and_Tidal,0.0
+Spain,Geothermal,0.0
+Spain,Solar,13673.0
+Spain,Total,278750.0
+Australia,Cogeneration,0
+Australia,Nuclear,0.0
+Australia,Coal,151849.0
+Australia,Petcoke,0
+Australia,Other,0.0
+Australia,Waste,0.0
+Australia,Wind,10252.0
+Australia,Hydro,18421.0
+Australia,Oil,5013.0
+Australia,Gas,54394.0
+Australia,Biomass,3511.0
+Australia,Wave_and_Tidal,0.0
+Australia,Geothermal,1.0
+Australia,Solar,4858.0
+Australia,Total,248299.0
+Netherlands,Cogeneration,0
+Netherlands,Nuclear,4091.0
+Netherlands,Coal,32420.0
+Netherlands,Petcoke,0
+Netherlands,Other,145.0
+Netherlands,Waste,3535.0
+Netherlands,Wind,5797.0
+Netherlands,Hydro,112.0
+Netherlands,Oil,1906.0
+Netherlands,Gas,51522.0
+Netherlands,Biomass,3105.0
+Netherlands,Wave_and_Tidal,0.0
+Netherlands,Geothermal,0.0
+Netherlands,Solar,785.0
+Netherlands,Total,103418.0
+Paraguay,Cogeneration,0
+Paraguay,Nuclear,0.0
+Paraguay,Coal,0.0
+Paraguay,Petcoke,0
+Paraguay,Other,0.0
+Paraguay,Waste,0.0
+Paraguay,Wind,0.0
+Paraguay,Hydro,55276.0
+Paraguay,Oil,6.0
+Paraguay,Gas,0.0
+Paraguay,Biomass,0.0
+Paraguay,Wave_and_Tidal,0.0
+Paraguay,Geothermal,0.0
+Paraguay,Solar,0.0
+Paraguay,Total,55282.0
+Pakistan,Cogeneration,0
+Pakistan,Nuclear,5090.0
+Pakistan,Coal,164.0
+Pakistan,Petcoke,0
+Pakistan,Other,0.0
+Pakistan,Waste,0.0
+Pakistan,Wind,397.0
+Pakistan,Hydro,31428.0
+Pakistan,Oil,41779.0
+Pakistan,Gas,26447.0
+Pakistan,Biomass,0.0
+Pakistan,Wave_and_Tidal,0.0
+Pakistan,Geothermal,0.0
+Pakistan,Solar,0.0
+Pakistan,Total,105305.0
+Oman,Cogeneration,0
+Oman,Nuclear,0.0
+Oman,Coal,0.0
+Oman,Petcoke,0
+Oman,Other,0.0
+Oman,Waste,0.0
+Oman,Wind,0.0
+Oman,Hydro,0.0
+Oman,Oil,757.0
+Oman,Gas,28371.0
+Oman,Biomass,0.0
+Oman,Wave_and_Tidal,0.0
+Oman,Geothermal,0.0
+Oman,Solar,0.0
+Oman,Total,29128.0
+Tanzania,Cogeneration,0
+Tanzania,Nuclear,0.0
+Tanzania,Coal,0.0
+Tanzania,Petcoke,0
+Tanzania,Other,0.0
+Tanzania,Waste,0.0
+Tanzania,Wind,0.0
+Tanzania,Hydro,2590.0
+Tanzania,Oil,963.0
+Tanzania,Gas,2626.0
+Tanzania,Biomass,22.0
+Tanzania,Wave_and_Tidal,0.0
+Tanzania,Geothermal,0.0
+Tanzania,Solar,18.0
+Tanzania,Total,6219.0
+Gabon,Cogeneration,0
+Gabon,Nuclear,0.0
+Gabon,Coal,0.0
+Gabon,Petcoke,0
+Gabon,Other,0.0
+Gabon,Waste,0.0
+Gabon,Wind,0.0
+Gabon,Hydro,795.0
+Gabon,Oil,639.0
+Gabon,Gas,921.0
+Gabon,Biomass,10.0
+Gabon,Wave_and_Tidal,0.0
+Gabon,Geothermal,0.0
+Gabon,Solar,2.0
+Gabon,Total,2367.0
+New Zealand,Cogeneration,0
+New Zealand,Nuclear,0.0
+New Zealand,Coal,1962.0
+New Zealand,Petcoke,0
+New Zealand,Other,35.0
+New Zealand,Waste,0.0
+New Zealand,Wind,2214.0
+New Zealand,Hydro,24336.0
+New Zealand,Oil,7.0
+New Zealand,Gas,7091.0
+New Zealand,Biomass,634.0
+New Zealand,Wave_and_Tidal,0.0
+New Zealand,Geothermal,7258.0
+New Zealand,Solar,16.0
+New Zealand,Total,43553.0
+Yemen,Cogeneration,0
+Yemen,Nuclear,0.0
+Yemen,Coal,0.0
+Yemen,Petcoke,0
+Yemen,Other,0.0
+Yemen,Waste,0.0
+Yemen,Wind,0.0
+Yemen,Hydro,0.0
+Yemen,Oil,4698.0
+Yemen,Gas,2948.0
+Yemen,Biomass,0.0
+Yemen,Wave_and_Tidal,0.0
+Yemen,Geothermal,0.0
+Yemen,Solar,0.0
+Yemen,Total,7646.0
+Jamaica,Cogeneration,0
+Jamaica,Nuclear,0.0
+Jamaica,Coal,0.0
+Jamaica,Petcoke,0
+Jamaica,Other,0.0
+Jamaica,Waste,0.0
+Jamaica,Wind,119.0
+Jamaica,Hydro,136.0
+Jamaica,Oil,3721.0
+Jamaica,Gas,0.0
+Jamaica,Biomass,148.0
+Jamaica,Wave_and_Tidal,0.0
+Jamaica,Geothermal,0.0
+Jamaica,Solar,0.0
+Jamaica,Total,4124.0
+Albania,Cogeneration,0
+Albania,Nuclear,0.0
+Albania,Coal,0.0
+Albania,Petcoke,0
+Albania,Other,0.0
+Albania,Waste,0.0
+Albania,Wind,0.0
+Albania,Hydro,4724.0
+Albania,Oil,0.0
+Albania,Gas,0.0
+Albania,Biomass,0.0
+Albania,Wave_and_Tidal,0.0
+Albania,Geothermal,0.0
+Albania,Solar,0.0
+Albania,Total,4724.0
+United Arab Emirates,Cogeneration,0
+United Arab Emirates,Nuclear,0.0
+United Arab Emirates,Coal,0.0
+United Arab Emirates,Petcoke,0
+United Arab Emirates,Other,0.0
+United Arab Emirates,Waste,0.0
+United Arab Emirates,Wind,0.0
+United Arab Emirates,Hydro,0.0
+United Arab Emirates,Oil,1473.0
+United Arab Emirates,Gas,108205.0
+United Arab Emirates,Biomass,0.0
+United Arab Emirates,Wave_and_Tidal,0.0
+United Arab Emirates,Geothermal,0.0
+United Arab Emirates,Solar,301.0
+United Arab Emirates,Total,109979.0
+Kosovo,Cogeneration,0
+Kosovo,Nuclear,0.0
+Kosovo,Coal,5270.0
+Kosovo,Petcoke,0
+Kosovo,Other,0.0
+Kosovo,Waste,0.0
+Kosovo,Wind,0.0
+Kosovo,Hydro,151.0
+Kosovo,Oil,15.0
+Kosovo,Gas,0.0
+Kosovo,Biomass,0.0
+Kosovo,Wave_and_Tidal,0.0
+Kosovo,Geothermal,0.0
+Kosovo,Solar,0.0
+Kosovo,Total,5436.0
+India,Cogeneration,0
+India,Nuclear,36102.0
+India,Coal,966520.0
+India,Petcoke,0
+India,Other,0.0
+India,Waste,1536.0
+India,Wind,37155.0
+India,Hydro,131643.0
+India,Oil,22696.0
+India,Gas,62929.0
+India,Biomass,23908.0
+India,Wave_and_Tidal,0.0
+India,Geothermal,0.0
+India,Solar,4909.0
+India,Total,1287398.0
+Azerbaijan,Cogeneration,0
+Azerbaijan,Nuclear,0.0
+Azerbaijan,Coal,0.0
+Azerbaijan,Petcoke,0
+Azerbaijan,Other,0.0
+Azerbaijan,Waste,174.0
+Azerbaijan,Wind,2.0
+Azerbaijan,Hydro,1300.0
+Azerbaijan,Oil,39.0
+Azerbaijan,Gas,23210.0
+Azerbaijan,Biomass,0.0
+Azerbaijan,Wave_and_Tidal,0.0
+Azerbaijan,Geothermal,0.0
+Azerbaijan,Solar,3.0
+Azerbaijan,Total,24728.0
+Kenya,Cogeneration,0
+Kenya,Nuclear,0.0
+Kenya,Coal,0.0
+Kenya,Petcoke,0
+Kenya,Other,0.0
+Kenya,Waste,0.0
+Kenya,Wind,38.0
+Kenya,Hydro,3310.0
+Kenya,Oil,1714.0
+Kenya,Gas,0.0
+Kenya,Biomass,136.0
+Kenya,Wave_and_Tidal,0.0
+Kenya,Geothermal,4059.0
+Kenya,Solar,1.0
+Kenya,Total,9258.0
+South Korea,Cogeneration,0
+South Korea,Nuclear,156407.0
+South Korea,Coal,231500.0
+South Korea,Petcoke,0
+South Korea,Other,1001.0
+South Korea,Waste,696.0
+South Korea,Wind,1146.0
+South Korea,Hydro,7820.0
+South Korea,Oil,17395.0
+South Korea,Gas,130458.0
+South Korea,Biomass,1461.0
+South Korea,Wave_and_Tidal,492.0
+South Korea,Geothermal,0.0
+South Korea,Solar,2557.0
+South Korea,Total,550933.0
+Tajikistan,Cogeneration,0
+Tajikistan,Nuclear,0.0
+Tajikistan,Coal,0.0
+Tajikistan,Petcoke,0
+Tajikistan,Other,0.0
+Tajikistan,Waste,0.0
+Tajikistan,Wind,0.0
+Tajikistan,Hydro,16000.0
+Tajikistan,Oil,0.0
+Tajikistan,Gas,472.0
+Tajikistan,Biomass,0.0
+Tajikistan,Wave_and_Tidal,0.0
+Tajikistan,Geothermal,0.0
+Tajikistan,Solar,0.0
+Tajikistan,Total,16472.0
+Turkey,Cogeneration,0
+Turkey,Nuclear,0.0
+Turkey,Coal,76263.0
+Turkey,Petcoke,0
+Turkey,Other,246.0
+Turkey,Waste,104.0
+Turkey,Wind,8520.0
+Turkey,Hydro,40645.0
+Turkey,Oil,2146.0
+Turkey,Gas,120576.0
+Turkey,Biomass,1082.0
+Turkey,Wave_and_Tidal,0.0
+Turkey,Geothermal,2364.0
+Turkey,Solar,17.0
+Turkey,Total,251963.0
+Bangladesh,Cogeneration,0
+Bangladesh,Nuclear,0.0
+Bangladesh,Coal,1100.0
+Bangladesh,Petcoke,0
+Bangladesh,Other,0.0
+Bangladesh,Waste,0.0
+Bangladesh,Wind,4.0
+Bangladesh,Hydro,588.0
+Bangladesh,Oil,8209.0
+Bangladesh,Gas,45799.0
+Bangladesh,Biomass,0.0
+Bangladesh,Wave_and_Tidal,0.0
+Bangladesh,Geothermal,0.0
+Bangladesh,Solar,145.0
+Bangladesh,Total,55845.0
+Mongolia,Cogeneration,0
+Mongolia,Nuclear,0.0
+Mongolia,Coal,4964.0
+Mongolia,Petcoke,0
+Mongolia,Other,0.0
+Mongolia,Waste,0.0
+Mongolia,Wind,170.0
+Mongolia,Hydro,0.0
+Mongolia,Oil,242.0
+Mongolia,Gas,0.0
+Mongolia,Biomass,0.0
+Mongolia,Wave_and_Tidal,0.0
+Mongolia,Geothermal,0.0
+Mongolia,Solar,0.0
+Mongolia,Total,5376.0
+France,Cogeneration,0
+France,Nuclear,436474.0
+France,Coal,12014.0
+France,Petcoke,0
+France,Other,553.0
+France,Waste,3812.0
+France,Wind,17249.0
+France,Hydro,68626.0
+France,Oil,1806.0
+France,Gas,12738.0
+France,Biomass,3114.0
+France,Wave_and_Tidal,481.0
+France,Geothermal,0.0
+France,Solar,5909.0
+France,Total,562776.0
+Syrian Arab Republic,Cogeneration,0
+Syrian Arab Republic,Nuclear,0.0
+Syrian Arab Republic,Coal,0.0
+Syrian Arab Republic,Petcoke,0
+Syrian Arab Republic,Other,0.0
+Syrian Arab Republic,Waste,0.0
+Syrian Arab Republic,Wind,0.0
+Syrian Arab Republic,Hydro,3000.0
+Syrian Arab Republic,Oil,4742.0
+Syrian Arab Republic,Gas,13984.0
+Syrian Arab Republic,Biomass,0.0
+Syrian Arab Republic,Wave_and_Tidal,0.0
+Syrian Arab Republic,Geothermal,0.0
+Syrian Arab Republic,Solar,0.0
+Syrian Arab Republic,Total,21726.0
+Slovakia,Cogeneration,0
+Slovakia,Nuclear,15499.0
+Slovakia,Coal,3356.0
+Slovakia,Petcoke,0
+Slovakia,Other,118.0
+Slovakia,Waste,47.0
+Slovakia,Wind,6.0
+Slovakia,Hydro,4462.0
+Slovakia,Oil,302.0
+Slovakia,Gas,1619.0
+Slovakia,Biomass,1395.0
+Slovakia,Wave_and_Tidal,0.0
+Slovakia,Geothermal,0.0
+Slovakia,Solar,597.0
+Slovakia,Total,27401.0
+Peru,Cogeneration,0
+Peru,Nuclear,0.0
+Peru,Coal,312.0
+Peru,Petcoke,0
+Peru,Other,0.0
+Peru,Waste,0.0
+Peru,Wind,206.0
+Peru,Hydro,22199.0
+Peru,Oil,560.0
+Peru,Gas,20893.0
+Peru,Biomass,1291.0
+Peru,Wave_and_Tidal,0.0
+Peru,Geothermal,0.0
+Peru,Solar,66.0
+Peru,Total,45527.0
+Norway,Cogeneration,0
+Norway,Nuclear,0.0
+Norway,Coal,157.0
+Norway,Petcoke,0
+Norway,Other,303.0
+Norway,Waste,361.0
+Norway,Wind,2216.0
+Norway,Hydro,136636.0
+Norway,Oil,28.0
+Norway,Gas,2601.0
+Norway,Biomass,25.0
+Norway,Wave_and_Tidal,0.0
+Norway,Geothermal,0.0
+Norway,Solar,0.0
+Norway,Total,142327.0
+Benin,Cogeneration,0
+Benin,Nuclear,0.0
+Benin,Coal,0.0
+Benin,Petcoke,0
+Benin,Other,0.0
+Benin,Waste,0.0
+Benin,Wind,0.0
+Benin,Hydro,0.0
+Benin,Oil,183.0
+Benin,Gas,0.0
+Benin,Biomass,1.0
+Benin,Wave_and_Tidal,0.0
+Benin,Geothermal,0.0
+Benin,Solar,0.0
+Benin,Total,184.0
+Cuba,Cogeneration,0
+Cuba,Nuclear,0.0
+Cuba,Coal,0.0
+Cuba,Petcoke,0
+Cuba,Other,0.0
+Cuba,Waste,0.0
+Cuba,Wind,17.0
+Cuba,Hydro,104.0
+Cuba,Oil,15794.0
+Cuba,Gas,2794.0
+Cuba,Biomass,637.0
+Cuba,Wave_and_Tidal,0.0
+Cuba,Geothermal,0.0
+Cuba,Solar,20.0
+Cuba,Total,19366.0
+United States of America,Cogeneration,0
+United States of America,Nuclear,830584.0
+United States of America,Coal,1712577.0
+United States of America,Petcoke,0
+United States of America,Other,4338.0
+United States of America,Waste,19412.0
+United States of America,Wind,183892.0
+United States of America,Hydro,281527.0
+United States of America,Oil,39877.0
+United States of America,Gas,1161333.0
+United States of America,Biomass,62357.0
+United States of America,Wave_and_Tidal,0.0
+United States of America,Geothermal,18710.0
+United States of America,Solar,24603.0
+United States of America,Total,4339210.0
+Togo,Cogeneration,0
+Togo,Nuclear,0.0
+Togo,Coal,0.0
+Togo,Petcoke,0
+Togo,Other,0.0
+Togo,Waste,0.0
+Togo,Wind,0.0
+Togo,Hydro,120.0
+Togo,Oil,17.0
+Togo,Gas,0.0
+Togo,Biomass,5.0
+Togo,Wave_and_Tidal,0.0
+Togo,Geothermal,0.0
+Togo,Solar,0.0
+Togo,Total,142.0
+China,Cogeneration,0
+China,Nuclear,132538.0
+China,Coal,4115215.0
+China,Petcoke,0
+China,Other,0.0
+China,Waste,12956.0
+China,Wind,156078.0
+China,Hydro,1064337.0
+China,Oil,9517.0
+China,Gas,114505.0
+China,Biomass,44437.0
+China,Wave_and_Tidal,8.0
+China,Geothermal,125.0
+China,Solar,29229.0
+China,Total,5678945.0
+Armenia,Cogeneration,0
+Armenia,Nuclear,2465.0
+Armenia,Coal,0.0
+Armenia,Petcoke,0
+Armenia,Other,0.0
+Armenia,Waste,0.0
+Armenia,Wind,4.0
+Armenia,Hydro,1992.0
+Armenia,Oil,0.0
+Armenia,Gas,3289.0
+Armenia,Biomass,0.0
+Armenia,Wave_and_Tidal,0.0
+Armenia,Geothermal,0.0
+Armenia,Solar,0.0
+Armenia,Total,7750.0
+Dominican Republic,Cogeneration,0
+Dominican Republic,Nuclear,0.0
+Dominican Republic,Coal,2476.0
+Dominican Republic,Petcoke,0
+Dominican Republic,Other,0.0
+Dominican Republic,Waste,0.0
+Dominican Republic,Wind,608.0
+Dominican Republic,Hydro,1584.0
+Dominican Republic,Oil,9642.0
+Dominican Republic,Gas,3993.0
+Dominican Republic,Biomass,32.0
+Dominican Republic,Wave_and_Tidal,0.0
+Dominican Republic,Geothermal,0.0
+Dominican Republic,Solar,238.0
+Dominican Republic,Total,18573.0
+Ukraine,Cogeneration,0
+Ukraine,Nuclear,88389.0
+Ukraine,Coal,70489.0
+Ukraine,Petcoke,0
+Ukraine,Other,0.0
+Ukraine,Waste,0.0
+Ukraine,Wind,1130.0
+Ukraine,Hydro,9318.0
+Ukraine,Oil,216.0
+Ukraine,Gas,12714.0
+Ukraine,Biomass,130.0
+Ukraine,Wave_and_Tidal,0.0
+Ukraine,Geothermal,0.0
+Ukraine,Solar,429.0
+Ukraine,Total,182815.0
+Bahrain,Cogeneration,0
+Bahrain,Nuclear,0.0
+Bahrain,Coal,0.0
+Bahrain,Petcoke,0
+Bahrain,Other,0.0
+Bahrain,Waste,0.0
+Bahrain,Wind,0.0
+Bahrain,Hydro,0.0
+Bahrain,Oil,7.0
+Bahrain,Gas,27246.0
+Bahrain,Biomass,0.0
+Bahrain,Wave_and_Tidal,0.0
+Bahrain,Geothermal,0.0
+Bahrain,Solar,0.0
+Bahrain,Total,27253.0
+Indonesia,Cogeneration,0
+Indonesia,Nuclear,0.0
+Indonesia,Coal,120332.0
+Indonesia,Petcoke,0
+Indonesia,Other,0.0
+Indonesia,Waste,32.0
+Indonesia,Wind,0.0
+Indonesia,Hydro,15148.0
+Indonesia,Oil,25782.0
+Indonesia,Gas,56287.0
+Indonesia,Biomass,925.0
+Indonesia,Wave_and_Tidal,0.0
+Indonesia,Geothermal,10038.0
+Indonesia,Solar,11.0
+Indonesia,Total,228555.0
+Libya,Cogeneration,0
+Libya,Nuclear,0.0
+Libya,Coal,0.0
+Libya,Petcoke,0
+Libya,Other,0.0
+Libya,Waste,0.0
+Libya,Wind,0.0
+Libya,Hydro,0.0
+Libya,Oil,17469.0
+Libya,Gas,20262.0
+Libya,Biomass,0.0
+Libya,Wave_and_Tidal,0.0
+Libya,Geothermal,0.0
+Libya,Solar,0.0
+Libya,Total,37731.0
+Finland,Cogeneration,0
+Finland,Nuclear,23580.0
+Finland,Coal,11818.0
+Finland,Petcoke,0
+Finland,Other,290.0
+Finland,Waste,819.0
+Finland,Wind,1107.0
+Finland,Hydro,13397.0
+Finland,Oil,235.0
+Finland,Gas,5521.0
+Finland,Biomass,11318.0
+Finland,Wave_and_Tidal,0.0
+Finland,Geothermal,0.0
+Finland,Solar,8.0
+Finland,Total,68093.0
+Mauritius,Cogeneration,0
+Mauritius,Nuclear,0.0
+Mauritius,Coal,1260.0
+Mauritius,Petcoke,0
+Mauritius,Other,0.0
+Mauritius,Waste,0.0
+Mauritius,Wind,3.0
+Mauritius,Hydro,91.0
+Mauritius,Oil,1078.0
+Mauritius,Gas,0.0
+Mauritius,Biomass,477.0
+Mauritius,Wave_and_Tidal,0.0
+Mauritius,Geothermal,0.0
+Mauritius,Solar,25.0
+Mauritius,Total,2934.0
+Sweden,Cogeneration,0
+Sweden,Nuclear,64877.0
+Sweden,Coal,994.0
+Sweden,Petcoke,0
+Sweden,Other,0.0
+Sweden,Waste,2855.0
+Sweden,Wind,11234.0
+Sweden,Hydro,63872.0
+Sweden,Oil,300.0
+Sweden,Gas,413.0
+Sweden,Biomass,9070.0
+Sweden,Wave_and_Tidal,0.0
+Sweden,Geothermal,0.0
+Sweden,Solar,47.0
+Sweden,Total,153662.0
+Vietnam,Cogeneration,0
+Vietnam,Nuclear,0.0
+Vietnam,Coal,34563.0
+Vietnam,Petcoke,0
+Vietnam,Other,0.0
+Vietnam,Waste,0.0
+Vietnam,Wind,87.0
+Vietnam,Hydro,58544.0
+Vietnam,Oil,449.0
+Vietnam,Gas,47211.0
+Vietnam,Biomass,59.0
+Vietnam,Wave_and_Tidal,0.0
+Vietnam,Geothermal,0.0
+Vietnam,Solar,0.0
+Vietnam,Total,140913.0
+Russia,Cogeneration,0
+Russia,Nuclear,180757.0
+Russia,Coal,158299.0
+Russia,Petcoke,0
+Russia,Other,0.0
+Russia,Waste,3071.0
+Russia,Wind,96.0
+Russia,Hydro,177141.0
+Russia,Oil,10703.0
+Russia,Gas,533493.0
+Russia,Biomass,32.0
+Russia,Wave_and_Tidal,0.0
+Russia,Geothermal,455.0
+Russia,Solar,160.0
+Russia,Total,1064207.0
+Bulgaria,Cogeneration,0
+Bulgaria,Nuclear,15867.0
+Bulgaria,Coal,21305.0
+Bulgaria,Petcoke,0
+Bulgaria,Other,14.0
+Bulgaria,Waste,0.0
+Bulgaria,Wind,1331.0
+Bulgaria,Hydro,5163.0
+Bulgaria,Oil,211.0
+Bulgaria,Gas,2142.0
+Bulgaria,Biomass,200.0
+Bulgaria,Wave_and_Tidal,0.0
+Bulgaria,Geothermal,0.0
+Bulgaria,Solar,1252.0
+Bulgaria,Total,47485.0
+Romania,Cogeneration,0
+Romania,Nuclear,11676.0
+Romania,Coal,17808.0
+Romania,Petcoke,0
+Romania,Other,0.0
+Romania,Waste,0.0
+Romania,Wind,6201.0
+Romania,Hydro,19280.0
+Romania,Oil,486.0
+Romania,Gas,8104.0
+Romania,Biomass,505.0
+Romania,Wave_and_Tidal,0.0
+Romania,Geothermal,0.0
+Romania,Solar,1616.0
+Romania,Total,65676.0
+Angola,Cogeneration,0
+Angola,Nuclear,0.0
+Angola,Coal,0.0
+Angola,Petcoke,0
+Angola,Other,0.0
+Angola,Waste,0.0
+Angola,Wind,0.0
+Angola,Hydro,5041.0
+Angola,Oil,4439.0
+Angola,Gas,0.0
+Angola,Biomass,0.0
+Angola,Wave_and_Tidal,0.0
+Angola,Geothermal,0.0
+Angola,Solar,0.0
+Angola,Total,9480.0
+Portugal,Cogeneration,0
+Portugal,Nuclear,0.0
+Portugal,Coal,11952.0
+Portugal,Petcoke,0
+Portugal,Other,7.0
+Portugal,Waste,489.0
+Portugal,Wind,12111.0
+Portugal,Hydro,16412.0
+Portugal,Oil,1357.0
+Portugal,Gas,6834.0
+Portugal,Biomass,2808.0
+Portugal,Wave_and_Tidal,0.0
+Portugal,Geothermal,205.0
+Portugal,Solar,627.0
+Portugal,Total,52802.0
+South Africa,Cogeneration,0
+South Africa,Nuclear,13794.0
+South Africa,Coal,232020.0
+South Africa,Petcoke,0
+South Africa,Other,0.0
+South Africa,Waste,0.0
+South Africa,Wind,1070.0
+South Africa,Hydro,4082.0
+South Africa,Oil,189.0
+South Africa,Gas,0.0
+South Africa,Biomass,303.0
+South Africa,Wave_and_Tidal,0.0
+South Africa,Geothermal,0.0
+South Africa,Solar,1120.0
+South Africa,Total,252578.0
+Nicaragua,Cogeneration,0
+Nicaragua,Nuclear,0.0
+Nicaragua,Coal,0.0
+Nicaragua,Petcoke,0
+Nicaragua,Other,0.0
+Nicaragua,Waste,0.0
+Nicaragua,Wind,846.0
+Nicaragua,Hydro,395.0
+Nicaragua,Oil,2049.0
+Nicaragua,Gas,0.0
+Nicaragua,Biomass,492.0
+Nicaragua,Wave_and_Tidal,0.0
+Nicaragua,Geothermal,662.0
+Nicaragua,Solar,0.0
+Nicaragua,Total,4444.0
+Brunei Darussalam,Cogeneration,0
+Brunei Darussalam,Nuclear,0.0
+Brunei Darussalam,Coal,0.0
+Brunei Darussalam,Petcoke,0
+Brunei Darussalam,Other,0.0
+Brunei Darussalam,Waste,0.0
+Brunei Darussalam,Wind,0.0
+Brunei Darussalam,Hydro,0.0
+Brunei Darussalam,Oil,43.0
+Brunei Darussalam,Gas,4461.0
+Brunei Darussalam,Biomass,0.0
+Brunei Darussalam,Wave_and_Tidal,0.0
+Brunei Darussalam,Geothermal,0.0
+Brunei Darussalam,Solar,2.0
+Brunei Darussalam,Total,4506.0
+Malaysia,Cogeneration,0
+Malaysia,Nuclear,0.0
+Malaysia,Coal,55827.0
+Malaysia,Petcoke,0
+Malaysia,Other,0.0
+Malaysia,Waste,0.0
+Malaysia,Wind,0.0
+Malaysia,Hydro,13388.0
+Malaysia,Oil,3490.0
+Malaysia,Gas,73836.0
+Malaysia,Biomass,701.0
+Malaysia,Wave_and_Tidal,0.0
+Malaysia,Geothermal,0.0
+Malaysia,Solar,227.0
+Malaysia,Total,147469.0
+Austria,Cogeneration,0
+Austria,Nuclear,0.0
+Austria,Coal,4912.0
+Austria,Petcoke,0
+Austria,Other,13.0
+Austria,Waste,975.0
+Austria,Wind,3846.0
+Austria,Hydro,44828.0
+Austria,Oil,609.0
+Austria,Gas,5401.0
+Austria,Biomass,4052.0
+Austria,Wave_and_Tidal,0.0
+Austria,Geothermal,0.0
+Austria,Solar,785.0
+Austria,Total,65421.0
+Mozambique,Cogeneration,0
+Mozambique,Nuclear,0.0
+Mozambique,Coal,0.0
+Mozambique,Petcoke,0
+Mozambique,Other,0.0
+Mozambique,Waste,0.0
+Mozambique,Wind,0.0
+Mozambique,Hydro,16175.0
+Mozambique,Oil,0.0
+Mozambique,Gas,1569.0
+Mozambique,Biomass,0.0
+Mozambique,Wave_and_Tidal,0.0
+Mozambique,Geothermal,0.0
+Mozambique,Solar,0.0
+Mozambique,Total,17744.0
+Hungary,Cogeneration,0
+Hungary,Nuclear,15649.0
+Hungary,Coal,6114.0
+Hungary,Petcoke,0
+Hungary,Other,55.0
+Hungary,Waste,255.0
+Hungary,Wind,657.0
+Hungary,Hydro,302.0
+Hungary,Oil,73.0
+Hungary,Gas,4225.0
+Hungary,Biomass,1985.0
+Hungary,Wave_and_Tidal,0.0
+Hungary,Geothermal,0.0
+Hungary,Solar,56.0
+Hungary,Total,29371.0
+Niger,Cogeneration,0
+Niger,Nuclear,0.0
+Niger,Coal,494.0
+Niger,Petcoke,0
+Niger,Other,0.0
+Niger,Waste,0.0
+Niger,Wind,0.0
+Niger,Hydro,0.0
+Niger,Oil,192.0
+Niger,Gas,0.0
+Niger,Biomass,0.0
+Niger,Wave_and_Tidal,0.0
+Niger,Geothermal,0.0
+Niger,Solar,4.0
+Niger,Total,443.0
+Brazil,Cogeneration,0
+Brazil,Nuclear,15378.0
+Brazil,Coal,26754.0
+Brazil,Petcoke,0
+Brazil,Other,361.0
+Brazil,Waste,0.0
+Brazil,Wind,12208.0
+Brazil,Hydro,373439.0
+Brazil,Oil,35423.0
+Brazil,Gas,81075.0
+Brazil,Biomass,45994.0
+Brazil,Wave_and_Tidal,0.0
+Brazil,Geothermal,0.0
+Brazil,Solar,0.0
+Brazil,Total,590632.0
+Kuwait,Cogeneration,0
+Kuwait,Nuclear,0.0
+Kuwait,Coal,0.0
+Kuwait,Petcoke,0
+Kuwait,Other,0.0
+Kuwait,Waste,0.0
+Kuwait,Wind,0.0
+Kuwait,Hydro,0.0
+Kuwait,Oil,43156.0
+Kuwait,Gas,21984.0
+Kuwait,Biomass,0.0
+Kuwait,Wave_and_Tidal,0.0
+Kuwait,Geothermal,0.0
+Kuwait,Solar,0.0
+Kuwait,Total,65140.0
+Panama,Cogeneration,0
+Panama,Nuclear,0.0
+Panama,Coal,687.0
+Panama,Petcoke,0
+Panama,Other,0.0
+Panama,Waste,0.0
+Panama,Wind,116.0
+Panama,Hydro,5034.0
+Panama,Oil,3418.0
+Panama,Gas,0.0
+Panama,Biomass,31.0
+Panama,Wave_and_Tidal,0.0
+Panama,Geothermal,0.0
+Panama,Solar,1.0
+Panama,Total,9287.0
+Costa Rica,Cogeneration,0
+Costa Rica,Nuclear,0.0
+Costa Rica,Coal,0.0
+Costa Rica,Petcoke,0
+Costa Rica,Other,0.0
+Costa Rica,Waste,0.0
+Costa Rica,Wind,735.0
+Costa Rica,Hydro,6717.0
+Costa Rica,Oil,1043.0
+Costa Rica,Gas,0.0
+Costa Rica,Biomass,181.0
+Costa Rica,Wave_and_Tidal,0.0
+Costa Rica,Geothermal,1538.0
+Costa Rica,Solar,3.0
+Costa Rica,Total,10217.0
+Luxembourg,Cogeneration,0
+Luxembourg,Nuclear,0.0
+Luxembourg,Coal,0.0
+Luxembourg,Petcoke,0
+Luxembourg,Other,0.0
+Luxembourg,Waste,89.0
+Luxembourg,Wind,80.0
+Luxembourg,Hydro,1169.0
+Luxembourg,Oil,0.0
+Luxembourg,Gas,1452.0
+Luxembourg,Biomass,82.0
+Luxembourg,Wave_and_Tidal,0.0
+Luxembourg,Geothermal,0.0
+Luxembourg,Solar,95.0
+Luxembourg,Total,2967.0
+Gibraltar,Cogeneration,0
+Gibraltar,Nuclear,0.0
+Gibraltar,Coal,0.0
+Gibraltar,Petcoke,0
+Gibraltar,Other,0.0
+Gibraltar,Waste,0.0
+Gibraltar,Wind,0.0
+Gibraltar,Hydro,0.0
+Gibraltar,Oil,198.0
+Gibraltar,Gas,0.0
+Gibraltar,Biomass,0.0
+Gibraltar,Wave_and_Tidal,0.0
+Gibraltar,Geothermal,0.0
+Gibraltar,Solar,0.0
+Gibraltar,Total,198.0
+Ireland,Cogeneration,0
+Ireland,Nuclear,0.0
+Ireland,Coal,6484.0
+Ireland,Petcoke,0
+Ireland,Other,0.0
+Ireland,Waste,133.0
+Ireland,Wind,5140.0
+Ireland,Hydro,988.0
+Ireland,Oil,187.0
+Ireland,Gas,12914.0
+Ireland,Biomass,467.0
+Ireland,Wave_and_Tidal,0.0
+Ireland,Geothermal,0.0
+Ireland,Solar,1.0
+Ireland,Total,26314.0
+Nigeria,Cogeneration,0
+Nigeria,Nuclear,0.0
+Nigeria,Coal,0.0
+Nigeria,Petcoke,0
+Nigeria,Other,0.0
+Nigeria,Waste,0.0
+Nigeria,Wind,0.0
+Nigeria,Hydro,5346.0
+Nigeria,Oil,0.0
+Nigeria,Gas,25044.0
+Nigeria,Biomass,0.0
+Nigeria,Wave_and_Tidal,0.0
+Nigeria,Geothermal,0.0
+Nigeria,Solar,0.0
+Nigeria,Total,30390.0
+Ecuador,Cogeneration,0
+Ecuador,Nuclear,0.0
+Ecuador,Coal,0.0
+Ecuador,Petcoke,0
+Ecuador,Other,0.0
+Ecuador,Waste,0.0
+Ecuador,Wind,80.0
+Ecuador,Hydro,11458.0
+Ecuador,Oil,9111.0
+Ecuador,Gas,3243.0
+Ecuador,Biomass,399.0
+Ecuador,Wave_and_Tidal,0.0
+Ecuador,Geothermal,0.0
+Ecuador,Solar,16.0
+Ecuador,Total,24307.0
+Belarus,Cogeneration,0
+Belarus,Nuclear,0.0
+Belarus,Coal,26.0
+Belarus,Petcoke,0
+Belarus,Other,0.0
+Belarus,Waste,37.0
+Belarus,Wind,11.0
+Belarus,Hydro,121.0
+Belarus,Oil,379.0
+Belarus,Gas,34042.0
+Belarus,Biomass,118.0
+Belarus,Wave_and_Tidal,0.0
+Belarus,Geothermal,0.0
+Belarus,Solar,1.0
+Belarus,Total,34735.0
+Iran,Cogeneration,0
+Iran,Nuclear,4472.0
+Iran,Coal,530.0
+Iran,Petcoke,0
+Iran,Other,0.0
+Iran,Waste,0.0
+Iran,Wind,358.0
+Iran,Hydro,13862.0
+Iran,Oil,59493.0
+Iran,Gas,195847.0
+Iran,Biomass,47.0
+Iran,Wave_and_Tidal,0.0
+Iran,Geothermal,0.0
+Iran,Solar,0.0
+Iran,Total,274609.0
+Algeria,Cogeneration,0
+Algeria,Nuclear,0.0
+Algeria,Coal,0.0
+Algeria,Petcoke,0
+Algeria,Other,0.0
+Algeria,Waste,0.0
+Algeria,Wind,0.0
+Algeria,Hydro,254.0
+Algeria,Oil,1163.0
+Algeria,Gas,62825.0
+Algeria,Biomass,0.0
+Algeria,Wave_and_Tidal,0.0
+Algeria,Geothermal,0.0
+Algeria,Solar,0.0
+Algeria,Total,64242.0
+El Salvador,Cogeneration,0
+El Salvador,Nuclear,0.0
+El Salvador,Coal,0.0
+El Salvador,Petcoke,0
+El Salvador,Other,0.0
+El Salvador,Waste,0.0
+El Salvador,Wind,0.0
+El Salvador,Hydro,1718.0
+El Salvador,Oil,2508.0
+El Salvador,Gas,0.0
+El Salvador,Biomass,439.0
+El Salvador,Wave_and_Tidal,0.0
+El Salvador,Geothermal,1558.0
+El Salvador,Solar,0.0
+El Salvador,Total,6223.0
+Chile,Cogeneration,0
+Chile,Nuclear,0.0
+Chile,Coal,26006.0
+Chile,Petcoke,0
+Chile,Other,291.0
+Chile,Waste,0.0
+Chile,Wind,1443.0
+Chile,Hydro,23099.0
+Chile,Oil,4584.0
+Chile,Gas,12480.0
+Chile,Biomass,5327.0
+Chile,Wave_and_Tidal,0.0
+Chile,Geothermal,0.0
+Chile,Solar,489.0
+Chile,Total,73719.0
+Belgium,Cogeneration,0
+Belgium,Nuclear,33703.0
+Belgium,Coal,4402.0
+Belgium,Petcoke,0
+Belgium,Other,399.0
+Belgium,Waste,2083.0
+Belgium,Wind,4614.0
+Belgium,Hydro,1507.0
+Belgium,Oil,217.0
+Belgium,Gas,19292.0
+Belgium,Biomass,3588.0
+Belgium,Wave_and_Tidal,0.0
+Belgium,Geothermal,0.0
+Belgium,Solar,2883.0
+Belgium,Total,72688.0
+Thailand,Cogeneration,0
+Thailand,Nuclear,0.0
+Thailand,Coal,37579.0
+Thailand,Petcoke,0
+Thailand,Other,0.0
+Thailand,Waste,317.0
+Thailand,Wind,305.0
+Thailand,Hydro,5540.0
+Thailand,Oil,1721.0
+Thailand,Gas,118560.0
+Thailand,Biomass,8223.0
+Thailand,Wave_and_Tidal,0.0
+Thailand,Geothermal,1.0
+Thailand,Solar,1385.0
+Thailand,Total,173631.0
+Haiti,Cogeneration,0
+Haiti,Nuclear,0.0
+Haiti,Coal,0.0
+Haiti,Petcoke,0
+Haiti,Other,0.0
+Haiti,Waste,0.0
+Haiti,Wind,0.0
+Haiti,Hydro,90.0
+Haiti,Oil,943.0
+Haiti,Gas,0.0
+Haiti,Biomass,0.0
+Haiti,Wave_and_Tidal,0.0
+Haiti,Geothermal,0.0
+Haiti,Solar,0.0
+Haiti,Total,1033.0
+Iraq,Cogeneration,0
+Iraq,Nuclear,0.0
+Iraq,Coal,0.0
+Iraq,Petcoke,0
+Iraq,Other,0.0
+Iraq,Waste,0.0
+Iraq,Wind,0.0
+Iraq,Hydro,2931.0
+Iraq,Oil,49963.0
+Iraq,Gas,14874.0
+Iraq,Biomass,0.0
+Iraq,Wave_and_Tidal,0.0
+Iraq,Geothermal,0.0
+Iraq,Solar,0.0
+Iraq,Total,67768.0
+Hong Kong,Cogeneration,0
+Hong Kong,Nuclear,0.0
+Hong Kong,Coal,30401.0
+Hong Kong,Petcoke,0
+Hong Kong,Other,0.0
+Hong Kong,Waste,0.0
+Hong Kong,Wind,2.0
+Hong Kong,Hydro,0.0
+Hong Kong,Oil,231.0
+Hong Kong,Gas,9171.0
+Hong Kong,Biomass,96.0
+Hong Kong,Wave_and_Tidal,0.0
+Hong Kong,Geothermal,0.0
+Hong Kong,Solar,1.0
+Hong Kong,Total,39902.0
+Georgia,Cogeneration,0
+Georgia,Nuclear,0.0
+Georgia,Coal,0.0
+Georgia,Petcoke,0
+Georgia,Other,0.0
+Georgia,Waste,0.0
+Georgia,Wind,0.0
+Georgia,Hydro,8335.0
+Georgia,Oil,0.0
+Georgia,Gas,2036.0
+Georgia,Biomass,0.0
+Georgia,Wave_and_Tidal,0.0
+Georgia,Geothermal,0.0
+Georgia,Solar,0.0
+Georgia,Total,10371.0
+Denmark,Cogeneration,0
+Denmark,Nuclear,0.0
+Denmark,Coal,11064.0
+Denmark,Petcoke,0
+Denmark,Other,0.0
+Denmark,Waste,1609.0
+Denmark,Wind,13079.0
+Denmark,Hydro,15.0
+Denmark,Oil,317.0
+Denmark,Gas,2096.0
+Denmark,Biomass,3407.0
+Denmark,Wave_and_Tidal,0.0
+Denmark,Geothermal,0.0
+Denmark,Solar,596.0
+Denmark,Total,32183.0
+Philippines,Cogeneration,0
+Philippines,Nuclear,0.0
+Philippines,Coal,33054.0
+Philippines,Petcoke,0
+Philippines,Other,0.0
+Philippines,Waste,66.0
+Philippines,Wind,152.0
+Philippines,Hydro,9137.0
+Philippines,Oil,5708.0
+Philippines,Gas,18690.0
+Philippines,Biomass,130.0
+Philippines,Wave_and_Tidal,0.0
+Philippines,Geothermal,10308.0
+Philippines,Solar,17.0
+Philippines,Total,77262.0
+Moldova,Cogeneration,0
+Moldova,Nuclear,0.0
+Moldova,Coal,0.0
+Moldova,Petcoke,0
+Moldova,Other,0.0
+Moldova,Waste,0.0
+Moldova,Wind,1.0
+Moldova,Hydro,317.0
+Moldova,Oil,14.0
+Moldova,Gas,5005.0
+Moldova,Biomass,13.0
+Moldova,Wave_and_Tidal,0.0
+Moldova,Geothermal,0.0
+Moldova,Solar,1.0
+Moldova,Total,5351.0
+Morocco,Cogeneration,0
+Morocco,Nuclear,0.0
+Morocco,Coal,15818.0
+Morocco,Petcoke,0
+Morocco,Other,0.0
+Morocco,Waste,0.0
+Morocco,Wind,1924.0
+Morocco,Hydro,2033.0
+Morocco,Oil,3767.0
+Morocco,Gas,5600.0
+Morocco,Biomass,0.0
+Morocco,Wave_and_Tidal,0.0
+Morocco,Geothermal,0.0
+Morocco,Solar,0.0
+Morocco,Total,29142.0
+Croatia,Cogeneration,0
+Croatia,Nuclear,0.0
+Croatia,Coal,2368.0
+Croatia,Petcoke,0
+Croatia,Other,0.0
+Croatia,Waste,0.0
+Croatia,Wind,730.0
+Croatia,Hydro,9125.0
+Croatia,Oil,129.0
+Croatia,Gas,1002.0
+Croatia,Biomass,165.0
+Croatia,Wave_and_Tidal,0.0
+Croatia,Geothermal,0.0
+Croatia,Solar,35.0
+Croatia,Total,13554.0
+Switzerland,Cogeneration,0
+Switzerland,Nuclear,27557.0
+Switzerland,Coal,0.0
+Switzerland,Petcoke,0
+Switzerland,Other,0.0
+Switzerland,Waste,2414.0
+Switzerland,Wind,101.0
+Switzerland,Hydro,39701.0
+Switzerland,Oil,42.0
+Switzerland,Gas,521.0
+Switzerland,Biomass,589.0
+Switzerland,Wave_and_Tidal,0.0
+Switzerland,Geothermal,0.0
+Switzerland,Solar,842.0
+Switzerland,Total,71767.0
+Estonia,Cogeneration,0
+Estonia,Nuclear,0.0
+Estonia,Coal,10872.0
+Estonia,Petcoke,0
+Estonia,Other,0.0
+Estonia,Waste,73.0
+Estonia,Wind,604.0
+Estonia,Hydro,27.0
+Estonia,Oil,43.0
+Estonia,Gas,69.0
+Estonia,Biomass,758.0
+Estonia,Wave_and_Tidal,0.0
+Estonia,Geothermal,0.0
+Estonia,Solar,0.0
+Estonia,Total,12446.0
+Uruguay,Cogeneration,0
+Uruguay,Nuclear,0.0
+Uruguay,Coal,0.0
+Uruguay,Petcoke,0
+Uruguay,Other,0.0
+Uruguay,Waste,0.0
+Uruguay,Wind,733.0
+Uruguay,Hydro,9649.0
+Uruguay,Oil,1179.0
+Uruguay,Gas,3.0
+Uruguay,Biomass,1447.0
+Uruguay,Wave_and_Tidal,0.0
+Uruguay,Geothermal,0.0
+Uruguay,Solar,0.0
+Uruguay,Total,13011.0
+Lebanon,Cogeneration,0
+Lebanon,Nuclear,0.0
+Lebanon,Coal,0.0
+Lebanon,Petcoke,0
+Lebanon,Other,0.0
+Lebanon,Waste,0.0
+Lebanon,Wind,0.0
+Lebanon,Hydro,193.0
+Lebanon,Oil,17759.0
+Lebanon,Gas,0.0
+Lebanon,Biomass,0.0
+Lebanon,Wave_and_Tidal,0.0
+Lebanon,Geothermal,0.0
+Lebanon,Solar,0.0
+Lebanon,Total,17952.0
+Uzbekistan,Cogeneration,0
+Uzbekistan,Nuclear,0.0
+Uzbekistan,Coal,2263.0
+Uzbekistan,Petcoke,0
+Uzbekistan,Other,0.0
+Uzbekistan,Waste,0.0
+Uzbekistan,Wind,0.0
+Uzbekistan,Hydro,11830.0
+Uzbekistan,Oil,201.0
+Uzbekistan,Gas,41106.0
+Uzbekistan,Biomass,0.0
+Uzbekistan,Wave_and_Tidal,0.0
+Uzbekistan,Geothermal,0.0
+Uzbekistan,Solar,0.0
+Uzbekistan,Total,55400.0
+Egypt,Cogeneration,0
+Egypt,Nuclear,0.0
+Egypt,Coal,0.0
+Egypt,Petcoke,0
+Egypt,Other,0.0
+Egypt,Waste,0.0
+Egypt,Wind,1315.0
+Egypt,Hydro,13979.0
+Egypt,Oil,21029.0
+Egypt,Gas,135177.0
+Egypt,Biomass,0.0
+Egypt,Wave_and_Tidal,0.0
+Egypt,Geothermal,0.0
+Egypt,Solar,247.0
+Egypt,Total,171747.0
+Colombia,Cogeneration,0
+Colombia,Nuclear,0.0
+Colombia,Coal,7136.0
+Colombia,Petcoke,0
+Colombia,Other,0.0
+Colombia,Waste,0.0
+Colombia,Wind,58.0
+Colombia,Hydro,49713.0
+Colombia,Oil,165.0
+Colombia,Gas,10705.0
+Colombia,Biomass,2143.0
+Colombia,Wave_and_Tidal,0.0
+Colombia,Geothermal,0.0
+Colombia,Solar,0.0
+Colombia,Total,69920.0
+Taiwan,Cogeneration,0
+Taiwan,Nuclear,42389.0
+Taiwan,Coal,125415.0
+Taiwan,Petcoke,0
+Taiwan,Other,0.0
+Taiwan,Waste,3270.0
+Taiwan,Wind,1500.0
+Taiwan,Hydro,7439.0
+Taiwan,Oil,8565.0
+Taiwan,Gas,70483.0
+Taiwan,Biomass,412.0
+Taiwan,Wave_and_Tidal,0.0
+Taiwan,Geothermal,0.0
+Taiwan,Solar,552.0
+Taiwan,Total,260025.0
+Cyprus,Cogeneration,0
+Cyprus,Nuclear,0.0
+Cyprus,Coal,0.0
+Cyprus,Petcoke,0
+Cyprus,Other,0.0
+Cyprus,Waste,0.0
+Cyprus,Wind,182.0
+Cyprus,Hydro,0.0
+Cyprus,Oil,4033.0
+Cyprus,Gas,0.0
+Cyprus,Biomass,51.0
+Cyprus,Wave_and_Tidal,0.0
+Cyprus,Geothermal,0.0
+Cyprus,Solar,84.0
+Cyprus,Total,4350.0
+Qatar,Cogeneration,0
+Qatar,Nuclear,0.0
+Qatar,Coal,0.0
+Qatar,Petcoke,0
+Qatar,Other,0.0
+Qatar,Waste,0.0
+Qatar,Wind,0.0
+Qatar,Hydro,0.0
+Qatar,Oil,0.0
+Qatar,Gas,38692.0
+Qatar,Biomass,0.0
+Qatar,Wave_and_Tidal,0.0
+Qatar,Geothermal,0.0
+Qatar,Solar,0.0
+Qatar,Total,38692.0
+Italy,Cogeneration,0
+Italy,Nuclear,0.0
+Italy,Coal,46524.0
+Italy,Petcoke,0
+Italy,Other,661.0
+Italy,Waste,4823.0
+Italy,Wind,15178.0
+Italy,Hydro,60256.0
+Italy,Oil,14163.0
+Italy,Gas,93637.0
+Italy,Biomass,16363.0
+Italy,Wave_and_Tidal,0.0
+Italy,Geothermal,5916.0
+Italy,Solar,22306.0
+Italy,Total,279827.0
+Sudan,Cogeneration,0
+Sudan,Nuclear,0.0
+Sudan,Coal,0.0
+Sudan,Petcoke,0
+Sudan,Other,0.0
+Sudan,Waste,0.0
+Sudan,Wind,0.0
+Sudan,Hydro,8913.0
+Sudan,Oil,2463.0
+Sudan,Gas,0.0
+Sudan,Biomass,0.0
+Sudan,Wave_and_Tidal,0.0
+Sudan,Geothermal,0.0
+Sudan,Solar,0.0
+Sudan,Total,11376.0
+Nepal,Cogeneration,0
+Nepal,Nuclear,0.0
+Nepal,Coal,0.0
+Nepal,Petcoke,0
+Nepal,Other,0.0
+Nepal,Waste,0.0
+Nepal,Wind,6.0
+Nepal,Hydro,3789.0
+Nepal,Oil,1.0
+Nepal,Gas,0.0
+Nepal,Biomass,0.0
+Nepal,Wave_and_Tidal,0.0
+Nepal,Geothermal,0.0
+Nepal,Solar,1.0
+Nepal,Total,3797.0
+Malta,Cogeneration,0
+Malta,Nuclear,0.0
+Malta,Coal,0.0
+Malta,Petcoke,0
+Malta,Other,0.0
+Malta,Waste,0.0
+Malta,Wind,0.0
+Malta,Hydro,0.0
+Malta,Oil,2170.0
+Malta,Gas,0.0
+Malta,Biomass,7.0
+Malta,Wave_and_Tidal,0.0
+Malta,Geothermal,0.0
+Malta,Solar,68.0
+Malta,Total,2245.0
+Democratic Republic of the Congo,Cogeneration,0
+Democratic Republic of the Congo,Nuclear,0.0
+Democratic Republic of the Congo,Coal,0.0
+Democratic Republic of the Congo,Petcoke,0
+Democratic Republic of the Congo,Other,0.0
+Democratic Republic of the Congo,Waste,0.0
+Democratic Republic of the Congo,Wind,0.0
+Democratic Republic of the Congo,Hydro,8820.0
+Democratic Republic of the Congo,Oil,4.0
+Democratic Republic of the Congo,Gas,7.0
+Democratic Republic of the Congo,Biomass,0.0
+Democratic Republic of the Congo,Wave_and_Tidal,0.0
+Democratic Republic of the Congo,Geothermal,0.0
+Democratic Republic of the Congo,Solar,0.0
+Democratic Republic of the Congo,Total,8831.0
+Suriname,Cogeneration,0
+Suriname,Nuclear,0.0
+Suriname,Coal,0.0
+Suriname,Petcoke,0
+Suriname,Other,0.0
+Suriname,Waste,0.0
+Suriname,Wind,0.0
+Suriname,Hydro,1359.0
+Suriname,Oil,821.0
+Suriname,Gas,0.0
+Suriname,Biomass,0.0
+Suriname,Wave_and_Tidal,0.0
+Suriname,Geothermal,0.0
+Suriname,Solar,0.0
+Suriname,Total,2180.0
+Venezuela,Cogeneration,0
+Venezuela,Nuclear,0.0
+Venezuela,Coal,0.0
+Venezuela,Petcoke,0
+Venezuela,Other,0.0
+Venezuela,Waste,0.0
+Venezuela,Wind,0.0
+Venezuela,Hydro,87194.0
+Venezuela,Oil,17905.0
+Venezuela,Gas,22633.0
+Venezuela,Biomass,0.0
+Venezuela,Wave_and_Tidal,0.0
+Venezuela,Geothermal,0.0
+Venezuela,Solar,0.0
+Venezuela,Total,127732.0
+Israel,Cogeneration,0
+Israel,Nuclear,0.0
+Israel,Coal,30136.0
+Israel,Petcoke,0
+Israel,Other,0.0
+Israel,Waste,0.0
+Israel,Wind,6.0
+Israel,Hydro,13.0
+Israel,Oil,299.0
+Israel,Gas,29457.0
+Israel,Biomass,62.0
+Israel,Wave_and_Tidal,0.0
+Israel,Geothermal,0.0
+Israel,Solar,840.0
+Israel,Total,60813.0
+Iceland,Cogeneration,0
+Iceland,Nuclear,0.0
+Iceland,Coal,0.0
+Iceland,Petcoke,0
+Iceland,Other,0.0
+Iceland,Waste,0.0
+Iceland,Wind,8.0
+Iceland,Hydro,12873.0
+Iceland,Oil,3.0
+Iceland,Gas,0.0
+Iceland,Biomass,0.0
+Iceland,Wave_and_Tidal,0.0
+Iceland,Geothermal,5238.0
+Iceland,Solar,0.0
+Iceland,Total,18122.0
+Zambia,Cogeneration,0
+Zambia,Nuclear,0.0
+Zambia,Coal,0.0
+Zambia,Petcoke,0
+Zambia,Other,0.0
+Zambia,Waste,0.0
+Zambia,Wind,0.0
+Zambia,Hydro,14042.0
+Zambia,Oil,410.0
+Zambia,Gas,0.0
+Zambia,Biomass,0.0
+Zambia,Wave_and_Tidal,0.0
+Zambia,Geothermal,0.0
+Zambia,Solar,0.0
+Zambia,Total,14452.0
+Senegal,Cogeneration,0
+Senegal,Nuclear,0.0
+Senegal,Coal,0.0
+Senegal,Petcoke,0
+Senegal,Other,67.0
+Senegal,Waste,0.0
+Senegal,Wind,0.0
+Senegal,Hydro,323.0
+Senegal,Oil,3117.0
+Senegal,Gas,156.0
+Senegal,Biomass,62.0
+Senegal,Wave_and_Tidal,0.0
+Senegal,Geothermal,0.0
+Senegal,Solar,4.0
+Senegal,Total,3729.0
+Zimbabwe,Cogeneration,0
+Zimbabwe,Nuclear,0.0
+Zimbabwe,Coal,4397.0
+Zimbabwe,Petcoke,0
+Zimbabwe,Other,0.0
+Zimbabwe,Waste,0.0
+Zimbabwe,Wind,0.0
+Zimbabwe,Hydro,5431.0
+Zimbabwe,Oil,51.0
+Zimbabwe,Gas,0.0
+Zimbabwe,Biomass,144.0
+Zimbabwe,Wave_and_Tidal,0.0
+Zimbabwe,Geothermal,0.0
+Zimbabwe,Solar,0.0
+Zimbabwe,Total,10023.0
+Jordan,Cogeneration,0
+Jordan,Nuclear,0.0
+Jordan,Coal,0.0
+Jordan,Petcoke,0
+Jordan,Other,0.0
+Jordan,Waste,0.0
+Jordan,Wind,2.0
+Jordan,Hydro,58.0
+Jordan,Oil,16858.0
+Jordan,Gas,1296.0
+Jordan,Biomass,6.0
+Jordan,Wave_and_Tidal,0.0
+Jordan,Geothermal,0.0
+Jordan,Solar,0.0
+Jordan,Total,18220.0
+Kazakhstan,Cogeneration,0
+Kazakhstan,Nuclear,0.0
+Kazakhstan,Coal,75594.0
+Kazakhstan,Petcoke,0
+Kazakhstan,Other,0.0
+Kazakhstan,Waste,0.0
+Kazakhstan,Wind,13.0
+Kazakhstan,Hydro,8263.0
+Kazakhstan,Oil,1024.0
+Kazakhstan,Gas,20173.0
+Kazakhstan,Biomass,0.0
+Kazakhstan,Wave_and_Tidal,0.0
+Kazakhstan,Geothermal,0.0
+Kazakhstan,Solar,1.0
+Kazakhstan,Total,105068.0
+Poland,Cogeneration,0
+Poland,Nuclear,0.0
+Poland,Coal,131551.0
+Poland,Petcoke,0
+Poland,Other,142.0
+Poland,Waste,50.0
+Poland,Wind,7676.0
+Poland,Hydro,2734.0
+Poland,Oil,1594.0
+Poland,Gas,5328.0
+Poland,Biomass,9977.0
+Poland,Wave_and_Tidal,0.0
+Poland,Geothermal,0.0
+Poland,Solar,7.0
+Poland,Total,159059.0
+Eritrea,Cogeneration,0
+Eritrea,Nuclear,0.0
+Eritrea,Coal,0.0
+Eritrea,Petcoke,0
+Eritrea,Other,0.0
+Eritrea,Waste,0.0
+Eritrea,Wind,0.0
+Eritrea,Hydro,0.0
+Eritrea,Oil,368.0
+Eritrea,Gas,0.0
+Eritrea,Biomass,0.0
+Eritrea,Wave_and_Tidal,0.0
+Eritrea,Geothermal,0.0
+Eritrea,Solar,2.0
+Eritrea,Total,370.0
+Kyrgyzstan,Cogeneration,0
+Kyrgyzstan,Nuclear,0.0
+Kyrgyzstan,Coal,1073.0
+Kyrgyzstan,Petcoke,0
+Kyrgyzstan,Other,0.0
+Kyrgyzstan,Waste,0.0
+Kyrgyzstan,Wind,0.0
+Kyrgyzstan,Hydro,13298.0
+Kyrgyzstan,Oil,84.0
+Kyrgyzstan,Gas,117.0
+Kyrgyzstan,Biomass,0.0
+Kyrgyzstan,Wave_and_Tidal,0.0
+Kyrgyzstan,Geothermal,0.0
+Kyrgyzstan,Solar,0.0
+Kyrgyzstan,Total,14572.0
+Macedonia,Cogeneration,0
+Macedonia,Nuclear,0.0
+Macedonia,Coal,3737.0
+Macedonia,Petcoke,0
+Macedonia,Other,0.0
+Macedonia,Waste,0.0
+Macedonia,Wind,71.0
+Macedonia,Hydro,1207.0
+Macedonia,Oil,149.0
+Macedonia,Gas,196.0
+Macedonia,Biomass,0.0
+Macedonia,Wave_and_Tidal,0.0
+Macedonia,Geothermal,0.0
+Macedonia,Solar,14.0
+Macedonia,Total,5374.0
+North Korea,Cogeneration,0
+North Korea,Nuclear,0.0
+North Korea,Coal,4322.0
+North Korea,Petcoke,0
+North Korea,Other,0.0
+North Korea,Waste,0.0
+North Korea,Wind,0.0
+North Korea,Hydro,13000.0
+North Korea,Oil,587.0
+North Korea,Gas,0.0
+North Korea,Biomass,0.0
+North Korea,Wave_and_Tidal,0.0
+North Korea,Geothermal,0.0
+North Korea,Solar,0.0
+North Korea,Total,17909.0
+Trinidad and Tobago,Cogeneration,0
+Trinidad and Tobago,Nuclear,0.0
+Trinidad and Tobago,Coal,0.0
+Trinidad and Tobago,Petcoke,0
+Trinidad and Tobago,Other,0.0
+Trinidad and Tobago,Waste,0.0
+Trinidad and Tobago,Wind,0.0
+Trinidad and Tobago,Hydro,0.0
+Trinidad and Tobago,Oil,24.0
+Trinidad and Tobago,Gas,9867.0
+Trinidad and Tobago,Biomass,0.0
+Trinidad and Tobago,Wave_and_Tidal,0.0
+Trinidad and Tobago,Geothermal,0.0
+Trinidad and Tobago,Solar,0.0
+Trinidad and Tobago,Total,9891.0
+Latvia,Cogeneration,0
+Latvia,Nuclear,0.0
+Latvia,Coal,0.0
+Latvia,Petcoke,0
+Latvia,Other,0.0
+Latvia,Waste,0.0
+Latvia,Wind,141.0
+Latvia,Hydro,1994.0
+Latvia,Oil,0.0
+Latvia,Gas,2337.0
+Latvia,Biomass,669.0
+Latvia,Wave_and_Tidal,0.0
+Latvia,Geothermal,0.0
+Latvia,Solar,0.0
+Latvia,Total,5141.0
+Japan,Cogeneration,0
+Japan,Nuclear,0.0
+Japan,Coal,348830.0
+Japan,Petcoke,0
+Japan,Other,0.0
+Japan,Waste,6595.0
+Japan,Wind,5038.0
+Japan,Hydro,86942.0
+Japan,Oil,116435.0
+Japan,Gas,420825.0
+Japan,Biomass,28928.0
+Japan,Wave_and_Tidal,0.0
+Japan,Geothermal,2577.0
+Japan,Solar,24506.0
+Japan,Total,1040676.0
+Honduras,Cogeneration,0
+Honduras,Nuclear,0.0
+Honduras,Coal,41.0
+Honduras,Petcoke,0
+Honduras,Other,0.0
+Honduras,Waste,0.0
+Honduras,Wind,398.0
+Honduras,Hydro,2602.0
+Honduras,Oil,4474.0
+Honduras,Gas,0.0
+Honduras,Biomass,523.0
+Honduras,Wave_and_Tidal,0.0
+Honduras,Geothermal,0.0
+Honduras,Solar,0.0
+Honduras,Total,8038.0
+Myanmar,Cogeneration,0
+Myanmar,Nuclear,0.0
+Myanmar,Coal,286.0
+Myanmar,Petcoke,0
+Myanmar,Other,0.0
+Myanmar,Waste,0.0
+Myanmar,Wind,0.0
+Myanmar,Hydro,8829.0
+Myanmar,Oil,65.0
+Myanmar,Gas,4977.0
+Myanmar,Biomass,0.0
+Myanmar,Wave_and_Tidal,0.0
+Myanmar,Geothermal,0.0
+Myanmar,Solar,0.0
+Myanmar,Total,14157.0
+Mexico,Cogeneration,0
+Mexico,Nuclear,9677.0
+Mexico,Coal,33881.0
+Mexico,Petcoke,0
+Mexico,Other,0.0
+Mexico,Waste,77.0
+Mexico,Wind,6426.0
+Mexico,Hydro,38893.0
+Mexico,Oil,33006.0
+Mexico,Gas,171962.0
+Mexico,Biomass,1353.0
+Mexico,Wave_and_Tidal,0.0
+Mexico,Geothermal,6000.0
+Mexico,Solar,221.0
+Mexico,Total,301496.0
+Tunisia,Cogeneration,0
+Tunisia,Nuclear,0.0
+Tunisia,Coal,0.0
+Tunisia,Petcoke,0
+Tunisia,Other,182.0
+Tunisia,Waste,0.0
+Tunisia,Wind,507.0
+Tunisia,Hydro,56.0
+Tunisia,Oil,334.0
+Tunisia,Gas,17920.0
+Tunisia,Biomass,0.0
+Tunisia,Wave_and_Tidal,0.0
+Tunisia,Geothermal,0.0
+Tunisia,Solar,25.0
+Tunisia,Total,19024.0
+Cote DIvoire,Cogeneration,0
+Cote DIvoire,Nuclear,0.0
+Cote DIvoire,Coal,0.0
+Cote DIvoire,Petcoke,0
+Cote DIvoire,Other,0.0
+Cote DIvoire,Waste,0.0
+Cote DIvoire,Wind,0.0
+Cote DIvoire,Hydro,1913.0
+Cote DIvoire,Oil,508.0
+Cote DIvoire,Gas,5795.0
+Cote DIvoire,Biomass,70.0
+Cote DIvoire,Wave_and_Tidal,0.0
+Cote DIvoire,Geothermal,0.0
+Cote DIvoire,Solar,0.0
+Cote DIvoire,Total,8286.0
+Singapore,Cogeneration,0
+Singapore,Nuclear,0.0
+Singapore,Coal,542.0
+Singapore,Petcoke,0
+Singapore,Other,0.0
+Singapore,Waste,1260.0
+Singapore,Wind,0.0
+Singapore,Hydro,0.0
+Singapore,Oil,345.0
+Singapore,Gas,47042.0
+Singapore,Biomass,155.0
+Singapore,Wave_and_Tidal,0.0
+Singapore,Geothermal,0.0
+Singapore,Solar,36.0
+Singapore,Total,49380.0
+Serbia,Cogeneration,0
+Serbia,Nuclear,0.0
+Serbia,Coal,22166.0
+Serbia,Petcoke,0
+Serbia,Other,0.0
+Serbia,Waste,3.0
+Serbia,Wind,0.0
+Serbia,Hydro,11617.0
+Serbia,Oil,10.0
+Serbia,Gas,235.0
+Serbia,Biomass,23.0
+Serbia,Wave_and_Tidal,0.0
+Serbia,Geothermal,0.0
+Serbia,Solar,6.0
+Serbia,Total,34060.0
+United Kingdom,Cogeneration,0
+United Kingdom,Nuclear,63748.0
+United Kingdom,Coal,102014.0
+United Kingdom,Petcoke,0
+United Kingdom,Other,0.0
+United Kingdom,Waste,4038.0
+United Kingdom,Wind,32015.0
+United Kingdom,Hydro,8768.0
+United Kingdom,Oil,1670.0
+United Kingdom,Gas,100670.0
+United Kingdom,Biomass,21950.0
+United Kingdom,Wave_and_Tidal,2.0
+United Kingdom,Geothermal,0.0
+United Kingdom,Solar,4050.0
+United Kingdom,Total,338925.0
+Congo,Cogeneration,0
+Congo,Nuclear,0.0
+Congo,Coal,0.0
+Congo,Petcoke,0
+Congo,Other,0.0
+Congo,Waste,0.0
+Congo,Wind,0.0
+Congo,Hydro,952.0
+Congo,Oil,0.0
+Congo,Gas,788.0
+Congo,Biomass,0.0
+Congo,Wave_and_Tidal,0.0
+Congo,Geothermal,0.0
+Congo,Solar,0.0
+Congo,Total,1740.0
+Greece,Cogeneration,0
+Greece,Nuclear,0.0
+Greece,Coal,25746.0
+Greece,Petcoke,0
+Greece,Other,0.0
+Greece,Waste,100.0
+Greece,Wind,3689.0
+Greece,Hydro,4607.0
+Greece,Oil,5544.0
+Greece,Gas,6776.0
+Greece,Biomass,220.0
+Greece,Wave_and_Tidal,0.0
+Greece,Geothermal,0.0
+Greece,Solar,3792.0
+Greece,Total,50474.0
+Sri Lanka,Cogeneration,0
+Sri Lanka,Nuclear,0.0
+Sri Lanka,Coal,3202.0
+Sri Lanka,Petcoke,0
+Sri Lanka,Other,0.0
+Sri Lanka,Waste,0.0
+Sri Lanka,Wind,272.0
+Sri Lanka,Hydro,4552.0
+Sri Lanka,Oil,4374.0
+Sri Lanka,Gas,0.0
+Sri Lanka,Biomass,41.0
+Sri Lanka,Wave_and_Tidal,0.0
+Sri Lanka,Geothermal,0.0
+Sri Lanka,Solar,20.0
+Sri Lanka,Total,12461.0
+Namibia,Cogeneration,0
+Namibia,Nuclear,0.0
+Namibia,Coal,0.0
+Namibia,Petcoke,0
+Namibia,Other,0.0
+Namibia,Waste,0.0
+Namibia,Wind,0.0
+Namibia,Hydro,1485.0
+Namibia,Oil,13.0
+Namibia,Gas,0.0
+Namibia,Biomass,0.0
+Namibia,Wave_and_Tidal,0.0
+Namibia,Geothermal,0.0
+Namibia,Solar,0.0
+Namibia,Total,1498.0
+Botswana,Cogeneration,0
+Botswana,Nuclear,0.0
+Botswana,Coal,2263.0
+Botswana,Petcoke,0
+Botswana,Other,0.0
+Botswana,Waste,0.0
+Botswana,Wind,0.0
+Botswana,Hydro,0.0
+Botswana,Oil,99.0
+Botswana,Gas,0.0
+Botswana,Biomass,0.0
+Botswana,Wave_and_Tidal,0.0
+Botswana,Geothermal,0.0
+Botswana,Solar,1.0
+Botswana,Total,2363.0

@@ -1,0 +1,60 @@
+Waste
+AB
+Advanced Conversion Technology
+Biogás
+Biogás - AGR
+Biogás - RA
+Biogás - RU
+Biogas
+Bio gas Methane
+By-products from wood processing industry
+EfW Incineration
+Exothermic heat from industry
+Gasified waste
+Gás de Alto Forno
+Gás de Alto Forno - Biomassa
+Gas Residual
+Industrial wood residues
+LFG
+Landfill Gas
+MSW
+Other by-products and wastes used as fuel
+RESIDUOS SOLIDOS URBANOS
+Residuos industriales
+Residuos solidos urbanos
+SLW
+Sewage Sludge Digestion
+WDL
+WDS
+Waste Gas
+Waste Incinerator
+ab
+agas
+bgas
+biogas
+bsol
+dgas
+dme
+hzdwst
+industrial wood residues
+indwst
+landfill natural gas
+lfg
+lgas
+methane avoidance
+methane recovery & utilization
+msw
+ref
+residuos industriales
+residuos solidos urbanos
+slw
+solid waste
+waste derived fuel
+waste energy
+waste incinerator
+wdl
+wds
+wsth
+Residuos Sólidos Urbanos
+Residuos Solidos
+Residuos Orgánicos

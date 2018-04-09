@@ -1,0 +1,14 @@
+.DS_Store
+*.pyc
+
+# ignore api key directory
+resources/api_keys
+
+# ignore build log
+output_database/database_build_log.txt
+
+# ignore test code
+build_databases/tester.py
+
+# ignore sandbox
+utils/sandbox

@@ -1,0 +1,63 @@
+Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
+1019091,Gorzów,Natural Gas,,,,98,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,
+1019074,EC Gorzów,Natural Gas,,,,0,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,
+1019083,FW EGL,Wind,,Onshore,,111,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,
+1019082,International Paper Kwidzyn,Coal,,,,112,,,,,467.639,2015,,,,,,,53.724949,18.931137,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,CARMA
+1019075,Katowice,Coal,,,,135,,,,,,,,,,,,,50.285473,19.053179,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019067,Zielona Góra,Natural Gas,,,,188,,,,,,,,,,,,,51.9513,15.488,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019070,Żydowo,Hydro Pumped Storage,,Pumped Storage,,157,,,,,,,,,,,,,54.024965,16.7069,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019072,Włocławek,Hydro,,Run-of-River,,156,,,,,169.744,2015,,,,,,,52.6564,19.1339,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019048,Porąbka Żar,Hydro,,Pumped Storage,,540,,,,,217.233,2015,,,,,,,49.7809,19.21148,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019055,Wrocław,Coal,,,,270,,,,,635.129,2015,,,,,,,51.1236,17.0244,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019051,Kraków Łęg,Coal,,,,446,,,,,1345.36,2015,,,,,,,50.054,20.006,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019047,Adamów,Lignite Coal,,,,600,,,,,2962.939,2015,,,,,,,52.012,18.546,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,GEODB
+1019086,Azoty Tarnów,Coal,,,,102,,,,,,,,,,,,,50.027864,20.908151,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019088,Zakłady Chemiczne Police SA,Coal,,,,100,,,,,,,,,,,,,53.5749,14.53282,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019089,Mondi Świecie,Coal,,,,100,,,,,,,,,,,,,53.393815,18.375138,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019092,Tychy,Coal,,,,40,,,,,,,,,,,,,50.10593,19.016349,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019052,Skawina 3,Coal,,,,440,,,,,,,,,,,,,49.97743,19.80513,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019065,Solina,Hydro,,Pumped Storage,,198,,,,,,,,,,,,,49.397908,22.45548,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019053,EC Żerań,Coal,,,,386,,,,,,,,,,,,,52.294488,20.994241,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019059,Chorzów,Coal,,,,226,,,,,,,,,,,,,50.30798,18.96949,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019061,EC Łódź-3,Coal,,,,205,,,,,,,,,,,,,51.798258,19.42201,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019062,Połaniec 2-Pasywna,Biomass,,,,205,,,,,,,,,,,,,50.43719,21.3399,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019064,EC Łódź-4,Coal,,,,198,,,,,,,,,,,,,51.74571,19.538785,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019071,EC Białystok,Coal,,,,157,,,,,,,,,,,,,53.1488,23.169184,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019080,Farma Wiatrowa Margonin,Wind,,Onshore,,120,,,,,,,,,,,,,52.969194,17.119249,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019068,Bydgoszcz 2,Coal,,,,183,,,,,,,,,,,,,53.09959,18.08751,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019069,Blachownia,Natural Gas,,,,158,,,,,,,,,,,,,50.35574,18.29124,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019076,Pomorzany,Coal,,,,134,,,,,,,,,,,,,53.391,14.52479,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019077,EC Nowa Sarzyna,Natural Gas,,,,129,,,,,,,,,,,,,50.316719,22.323768,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019078,Konin,Lignite Coal,,,,128,,,,,,,,,,,,,52.28366,18.26948,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019079,Nowa,Coal,,,,125,,,,,,,,,,,,,50.34776,19.27816,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019081,ZA Puławy,Coal,,,,112,,,,,,,,,,,,,51.45721,21.97381,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019084,Karolin 2,Coal,,,,106,,,,,,,,,,,,,52.436208,16.986831,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019087,EC Rzeszów,Natural Gas,,,,101,,,,,,,,,,,,,50.065815,22.028542,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019090,Czechnica,Coal,,,,100,,,,,,,,,,,,,51.03781,17.14969,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019043,Żarnowiec,Hydro,,Pumped Storage,,716,,,,,341.332,2015,,,,,,,54.722374,18.082473,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019063,FW Darłowo,Wind,,Onshore,,202,,,,,345.118,2015,,,,,,,54.450406,16.42242,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019085,Gdynia 3,Coal,,,,105,,,,,446.513,2015,,,,,,,54.55336,18.48079,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019054,PKN Orlen,Oil,,,,345,,,,,569.113,2015,,,,,,,52.584125,19.689149,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019056,Stalowa Wola 3,Coal,,,,250,,,,,694.666,2015,,,,,,,50.55386,22.0791,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019073,Karolin 1,Coal,,,,149,,,,,829.352,2015,,,,,,,52.436208,16.986831,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019066,Jaworzno 2,Coal,,,,189,,,,,839.264,2015,,,,,,,50.21335,19.22806,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019057,Łaziska 2,Coal,,,,250,,,,,970.46,2015,,,,,,,50.133582,18.8459,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019058,EC Wrotków,Natural Gas,,,,231,,,,,1341.61,2015,,,,,,,51.215034,22.553527,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019060,Gdańsk 2,Coal,,,,217,,,,,1437.017,2015,,,,,,,54.378105,18.64128,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019050,Pątnów 2,Lignite Coal,,,,464,,,,,1555.056,2015,Once through,,,,,,52.30169,18.235131,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019044,Siersza,Coal,,,,677,,,,,1789.665,2015,,,,,,,50.20763,19.4615,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019046,EC Siekierki,Coal,,,,620,,,,,1843.555,2015,,,,,,,52.1898,21.08759,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019049,EC Włocławek,Natural Gas,,,,491,,,,,2206.758,2015,,,,,,,52.707414,18.958861,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019045,Ostrołęka B,Coal,,,,647,,,,,2642.265,2015,,,,,,,53.103656,21.611297,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019041,Łaziska 3,Coal,,,,905,,,,,3044.323,2015,,,,,,,50.13335,18.846585,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019042,Łagisza,Coal,,,,820,,,,,3224.719,2015,,,,,,,50.34957,19.141675,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019039,Pątnów 1,Lignite Coal,,,,1200,,,,,4115.897,2015,,,,,,,52.30178,18.23507,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019038,Jaworzno 3,Coal,,,,1345,,,,,4396.408,2015,,,,,,,50.2068,19.2052,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019040,Kozienice 2,Coal,,,,1120,,,,,4765.033,2015,,,,,,,51.666381,21.461477,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019037,Dolna Odra,Coal,Biomass,Sub-critical Thermal,,1362,1974-1977,PGE,,,"4,921",2015,,,,,,,53.2065,14.4669,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,PGE,https://www.pgegiek.pl/index.php/elektrownie/zespol-elektrowni-dolna-odra/,,,,,,,,,,Poland,,WRI
+1019035,Opole,Coal,,Sub-critical Thermal,4x373,1492,1993-1997,PGE,,,"6,330",2015,Recirculating Cooling,,,,,,50.75182,17.8819,Wet Flue Gas Desulphurisation Plant,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,PGE,https://www.pgegiek.pl/index.php/elektrownia-opole/,,,,,,,,,,Poland,,WRI
+1019033,Rybnik,Coal,,,,1775,,,,,7095.093,2015,,,,,,,50.13333,18.533,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019036,Turów,Lignite Coal,Biomass,Sub-critical Thermal,"3x235, 3x260",1498,1962-1971,PGE,,,"7,354",2015,,,,,,,50.9486,14.913,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,PGE,https://www.pgegiek.pl/index.php/elektrownie/elektrownia-turow/,,,,,,,,,,Poland,,WRI
+1019034,Połaniec,Coal,,,,1623,,,,,7609.248,2015,,,,,,,50.4365,21.3377,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1019032,Kozienice 1,Coal,,,,1799,,,,,7670.324,2015,,,,,,,51.666381,21.461477,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Poland,,WRI
+1023817,Bełchatów,Lignite Coal,,Sub-Critical and Super-Critical,,5400,1981-2011,PGE,,,"32,157",2015,,,,,,,51.2679,19.3265,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,PGE,https://www.pgegiek.pl/index.php/elektrownie/elektrownia-belchatow/,,,,,,,,,,Poland,,WRI

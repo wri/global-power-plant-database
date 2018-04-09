@@ -1,0 +1,31 @@
+Other
+?
+Calor residual
+Fuel
+H2
+Mixed fuels
+Mixed renewables
+MWH
+OBL
+OTH
+Other non-specified energy sources
+PUR
+Separate electricity production
+TDF
+Thermal
+Unknown
+calor residual
+fuel
+helium
+mwh
+no clasificado
+obl
+oth
+pur
+separate electricity product
+separate electricity production
+tdf
+thermal
+unk
+unknown
+CV

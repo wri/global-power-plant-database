@@ -1,0 +1,20 @@
+Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
+1023167,Jebel Aulia Dam,Hydro,,,,15.2,,,Operational,,,,,,,,,,15.23964800000,32.46491400000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023168,Atbara,Diesel,,,,15.1,,,Operational,,,,,,,,,,17.70000080000,34.00000000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023169,El Jaili,Natural Gas,,,,319,,,Operational,,,,,,,,,,16.12000000000,32.69200000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023170,El Obeid,Oil,,,,14.3,,,Operational,,,,,,,,,,13.18333330000,30.21666670000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023171,Jebel Aulia Dam,Hydro,,,,15.2,,,Operational,,,,,,,,,,15.23806330120,32.48573541641,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023172,Kenana,Oil,,,,50,,,Operational,,,,,,,,,,14.03333330000,33.16666670000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023173,Khartoum North,Oil,,,,351,,,Operational,,,,,,,,,,15.65000000000,32.56300000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023174,Khasm El Girba,Hydro,,,,11.01,,,Operational,,,,,,,,,,14.92220000000,35.90830000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023175,Kilo-X Dit,Heavy Fuel Oil,,,,260,,,Operational,,,,,,,,,,15.58805560000,32.53416670000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023176,Kilo-X Nec,Oil,,,,33.5,,,Operational,,,,,,,,,,15.64822580120,32.56304740906,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023177,Kuku,Oil,,,,23,,,Operational,,,,,,,,,,5.88638890000,31.68555560000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023178,Melut Sugar Factory,Biomass,,,,26,,,Operational,,,,,,,,,,10.43333330000,32.20000000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023179,Merowe,Hydro,,,,1250,,,Operational,,,,,,,,,,18.66666670000,32.05000000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023180,Nyala,Oil,,,,15.5,,,Operational,,,,,,,,,,12.05000000000,24.88333330000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023181,Port Sudan,Oil,,,,38.1,,,Operational,,,,,,,,,,19.61583330000,37.21638890000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023182,Rahad,Oil,,,,12.6,,,Operational,,,,,,,,,,12.71666670000,30.65000000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023183,Roseires,Hydro,,,,233.6,,,Operational,,,,,,,,,,11.79881000000,34.38822300000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023184,Sennar,Hydro,,,,15,,,Operational,,,,,,,,,,13.56670000000,33.63330000000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa
+1023185,White Nile State,Biomass,,,,100,,,Operational,,,,,,,,,,14.07241100000,32.46724500000,,African Development Bank Group,http://powerafrica.opendataforafrica.org,,,,,,,,,,,,Sudan,,Power Africa

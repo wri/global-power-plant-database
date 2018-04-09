@@ -1,0 +1,14 @@
+NOTE: The Global Power Plant Database is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.
+name,pw_idnr,capacity_mw,year_of_capacity_data,country,owner,source,url,latitude,longitude,geolocation_source,commissioning_year,fuel1,fuel2,fuel3,fuel4,generation_gwh_2015,generation_gwh_2016,estimated_generation_gwh
+Al Hali,YEM0000011,9.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Al kornish,YEM0000014,2.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Hizeaz ( 3 ),YEM0000004,10.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Jear,YEM0000020,6.2,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+KHULF,YEM0000027,6.4,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Monawrh,YEM0000030,6.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Ryan,YEM0000024,10.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Sana'a,YEM0000017,11.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Shehr,YEM0000033,5.2,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Syaon1,YEM0000036,13.0,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Syaon2,YEM0000039,12.4,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,
+Taiz,YEM0000007,7.5,,Yemen,,http://www.auptde.org/Article_Files/Manual%20Of%20Power%20Stations2016.xls,,,,,,Oil,,,,,,

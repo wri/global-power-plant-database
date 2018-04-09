@@ -1,0 +1,63 @@
+Gas
+BFG
+Blast Furnace Gas
+Blast furnace gas
+CCGT
+Coal-derived gas
+GAS
+GAS DE REFINERIA
+GAS NATURAL
+Gas OIl
+Gas Oil
+Gas oil
+Gas oil / kerosene
+GNL
+Gás Natural
+Gás de Alto Forno - PE
+Gás de Refinaria
+Gás do Alto Forno - CM
+LNG
+Liquified Natural Gas (LNG)
+Methane
+NAPT
+NG
+Naphtha
+Natural Gas
+Natural Gas_mine
+Natural gas
+OCGT
+OG
+PG
+PROPANO
+Propane
+Petroleum gases
+TURBO GAS
+bfg
+blast furnace gas
+ccgt
+coal - petcoke
+coal-derived gas
+fgas
+fossil gas
+gas
+gas de refineria
+gas natural
+gas oil
+gnl
+lng
+naphtha
+napt
+natural Gas
+natural gas
+natural gas mine
+natural gas_mine
+ng
+ocgt
+og
+oil y natural gas
+other gas
+propane
+turbo gas
+CG
+TG
+Gas Natural
