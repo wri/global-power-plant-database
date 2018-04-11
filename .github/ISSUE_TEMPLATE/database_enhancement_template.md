@@ -3,7 +3,7 @@
 (Long form description of suggestion)
 
 
-### Possible Steps to Aquisition
+### Possible Steps
 
 1. First need this
 2. Then do this analysis
@@ -18,9 +18,10 @@
 
 ### Challenges
 
-(are there ambiguities or reasons this data will be challenging to aquire/compile?)
+(are there ambiguities or reasons this data will be challenging to aquire/compile/associate?)
 
 
 ### Additional Info
 
 (anything else?)
+keywords: 
