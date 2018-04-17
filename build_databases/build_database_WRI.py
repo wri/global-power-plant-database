@@ -254,8 +254,8 @@ if len(countries_with_zero_plants) > 0:
 
 # report on geolocation sources
 print(u"Geolocation sources:")
-for source, capacity in geolocation_sources_mw.iteritems():
-    print(u" - {:20}: {:12,.1f} MW".format(source, capacity))
+for source, capacity in sorted(geolocation_sources_mw.iteritems(),key=lambda (k,v):(v,k), reverse=True):
+    print(u" - {:12,.1f} MW: {:20}".format(capacity,source))
 
 # report on plants read from file
 print(u"...read {0} plants.".format(len(plants_dictionary)))
