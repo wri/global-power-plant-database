@@ -252,7 +252,7 @@ if __name__ == '__main__':
 
 	# write summary output
 	with open(args.output, 'wb') as fout:
-		writer = csv.DictWriter(fout, fieldnames=SUMMARY_FIELDNAMES)
+		writer = csv.DictWriter(fout, fieldnames=SUMMARY_FIELDNAMES, lineterminator='\r\n')
 		writer.writeheader()
 		for iso_code in args.country:
 			writer.writerow(country_summaries[iso_code])

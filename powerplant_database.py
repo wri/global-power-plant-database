@@ -1128,7 +1128,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		#warning_text = "NOTE: The Global Power Plant Database is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.\n"
 		#fout.write(warning_text)
 
-		writer = csv.DictWriter(fout, fieldnames=fieldnames)
+		writer = csv.DictWriter(fout, fieldnames=fieldnames, lineterminator='\r\n')
 		writer.writeheader()
 
 		keys = plants_dictionary.keys()

@@ -1,6 +1,4 @@
 """Create geospatial vector format of the powerwatch database."""
-
-
 import sys
 import os
 import argparse
@@ -43,11 +41,12 @@ if __name__ == '__main__':
 	schema = {
 		'geometry': 'Point',
 		'properties': {
-			'pw_idnr': 'str',
+			'gppd_idnr': 'str',
 			'name': 'str',
 			'capacity_mw': 'float:12.4',
 			'year_of_capacity_data': 'int',
 			'country': 'str',
+			'country_long': 'str',
 			'owner': 'str',
 			'source': 'str',
 			'url': 'str',
@@ -57,6 +56,8 @@ if __name__ == '__main__':
 			'fuel2': 'str',
 			'fuel3': 'str',
 			'fuel4': 'str',
+			'generation_gwh_2013': 'float:12.4',
+			'generation_gwh_2014': 'float:12.4',
 			'generation_gwh_2015': 'float:12.4',
 			'generation_gwh_2016': 'float:12.4',
 			'estimated_generation_gwh': 'float:12.4'
