@@ -3,7 +3,7 @@
 Global Power Plant Database
 build_database_IND.py
 Get power plant data from India and convert to the Global Power Plant Database format.
-Data Sources: 
+Data Sources:
 - Central Electricity Authority (for all conventional plants)
 - WRI Fusion Table data (for all non-conventional plants)
 
@@ -11,7 +11,7 @@ Additional information: [URL]
 
 Issues:
 Additional possible sources:
-- Capacity, generation and coal consumption data appear to be available via API here: https://data.gov.in/catalog/coal-statement-thermal-power-stations 
+- Capacity, generation and coal consumption data appear to be available via API here: https://data.gov.in/catalog/coal-statement-thermal-power-stations
 - Solar data appear available here: https://data.gov.in/catalog/commissioned-grid-solar-power-projects
 - Some data appear to be available here, with subscription: http://www.indiastat.com/power/26/generation/112/stats.aspx
 - Outdated power system data are available here: http://www.cercind.org/powerdata.htm
@@ -21,7 +21,7 @@ Additional possible sources:
 
 Further possible data sources:
 - Ladakh Renewable Energy Development Agency (map, but all projects appear to be proposed, not completed): http://ladakhenergy.org/projects/map/
-- There appear to be almost 30 other such agencies. See https://en.wikipedia.org/wiki/Ministry_of_New_and_Renewable_Energy#State_Nodal_Agencies 
+- There appear to be almost 30 other such agencies. See https://en.wikipedia.org/wiki/Ministry_of_New_and_Renewable_Energy#State_Nodal_Agencies
 - An old (2011) list of grid-tied solar PV plants: http://mnre.gov.in/file-manager/UserFiles/powerplants_241111.pdf
 - This appears to be a list of approved solar parks (although unclear if they're operational): http://www.seci.gov.in/content/innerpage/statewise-solar-parks.php
 """
@@ -54,14 +54,27 @@ LOCATION_FILE = pw.make_file_path(fileType="resource", subFolder=SAVE_CODE, file
 TAB_NAME = u"Data"
 DATA_YEAR = 2016        # capacity data from CEA is as of 2016
 
-# optional raw file(s) download
-# True if specified --download, otherwise False
-FILES = {RAW_FILE_NAME_CEA: "http://www.cea.nic.in/reports/others/thermal/tpece/cdm_co2/database_12.zip",
-            RAW_FILE_NAME_REC: "https://www.recregistryindia.nic.in/index.php/general/publics/accredited_regens"} # dictionary of saving directories and corresponding urls
+# optional raw files to download
+FILES = {
+	RAW_FILE_NAME_CEA: "http://www.cea.nic.in/reports/others/thermal/tpece/cdm_co2/database_12.zip",
+    RAW_FILE_NAME_REC: "https://www.recregistryindia.nic.in/index.php/general/publics/accredited_regens"
+}
 DOWNLOAD_FILES = pw.download(u'CEA and RECS', FILES)
 
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
+
+def get_CEA_generation(row, col, year, source_url):
+	"""Extract a generation data point from CEA data."""
+	try:
+		if row[col] == u'-':
+			generation = pw.PlantGenerationObject()
+		else:
+			gen_gwh = float(row[col])
+			generation = pw.PlantGenerationObject.create(gen_gwh, year, source=source_url)
+	except:
+		generation = pw.PlantGenerationObject()
+	return generation
 
 # create dictionary for power plant objects
 plants_dictionary = {}
@@ -89,120 +102,135 @@ with open(PLANT_LOCATIONS_FILE, 'rU') as f:
 print("Read location coordinates of {0} CEA-listed plants...".format(len(plant_locations)))
 
 # specify column names used in raw file
-COLNAMES = [u"S_NO", u"NAME", u"UNIT_NO", u"DT_ COMM", u"CAPACITY MW AS ON 31/03/2016",
-                u"TYPE", u"FUEL 1", u"FUEL 2", u"2014-15\n\nNet \nGeneration \nGWh"]
+COLNAMES = {
+	'id': u"S_NO",
+	'name': u"NAME",
+	'unit': u"UNIT_NO",
+	'year': u"DT_ COMM",
+	'capacity': u"CAPACITY MW AS ON 31/03/2016",
+	'type':	u"TYPE",
+	'fuel1': u"FUEL 1",
+	'fuel2': u"FUEL 2",
+	'gen_13-14': u"2013-14\n\nNet \nGeneration \nGWh",
+	'gen_14-15': u"2014-15\n\nNet \nGeneration \nGWh",
+	'gen_15-16': u"2015-16\n\nNet \nGeneration \nGWh",
+}
 
 # prepare list of units
 unit_list = {}
 
-# unzip, load and process CEA file
+# unzip CEA file
 with ZipFile(RAW_FILE_NAME_CEA, 'r') as myzip:
     fn = myzip.namelist()[0]
     f = myzip.extract(fn, RAW_FILE_NAME_CEA_UZ)
-    book = xlrd.open_workbook(f)
-    sheet = book.sheet_by_name(TAB_NAME)
 
-    rv = sheet.row_values(0)
-    id_col = rv.index(COLNAMES[0])
-    name_col = rv.index(COLNAMES[1])
-    unit_col = rv.index(COLNAMES[2])
-    year_col = rv.index(COLNAMES[3])
-    capacity_col = rv.index(COLNAMES[4])
-    type_col = rv.index(COLNAMES[5])
-    fuel1_col = rv.index(COLNAMES[6])
-    fuel2_col = rv.index(COLNAMES[7])
-    generation_col = rv.index(COLNAMES[8])
+# open excel file
+book = xlrd.open_workbook(f)
+sheet = book.sheet_by_name(TAB_NAME)
 
-    for i in xrange(1, sheet.nrows):
+# get the column indices
+rv = sheet.row_values(0)
+id_col = rv.index(COLNAMES['id'])
+name_col = rv.index(COLNAMES['name'])
+unit_col = rv.index(COLNAMES['unit'])
+year_col = rv.index(COLNAMES['year'])
+capacity_col = rv.index(COLNAMES['capacity'])
+type_col = rv.index(COLNAMES['type'])
+fuel1_col = rv.index(COLNAMES['fuel1'])
+fuel2_col = rv.index(COLNAMES['fuel2'])
+gen_13_14_col = rv.index(COLNAMES['gen_13-14'])
+gen_14_15_col = rv.index(COLNAMES['gen_14-15'])
+gen_15_16_col = rv.index(COLNAMES['gen_15-16'])
 
-        # read in row
-        rv = sheet.row_values(i)
 
-        try:
-            name = pw.format_string(rv[name_col])
-            if not name:
-                continue        # don't read rows that lack a plant name (footnotes, etc)
-        except:
-            print(u"-Error: Can't read plant name for plant on row {0}.".format(i))
-            continue
+# parse each row
+for i in xrange(1, sheet.nrows):
 
-        try:
-            id_val = int(rv[id_col])
-            if not id_val:
-                continue        # don't read rows that lack an ID (footnotes, etc)
-        except:
-            print(u"-Error: Can't read ID for plant on row {0}.".format(i))
-            continue
+	# read in row
+	rv = sheet.row_values(i)
 
-        try:
-            capacity = float(rv[capacity_col])
-        except:
-            try:
-                capacity = eval(rv[capacity_col])
-            except:
-                print("-Error: Can't read capacity for plant {0}".format(name))
-                capacity = pw.NO_DATA_NUMERIC
+	try:
+		name = pw.format_string(rv[name_col])
+		if not name:
+			continue        # don't read rows that lack a plant name (footnotes, etc)
+	except:
+		print(u"-Error: Can't read plant name for plant on row {0}.".format(i))
+		continue
 
-        if not capacity:
-            continue        # don't include zero-capacity plants
+	try:
+		id_val = int(rv[id_col])
+		if not id_val:
+			continue        # don't read rows that lack an ID (footnotes, etc)
+	except:
+		print(u"-Error: Can't read ID for plant on row {0}.".format(i))
+		continue
 
-        # Unit "0" is used for the entire plant; other lines are individual units
-        # If this line is a unit, just read its year/capacity for later averaging
-        if rv[unit_col] == 0:  
-            unit_list[id_val] = []
-        else:
-            date_number = rv[year_col]
-            year = pw.excel_date_as_datetime(date_number).year
-            unit_list[id_val].append({'capacity': capacity, 'year': year})
-            continue   # don't continue reading this line b/c it's not a full plant
+	try:
+		capacity = float(rv[capacity_col])
+	except:
+		try:
+			capacity = eval(rv[capacity_col])
+		except:
+			print("-Error: Can't read capacity for plant {0}".format(name))
+			capacity = pw.NO_DATA_NUMERIC
 
-        try:
-            if rv[generation_col] == u'-':
-                generation = pw.PlantGenerationObject()
-            else:
-                gen_gwh = float(rv[generation_col])
-                generation = pw.PlantGenerationObject.create(gen_gwh, DATA_YEAR, source=SOURCE_URL)
-        except:
-            print("-Error: Can't read generation for plant {0}".format(name))
-            generation = pw.PlantGenerationObject()
+	if not capacity:
+		continue        # don't include zero-capacity plants
 
-        try:
-            plant_type = pw.format_string(rv[type_col])
-            if plant_type == u"HYDRO":
-                fuel = pw.standardize_fuel(plant_type, fuel_thesaurus)
-            elif plant_type == u"NUCLEAR":
-                fuel = pw.standardize_fuel(plant_type, fuel_thesaurus)
-            elif plant_type == u"THERMAL":
-                fuel = pw.standardize_fuel(rv[fuel1_col], fuel_thesaurus)
-                if rv[fuel2_col] and rv[fuel2_col] != 'n/a':
-                    fuel2 = pw.standardize_fuel(rv[fuel2_col], fuel_thesaurus)
-                    fuel = fuel.union(fuel2)
-            else:
-                print("Can't identify plant type {0}".format(plant_type))
-        except:
-            print(u"Can't identify plant type for plant {0}".format(name))
+	# Unit "0" is used for the entire plant; other lines are individual units
+	# If this line is a unit, just read its year/capacity for later averaging
+	if rv[unit_col] == 0:
+		unit_list[id_val] = []
+	else:
+		date_number = rv[year_col]
+		year = pw.excel_date_as_datetime(date_number).year
+		unit_list[id_val].append({'capacity': capacity, 'year': year})
+		continue   # don't continue reading this line b/c it's not a full plant
 
-        # look up location
-        if id_val in plant_locations:
-            latitude = plant_locations[id_val]["latitude"]
-            longitude = plant_locations[id_val]["longitude"]
-            geolocation_source = SOURCE_NAME
-        else:
-            print("-Error: Can't find CEA ID {0} in plant location file.".format(id_val))
-            latitude = pw.NO_DATA_NUMERIC
-            longitude = pw.NO_DATA_NUMERIC
-            geolocation_source = pw.NO_DATA_UNICODE
+	# try to load generation data
+	# TODO: organize this into fiscal year (april through march)
+	generation_13 = get_CEA_generation(rv, gen_13_14_col, 2013, SOURCE_URL)
+	generation_14 = get_CEA_generation(rv, gen_14_15_col, 2014, SOURCE_URL)
+	generation_15 = get_CEA_generation(rv, gen_15_16_col, 2015, SOURCE_URL)
+	generation = [generation_13, generation_14, generation_15]
 
-        # assign ID number
-        idnr = pw.make_id(SAVE_CODE, id_val)
-        new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
-        new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
-            plant_location=new_location, plant_coord_source=geolocation_source,
-            plant_fuel=fuel,
-            plant_capacity=capacity, plant_cap_year=DATA_YEAR,
-            plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
-            plant_generation=generation)
-        plants_dictionary[idnr] = new_plant
+	try:
+		plant_type = pw.format_string(rv[type_col])
+		if plant_type == u"HYDRO":
+			fuel = pw.standardize_fuel(plant_type, fuel_thesaurus)
+		elif plant_type == u"NUCLEAR":
+			fuel = pw.standardize_fuel(plant_type, fuel_thesaurus)
+		elif plant_type == u"THERMAL":
+			fuel = pw.standardize_fuel(rv[fuel1_col], fuel_thesaurus)
+			if rv[fuel2_col] and rv[fuel2_col] != 'n/a':
+				fuel2 = pw.standardize_fuel(rv[fuel2_col], fuel_thesaurus)
+				fuel = fuel.union(fuel2)
+		else:
+			print("Can't identify plant type {0}".format(plant_type))
+	except:
+		print(u"Can't identify plant type for plant {0}".format(name))
+
+	# look up location
+	if id_val in plant_locations:
+		latitude = plant_locations[id_val]["latitude"]
+		longitude = plant_locations[id_val]["longitude"]
+		geolocation_source = SOURCE_NAME
+	else:
+		print("-Error: Can't find CEA ID {0} in plant location file.".format(id_val))
+		latitude = pw.NO_DATA_NUMERIC
+		longitude = pw.NO_DATA_NUMERIC
+		geolocation_source = pw.NO_DATA_UNICODE
+
+	# assign ID number
+	idnr = pw.make_id(SAVE_CODE, id_val)
+	new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
+	new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
+		plant_location=new_location, plant_coord_source=geolocation_source,
+		plant_fuel=fuel,
+		plant_capacity=capacity, plant_cap_year=DATA_YEAR,
+		plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
+		plant_generation=generation)
+	plants_dictionary[idnr] = new_plant
 
 # now find average commissioning year weighted by capacity
 for id_val, units in unit_list.iteritems():
@@ -243,7 +271,7 @@ for id_val, units in unit_list.iteritems():
 # read in additional data from Fusion Table file
 print("Adding additional plants from Fusion Table data...")
 fusion_table_data = pw.load_database(WRI_DATABASE)
-plants_dictionary.update({k:v for k,v in fusion_table_data.iteritems() if v.country == 'India'})
+plants_dictionary.update({k: v for k, v in fusion_table_data.iteritems() if v.country == 'India'})
 print("...finished.")
 
 # load and process RECS file - NOT IMPLEMENTED
