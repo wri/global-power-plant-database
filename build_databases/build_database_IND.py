@@ -41,6 +41,7 @@ COUNTRY_NAME = u"India"
 SOURCE_NAME = u"Central Electricity Authority"
 SOURCE_URL = u"http://www.cea.nic.in/"
 SOURCE_URL2 = u"https://www.recregistryindia.nic.in/"
+GEOLOCATION_SOURCE_CEA = u"WRI"
 SAVE_CODE = u"IND"
 RAW_FILE_NAME_CEA = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="database_12.zip")
 RAW_FILE_NAME_CEA_UZ = pw.make_file_path(fileType="raw", filename=SAVE_CODE)
@@ -85,18 +86,16 @@ print(u"Reading in plants...")
 # load location information from static file
 plant_locations = {}
 with open(PLANT_LOCATIONS_FILE, 'rU') as f:
-    datareader = csv.reader(f)
-    headers = datareader.next()
-    for row in datareader:
-        cea_id = int(row[4])
-        plant_name = row[0]
+    reader = csv.DictReader(f)
+    for row in reader:
+        row['id'] = int(row['id'])
         try:
-            latitude = float(row[8])
-            longitude = float(row[9])
-            if cea_id in plant_locations.keys():
+            row['latitude'] = float(row['latitude'])
+            row['longitude'] = float(row['longitude'])
+            if row['id'] in plant_locations:
                 print(u"-Error: Duplication plant location ID: {0}".format(cea_id))
             else:
-                plant_locations[cea_id] = {"name": plant_name, "latitude": latitude, "longitude": longitude}
+                plant_locations[row['id']] = row
         except:
             continue
 print("Read location coordinates of {0} CEA-listed plants...".format(len(plant_locations)))
@@ -214,7 +213,7 @@ for i in xrange(1, sheet.nrows):
 	if id_val in plant_locations:
 		latitude = plant_locations[id_val]["latitude"]
 		longitude = plant_locations[id_val]["longitude"]
-		geolocation_source = SOURCE_NAME
+		geolocation_source = GEOLOCATION_SOURCE_CEA
 	else:
 		print("-Error: Can't find CEA ID {0} in plant location file.".format(id_val))
 		latitude = pw.NO_DATA_NUMERIC
