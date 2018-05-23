@@ -34,7 +34,7 @@ country_dictionary = pw.make_country_dictionary()
 if '--download' in sys.argv:
     # get API key
     with open(API_KEY_FILE, 'r') as f:
-        API_KEY = f.readline()
+        API_KEY = f.readline().rstrip()
     FILES = {}
     for country_name, country_info in country_dictionary.iteritems():
         if country_info.fusion_table_id:
@@ -181,9 +181,12 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
 
                 # track geolocation source
                 if (not latitude) or (not longitude):
-                    geolocation_sources_mw[u"Not located"] += capacity
+					try:
+						geolocation_sources_mw[u"Not located"] += capacity
+					except:
+						print(u" - Warning: plant {0} has no capacity".format(idnr))
                 elif geolocation_source_string:
-                    if geolocation_source_string in geolocation_sources_mw.keys():
+                    if geolocation_source_string in geolocation_sources_mw:
                         geolocation_sources_mw[geolocation_source_string] += capacity
                     else:
                         geolocation_sources_mw[geolocation_source_string] = capacity
@@ -191,7 +194,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     try:
                         geolocation_sources_mw[u"Located, no source"] += capacity
                     except:
-                        print(u" - Error with geolocation source string for plant {0}".format(idnr))
+						print(u" - Warning: plant {0} has no capacity".format(idnr))
 
                 # assign ID number
                 idnr_full = pw.make_id(SAVE_CODE, int(idnr))
