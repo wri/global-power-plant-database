@@ -862,7 +862,7 @@ def estimate_generation(powerplant_dictionary, total_generation_file=GENERATION_
 
 	# read in generation total data (by country and fuel)
 	generation_totals = {}
-	with open(total_generation_file,'rU') as f:
+	with open(total_generation_file, 'rU') as f:
 		csvreader = csv.DictReader(f)
 		for row in csvreader:
 			country = row['country']
@@ -887,7 +887,7 @@ def estimate_generation(powerplant_dictionary, total_generation_file=GENERATION_
 		# check if plant has 2014 reported generation
 		if plant.generation is not None:
 			generation_2014 = annual_generation(plant.generation, 2014)
-			if generation_2014:
+			if generation_2014 is not None:
 				# don't count this capacity, and do subtract this generation from country/fuel total
 				generation_totals[country][fuel] -= generation_2014
 				continue
@@ -901,10 +901,8 @@ def estimate_generation(powerplant_dictionary, total_generation_file=GENERATION_
 	# now allocate remaining generation by relative capacity
 	estimate_count = 0
 	for plantid, plant in powerplant_dictionary.iteritems():
-		if plant.generation != None:
-			generation_2014 = annual_generation(plant.generation, 2014)
-			if generation_2014:
-				continue
+		if annual_generation(plant.generation, 2014) is not None:
+			continue
 
 		country = plant.country
 		capacity = plant.capacity
