@@ -187,7 +187,7 @@ for i in xrange(first_data_row, sheet.nrows):
     # read in row
     rv = sheet.row_values(i)
     try:
-        name = pw.format_string(rv[name_col])
+        name = pw.format_string(rv[name_col]) # DUKES uses a * after name to indicate a CHP plant - address in fuel below
         if not name:
             continue        # don't read rows that lack a plant name (footnotes, etc)
     except:
@@ -205,6 +205,10 @@ for i in xrange(first_data_row, sheet.nrows):
         fuel_type = pw.standardize_fuel(rv[fuel_col], fuel_thesaurus)
         if not fuel_type:
             print(u"-Error: No fuel type for {0}.".format(row[fuel_col]))
+        # Test name for * to see if it's a CHP plant
+        if u"*" in name:
+            name = name.replace(u"*","").strip()
+            fuel_type.add(u"Cogeneration")
     except:
         print("-Error: Can't read fuel type of plant {0}.".format(name))
         fuel_type = pw.NO_DATA_SET
