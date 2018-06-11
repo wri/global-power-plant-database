@@ -2,7 +2,7 @@
 
 This project aims to build [an open database of all the power plants in the world](http://www.wri.org/publication/global-power-plant-database). It is the result of a large collaboration involving many partners, coordinated by the [World Resources Institute](https://www.wri.org/) and [Google Earth Outreach](https://www.google.com/earth/outreach/index.html). If you would like to get involved, please [email the team](mailto:powerexplorer@wri.org) or fork the repo and code! To learn more about how to contribute to this repository, read the [`CONTRIBUTING`](https://github.com/wri/global-power-plant-database/blob/master/.github/CONTRIBUTING.md) document.
 
-The latest database release (v1.0.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). A bleeding-edge version is in the [`output_database`](https://github.com/wri/global-power-plant-database/blob/master/output_database) directory of this repo.
+The latest database release (v1.1.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). A bleeding-edge version is in the [`output_database`](https://github.com/wri/global-power-plant-database/blob/master/output_database) directory of this repo.
 
 All Python source code is available under a [MIT license](https://opensource.org/licenses/MIT).
 

@@ -186,10 +186,14 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
 					except:
 						print(u" - Warning: plant {0} has no capacity".format(idnr))
                 elif geolocation_source_string:
+                    try:
+                        cap = float(capacity)
+                    except:
+                        cap = 0
                     if geolocation_source_string in geolocation_sources_mw:
-                        geolocation_sources_mw[geolocation_source_string] += capacity
+                        geolocation_sources_mw[geolocation_source_string] += cap
                     else:
-                        geolocation_sources_mw[geolocation_source_string] = capacity
+                        geolocation_sources_mw[geolocation_source_string] = cap
                 else:
                     try:
                         geolocation_sources_mw[u"Located, no source"] += capacity

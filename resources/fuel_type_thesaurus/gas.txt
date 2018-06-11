@@ -4,6 +4,7 @@ Blast Furnace Gas
 Blast furnace gas
 CCGT
 Coal-derived gas
+Coal Mine Methane
 GAS
 GAS DE REFINERIA
 GAS NATURAL
@@ -16,6 +17,7 @@ Gás Natural
 Gás de Alto Forno - PE
 Gás de Refinaria
 Gás do Alto Forno - CM
+Landfill gas
 LNG
 Liquified Natural Gas (LNG)
 Methane
