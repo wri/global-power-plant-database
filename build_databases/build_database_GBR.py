@@ -28,9 +28,10 @@ import powerplant_database as pw
 
 # params
 COUNTRY_NAME = u"United Kingdom"
-SOURCE_NAME = u"Department for Business Energy & Industrial Strategy"
+SOURCE_NAME_DUKES = u"Department for Business Energy & Industrial Strategy"
 SOURCE_NAME_REPD = u"UK Renewable Energy Planning Database"
-SOURCE_URL = u"https://www.gov.uk/government/collections/digest-of-uk-energy-statistics-dukes;https://www.gov.uk/government/collections/renewable-energy-planning-data"
+SOURCE_URL_DUKES = u"https://www.gov.uk/government/collections/digest-of-uk-energy-statistics-dukes"
+SOURCE_URL_REPD = u"https://www.gov.uk/government/collections/renewable-energy-planning-data"
 SAVE_CODE_GBR = u"GBR"
 SAVE_CODE_GEO = u"GEODB"
 SAVE_CODE_CARMA = u"CARMA"
@@ -40,8 +41,8 @@ CSV_FILE_NAME = pw.make_file_path(fileType="src_csv", filename="database_GBR.csv
 SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
 GEO_DATABASE_FILE = pw.make_file_path(fileType="src_bin", filename="GEODB-Database.bin")
 CARMA_DATABASE_FILE = pw.make_file_path(fileType="src_bin", filename="CARMA-Database.bin")
-REPD_YEAR = 2016
-DUKES_YEAR = 2016
+REPD_YEAR = 2018
+DUKES_YEAR = 2017
 
 # other params
 PLANT_MATCHES = pw.make_file_path(fileType="resource", subFolder=SAVE_CODE_GBR, filename="matches_GBR.csv")
@@ -118,7 +119,11 @@ with open(RAW_FILE_NAME_REPD, "rU") as f:
         if u"Operational" not in row[status_col]:
             continue                            # don't load non-operatioal plants
         try:
-            name = pw.format_string(row[name_col])
+            #name = pw.format_string(row[name_col])
+            # special handler for strange symbol used in REPD
+            raw_row = row[name_col]
+            raw_row_unicode = unicode(raw_row,errors='replace')
+            name = raw_row_unicode.replace(u'\ufffd',' ')
         except:
             print(u"-Error: Can't read plant name.")
             continue                       # must have plant name - don't read plant if not
@@ -160,7 +165,7 @@ with open(RAW_FILE_NAME_REPD, "rU") as f:
         new_plant = pw.PowerPlant(plant_idnr=plant_idnr, plant_name=name,
             plant_owner=owner, plant_country=country,
             plant_capacity=capacity, plant_cap_year=REPD_YEAR,
-            plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
+            plant_source=SOURCE_NAME_REPD, plant_source_url=SOURCE_URL_REPD,
             plant_location=new_location, plant_coord_source=geolocation_source,
             plant_fuel=fuel_type)
         plants_dictionary[plant_idnr] = new_plant
@@ -257,7 +262,7 @@ for i in xrange(first_data_row, sheet.nrows):
         new_plant = pw.PowerPlant(plant_idnr=plant_idnr, plant_name=name,
             plant_owner=owner, plant_country=COUNTRY_NAME,
             plant_capacity=capacity, plant_cap_year=DUKES_YEAR,
-            plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
+            plant_source=SOURCE_NAME_DUKES, plant_source_url=SOURCE_URL_DUKES,
             plant_location=location, plant_coord_source=geolocation_source,
             plant_fuel=fuel_type)
     plants_dictionary[plant_idnr] = new_plant
