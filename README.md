@@ -74,4 +74,5 @@ In many cases our data sources do not include power plant geolocation informatio
 
 * [Open Power Systems Data](https://github.com/Open-Power-System-Data/)
 * [Global Energy Observatory](https://github.com/hariharshankar/pygeo)
+* [GeoNuclearData](https://github.com/cristianst85/GeoNuclearData)
 * [Duke](https://github.com/larsga/Duke)
