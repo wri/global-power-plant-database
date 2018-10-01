@@ -73,6 +73,7 @@ In many cases our data sources do not include power plant geolocation informatio
 ## Related repos
 
 * [Open Power Systems Data](https://github.com/Open-Power-System-Data/)
+* [Public Utility Data Liberation Project](https://github.com/catalyst-cooperative/pudl)
 * [Global Energy Observatory](https://github.com/hariharshankar/pygeo)
 * [GeoNuclearData](https://github.com/cristianst85/GeoNuclearData)
 * [Duke](https://github.com/larsga/Duke)
