@@ -889,7 +889,10 @@ def estimate_generation(powerplant_dictionary, total_generation_file=GENERATION_
 			generation_2014 = annual_generation(plant.generation, 2014)
 			if generation_2014 is not None:
 				# don't count this capacity, and do subtract this generation from country/fuel total
-				generation_totals[country][fuel] -= generation_2014
+				try:
+					generation_totals[country][fuel] -= generation_2014
+				except:
+					print("Warning {0}: attempt to discount fuel {1} from country {2}".format(plantid, fuel, country))
 				continue
 
 		# if no 2014 reported generation, add capacity to cumulative total
