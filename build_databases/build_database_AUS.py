@@ -4,22 +4,28 @@ Global Power Plant Database
 build_database_australia.py
 Converts GIS data from Australian Renewable Energy Mapping Infrastructure (AREMI) 
 to the Global Power Plant Database format.
+
+Last download date: 2018-11-17
 """
 
 import xml.etree.ElementTree as ET
 import sys, os
+import csv
 
 sys.path.insert(0, os.pardir)
 import powerplant_database as pw
 
 # params
 COUNTRY_NAME = u"Australia"
+SAVE_CODE = u"AUS"
 SOURCE_NAME = u"Australian Renewable Energy Mapping Infrastructure"
 SOURCE_URL = u"http://services.ga.gov.au/site_3/rest/services/Electricity_Infrastructure/MapServer"
-SAVE_CODE = u"AUS"
+NGER_URL_1617 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities%202016-17.csv"
+NGER_FILENAME_1617 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2016-2017.csv")
 RAW_FILE_NAME = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="australia_power_plants.xml")
 CSV_FILE_NAME = pw.make_file_path(fileType="src_csv", filename="database_AUS.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
+STATIC_ID_FILENAME = pw.make_file_path(fileType="resource", subFolder='AUS', filename="AUS_plants.csv")
 
 # other parameters
 API_BASE = "http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer"
@@ -27,7 +33,7 @@ API_CALL = "service=WFS&version=1.1.0&request=GetFeature&typeName=National_Major
 
 # optional raw file(s) download
 URL = API_BASE + "?" + API_CALL
-FILES = {RAW_FILE_NAME: URL}
+FILES = {RAW_FILE_NAME: URL, NGER_FILENAME_1617: NGER_URL_1617}
 DOWNLOAD_FILES = pw.download(COUNTRY_NAME, FILES)
 
 # set up fuel type thesaurus
@@ -36,15 +42,22 @@ fuel_thesaurus = pw.make_fuel_thesaurus()
 # set up country name thesaurus
 country_thesaurus = pw.make_country_names_thesaurus()
 
+# get permanent IDs for australian plants
+linking_table = {k['aremi_oid']: k for k in csv.DictReader(open(STATIC_ID_FILENAME))}
+
 # create dictionary for power plant objects
 plants_dictionary = {}
 
 # extract powerplant information from file(s)
 print(u"Reading in plants...")
+print(u"Reading NGER files to memory...")
+
+# read NGER file into a list, so the facilities can be referenced by their index in the original file
+nger_1617 = list(csv.DictReader(open(NGER_FILENAME_1617)))
 
 # create a dictinary of namespaces
 ns = {"gml": "http://www.opengis.net/gml",
-    "Electricity_Infrastructure": "http://win-amap-ext03:6080/arcgis/services/Electricity_Infrastructure/MapServer/WFSServer"}
+    "Electricity_Infrastructure": "WFS"}
 
 # read data from XML file and parse
 count = 1
@@ -54,7 +67,16 @@ with open(RAW_FILE_NAME, "rU") as f:
     for station in tree.findall("gml:featureMember", ns):
         plant = station.find("Electricity_Infrastructure:National_Major_Power_Stations", ns)
         name = pw.format_string(plant.find("Electricity_Infrastructure:NAME", ns).text)
-        plant_id = int(plant.find("Electricity_Infrastructure:OBJECTID", ns).text)
+
+        # get object id from AREMI (variable through time)
+        plant_oid = plant.find("Electricity_Infrastructure:OBJECTID", ns).text
+        # check if plant is already known, and skip if there is not a record (includes cases where AREMI has duplicated plants)
+        if plant_oid not in linking_table:
+            print(u"Error: Don't have prescribed ID for plant {0}; OID={1}.".format(name, plant_oid))
+            continue
+        # get the assigned GPPD IDNR as an int, stripping the 'AUS' prefix
+        plant_id = int(linking_table[plant_oid]['gppd_idnr'][3:])
+
         try:
             owner = pw.format_string(plant.find("Electricity_Infrastructure:OWNER", ns).text)
         except:
@@ -68,11 +90,11 @@ with open(RAW_FILE_NAME, "rU") as f:
             capacity = pw.NO_DATA_NUMERIC
         coords = plant.find("Electricity_Infrastructure:SHAPE/gml:Point/gml:pos", ns).text.split(" ")
         try:
-            latitude = float(coords[0])
-            longitude = float(coords[1])
+            longitude = float(coords[0])
+            latitude = float(coords[1])
             geolocation_source = SOURCE_NAME
         except:
-            latitude, longitude = pw.NO_DATA_NUMERIC, pw.NO_DATA_NUMERIC
+            longitude, latitude = pw.NO_DATA_NUMERIC, pw.NO_DATA_NUMERIC
             geolocation_source = pw.NO_DATA_UNICODE
 
         # # Additional information for future interest
@@ -89,6 +111,25 @@ with open(RAW_FILE_NAME, "rU") as f:
         except:
             year_updated = pw.NO_DATA_NUMERIC
 
+        # get generation data (if any) from the NGER datasets
+        generation = []
+        try:
+            nger_1617_index = int(linking_table[plant_oid]['nger_2016-2017_index'])
+        except:
+            pass
+        else:
+            nger_1617_row = nger_1617[nger_1617_index]
+            gen_1617_mwh = nger_1617_row['Electricity Production (Mwh)']
+            try:
+                gen_1617_gwh = float(gen_1617_mwh.replace(",", ""))  / 1000
+            except:
+                print("Error with NGER16-17 generation for {0} (NGER index = {1}; value={2})".format(name, nger_1617_index, gen_1617_mwh))
+                pass
+            else:
+                # TODO: give proper time bounds
+                generation.append(pw.PlantGenerationObject.create(gen_1617_gwh, 2017))
+
+
         # assign ID number
         idnr = pw.make_id(SAVE_CODE, plant_id)
         new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
@@ -96,6 +137,7 @@ with open(RAW_FILE_NAME, "rU") as f:
             plant_country=COUNTRY_NAME,
             plant_location=new_location, plant_coord_source=geolocation_source,
             plant_fuel=fuel, plant_capacity=capacity,
+            plant_generation=generation,
             plant_source=SOURCE_NAME, plant_cap_year=year_updated,
             plant_source_url=SOURCE_URL)
         plants_dictionary[idnr] = new_plant

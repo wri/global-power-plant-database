@@ -3,22 +3,26 @@ BFG
 Blast Furnace Gas
 Blast furnace gas
 CCGT
-Coal-derived gas
+CG
 Coal Mine Methane
+Coal Seam Methane
+Coal-derived gas
+Compressed Natural Gas
 GAS
 GAS DE REFINERIA
 GAS NATURAL
+GNL
+Gas Natural
 Gas OIl
 Gas Oil
 Gas oil
 Gas oil / kerosene
-GNL
 Gás Natural
 Gás de Alto Forno - PE
 Gás de Refinaria
 Gás do Alto Forno - CM
-Landfill gas
 LNG
+Landfill gas
 Liquified Natural Gas (LNG)
 Methane
 NAPT
@@ -31,8 +35,9 @@ OCGT
 OG
 PG
 PROPANO
-Propane
 Petroleum gases
+Propane
+TG
 TURBO GAS
 bfg
 blast furnace gas
@@ -60,6 +65,3 @@ oil y natural gas
 other gas
 propane
 turbo gas
-CG
-TG
-Gas Natural

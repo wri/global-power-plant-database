@@ -72,6 +72,7 @@ SUMMARY_FIELDNAMES = (
 			'count_generation_gwh_2014',
 			'count_generation_gwh_2015',
 			'count_generation_gwh_2016',
+			'count_generation_gwh_2017',
 			'count_estimated_generation_gwh',
 			)
 
@@ -198,13 +199,14 @@ def country_summary(db_conn, country, iso_code):
 				WHERE (country=?
 					AND generation_gwh_2015 IS NULL
 					AND generation_gwh_2016 IS NULL
+					AND generation_gwh_2017 IS NULL
 					AND estimated_generation_gwh IS NULL
 					)'''
 	query = c.execute(stmt, (iso_code,))
 	summary['count_null_generation_gwh_all'], = query.fetchone()
 
 	# count null generation years
-	for year in range(2013,2017):
+	for year in range(2013,2018):
 		field = 'generation_gwh_{0}'.format(year)
 		stmt = '''SELECT COUNT(*) FROM powerplants
 					WHERE (country=?

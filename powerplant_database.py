@@ -1097,7 +1097,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 			if i == 4:
 				break
 			ret['fuel{0}'.format(i+1)] = f
-		for year in range(2013, 2017):
+		for year in range(2013, 2018):
 			gwh = annual_generation(powerplant.generation, year)
 			ret['generation_gwh_{0}'.format(year)] = gwh
 		ret['estimated_generation_gwh'] = powerplant.estimated_generation_gwh
@@ -1125,6 +1125,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"generation_gwh_2014",
 		"generation_gwh_2015",
 		"generation_gwh_2016",
+		"generation_gwh_2017",
 		"estimated_generation_gwh"
 	]
 
@@ -1206,6 +1207,8 @@ def read_csv_file_to_dict(filename):
 				row['generation_gwh_2015'] = None
 			if not row['generation_gwh_2016']:
 				row['generation_gwh_2016'] = None
+			if not row['generation_gwh_2017']:
+				row['generation_gwh_2017'] = None
 			if not row['estimated_generation_gwh']:
 				row['estimated_generation_gwh'] = None
 			# check if geolocation source is empty string
@@ -1273,6 +1276,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						generation_gwh_2014 REAL,
 						generation_gwh_2015 REAL,
 						generation_gwh_2016 REAL,
+						generation_gwh_2017 REAL,
 						estimated_generation_gwh REAL )''')
 	except:
 		raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
@@ -1280,7 +1284,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 	c.execute('begin')
 	for k, p in plants_dict.iteritems():
 		stmt = u'''INSERT INTO powerplants VALUES (
-					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
 		vals = (
 				p['country'],
 				p['country_long'],
@@ -1303,6 +1307,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['generation_gwh_2014'],
 				p['generation_gwh_2015'],
 				p['generation_gwh_2016'],
+				p['generation_gwh_2017'],
 				p['estimated_generation_gwh'])
 		c.execute(stmt, vals)
 
