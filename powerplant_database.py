@@ -124,23 +124,24 @@ class PowerPlant(object):
 
 		# check and set other (non-primary) fuel types
 		# TODO: check that fuels are valid standardized fuels
+
+		# double-check that primary fuel isn't in other fuel (avoid redundancy)
+		if plant_primary_fuel in plant_other_fuel:
+			plant_other_fuel.remove(plant_primary_fuel)
+
 		if not plant_other_fuel:
 			setattr(self, 'other_fuel', NO_DATA_SET.copy())
-		elif type(plant_other_fuel) is unicode:
-			setattr(self, 'other_fuel', set([plant_other_fuel]))
-		elif type(plant_other_fuel) is str:
-			setattr(self, 'other_fuel', set([plant_other_fuel.decode(UNICODE_ENCODING)]))
-		elif type(plant_other_fuel) is list:
-			setattr(self, 'other_fuel', set(plant_other_fuel))
+		#elif type(plant_other_fuel) is unicode:
+		#	setattr(self, 'other_fuel', set([plant_other_fuel]))
+		#elif type(plant_other_fuel) is str:
+		#	setattr(self, 'other_fuel', set([plant_other_fuel.decode(UNICODE_ENCODING)]))
+		#elif type(plant_other_fuel) is list:
+		#	setattr(self, 'other_fuel', set(plant_other_fuel))
 		elif type(plant_other_fuel) is set:
 			setattr(self, 'other_fuel', plant_other_fuel)
 		else:
 			print("Error trying to create plant with fuel of type {0}.".format(plant_other_fuel))
 			setattr(self, 'other_fuel', NO_DATA_SET.copy())
-
-		# double-check that primary fuel isn't in other fuel (redundant)
-		if self.primary_fuel in self.other_fuel:
-			self.other_fuel.remove(self.primary_fuel)
 
 		# set data for other attributes
 		object_attributes = {'source': plant_source, 'location': plant_location}
@@ -1102,13 +1103,17 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		# handle fuel
 		ret['primary_fuel'] = powerplant.primary_fuel
 		other_fuel_list = list(powerplant.other_fuel)
+		# ensure no redundancy
+		if powerplant.primary_fuel in other_fuel_list:
+			other_fuel_list.remove(powerplant.primary_fuel)
+		# rotate 'Other' and 'Storage' to the end
 		if len(other_fuel_list) > 1:
-			if other_fuel_list[0] == u'Other':
-				other_fuel_list.pop(0)
-				other_fuel_list.append(u'Other')	# rotate "Other" to the end
-			if other_fuel_list[0] == u'Storage':
-				other_fuel_list.pop(0)
-				other_fuel_list.append(u'Storage') # rotate "Storage" to the end
+			if u'Storage' in other_fuel_list:
+				other_fuel_list.remove(u'Storage')
+				other_fuel_list.append(u'Storage')
+			if u'Other' in other_fuel_list:
+				other_fuel_list.remove(u'Other')
+				other_fuel_list.append(u'Other')
 		for i, f in enumerate(other_fuel_list):
 			if i == 3: # keep 3 "other" fuels
 				break

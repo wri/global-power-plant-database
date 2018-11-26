@@ -80,14 +80,6 @@ count = 1
 wb = xlrd.open_workbook(RAW_FILE_NAME)
 ws = wb.sheet_by_name(TAB)
 
-# treat first data row specially for plant name
-#rv0 = ws.row_values(START_ROW)
-#current_plant_name = pw.format_string(rv0[COLS['name']])
-#current_owner = pw.format_string(rv0[COLS['owner']])
-#current_fuel_type = pw.standardize_fuel(rv0[COLS['fuel']], fuel_thesaurus, as_set=False)
-#current_capacity_sum = float(rv0[COLS['capacity']]) * CAPACITY_CONVERSION_TO_MW
-#current_generation_sum = float(rv0[COLS['generation']]) * GENERATION_CONVERSION_TO_GWH
-
 previous_owner = u'None'
 previous_name = u'None'
 plant_names = {}
@@ -100,8 +92,6 @@ for row_id in range(START_ROW, ws.nrows):
     fuel_string = pw.format_string(rv[COLS['fuel']], None)
     if not fuel_string:
         continue                    # row without fuel type is empty
-    else:
-        fuel_type = pw.standardize_fuel(fuel_string, fuel_thesaurus)
 
     # check for islanded generator
     grid_string = pw.format_string(rv[COLS['grid']], None)
@@ -133,6 +123,7 @@ for row_id in range(START_ROW, ws.nrows):
     if name_string not in plant_names.keys():
 
         # first time we've seen this plant
+        fuel_type = pw.standardize_fuel(fuel_string, fuel_thesaurus, as_set=False)
         idnr = pw.make_id(SAVE_CODE, count)
         new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name_string, plant_owner=owner_string,
             plant_country=COUNTRY_NAME, plant_capacity=capacity_value,
@@ -145,6 +136,7 @@ for row_id in range(START_ROW, ws.nrows):
     else:
 
         # this row is an additional fuel type for a plant we've already seen
+        fuel_type = pw.standardize_fuel(fuel_string, fuel_thesaurus, as_set=True)
         idnr = plant_names[name_string]
         plants_dictionary[idnr].other_fuel.update(fuel_type)
         plants_dictionary[idnr].capacity += capacity_value

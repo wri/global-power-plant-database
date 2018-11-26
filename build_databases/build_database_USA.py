@@ -108,7 +108,8 @@ for row_id in xrange(2, ws3.nrows):
 				if rv[i] == "None":
 					continue
 				fuel_type = pw.standardize_fuel(rv[i], fuel_thesaurus, as_set=True)
-				plants_dictionary[idnr].other_fuel.update(fuel_type)
+				if fuel_type is not plants_dictionary[idnr].primary_fuel:
+					plants_dictionary[idnr].other_fuel.update(fuel_type)
 			except:
 				continue
 	else:
