@@ -30,7 +30,7 @@ GENERATION_CONVERSION_TO_GWH = 0.001	# generation values are given in MWh in the
 SUBSIDIARY_COUNTRIES = ["Puerto Rico", "Guam"]
 
 COLS_860_2 = {'name':3, 'idnr':2, 'owner':1, 'lat':9, 'lng':10}
-COLS_860_3 = {'idnr':2, 'capacity':15, 'fuel_type':[33,34,35,36], 'operating_month':25, 'operating_year':26}
+COLS_860_3 = {'idnr':2, 'capacity':15, 'primary_fuel':33, 'other_fuel':[34,35,36], 'operating_month':25, 'operating_year':26}
 COLS_923_2 = {'idnr':0, 'generation':95}
 TAB_NAME_860_2 = "Plant"
 TAB_NAME_860_3 = "Operable"
@@ -100,12 +100,15 @@ for row_id in xrange(2, ws3.nrows):
 		else:
 			commissioning_year_by_unit[idnr] = [ [unit_capacity, unit_year] ]
 
-		for i in COLS_860_3['fuel_type']:
+		primary_fuel = pw.standardize_fuel(rv[COLS_860_3['primary_fuel']], fuel_thesaurus, as_set=False)
+		plants_dictionary[idnr].primary_fuel = primary_fuel
+
+		for i in COLS_860_3['other_fuel']:
 			try:
 				if rv[i] == "None":
 					continue
-				fuel_type = pw.standardize_fuel(rv[i], fuel_thesaurus)
-				plants_dictionary[idnr].fuel.update(fuel_type)
+				fuel_type = pw.standardize_fuel(rv[i], fuel_thesaurus, as_set=True)
+				plants_dictionary[idnr].other_fuel.update(fuel_type)
 			except:
 				continue
 	else:

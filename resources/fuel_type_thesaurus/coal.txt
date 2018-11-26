@@ -48,3 +48,6 @@ turbo vapor
 wc
 TV
 Carbón
+Hard coal
+anthracite
+

@@ -57,8 +57,8 @@ plants_dictionary = {}
 print(u"Reading in plants...")
 
 # specify column names used in raw file
-COLNAMES = ["Power Plant ID", "Name", "Fuel", "Capacity (MW)", "Location",
-			"Plant type", "Operational Status", "Commissioning Date",
+COLNAMES = ["Power Plant ID", "Name", "Fuel", "Secondary Fuel", "Capacity (MW)",
+			"Location", "Operational Status", "Commissioning Date",
 			"Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country",
 			"Latitude", "Longitude", "Geolocation Source", "Year of Data"]
 
@@ -78,9 +78,10 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
             try:
                 id_col = headers.index(COLNAMES[0])
                 name_col = headers.index(COLNAMES[1])
-                fuel_col = headers.index(COLNAMES[2])
-                capacity_col = headers.index(COLNAMES[3])
-                location_col = headers.index(COLNAMES[4])
+                primary_fuel_col = headers.index(COLNAMES[2])
+                other_fuel_col = headers.index(COLNAMES[3])
+                capacity_col = headers.index(COLNAMES[4])
+                location_col = headers.index(COLNAMES[5])
                 status_col = headers.index(COLNAMES[6])
                 commissioning_year_col = headers.index(COLNAMES[7])
                 owner_col = headers.index(COLNAMES[9])
@@ -123,10 +124,18 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     print(u"-Error: Can't read capacity for plant {0}; value: {1}".format(name, row[capacity_col]))
                     capacity = pw.NO_DATA_NUMERIC
                 try:
-                    fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+                    primary_fuel = pw.standardize_fuel(row[primary_fuel_col], fuel_thesaurus, as_set=False)
                 except:
-                    print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-                    fuel = pw.NO_DATA_SET
+                    print(u"-Error: Can't read primary fuel type for plant {0}.".format(name))
+                    primary_fuel = pw.NO_DATA_UNICODE
+                try:
+                    if row[other_fuel_col]:
+                        other_fuel = pw.standardize_fuel(row[other_fuel_col], fuel_thesaurus, as_set=True)
+                    else:
+                        other_fuel = pw.NO_DATA_SET
+                except:
+                    print(u"-Error: Can't read secondary fuel type for plant {0}.".format(name))
+                    other_fuel = pw.NO_DATA_SET
                 try:
                     latitude = float(row[latitude_col])
                     longitude = float(row[longitude_col])
@@ -217,7 +226,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     # update plant
                     existing_plant = plants_dictionary[idnr_full]
                     existing_plant.capacity += capacity
-                    existing_plant.fuel.update(fuel)
+                    existing_plant.other_fuel.update(other_fuel)
                     # append generation object - may want to sum generation instead?
                     if generation:
                         if not isinstance(existing_plant.generation, list):
@@ -234,7 +243,8 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     new_location = pw.LocationObject(location, latitude, longitude)
                     new_plant = pw.PowerPlant(plant_idnr=idnr_full, plant_name=name, plant_country=country,
                         plant_location=new_location, plant_coord_source=geolocation_source_string,
-                        plant_fuel=fuel, plant_capacity=capacity,
+                        plant_primary_fuel=primary_fuel, plant_other_fuel=other_fuel,
+                        plant_capacity=capacity,
                         plant_owner=owner, plant_generation=generation,
                         plant_source=source, plant_source_url=url,
                         plant_commissioning_year=commissioning_year)

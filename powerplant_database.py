@@ -55,7 +55,8 @@ class PowerPlant(object):
 		plant_source_url=NO_DATA_UNICODE,
 		plant_location=NO_DATA_OTHER,
 		plant_coord_source=NO_DATA_UNICODE,
-		plant_fuel=NO_DATA_SET,
+		plant_primary_fuel=NO_DATA_UNICODE,
+		plant_other_fuel=NO_DATA_SET,
 		plant_generation=NO_DATA_OTHER,
 		plant_commissioning_year=NO_DATA_NUMERIC,
 		plant_estimated_generation_gwh=NO_DATA_NUMERIC
@@ -65,7 +66,8 @@ class PowerPlant(object):
 		unicode_attributes = {
 			'idnr': plant_idnr, 'name': plant_name, 'country': plant_country,
 			'owner': plant_owner, 'nat_lang': plant_nat_lang,
-			'url': plant_source_url, 'coord_source': plant_coord_source
+			'url': plant_source_url, 'coord_source': plant_coord_source,
+			'primary_fuel': plant_primary_fuel
 		}
 
 		for attribute, input_parameter in unicode_attributes.iteritems():
@@ -120,21 +122,25 @@ class PowerPlant(object):
 			else:
 				setattr(self, attribute, input_parameter)
 
-		# check and set fuel types
+		# check and set other (non-primary) fuel types
 		# TODO: check that fuels are valid standardized fuels
-		if not plant_fuel:
-			setattr(self, 'fuel', NO_DATA_SET.copy())
-		elif type(plant_fuel) is unicode:
-			setattr(self, 'fuel', set([plant_fuel]))
-		elif type(plant_fuel) is str:
-			setattr(self, 'fuel', set([plant_fuel.decode(UNICODE_ENCODING)]))
-		elif type(plant_fuel) is list:
-			setattr(self, 'fuel', set(plant_fuel))
-		elif type(plant_fuel) is set:
-			setattr(self, 'fuel', plant_fuel)
+		if not plant_other_fuel:
+			setattr(self, 'other_fuel', NO_DATA_SET.copy())
+		elif type(plant_other_fuel) is unicode:
+			setattr(self, 'other_fuel', set([plant_other_fuel]))
+		elif type(plant_other_fuel) is str:
+			setattr(self, 'other_fuel', set([plant_other_fuel.decode(UNICODE_ENCODING)]))
+		elif type(plant_other_fuel) is list:
+			setattr(self, 'other_fuel', set(plant_other_fuel))
+		elif type(plant_other_fuel) is set:
+			setattr(self, 'other_fuel', plant_other_fuel)
 		else:
-			print("Error trying to create plant with fuel of type {0}.".format(plant_fuel))
-			setattr(self, 'fuel', NO_DATA_SET.copy())
+			print("Error trying to create plant with fuel of type {0}.".format(plant_other_fuel))
+			setattr(self, 'other_fuel', NO_DATA_SET.copy())
+
+		# double-check that primary fuel isn't in other fuel (redundant)
+		if self.primary_fuel in self.other_fuel:
+			self.other_fuel.remove(self.primary_fuel)
 
 		# set data for other attributes
 		object_attributes = {'source': plant_source, 'location': plant_location}
@@ -163,7 +169,7 @@ class PowerPlant(object):
 			s = ['{',
 				'  id: ' + str(self.idnr),
 				'  name: ' + str(self.name),
-				'  fuel: ' + str(self.fuel),
+				'  primary fuel: ' + str(self.primary_fuel),
 				'  owner: ' + str(self.owner),
 				'  capacity: ' + str(self.capacity),
 				'  has_location: ' + str(bool(self.location)),
@@ -594,22 +600,26 @@ def make_fuel_thesaurus(fuel_type_thesaurus=FUEL_THESAURUS_DIR):
 			fuel_thesaurus[standard_name].extend(aliases)
 	return fuel_thesaurus
 
-def standardize_fuel(fuel_instance, fuel_thesaurus):
+def standardize_fuel(fuel_instance, fuel_thesaurus, as_set=False):
 	"""
-	Get set of primary fuel names from string of alternate names.
+	Get set of standardized fuel names from string of alternate names.
 
 	Parameters
 	----------
 	fuel_instance : str
-		Non-standard fuel names separated by '/' (e.g. bitumen/sun/uranium).
+		Potentially non-standard fuel names separated by '/' (e.g. bitumen/sun/uranium).
 	fuel_thesaurus : dict
 		Dict returned from `make_fuel_thesaurus()`.
+	as_set : bool
+		Return set (if true) or string (if false).
 
 	Returns
 	-------
-	fuel_set : set
-		Minimum set of primary fuel names corresponding to the input string.
+	fuel_set : set OR string
+		If as_set=true: Minimum set of standard fuel names corresponding to the input string.
 		Returns `NO_DATA_SET` if a fuel type cannot be identified.
+		If as_set=false: String containing one standard fuel name corresponding to the input string.
+		Returns 'NO_DATA_UNICODE' is a fuel type cannot be identified.
 
 	"""
 
@@ -620,7 +630,6 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 	elif isinstance(fuel_instance, unicode):
 		fuel_instance_u = fuel_instance
 
-	#fuel_instance_list = fuel_instance_u.split("/"," y ")
 	fuel_instance_list = re.split(delimiter_pattern,fuel_instance)
 	fuel_instance_list_clean = [f.strip() for f in fuel_instance_list]
 	fuel_set = NO_DATA_SET.copy()
@@ -628,15 +637,21 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 		if fuel_instance_u == NO_DATA_UNICODE:
 			continue
 		identified = False
-		for fuel_primary_name, fuel_synonyms in fuel_thesaurus.iteritems():
+		for fuel_standard_name, fuel_synonyms in fuel_thesaurus.iteritems():
 			if fuel in fuel_synonyms:
-				fuel_set.add(fuel_primary_name)
+				fuel_set.add(fuel_standard_name)
 				identified = True
 				break
 		if not identified:
 			print(u"-Error: Couldn't identify fuel type {0}".format(fuel_instance_u))
 
-	return fuel_set
+	if as_set:
+		# Return entire set (for other/secondary fuels)
+		return fuel_set
+
+	else:
+		# Return string of a single fuel (for primary fuel)
+		return fuel_set.pop()
 
 ### HEADER NAMES ###
 
@@ -880,7 +895,7 @@ def estimate_generation(powerplant_dictionary, total_generation_file=GENERATION_
 		if capacity == None:			# TODO: catch these errors; should not occur
 			continue
 		try:
-			fuel = next(iter(plant.fuel))   # TODO: deal with multi-fuel plants better
+			fuel = plant.primary_fuel  
 		except:
 			continue
 
@@ -909,7 +924,7 @@ def estimate_generation(powerplant_dictionary, total_generation_file=GENERATION_
 		if capacity == None:  # TODO: catch these errors; should not occur
 			continue
 		try:
-			fuel = next(iter(plant.fuel))  # TODO: deal with multi-fuel plants better
+			fuel = plant.primary_fuel  
 		except:
 			continue
 		try:
@@ -1085,18 +1100,20 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		ret['geolocation_source'] = powerplant.coord_source.encode(UNICODE_ENCODING)
 		ret['commissioning_year'] = powerplant.commissioning_year
 		# handle fuel
-		fuel_list = list(powerplant.fuel)
-		if len(fuel_list) > 1:
-			if fuel_list[0] == u'Other':
-				fuel_list.pop(0)
-				fuel_list.append(u'Other')	# rotate "Other" to the end
-			if fuel_list[0] == u'Storage':
-				fuel_list.pop(0)
-				fuel_list.append(u'Storage') # rotate "Storage" to the end
-		for i, f in enumerate(fuel_list):
-			if i == 4:
+		ret['primary_fuel'] = powerplant.primary_fuel
+		other_fuel_list = list(powerplant.other_fuel)
+		if len(other_fuel_list) > 1:
+			if other_fuel_list[0] == u'Other':
+				other_fuel_list.pop(0)
+				other_fuel_list.append(u'Other')	# rotate "Other" to the end
+			if other_fuel_list[0] == u'Storage':
+				other_fuel_list.pop(0)
+				other_fuel_list.append(u'Storage') # rotate "Storage" to the end
+		for i, f in enumerate(other_fuel_list):
+			if i == 3: # keep 3 "other" fuels
 				break
-			ret['fuel{0}'.format(i+1)] = f
+			ret['other_fuel{0}'.format(i+1)] = f
+		# handle generation
 		for year in range(2013, 2017):
 			gwh = annual_generation(powerplant.generation, year)
 			ret['generation_gwh_{0}'.format(year)] = gwh
@@ -1111,10 +1128,10 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"capacity_mw",
 		"latitude",
 		"longitude",
-		"fuel1",
-		"fuel2",
-		"fuel3",
-		"fuel4",
+		"primary_fuel",
+		"other_fuel1",
+		"other_fuel2",
+		"other_fuel3",
 		"commissioning_year",
 		"owner",
 		"source",
@@ -1189,14 +1206,14 @@ def read_csv_file_to_dict(filename):
 			except:
 				row['year_of_capacity_data'] = None
 			# check if fuels are empty strings
-			if not row['fuel1']:
-				row['fuel1'] = None
-			if not row['fuel2']:
-				row['fuel2'] = None
-			if not row['fuel3']:
-				row['fuel3'] = None
-			if not row['fuel4']:
-				row['fuel4'] = None
+			if not row['primary_fuel']:
+				row['primary_fuel'] = None
+			if not row['other_fuel1']:
+				row['other_fuel1'] = None
+			if not row['other_fuel2']:
+				row['other_fuel2'] = None
+			if not row['other_fuel3']:
+				row['other_fuel3'] = None
 			# check if annual generation data are empty
 			if not row['generation_gwh_2013']:
 				row['generation_gwh_2013'] = None
@@ -1259,10 +1276,10 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						capacity_mw REAL,
 						latitude REAL,
 						longitude REAL,
-						fuel1 TEXT,
-						fuel2 TEXT,
-						fuel3 TEXT,
-						fuel4 TEXT,
+						primary_fuel TEXT,
+						other_fuel1 TEXT,
+						other_fuel2 TEXT,
+						other_fuel3 TEXT,
 						commissioning_year TEXT,
 						owner TEXT,
 						source TEXT,
@@ -1289,10 +1306,10 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['capacity_mw'],
 				p['latitude'],
 				p['longitude'],
-				p['fuel1'],
-				p['fuel2'],
-				p['fuel3'],
-				p['fuel4'],
+				p['primary_fuel'],
+				p['other_fuel1'],
+				p['other_fuel2'],
+				p['other_fuel3'],
 				p['commissioning_year'],
 				p['owner'],
 				p['source'],

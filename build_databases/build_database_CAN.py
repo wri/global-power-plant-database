@@ -105,10 +105,10 @@ for i in xrange(1, sheet.nrows):
         owner = pw.NO_DATA_UNICODE
 
     try:
-        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+        primary_fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set=False)
     except:
         print(u"-Error: Can't read fuel for plant with name {0}".format(name))
-        fuel = pw.NO_DATA_SET
+        primary_fuel = pw.NO_DATA_UNICODE
 
     try:
         capacity = float(row[capacity_col])
@@ -144,7 +144,7 @@ for i in xrange(1, sheet.nrows):
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_owner=owner, plant_cap_year=data_date,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel, plant_capacity=capacity,
         plant_source=SOURCE_NAME_1, plant_source_url=SOURCE_URL_1)
     plants_dictionary[idnr] = new_plant
 
@@ -201,10 +201,10 @@ for i in xrange(1, sheet.nrows):
         owner = pw.NO_DATA_UNICODE
 
     try:
-        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+        primary_fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set=False)
     except:
         print(u"-Error: Can't read fuel for plant with name {0}".format(name))
-        fuel = pw.NO_DATA_SET
+        primary_fuel = pw.NO_DATA_UNICODE
 
     try:
         latitude = float(row[latitude_col])
@@ -234,7 +234,7 @@ for i in xrange(1, sheet.nrows):
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_owner=owner, plant_cap_year=data_date,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel, plant_capacity=capacity,
         plant_source=SOURCE_NAME_1, plant_source_url=SOURCE_URL_2)
     plants_dictionary[idnr] = new_plant
 
@@ -283,10 +283,10 @@ with open(FUSION_TABLE_FILE,'rU') as f:
         except:
             print(u"-Error: Can't read capacity for plant {0}; value: {1}".format(name, row[capacity_col]))
         try:
-            fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+            primary_fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set = False)
         except:
             print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-            fuel = pw.NO_DATA_SET
+            primary_fuel = pw.NO_DATA_UNICODE
         try:
             latitude = float(row[latitude_col])
             longitude = float(row[longitude_col])
@@ -345,7 +345,7 @@ with open(FUSION_TABLE_FILE,'rU') as f:
         new_location = pw.LocationObject(location, latitude, longitude)
         new_plant = pw.PowerPlant(plant_idnr=idnr_full, plant_name=name, plant_country=COUNTRY_NAME,
                     plant_location=new_location, plant_coord_source=geolocation_source_string,
-                    plant_fuel=fuel, plant_capacity=capacity,
+                    plant_primary_fuel=primary_fuel, plant_capacity=capacity,
                     plant_owner=owner, plant_generation=generation,
                     plant_source=source, plant_source_url=url,
                     plant_commissioning_year=commissioning_year)

@@ -49,3 +49,6 @@ residuos forestoindustriales
 straw
 Bagazo de Caña
 Biogás
+Biodiesel
+Thermal Gasifier
+

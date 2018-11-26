@@ -1,162 +1,162 @@
 Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
 1019149,GDK Mellach,Natural Gas,,OCGT,,838,1986,Verbund,,,727.746,,,,,,,,,,,Verbund,http://www.verbund.com/pp/en/thermal-power-plant/mellach-district-heating-plant,,,,,,,,,,,,Austria,,
 1019150,Dürnrohr,Coal,Natural Gas,Sub-critical Thermal,,392,1987,Verbund,,,799.969,,,,,,,,,,To be mothballed in 2017,Verbund,file:///C:/Users/aaron.kressig/Downloads/TAUSCHITZ%20study%20on%20combined%20cycle%20Graz.pdf,,,,,,,,,,,,Austria,,
-1005151,Altenwörth,Hydro,,Run-of-River,,328,1976,Verbund,,,"1,968",,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005152,Annabrücke,Hydro,,Run-of-River,,90,1981,Verbund,,,390,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005156,Bodensdorf-Mur,Hydro,,Run-of-River,,7,1982,Verbund,,,34,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1005157,Bodensdorf-Paal,Hydro,,Dam with Reservoir,,27,1982,Verbund,,,86,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005172,Garsten-St. Ulrich,Hydro,,Run-of-River,,38,1967,Verbund,,,163,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005173,Gemeinschaftskraftwerk Inn,Hydro,,Run-of-River,,89,,Verbund,,,414,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005175,Gössendorf,Hydro,,Run-of-River,,19,2012,Verbund,,,89,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005176,Gralla,Hydro,,Run-of-River,,15,1964-2012,Verbund,,,72,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005178,Graz Puntigam,Hydro,,Run-of-River,,16,,Verbund,,,74,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005180,Gries,Hydro,,Run-of-River,,9,,Verbund,,,42,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005181,Großraming,Hydro,,Run-of-River,,72,1950,Verbund,,,271,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005182,Gstatterboden,Hydro,,Run-of-River,,2,2009,Verbund,,,7,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005183,Gunggl,Hydro,,Run-of-River,,4,1992,Verbund,,,7,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1005184,Häusling,Hydro,,Pumped Storage,,360,1988,Verbund,,,175,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005189,Kalsdorf,Hydro,,Run-of-River,,19,2013,Verbund,,,81,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005196,Kolbnitz drinking,Hydro,,Run-of-River,,1,2005,Verbund,,,0,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005202,Lavamünd,Hydro,,Run-of-River,,28,1949,Verbund,,,156,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005208,Malta Primary school,Hydro,,Run-of-River,,41,1979,Verbund,,,120,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005213,Mühldorf,Hydro,,Run-of-River,,1,1925,Verbund,,,2,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005214,Mühlrading,Hydro,,Run-of-River,,25,1948,Verbund,,,112,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005226,Pöls,Hydro,,Run-of-River,,2,1904,Verbund,,,9,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005228,Ramsaubach,Hydro,,Run-of-River,,1,1985,Verbund,,,4,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1005229,Reißeck years Memory,Hydro,,Dam with Reservoir,,68,1962,Verbund,,,55,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1005230,Reißeck days storage,Hydro,,Dam with Reservoir,,23,1953,Verbund,,,62,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1005234,Roßhag,Hydro,,Pumped Storage,,231,1972,Verbund,,,313,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005236,Schärding-Neuhaus,Hydro,,Run-of-River,,96,1966,Verbund,,,542,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1005241,Sölk,Hydro,,Dam with Reservoir,,61,1978,Verbund,,,206,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005242,pitch,Hydro,,Run-of-River,,13,1982,Verbund,,,67,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005250,Stübing,Hydro,,Run-of-River,,12,,Verbund,,,58,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005251,Talbach,Hydro,,Run-of-River,,1,1897,Verbund,,,3,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005252,Teigitschmühle,Hydro,,Run-of-River,,1,1926,Verbund,,,2,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005259,Vordernberg,Hydro,,Run-of-River,,1,1987,Verbund,,,2,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005263,Weinzödl,Hydro,,Run-of-River,,16,1982,Verbund,,,63,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
-1005272,Ybbs 2020 - Turbine renewal,Hydro,,Run-of-River,,18,,Verbund,,,60,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1023524,Wind Park Hollern,Wind,,Onshore Wind,,18,2004,Verbund,,,19,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
 1019152,Kopswerk,Hydro,,Pumped Storage,,245,1969,Vorarlberge Illwerke AG,,,,,,,,,,,,,,Vorarlberger Illwerke AG,https://www.illwerke.at/kopswerk-i.htm,,,,,,,,,,,,Austria,,
 1019154,Latschauwerk,Hydro,,Pumped Storage,,9,1950,Vorarlberge Illwerke AG,,,,,,,,,,,,,,Vorarlberger Illwerke AG,https://www.illwerke.at/latschauwerk.htm,,,,,,,,,,,,Austria,,
 1019157,Rifawerk,Hydro,,Pumped Storage,,7,1969,Vorarlberge Illwerke AG,,,,,,,,,,,,,,Vorarlberger Illwerke AG,https://www.illwerke.at/rifawerk.htm,,,,,,,,,,,,Austria,,
 1019144,Purkersdorf,Biomass,,Sub-critical Thermal,,4,2004,Wien Energie,,,5,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/channelId/-51554,,,,,,,,,,,,Austria,,
 1019145,Simmering,Biomass,,Sub-critical Thermal,,66,,Wien Energie,,,470,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51543,,,,,,,,,,,,Austria,,
-1019131,Gars,Hydro,,Run-of-River,,25,1938,Wien Energie,,,149.4,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51545,,,,,,,,,,,,Austria,,
-1019133,Perach,Hydro,,Run-of-River,,19.4,1977,Wien Energie,,,128,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51547,,,,,,,,,,,,Austria,,
-1019134,Rosenheim,Hydro,,Run-of-River,,35.1,1960,Wien Energie,,,176.5,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51548,,,,,,,,,,,,Austria,,
-1019135,Stammham,Hydro,,Run-of-River,,23.2,1955,Wien Energie,,,153.3,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51549,,,,,,,,,,,,Austria,,
-1019136,Tuefelsbruck,Hydro,,Run-of-River,,25,1938,Wien Energie,,,144.2,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51550,,,,,,,,,,,,Austria,,
 1019137,Töging,Hydro,,Dam with Reservoir,,85.2,1924,Wien Energie,,,557.2,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51551,,,,,,,,,,,,Austria,,
-1019138,Wasserburg,Hydro,,Run-of-River,,24.1,1938,Wien Energie,,,119,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51552,,,,,,,,,,,,Austria,,
 1019139,Glizendorf,Wind,,Onshore Wind,,18.5,2012,Wien Energie,,,44,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51542,,,,,,,,,,,,Austria,,
 1019140,Levél ,Wind,,Onshore Wind,,24,2008,Wien Energie,,,53,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51543,,,,,,,,,,,,Austria,,
 1019141,Pottendorf,Wind,,Onshore Wind,,43,2015,Wien Energie,,,94.4,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51544,,,,,,,,,,,,Austria,,
 1019142,Stiengriel,Wind,,Onshore Wind,,24,2005,Wien Energie,,,34,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51545,,,,,,,,,,,,Austria,,
 1019143,Unterlaa Ost und West ,Wind,,Onshore Wind,,4,2005,Wien Energie,,,7,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51546,,,,,,,,,,,,Austria,,
-1005149,Abwinden-Asten,Hydro,,Run-of-River,,168,1980,Verbund,,,995,,,,,,,,48.24798,14.4305,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005154,Aschach,Hydro,,Run-of-River,,287,1964,Verbund,,,"1,686",,,,,,,,48.3853,14.023,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005155,Bischofshofen,Hydro,,Run-of-River,,16,1986,Verbund,,,70,,,,,,,,47.407,13.2205,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005166,Feistritz-Ludmannsdorf,Hydro,,Run-of-River,,88,1968,Verbund,,,354,,,,,,,,46.5347,14.1712,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005167,Ferlach Maria Rain,Hydro,,Run-of-River,,75,1975,Verbund,,,318,,,,,,,,46.5462,14.2985,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005170,Funsingau,Hydro,,Dam with Reservoir,,25,1968,Verbund,,,27,,,,,,,,47.2354,12.05826,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005174,Gerlos,Hydro,,Dam with Reservoir,,200,1949,Verbund,,,320,,,,,,,,47.23417,11.89972,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005179,Greifenstein,Hydro,,Run-of-River,,293,1985,Verbund,,,"1,717",,,,,,,,48.3553,16.2424,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005188,Jochenstein,Hydro,,Run-of-River,,132,1956,Verbund,,,850,,,,,,,,48.5184,13.7076,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005190,Kaprun main stage,Hydro,,Dam with Reservoir,,240,1953,Verbund,,,502,,,,,,,,47.2591,12.7389,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005191,Kaprun Limberg II,Hydro,,Pumped Storage,,480,2011,Verbund,,,0,,,,,,,,47.1985,12.7223,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005192,Kaprun Oberstufe,Hydro,,Pumped Storage,,113,1956,Verbund,,,150,,,,,,,,47.1968,12.71922,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005194,Klammsee,Hydro,,Run-of-River,,1,1947,Verbund,,,3,,,,,,,,47.2591,12.7389,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005197,Kreuzbergmaut,Hydro,,Run-of-River,,18,1996,Verbund,,,80,,,,,,,,47.4412,13.2108,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005198,Kreuzeck days storage,Hydro,,Dam with Reservoir,,45,1960,Verbund,,,163,,,,,,,,46.8727,13.3117,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005206,Malta main stage,Hydro,,Pumped Storage,,730,1979,Verbund,,,618,,,,,,,,47.0659,13.3539,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005207,Malta Secondary school,Hydro,,Pumped Storage,,120,1979,Verbund,,,37,,,,,,,,47.0659,13.3539,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005210,Mayrhofen,Hydro,,Dam with Reservoir,,355,1977,Verbund,,,695,,,,,,,,47.158065,11.850133,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005211,Melk,Hydro,,Run-of-River,,187,1982,Verbund,,,"1,222",,,,,,,,48.2232,15.3042,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005219,Ottensheim-Wilhering,Hydro,,Run-of-River,,179,1975,Verbund,,,"1,135",,,,,,,,48.31663,14.1512,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005222,Paternion,Hydro,,Run-of-River,,24,1988,Verbund,,,95,,,,,,,,46.72089,13.6453,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005232,Rosegg-St. James,Hydro,,Run-of-River,,80,1974,Verbund,,,338,,,,,,,,46.5696,14.0268,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005239,Schwabeck,Hydro,,Run-of-River,,79,1943,Verbund,,,378,,,,,,,,46.658,14.8726,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005240,Schwarzach,Hydro,,Dam with Reservoir,,120,1960,Verbund,,,482,,,,,,,,47.3152,13.1389,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005244,St. Johann,Hydro,,Run-of-River,,16,1991,Verbund,,,71,,,,,,,,47.33856,13.1974,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005247,St. Veit,Hydro,,Run-of-River,,16,1989,Verbund,,,67,,,,,,,,47.32135,13.1744,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005255,Tuxbach,Hydro,,Run-of-River,,1,1930,Verbund,,,3,,,,,,,,47.1485,11.8225,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005256,Low Tuxbach - Small power plant Stillupp,Hydro,,Run-of-River,,2,,Verbund,,,0,,,,,,,,47.1485,11.8225,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005257,Urreiting,Hydro,,Run-of-River,,16,1986,Verbund,,,76,,,,,,,,47.37485,13.2101,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005258,Villach,Hydro,,Run-of-River,,25,1984,Verbund,,,100,,,,,,,,46.6329,13.8294,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005260,Wallnerau Salzach stage,Hydro,,Run-of-River,,13,1990,Verbund,,,38,,,,,,,,47.316,13.14095,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005262,Wallsee-Mitterkirchen,Hydro,,Run-of-River,,210,1969,Verbund,,,"1,319",,,,,,,,48.16656,14.6953,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005265,Werfen-Pfarrwerfen,Hydro,,Run-of-River,,16,2009,Verbund,,,82,,,,,,,,47.4698,13.1945,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1005267,Vienna-Freudenau,Hydro,,Run-of-River,,172,1999,Verbund,,,"1,052",,,,,,,,48.1766,16.4814,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1018682,Ybbs-Persenbeug,Hydro,,Run-of-River,,236,1960,Verbund,,,"1,136",,,,,,,,48.18916,15.0682,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005268,Wind Park Bruck an der Leitha,Wind,,Onshore Wind,,9,2000,Verbund,,,15,,,,,,,,48.0338,16.7264,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005269,Windpark Bruck-Göttlesbrunn,Wind,,Onshore Wind,,21,2015,Verbund,,,0,,,,,,,,48.095,16.89,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005270,Wind Park Hollern II,Wind,,Onshore Wind,,15,2014,Verbund,,,37,,,,,,,,48.09,16.844,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005270,Wind Park Petronell-Carnuntum,Wind,,Onshore Wind,,22,2004,Verbund,,,47,,,,,,,,48.09,16.844,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
 1005271,Wind Park Petronell-Carnuntum II,Wind,,Onshore Wind,,21,,Verbund,,,53,,,,,,,,48.09,16.844,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
-1019132,Neuötting,Hydro,,Run-of-River,,26.1,1951,Wien Energie,,,159,,,,,,,,40.1247,-8.7751,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51546,,,,,,,,,,,,Austria,,GEODB
-1005150,Altenmarkt,Hydro,,Run-of-River,,26,1960,Verbund,,,166,,,,,,,,46.7666667,15.55,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
 1005153,Arnstein,Hydro,,Dam with Reservoir,,30,1925,Verbund,,,50,,,,,,,,47.0166667,15.1666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005160,Dionysen,Hydro,,Run-of-River,,16,1949,Verbund,,,86,,,,,,,,47.4166667,15.2833333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005165,Erzbach,Hydro,,Run-of-River,,1,1986,Verbund,,,6,,,,,,,,47.6,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005168,Fisching,Hydro,,Run-of-River,,22,1994,Verbund,,,74,,,,,,,,47.1666667,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005169,Friesach,Hydro,,Run-of-River,,12,1998,Verbund,,,60,,,,,,,,47.1666667,15.3333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005171,Gabersdorf,Hydro,,Run-of-River,,14,1974,Verbund,,,68,,,,,,,,46.7772222,15.5841667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005177,Gratkorn,Hydro,,Run-of-River,,11,,Verbund,,,54,,,,,,,,47.1333333,15.35,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
 1005185,Hieflau,Hydro,,Dam with Reservoir,,63,1956-2009,Verbund,,,388,,,,,,,,47.6,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005186,Hieflau-Erzbach,Hydro,,Run-of-River,,1,1956,Verbund,,,1,,,,,,,,47.6,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005193,Kellerberg,Hydro,,Run-of-River,,25,1985,Verbund,,,96,,,,,,,,46.67,13.6886111,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005195,Klaus,Hydro,,Run-of-River,,20,1975,Verbund,,,74,,,,,,,,47.83136545,14.15717125,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005199,Krippau,Hydro,,Run-of-River,,30,1965,Verbund,,,174,,,,,,,,47.6833333,14.7,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005200,Landl,Hydro,,Run-of-River,,25,1967,Verbund,,,136,,,,,,,,47.65,14.7166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005201,Laufnitzdorf,Hydro,,Run-of-River,,18,1931,Verbund,,,121,,,,,,,,47.3,15.3166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005203,Lebring,Hydro,,Run-of-River,,20,1988,Verbund,,,84,,,,,,,,46.8522222,15.5383333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005204,Leoben,Hydro,,Run-of-River,,10,2005,Verbund,,,50,,,,,,,,47.3833333,15.1,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005205,Losenstein,Hydro,,Run-of-River,,39,1962,Verbund,,,170,,,,,,,,47.92427988,14.4367218,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005209,Mandling,Hydro,,Run-of-River,,6,1985,Verbund,,,24,,,,,,,,47.4,13.5666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005212,Mellach run power plant,Hydro,,Run-of-River,,16,1985,Verbund,,,74,,,,,,,,46.8833333,15.5166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005215,Niklai,Hydro,,Run-of-River,,2,1960,Verbund,,,7,,,,,,,,46.8166667,13.3166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005216,Nussdorf near Vienna,Hydro,,Run-of-River,,5,2005,Verbund,,,28,,,,,,,,47.2166667,14.4833333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005218,Obervogau,Hydro,,Run-of-River,,13,1978,Verbund,,,60,,,,,,,,46.745,15.5847222,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005223,Peggau,Hydro,,Run-of-River,,13,1965,Verbund,,,84,,,,,,,,47.2,15.35,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005224,Pernegg,Hydro,,Run-of-River,,22,2013,Verbund,,,121,,,,,,,,47.35978671,15.34236431,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005225,Pichlern,Hydro,,Run-of-River,,2,2005,Verbund,,,13,,,,,,,,47.65,13.6666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005227,Rabenstein,Hydro,,Run-of-River,,14,1987,Verbund,,,65,,,,,,,,47.35,13.6833333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005231,Retznei,Hydro,,Run-of-River,,1,1992,Verbund,,,5,,,,,,,,46.7333333,15.5666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005233,Rosenau,Hydro,,Run-of-River,,34,1953,Verbund,,,146,,,,,,,,48.48902241,14.62881088,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005238,Schonau,Hydro,,Run-of-River,,30,1972,Verbund,,,123,,,,,,,,48.39456162,14.73017693,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005243,St. Georgen,Hydro,,Run-of-River,,6,1985,Verbund,,,32,,,,,,,,47.5333333,14.3666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
 1005245,St. Martin,Hydro,,Dam with Reservoir,,10,1965,Verbund,,,16,,,,,,,,47.44666502,15.28490067,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005246,St. Pantaleon,Hydro,,Run-of-River,,52,1966,Verbund,,,262,,,,,,,,48.00761113,12.89417267,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005248,Staning,Hydro,,Run-of-River,,43,1946,Verbund,,,203,,,,,,,,48.10072522,14.45680618,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005249,Steinfeld,Hydro,,Run-of-River,,1,1963,Verbund,,,1,,,,,,,,46.7655556,13.2716667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005253,Ternberg,Hydro,,Run-of-River,,40,1949,Verbund,,,170,,,,,,,,47.9333333,14.35,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005254,Triebenbach,Hydro,,Run-of-River,,10,1995,Verbund,,,42,,,,,,,,47.5,14.4666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005261,Wallnerau underwater stage,Hydro,,Run-of-River,,5,1989,Verbund,,,21,,,,,,,,47.3833333,12.6,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005264,Weissenegg,Hydro,,Run-of-River,,1,1985,Verbund,,,6,,,,,,,,46.8166667,15.8666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
-1005266,Weyer,Hydro,,Run-of-River,,37,1969,Verbund,,,160,,,,,,,,48.14650327,14.1176033,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
 1019161,Walgauwerk,Hydro,,Pumped Storage,,86,1984,Vorarlberge Illwerke AG,,,,,,,,,,,47.19199086,9.681497812,,Vorarlberger Illwerke AG,https://www.illwerke.at/walgauwerk.htm,,,,,,,,,,,,Austria,,CARMA
 1019151,Werndorf,Oil,,Sub-critical Thermal,,246,,Austrian Thermal power,,,0,2015,,,,,,,,,,Energie AG,http://www.energieag.at/eag_at/resources/595372694787137362_954827377953737077_8fJ7tSkK.pdf,ENTSOE (for capacity and generation),,,,,,,,,,,Austria,,
-1019162,Riedersbach,Coal,,Sub-critical thermal,,150,1986,Energie AG Oberösterreich,,,290.085,2015,,,,,,,,,,Energie AG,http://www.energieag.at/eag_at/resources/595372694787137362_954827377953737077_8fJ7tSkK.pdf,ENTSOE (for capacity and generation),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,Austria,,
 1019148,Mellach,Natural Gas,,CCGT,,838,2011,Verbund,,,727.75,2015,,,,,,,,,,Verbund,http://www.verbund.com/pp/en/thermal-power-plant/mellach-ccgt,ENTSOE (for capacity and generation),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,Austria,,
 1019163,Timelkam,Natural Gas,,CCGT,,400,2008,Energie AG Oberösterreich,,,452,2015,,,,,,0.587,48.0122,13.5895,,Energie AG,http://www.energieag.at/eag_at/resources/595372694787137362_954827377953737077_8fJ7tSkK.pdf,ENTSOE (for capacity and generation),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,Austria,,GEODB
-1005910,KW Kühtai,Hydro,,Pumped storage,2x144.5,289,1981,TIWAG-Tiroler Wasserkraft AG,Operational,Kühtai,118.791,2016,,,,,,,47.2078,11.0057,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
 1005914,KW Silz,Hydro,,Dam with Reservoir,,500,1981,TIWAG-Tiroler Wasserkraft AG,Operational,Silz,128.53,2016,,,,,,,47.2696,10.9678,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
 1005908,KW Kaunertal,Hydro,,Dam with Reservoir,,392,1964,TIWAG-Tiroler Wasserkraft AG,Operational,Prutz,,2016,,,,,,,47.0678,10.6652,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
-1005905,KW Imst,Hydro,,Run-of-River,,89,1956,TIWAG-Tiroler Wasserkraft AG,Operational,Imsterberg,,2016,,,,,,,47.2122,10.7215,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
 1005907,KW Jenbach,Hydro,,Dam with Reservoir,,79,1926,TIWAG-Tiroler Wasserkraft AG,Operational,Jenbach,,2016,,,,,,,47.3932,11.7886,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
-1005900,KW Amlach,Hydro,,Run-of-River,,60,1989,TIWAG-Tiroler Wasserkraft AG,Operational,Amlach,,2016,,,,,,,46.8142,12.7618,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
 1019159,Rodundwerk II,Hydro,,Pumped Storage,,295,1976,Vorarlberge Illwerke AG,,,,,,,,,,,47.0847,9.8744,Rennovated in 2011,Vorarlberger Illwerke AG,https://www.illwerke.at/rodundwerk-ii.htm,,,,,,,,,,,,Austria,,WRI
-1005159,Braunau-Simbach,Hydro,,Run-of-River,,100,1954,Verbund,,,550,,,,,,,,48.244,13.006,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
 1019128,Freudenau Danube,Hydro,,Dam with Reservoir,,172,1998,Wien Energie,,,"1,050",,,,,,,,48.176391,16.481091,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/channelId/-51618,,,,,,,,,,,,Austria,,WRI
 1019153,Kopswerk II,Hydro,,Pumped Storage,,525,2008,Vorarlberge Illwerke AG,,,,,,,,,,,46.975,10.043,,Vorarlberger Illwerke AG,https://www.illwerke.at/kopswerk-2.htm,,,,,,,,,,,,Austria,,WRI
-1019129,Gaming,Hydro,,Run-of-River,,14,1926,Wien Energie,,,42,,,,,,,,48.1766,16.4813,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51541,,,,,,,,,,,,Austria,,WRI
 1019155,Lünerseewerk,Hydro,,Pumped Storage,,280,1958,Vorarlberge Illwerke AG,,,,,,,,,,,47.074,9.874,,Vorarlberger Illwerke AG,https://www.illwerke.at/lunerseewerk.htm,,,,,,,,,,,,Austria,,WRI
-1019130,Feldkirchen,Hydro,,Run-of-River,,38,1970,Wien Energie,,,200,,,,,,,,46.86383,13.33553,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51544,,,,,,,,,,,,Austria,,WRI
 1019158,Rodundwerk I,Hydro,,Pumped Storage,,198,1943-1952,Vorarlberge Illwerke AG,,,,,,,,,,,47.085,9.8813,,Vorarlberger Illwerke AG,https://www.illwerke.at/rodundwerk-i.htm,,,,,,,,,,,,Austria,,WRI
-1005164,Ering-Frauenstein,Hydro,,Run-of-River,,72,1943,Verbund,,,434,,,,,,,,48.2194,13.1600,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
-1005221,Passau-Ingling,Hydro,,Run-of-River,,86,1966,Verbund,,,505,,,,,,,,48.5536,13.4371,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
-1005217,Oberaudorf Ebbs,Hydro,,Run-of-River,,60,1992,Verbund,,,268,,,,,,,,47.6413,12.1989,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
-1019156,Obervermuntwerk,Hydro,,Dam with Resevoir,,30,1943,Vorarlberge Illwerke AG,,,,,,,,,,,46.9271,10.0539,,Vorarlberger Illwerke AG,https://www.illwerke.at/obervermuntwerk-i.htm,,,,,,,,,,,,Austria,,WRI
 1019160,Vermuntwerk,Hydro,,Pumped Storage,,157,1930-1939,Vorarlberge Illwerke AG,Operational,Partenen,,2016,,,,,,,46.96845,10.05986,,Vorarlberger Illwerke AG,https://www.illwerke.at/vermuntwerk.htm,,,,,,,,,,,,Austria,,WRI
 1019146,Donaustadt,Natural Gas,,CCGT,,395,2001,Wien Energie,,,"1,073.51",2015,,,,,,0.58,48.20,16.4633,To be mothballed in 2017,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/channelId/-51721,ENTSOE (for capacity and generation),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,Austria,,WRI
 1019147,Simmering,Natural Gas,,CCGT,,1272,2009,Wien Energie,,,"2,429.57",2015,,,,,,,48.1815,16.4334,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/channelId/-51719,ENTSOE (for capacity and generation),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,Austria,,WRI
+1005151,Altenwörth,Hydro,,Run of River,,328,1976,Verbund,,,"1,968",,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005152,Annabrücke,Hydro,,Run of River,,90,1981,Verbund,,,390,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005156,Bodensdorf-Mur,Hydro,,Run of River,,7,1982,Verbund,,,34,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005172,Garsten-St. Ulrich,Hydro,,Run of River,,38,1967,Verbund,,,163,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005173,Gemeinschaftskraftwerk Inn,Hydro,,Run of River,,89,,Verbund,,,414,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005175,Gössendorf,Hydro,,Run of River,,19,2012,Verbund,,,89,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005176,Gralla,Hydro,,Run of River,,15,1964-2012,Verbund,,,72,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005178,Graz Puntigam,Hydro,,Run of River,,16,,Verbund,,,74,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005180,Gries,Hydro,,Run of River,,9,,Verbund,,,42,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005181,Großraming,Hydro,,Run of River,,72,1950,Verbund,,,271,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005182,Gstatterboden,Hydro,,Run of River,,2,2009,Verbund,,,7,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005183,Gunggl,Hydro,,Run of River,,4,1992,Verbund,,,7,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005189,Kalsdorf,Hydro,,Run of River,,19,2013,Verbund,,,81,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005196,Kolbnitz drinking,Hydro,,Run of River,,1,2005,Verbund,,,0,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005202,Lavamünd,Hydro,,Run of River,,28,1949,Verbund,,,156,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005208,Malta Primary school,Hydro,,Run of River,,41,1979,Verbund,,,120,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005213,Mühldorf,Hydro,,Run of River,,1,1925,Verbund,,,2,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005214,Mühlrading,Hydro,,Run of River,,25,1948,Verbund,,,112,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005226,Pöls,Hydro,,Run of River,,2,1904,Verbund,,,9,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005228,Ramsaubach,Hydro,,Run of River,,1,1985,Verbund,,,4,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005236,Schärding-Neuhaus,Hydro,,Run of River,,96,1966,Verbund,,,542,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005242,pitch,Hydro,,Run of River,,13,1982,Verbund,,,67,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005250,Stübing,Hydro,,Run of River,,12,,Verbund,,,58,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005251,Talbach,Hydro,,Run of River,,1,1897,Verbund,,,3,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005252,Teigitschmühle,Hydro,,Run of River,,1,1926,Verbund,,,2,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005259,Vordernberg,Hydro,,Run of River,,1,1987,Verbund,,,2,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005263,Weinzödl,Hydro,,Run of River,,16,1982,Verbund,,,63,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1005272,Ybbs 2020 - Turbine renewal,Hydro,,Run of River,,18,,Verbund,,,60,,,,,,,,,,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,
+1019131,Gars,Hydro,,Run of River,,25,1938,Wien Energie,,,149.4,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51545,,,,,,,,,,,,Austria,,
+1019133,Perach,Hydro,,Run of River,,19.4,1977,Wien Energie,,,128,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51547,,,,,,,,,,,,Austria,,
+1019134,Rosenheim,Hydro,,Run of River,,35.1,1960,Wien Energie,,,176.5,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51548,,,,,,,,,,,,Austria,,
+1019135,Stammham,Hydro,,Run of River,,23.2,1955,Wien Energie,,,153.3,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51549,,,,,,,,,,,,Austria,,
+1019136,Tuefelsbruck,Hydro,,Run of River,,25,1938,Wien Energie,,,144.2,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51550,,,,,,,,,,,,Austria,,
+1019138,Wasserburg,Hydro,,Run of River,,24.1,1938,Wien Energie,,,119,,,,,,,,,,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51552,,,,,,,,,,,,Austria,,
+1005149,Abwinden-Asten,Hydro,,Run of River,,168,1980,Verbund,,,995,,,,,,,,48.24798,14.4305,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005154,Aschach,Hydro,,Run of River,,287,1964,Verbund,,,"1,686",,,,,,,,48.3853,14.023,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005155,Bischofshofen,Hydro,,Run of River,,16,1986,Verbund,,,70,,,,,,,,47.407,13.2205,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005166,Feistritz-Ludmannsdorf,Hydro,,Run of River,,88,1968,Verbund,,,354,,,,,,,,46.5347,14.1712,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005167,Ferlach Maria Rain,Hydro,,Run of River,,75,1975,Verbund,,,318,,,,,,,,46.5462,14.2985,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005179,Greifenstein,Hydro,,Run of River,,293,1985,Verbund,,,"1,717",,,,,,,,48.3553,16.2424,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005188,Jochenstein,Hydro,,Run of River,,132,1956,Verbund,,,850,,,,,,,,48.5184,13.7076,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005194,Klammsee,Hydro,,Run of River,,1,1947,Verbund,,,3,,,,,,,,47.2591,12.7389,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005197,Kreuzbergmaut,Hydro,,Run of River,,18,1996,Verbund,,,80,,,,,,,,47.4412,13.2108,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005211,Melk,Hydro,,Run of River,,187,1982,Verbund,,,"1,222",,,,,,,,48.2232,15.3042,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005219,Ottensheim-Wilhering,Hydro,,Run of River,,179,1975,Verbund,,,"1,135",,,,,,,,48.31663,14.1512,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005222,Paternion,Hydro,,Run of River,,24,1988,Verbund,,,95,,,,,,,,46.72089,13.6453,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005232,Rosegg-St. James,Hydro,,Run of River,,80,1974,Verbund,,,338,,,,,,,,46.5696,14.0268,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005239,Schwabeck,Hydro,,Run of River,,79,1943,Verbund,,,378,,,,,,,,46.658,14.8726,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005244,St. Johann,Hydro,,Run of River,,16,1991,Verbund,,,71,,,,,,,,47.33856,13.1974,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005247,St. Veit,Hydro,,Run of River,,16,1989,Verbund,,,67,,,,,,,,47.32135,13.1744,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005255,Tuxbach,Hydro,,Run of River,,1,1930,Verbund,,,3,,,,,,,,47.1485,11.8225,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005256,Low Tuxbach - Small power plant Stillupp,Hydro,,Run of River,,2,,Verbund,,,0,,,,,,,,47.1485,11.8225,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005257,Urreiting,Hydro,,Run of River,,16,1986,Verbund,,,76,,,,,,,,47.37485,13.2101,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005258,Villach,Hydro,,Run of River,,25,1984,Verbund,,,100,,,,,,,,46.6329,13.8294,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005260,Wallnerau Salzach stage,Hydro,,Run of River,,13,1990,Verbund,,,38,,,,,,,,47.316,13.14095,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005262,Wallsee-Mitterkirchen,Hydro,,Run of River,,210,1969,Verbund,,,"1,319",,,,,,,,48.16656,14.6953,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005265,Werfen-Pfarrwerfen,Hydro,,Run of River,,16,2009,Verbund,,,82,,,,,,,,47.4698,13.1945,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1005267,Vienna-Freudenau,Hydro,,Run of River,,172,1999,Verbund,,,"1,052",,,,,,,,48.1766,16.4814,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1018682,Ybbs-Persenbeug,Hydro,,Run of River,,236,1960,Verbund,,,"1,136",,,,,,,,48.18916,15.0682,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,GEODB
+1019132,Neuötting,Hydro,,Run of River,,26.1,1951,Wien Energie,,,159,,,,,,,,40.1247,-8.7751,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51546,,,,,,,,,,,,Austria,,GEODB
+1005150,Altenmarkt,Hydro,,Run of River,,26,1960,Verbund,,,166,,,,,,,,46.7666667,15.55,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005160,Dionysen,Hydro,,Run of River,,16,1949,Verbund,,,86,,,,,,,,47.4166667,15.2833333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005165,Erzbach,Hydro,,Run of River,,1,1986,Verbund,,,6,,,,,,,,47.6,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005168,Fisching,Hydro,,Run of River,,22,1994,Verbund,,,74,,,,,,,,47.1666667,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005169,Friesach,Hydro,,Run of River,,12,1998,Verbund,,,60,,,,,,,,47.1666667,15.3333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005171,Gabersdorf,Hydro,,Run of River,,14,1974,Verbund,,,68,,,,,,,,46.7772222,15.5841667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005177,Gratkorn,Hydro,,Run of River,,11,,Verbund,,,54,,,,,,,,47.1333333,15.35,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005186,Hieflau-Erzbach,Hydro,,Run of River,,1,1956,Verbund,,,1,,,,,,,,47.6,14.7333333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005193,Kellerberg,Hydro,,Run of River,,25,1985,Verbund,,,96,,,,,,,,46.67,13.6886111,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005195,Klaus,Hydro,,Run of River,,20,1975,Verbund,,,74,,,,,,,,47.83136545,14.15717125,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005199,Krippau,Hydro,,Run of River,,30,1965,Verbund,,,174,,,,,,,,47.6833333,14.7,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005200,Landl,Hydro,,Run of River,,25,1967,Verbund,,,136,,,,,,,,47.65,14.7166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005201,Laufnitzdorf,Hydro,,Run of River,,18,1931,Verbund,,,121,,,,,,,,47.3,15.3166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005203,Lebring,Hydro,,Run of River,,20,1988,Verbund,,,84,,,,,,,,46.8522222,15.5383333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005204,Leoben,Hydro,,Run of River,,10,2005,Verbund,,,50,,,,,,,,47.3833333,15.1,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005205,Losenstein,Hydro,,Run of River,,39,1962,Verbund,,,170,,,,,,,,47.92427988,14.4367218,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005209,Mandling,Hydro,,Run of River,,6,1985,Verbund,,,24,,,,,,,,47.4,13.5666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005212,Mellach run power plant,Hydro,,Run of River,,16,1985,Verbund,,,74,,,,,,,,46.8833333,15.5166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005215,Niklai,Hydro,,Run of River,,2,1960,Verbund,,,7,,,,,,,,46.8166667,13.3166667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005216,Nussdorf near Vienna,Hydro,,Run of River,,5,2005,Verbund,,,28,,,,,,,,47.2166667,14.4833333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005218,Obervogau,Hydro,,Run of River,,13,1978,Verbund,,,60,,,,,,,,46.745,15.5847222,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005223,Peggau,Hydro,,Run of River,,13,1965,Verbund,,,84,,,,,,,,47.2,15.35,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005224,Pernegg,Hydro,,Run of River,,22,2013,Verbund,,,121,,,,,,,,47.35978671,15.34236431,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005225,Pichlern,Hydro,,Run of River,,2,2005,Verbund,,,13,,,,,,,,47.65,13.6666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005227,Rabenstein,Hydro,,Run of River,,14,1987,Verbund,,,65,,,,,,,,47.35,13.6833333,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005231,Retznei,Hydro,,Run of River,,1,1992,Verbund,,,5,,,,,,,,46.7333333,15.5666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005233,Rosenau,Hydro,,Run of River,,34,1953,Verbund,,,146,,,,,,,,48.48902241,14.62881088,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005238,Schonau,Hydro,,Run of River,,30,1972,Verbund,,,123,,,,,,,,48.39456162,14.73017693,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005243,St. Georgen,Hydro,,Run of River,,6,1985,Verbund,,,32,,,,,,,,47.5333333,14.3666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005246,St. Pantaleon,Hydro,,Run of River,,52,1966,Verbund,,,262,,,,,,,,48.00761113,12.89417267,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005248,Staning,Hydro,,Run of River,,43,1946,Verbund,,,203,,,,,,,,48.10072522,14.45680618,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005249,Steinfeld,Hydro,,Run of River,,1,1963,Verbund,,,1,,,,,,,,46.7655556,13.2716667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005253,Ternberg,Hydro,,Run of River,,40,1949,Verbund,,,170,,,,,,,,47.9333333,14.35,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005254,Triebenbach,Hydro,,Run of River,,10,1995,Verbund,,,42,,,,,,,,47.5,14.4666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005261,Wallnerau underwater stage,Hydro,,Run of River,,5,1989,Verbund,,,21,,,,,,,,47.3833333,12.6,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005264,Weissenegg,Hydro,,Run of River,,1,1985,Verbund,,,6,,,,,,,,46.8166667,15.8666667,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005266,Weyer,Hydro,,Run of River,,37,1969,Verbund,,,160,,,,,,,,48.14650327,14.1176033,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,CARMA
+1005905,KW Imst,Hydro,,Run of River,,89,1956,TIWAG-Tiroler Wasserkraft AG,Operational,Imsterberg,,2016,,,,,,,47.2122,10.7215,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
+1005900,KW Amlach,Hydro,,Run of River,,60,1989,TIWAG-Tiroler Wasserkraft AG,Operational,Amlach,,2016,,,,,,,46.8142,12.7618,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
+1005159,Braunau-Simbach,Hydro,,Run of River,,100,1954,Verbund,,,550,,,,,,,,48.244,13.006,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
+1019129,Gaming,Hydro,,Run of River,,14,1926,Wien Energie,,,42,,,,,,,,48.1766,16.4813,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51541,,,,,,,,,,,,Austria,,WRI
+1019130,Feldkirchen,Hydro,,Run of River,,38,1970,Wien Energie,,,200,,,,,,,,46.86383,13.33553,,Wien Energie,http://www.wienenergie.at/eportal3/ep/channelView.do/pageTypeId/67860/channelId/-51544,,,,,,,,,,,,Austria,,WRI
+1005164,Ering-Frauenstein,Hydro,,Run of River,,72,1943,Verbund,,,434,,,,,,,,48.2194,13.1600,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
+1005221,Passau-Ingling,Hydro,,Run of River,,86,1966,Verbund,,,505,,,,,,,,48.5536,13.4371,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
+1005217,Oberaudorf Ebbs,Hydro,,Run of River,,60,1992,Verbund,,,268,,,,,,,,47.6413,12.1989,,Verbund,http://www.verbund.com/pp/de/region/oesterreich,,,,,,,,,,,,Austria,,WRI
+1019162,Riedersbach,Coal,,Sub-critical Thermal,,150,1986,Energie AG Oberösterreich,,,290.085,2015,,,,,,,,,,Energie AG,http://www.energieag.at/eag_at/resources/595372694787137362_954827377953737077_8fJ7tSkK.pdf,ENTSOE (for capacity and generation),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,Austria,,
+1005910,KW Kühtai,Hydro,,Pumped Storage,2x144.5,289,1981,TIWAG-Tiroler Wasserkraft AG,Operational,Kühtai,118.791,2016,,,,,,,47.2078,11.0057,,Open Power System Data,http://data.open-power-system-data.org/,,,,,,,,,,,,Austria,,Open Power System Data
+1019156,Obervermuntwerk,Hydro,,Dam with Reservoir,,30,1943,Vorarlberge Illwerke AG,,,,,,,,,,,46.9271,10.0539,,Vorarlberger Illwerke AG,https://www.illwerke.at/obervermuntwerk-i.htm,,,,,,,,,,,,Austria,,WRI

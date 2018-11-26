@@ -93,3 +93,6 @@ DI
 Combustóleo
 diesel oil
 Bunker Oil
+Fuel Oil Secondary
+Oil fuel
+

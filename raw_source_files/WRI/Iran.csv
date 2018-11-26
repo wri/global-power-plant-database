@@ -1,5 +1,4 @@
 Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
-1008116,Aras,Hydro,,Dam,2,22,1971,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008118,Bainalood Korasan,Wind,,Onshore Wind,43,70,2004-2007,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008124,Chabahar,Natural Gas,,CCGT,5,96,2008,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008125,Chadormaloo,Natural Gas,,CCGT,1,40,2003,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
@@ -8,55 +7,30 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1008136,Foolad-Mobarke,Natural Gas,,CCGT,4,318,1991-2004,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008138,Ghaenet,Natural Gas,,CCGT,1,159,2008,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008140,Hasa,Natural Gas,,OCGT,3,126,1989,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008142,Iran Shahr,Oil,,Sub-Critical Thermal,4,256,1995-2003,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008143,Islam Abad(Isfahan),Natural Gas,,Sub-Critical Thermal,5,835,1969-1980,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008147,Kahnodje,Oil,,Sub-Critical Thermal,2,789,2007,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008166,Mollasadra,Hydro,,Dam,2,100,2007,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008171,Parandi,Natural Gas,,CCGT,6,954,2006,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008172,Pars,Natural Gas,,CCGT,2,318,2008,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008199,Taleghan,Hydro,,Dam,2,18,2006,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008201,Teraktorsaki,Natural Gas,,CCGT,2,20,1983,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008203,Vafarghan,Hydro,,Dam,2,10,1996,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008210,Zayandeh Rood,Hydro,,Dam,3,56,1970,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008160,Manjiil,Wind,,Wind Turbine,171,112,1994,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
 1008123,Bushehr,Natural Gas,,OCGT,3,75,1975-1993,South Fars Generation Management,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
-1008114,Ahwaz (ramiin),Oil,,Sub-Critical Thermal,8,1903,1980-1985,,Operational,,,,,,,,,,31.5027,48.883,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008115,Amir Kabir,Hydro,,Dam,2,90,1961,,Operational,,,,,,,,,,35.9564,51.089,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008117,Asalooyeh,Oil,,Sub-Critical Thermal,6,50,2007,,Operational,,,,,,,,,,27.4866,52.659,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008119,Bandar Abbas,Oil,,Sub-Critical Thermal,4,1280,1980-1985,,Operational,,,,,,,,,,27.1467,56.1153,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008120,Bandar Abbas,Natural Gas,,OCGT,2,50,2002,,Operational,,,,,,,,,,27.1467,56.1153,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008121,Besat,Oil,,Sub-Critical Thermal,3,247.5,1967-1968,,Operational,,,,,,,,,,35.6423,51.4273,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008122,Bistoon,Oil,,Sub-Critical Thermal,2,640,1995,,Operational,,,,,,,,,,34.3468,47.3575,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008129,Dez,Hydro,,Dam,8,520,1962,,Operational,,,,,,,,,,32.6053,48.464,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008132,Fajr Petroshimi,Natural Gas,,CCGT,5,585,2005,,Operational,,,,,,,,,,30.453,49.086,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008134,Fars,Natural Gas,,CCGT,9,1034,1995-2002,,Operational,,,,,,,,,,29.3587,52.6155,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008139,Gilan,Natural Gas,,CCGT,9,184,1992-1997,,Operational,,,,,,,,,,37.1586,49.6329,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008141,Hormozgan (Khalije Fars),Natural Gas,,CCGT,6,990,2004-2005,,Operational,,,,,,,,,,29.3587,52.6155,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008148,Kalan,Hydro,,Dam,3,115.5,1998,,Operational,,,,,,,,,,35.807,51.7914,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008151,Karoune 3,Hydro,,Dam,8,2000,2004-2005,,Operational,,,,,,,,,,31.8055,50.08934,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008152,Kazeroon,Natural Gas,,CCGT,9,1372,1994-2001,,Operational,,,,,,,,,,29.5633,51.696,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008153,Kerman,Natural Gas,,CCGT,12,1912,2001-2008,,Operational,,,,,,,,,,30.21,56.7932,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008154,Khohrang Dam,Hydro,,Dam,3,39,2004-2005,,Operational,,,,,,,,,,32.453,50.147,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008155,Khuy,Natural Gas,,CCGT,3,348,1997-2002,,Operational,,,,,,,,,,38.4051,44.911,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008158,Latyan,Hydro,,Dam,2,45,1969-1987,,Operational,,,,,,,,,,35.7898,51.6785,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008162,Mashhad,Natural Gas,,OCGT,5,327,1973-1974,,Operational,,,,,,,,,,36.2713,59.6508,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008163,Masjed Soleyman,Hydro,,Dam,8,2000,2002,,Operational,,,,,,,,,,32.029,49.399,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008165,Mobin Petroshimi,Natural Gas,,CCGT,6,738,2006,,Operational,,,,,,,,,,27.5546,52.55,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008167,Montazare Ghaem,Natural Gas,,CCGT,9,997,1992-2000,,Operational,,,,,,,,,,35.73,51.0055,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008168,Neishabour,Natural Gas,,CCGT,9,941,1994-2003,,Operational,,,,,,,,,,36.2804,58.7774,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008169,Neka (Shahid Salimi),Oil,,Sub-Critical Thermal,6,1779.6,1979-1981,,Operational,,,,,,,,,,36.8387,53.2593,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008173,Qom,Natural Gas,,CCGT,6,714,1993-1998,,Operational,,,,,,,,,,34.579,50.755,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008174,Razi Petroshimi,Natural Gas,,CCGT,4,252,1993,,Operational,,,,,,,,,,30.43574,49.1089,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008175,Rey,Natural Gas,,OCGT,31,128,1978-2007,,Operational,,,,,,,,,,35.5207,51.4078,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008178,Sahand,Oil,,Sub-Critical Thermal,2,650,2004-2005,,Operational,,,,,,,,,,37.424,46.013,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008179,Sahid Montazere Ghaem,Oil,,Sub-Critical Thermal,4,626,1971-1973,,Operational,,,,,,,,,,35.73,51.0,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008185,Shahid Mofateh,Oil,,Sub-Critical Thermal,4,100,1995-1997,,Operational,,,,,,,,,,35.128,48.852,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008187,Shahid Salimi,Natural Gas,,CCGT,3,435,1990-2006,,Operational,,,,,,,,,,36.8334,53.2521,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008189,Shariati,Natural Gas,,OCGT,6,60,1982-1983,,Operational,,,,,,,,,,36.2369,59.7324,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008189,Shariati,Natural Gas,,CCGT,3,346,1994-2003,,Operational,,,,,,,,,,36.2369,59.7324,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008190,Shazand,Oil,,Sub-Critical Thermal,4,1300,2000-2001,,Operational,,,,,,,,,,34.0,49.5,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008194,South Isfahan (Chehelsotoon),Natural Gas,,OCGT,6,418,2005-2006,,Operational,,,,,,,,,,32.258,51.527,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
-1008200,Tarasht,Natural Gas,,Sub-Critical Thermal,4,50,1959,,Operational,,,,,,,,,,35.724,51.3526,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008204,Yazd,Natural Gas,,OCGT,2,120,1998,,Operational,,,,,,,,,,31.9545,54.0658,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008205,Yazd,Solar,,CSP,1,17,2009,,Operational,,,,,,,,,,31.9545,54.0658,,TAVANIR,http://helioscsp.com/iran-yazd-integrated-solar-combined-cycle-power-station/,,,,,,,,,,,,Iran,,GEODB
 1008206,Yazd Combined-Cycle,Natural Gas,,CCGT,4,586,2000-2007,,Operational,,,,,,,,,,31.9545,54.0658,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
@@ -65,39 +39,28 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1008113,Abadan C.C.,Natural Gas,,CCGT,4,820,2002,,Operational,,,,,,,,,,30.402,48.358,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1008186,Shahid Rajaee,Natural Gas,Gas Oil,CCGT,4,2040,1994-1995,,Operational,,,,Dry Cooling,,,,,0.45,36.1595,50.2997,Complex has a 1040 CCGT plant and a 1000 MW thermal plant,TAVANIR,http://www.rajaeepowerplant.ir/en/node/443,,,,,,,400,,,,,Iran,,GEODB
 1008126,Chahbahar (Kenarak),oil,,OCGT,6,64,1978,,Operational,,,,,,,,,,25.2919,60.643,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008130,Dorood Zan Dam,Hydro,,Dam,2,10,1989,,Operational,,,,,,,,,,27.0516667,53.6208333,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008133,Farg Darab,Oil,,OCGT,3,4,2002,,Operational,,,,,,,,,,28.7519444,54.5444444,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008137,Ghaen,Oil,,OCGT,3,73.5,1988-1994,,Operational,,,,,,,,,,28.2013,58.4917,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008145,Jiroft,Hydro,,Dam,2,32,1977,,Operational,,,,,,,,,,28.678,57.7406,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008149,Kangan,Natural Gas,,OCGT,7,164,1995,,Operational,,,,,,,,,,28.8012,53.7733,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008156,Kish,Natural Gas,,OCGT,6,159,1992-2007,,Operational,,,,,,,,,,26.5577778,54.0194444,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008159,Lousan (Shahid Beheshti),Natural Gas,,OCGT,2,120,1977,,Operational,,,,,,,,,,36.620647,49.510686,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008161,Maroun,Hydro,,Dam,1,75,2004,,Operational,,,,,,,,,,30.5959,50.2417,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008164,Mess Sarcheshmeh,Natural Gas,,CCGT,7,154,1977,,Operational,,,,,,,,,,29.248841,57.217962,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008177,Sabalan,Natural Gas,,CCGT,4,696,2007-2008,,Operational,,,,,,,,,,37.2927778,48.3658333,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008181,Sefid Rood,Hydro,,Dam,5,87,1964,,Operational,,,,,,,,,,36.7434,49.4022,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008182,Semnan,Natural Gas,,OCGT,2,25,1999-2000,,Operational,,,,,,,,,,35.572914,53.397139,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008188,Shahid Zanbagh (Yazd),Oil,,OCGT,4,97,1977-1979,,Operational,,,,,,,,,,31.897222,54.3675,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008191,Shiraz,Natural Gas,,OCGT,8,195,1965-1981,,Operational,,,,,,,,,,29.6036,52.5388,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008193,Shoot-e-Moghan,Hydro,,Dam,2,13,2002,,Operational,,,,,,,,,,38.966944,48.073333,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008195,Sufian,Natural Gas,,OCGT,4,150,1984,,Operational,,,,,,,,,,38.08,46.2919,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008196,Tabriz,Oil,,Sub-Critical Thermal,2,736,1987-1990,,Operational,,,,,,,,,,38.08,46.2919,,TAVANIR,http://caspianbarrel.org/?p=35513,,,,,,,,,,,,Iran,,CARMA
 1008198,Tabriz Petroshimi,Natural Gas,,CCGT,3,70,1933,,Operational,,,,,,,,,,38.08,46.2919,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008208,Zarand,Oil,,Sub-Critical Thermal,2,60,1973,,Operational,,,,,,,,,,30.812709,56.563993,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
-1008211,Zobahan,Natural Gas,,Sub-Critical Thermal,5,162,1970-1978,,Operational,,,,,,,,,,32.657218,51.677608,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008212,Zobahan (gas),Natural Gas,,OCGT,2,139,1975,,Operational,,,,,,,,,,32.657218,51.677608,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
 1008197,Tabriz,Natural Gas,,OCGT,2,987,1978,,Operational,,,,,,,,,,38.0092666,46.0980642,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
 1008144,Jahrom,Natural Gas,,CCGT,6,954,2008,,Operational,,,,,,,,,,28.703306,53.545019,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
 1008180,Sanandaj,Natural Gas,,CCGT,4,636,2005-2006,,Operational,,,,,,,,,,35.3954,47.0306,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
-1008150,Karkheh,Hydro,,Dam,3,400,2002-2003,,Operational,,,,,,,,,,32.485757,48.134102,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
 1008135,Ferdosi C.C.,Natural Gas,,CCGT,6x159,954,2007,,Operational,,,,,,,,,,36.4481,59.4027,,TAVANIR,http://www.mapnagroup.com/fa/project/%D9%86%DB%8C%D8%B1%D9%88%DA%AF%D8%A7%D9%87-%DA%AF%D8%A7%D8%B2%DB%8C-%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C-boo/,,,,,,,,,,,,Iran,نیروگاه فردوسی,GEODB
 1008192,Shirvan,Natural Gas,,CCGT,,450,2011,TAVANIR,Operational,Shirvan,,,,,,,,,37.3397,58.0486,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1322812574.59/view,,,,,,,,,,,,Iran,,GEODB
 1008192,Shirvan,Natural Gas,,CCGT,6,954,2006,,Operational,,,,,,,,,,37.3397,58.0486,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
 1061133,Upper Gotvand,Hydro,,Dam with Reservoir,,1016,2012,Iran Water and Power Resources Development Company,Operational,,,,,,,,,,32.2607,48.92415,,Iran Water and Power Resources Development Company,http://en.iwpco.ir/Gotvand/default.aspx#,,,,,,,,,,,,Iran,,GEODB
 1008157,Koramshahr,Natural Gas,,CCGT,1,954,2008,,Operational,,,,,,,,,,30.34132,48.24244,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
 1008176,Rud'e Shur,Natural Gas,,OCGT,3,954,2006-2007,,Operational,,,,,,,,,,35.412997,50.90399,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
-1008183,Shahid Abbaspuor,Hydro,,Dam,8,2000,1971-2002,,Operational,,,,,,,,,,32.05489,49.60697,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
-1008184,Shahid M. Montazeri,Fuel Oil,,Sub-Critical Thermal,,1600,1985-1987,,Operational,Shahin Shahr,,,,,,,,,32.7952,51.49587,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,National Integrated Grid,,,,Iran,نیروگاه شهید محمد منتظری,WRI
 1008202,Touss,Natural Gas,,OCGT,4,600,2006,,Operational,Mashhad,,,Dry Cooling,,,,,,36.4464,59.41117,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,National Integrated Grid,,,,Iran,نیروگاه توس,WRI
 1008146,Kahak,Wind,,Wind Turbine,8,100,2014,,Operational,,,,,,,,,,36.130890,49.726174,,CDM,https://cdm.unfccc.int/Projects/DB/RINA1436349705.61/view,,,,,,,,,,,,Iran,,WRI
 1029939,Karoune 4,Hydro,,Dam with Reservoir,,765,2011,Iran Water and Power Resources Development Company,Operational,,,,,,,,,,31.6001,50.47096,,Iran Water and Power Resources Development Company,http://en.iwpco.ir/Karun4/default.aspx,,,,,,,,,,,,Iran,,WRI
@@ -123,3 +86,40 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1029956,Kharg Olefins,Natural Gas,,,,110,2009,Petrochemical Industries Development Management Company (PIDMCO),Operational,Kharg Island,,2012,,,,,,,29.2702,50.28895,,Namavaran Delvar Engineering & Construction,https://web.archive.org/web/20150907183954/http://www.ndec.ir/projects.htm,,,,,,,,,,,,Iran,,WRI
 1023916,Bushehr,Nuclear,,PWR,1,1000,2011,Nuclear Power Production and Development Company of Iran,Operational,,3198.24,2015,,,,,,,28.829807,50.885743,2015,IAEA,https://www.iaea.org/PRIS/CountryStatistics/ReactorDetails.aspx?current=310,,,,,,,,,,,,Iran,,WRI
 1008170,Orumia,Natural Gas,,OCGT,2,142,1981,,Operational,,,,,,,,,,37.3457,45.26506,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
+1008116,Aras,Hydro,,Dam with Reservoir,2,22,1971,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008166,Mollasadra,Hydro,,Dam with Reservoir,2,100,2007,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008199,Taleghan,Hydro,,Dam with Reservoir,2,18,2006,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008203,Vafarghan,Hydro,,Dam with Reservoir,2,10,1996,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008210,Zayandeh Rood,Hydro,,Dam with Reservoir,3,56,1970,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008115,Amir Kabir,Hydro,,Dam with Reservoir,2,90,1961,,Operational,,,,,,,,,,35.9564,51.089,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008129,Dez,Hydro,,Dam with Reservoir,8,520,1962,,Operational,,,,,,,,,,32.6053,48.464,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008148,Kalan,Hydro,,Dam with Reservoir,3,115.5,1998,,Operational,,,,,,,,,,35.807,51.7914,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008151,Karoune 3,Hydro,,Dam with Reservoir,8,2000,2004-2005,,Operational,,,,,,,,,,31.8055,50.08934,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008154,Khohrang Dam,Hydro,,Dam with Reservoir,3,39,2004-2005,,Operational,,,,,,,,,,32.453,50.147,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008158,Latyan,Hydro,,Dam with Reservoir,2,45,1969-1987,,Operational,,,,,,,,,,35.7898,51.6785,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008163,Masjed Soleyman,Hydro,,Dam with Reservoir,8,2000,2002,,Operational,,,,,,,,,,32.029,49.399,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008130,Dorood Zan Dam,Hydro,,Dam with Reservoir,2,10,1989,,Operational,,,,,,,,,,27.0516667,53.6208333,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008145,Jiroft,Hydro,,Dam with Reservoir,2,32,1977,,Operational,,,,,,,,,,28.678,57.7406,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008161,Maroun,Hydro,,Dam with Reservoir,1,75,2004,,Operational,,,,,,,,,,30.5959,50.2417,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008181,Sefid Rood,Hydro,,Dam with Reservoir,5,87,1964,,Operational,,,,,,,,,,36.7434,49.4022,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008193,Shoot-e-Moghan,Hydro,,Dam with Reservoir,2,13,2002,,Operational,,,,,,,,,,38.966944,48.073333,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008150,Karkheh,Hydro,,Dam with Reservoir,3,400,2002-2003,,Operational,,,,,,,,,,32.485757,48.134102,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
+1008183,Shahid Abbaspuor,Hydro,,Dam with Reservoir,8,2000,1971-2002,,Operational,,,,,,,,,,32.05489,49.60697,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,WRI
+1008142,Iran Shahr,Oil,,Sub-critical Thermal,4,256,1995-2003,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008143,Islam Abad(Isfahan),Natural Gas,,Sub-critical Thermal,5,835,1969-1980,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008147,Kahnodje,Oil,,Sub-critical Thermal,2,789,2007,,Operational,,,,,,,,,,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,
+1008114,Ahwaz (ramiin),Oil,,Sub-critical Thermal,8,1903,1980-1985,,Operational,,,,,,,,,,31.5027,48.883,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008117,Asalooyeh,Oil,,Sub-critical Thermal,6,50,2007,,Operational,,,,,,,,,,27.4866,52.659,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008119,Bandar Abbas,Oil,,Sub-critical Thermal,4,1280,1980-1985,,Operational,,,,,,,,,,27.1467,56.1153,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008121,Besat,Oil,,Sub-critical Thermal,3,247.5,1967-1968,,Operational,,,,,,,,,,35.6423,51.4273,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008122,Bistoon,Oil,,Sub-critical Thermal,2,640,1995,,Operational,,,,,,,,,,34.3468,47.3575,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008169,Neka (Shahid Salimi),Oil,,Sub-critical Thermal,6,1779.6,1979-1981,,Operational,,,,,,,,,,36.8387,53.2593,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008178,Sahand,Oil,,Sub-critical Thermal,2,650,2004-2005,,Operational,,,,,,,,,,37.424,46.013,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008179,Sahid Montazere Ghaem,Oil,,Sub-critical Thermal,4,626,1971-1973,,Operational,,,,,,,,,,35.73,51.0,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008185,Shahid Mofateh,Oil,,Sub-critical Thermal,4,100,1995-1997,,Operational,,,,,,,,,,35.128,48.852,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008190,Shazand,Oil,,Sub-critical Thermal,4,1300,2000-2001,,Operational,,,,,,,,,,34.0,49.5,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008200,Tarasht,Natural Gas,,Sub-critical Thermal,4,50,1959,,Operational,,,,,,,,,,35.724,51.3526,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,GEODB
+1008196,Tabriz,Oil,,Sub-critical Thermal,2,736,1987-1990,,Operational,,,,,,,,,,38.08,46.2919,,TAVANIR,http://caspianbarrel.org/?p=35513,,,,,,,,,,,,Iran,,CARMA
+1008208,Zarand,Oil,,Sub-critical Thermal,2,60,1973,,Operational,,,,,,,,,,30.812709,56.563993,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008211,Zobahan,Natural Gas,,Sub-critical Thermal,5,162,1970-1978,,Operational,,,,,,,,,,32.657218,51.677608,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,,,,,Iran,,CARMA
+1008184,Shahid M. Montazeri,Fuel Oil,,Sub-critical Thermal,,1600,1985-1987,,Operational,Shahin Shahr,,,,,,,,,32.7952,51.49587,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,,National Integrated Grid,,,,Iran,نیروگاه شهید محمد منتظری,WRI

@@ -123,7 +123,7 @@ for row in plant_table.findall("tr")[2:-1]:
     # TODO: handle only known edge case: Roca Grande (2535)
     ceg_code = cells[0].findall("font/a")[0].text.strip()
     plant_id = int(ceg_code[-11:-5])
-    fuel = standardize_fuel_BRA(ceg_code)
+    primary_fuel = standardize_fuel_BRA(ceg_code)
 
     # use CEG code to lookup coordinates
     ceg_code_short = ceg_code[0:16]
@@ -195,7 +195,7 @@ for row in plant_table.findall("tr")[2:-1]:
     new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel, plant_capacity=capacity,
         plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL, plant_cap_year=SOURCE_YEAR,
         plant_commissioning_year=op_year)
     plants_dictionary[idnr] = new_plant

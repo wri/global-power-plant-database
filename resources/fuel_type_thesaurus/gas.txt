@@ -63,3 +63,4 @@ turbo gas
 CG
 TG
 Gas Natural
+Coal mine methane

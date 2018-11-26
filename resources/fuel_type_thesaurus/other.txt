@@ -29,3 +29,4 @@ thermal
 unk
 unknown
 CV
+Syngas

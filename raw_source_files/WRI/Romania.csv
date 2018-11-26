@@ -9,7 +9,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1019107,TPP Bucuresti Sud,Natural Gas,,Sub-critical Thermal,,280,,,,,288.257,,,,,,,,44.4233,25.979,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019108,TPP Craiova,Lignite,,Sub-critical Thermal,,262,1988,,,,558.295,,,,,,,,44.345,23.8156,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019109,WPP Cogealac,Wind,,Onshore Wind,,246,,,,,,,,,,,,,44.59028,28.565278,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
-1019110,HPP Portile de Fier II,Hydro,,Run of the River,,245,,,,,,,,,,,,,44.3074,22.5672,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019111,TPP Brazi,Natural Gas,,CCGT,,220,2007,,,,100.698,,,,,,,,44.8802,25.9988,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019112,HPP Vidraru,Hydro Water Reservoir,,Dam with Reservoir,,219,,,,,,,,,,,,,45.3667,24.6307,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019113,HPP Mariselu,Hydro Water Reservoir,,Dam with Reservoir,,219,,,,,,,,,,,,,46.6679,23.059,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
@@ -34,7 +33,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1023226,HPP Tismana,Hydro Water Reservoir,,Dam with Reservoir,,105,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,
 1019093,NPP Cernavoda,Nuclear,,PHWR,,1298,1996-2007,,,,5832.432,,,,,,,,44.32154151,28.05684456,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019094,TPP Rovinari,Lignite,,Sub-critical Thermal,,1207,1976-1979,,,,3221.235,,,,,,,,44.9068,23.1383,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
-1019095,HPP Portile de Fier I,Hydro,,Run of the River,,1161,1972,,,,2984.481,,,,,,,,44.6733,22.532,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019096,TPP Mintia,Coal,,Sub-critical Thermal,,1000,1970-1980,,,,514.387,,,,,,,,45.9134,22.8254,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019097,TPP CCCC Petrom Brazi,Natural Gas,,CCGT,,860,2012,,,,1056.268,,,,,,,,44.8802,25.9988,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019098,TPP Iernut,Natural Gas,,Sub-critical Thermal,,751,1963-1967,,,,922.402,,,,,,,,46.4677,24.1833,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
@@ -43,9 +41,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1019114,HPP Stejaru,Hydro Water Reservoir,,Dam with Reservoir,,208,,,,,,,,,,,,,46.9386,26.1029,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019116,TPP Progresu,Coal-derived gas,,Sub-critical Thermal,,184,,,,,,,,,,,,,44.372,26.1073,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019118,TPP Govora,Lignite,,Sub-critical Thermal,,177,,,,,,,,,,,,,45.04,24.29,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
-1019120,HPP Sugag,Hydro Water Reservoir,,Dan with Reservoir,,149,,,,,,,,,,,,,45.6892,23.6094,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
-1019121,HPP Galceag,Hydro Water Reservoir,,Dan with Reservoir,,149,,,,,,,,,,,,,45.5879,23.6279,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
-1019122,HPP Ruieni,Hydro Water Reservoir,,Dan with Reservoir,,138,,,,,,,,,,,,,45.426,22.4757,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019123,TPP Paroseni,Coal,,Sub-critical Thermal,,133,,,,,403.189,,,,,,,,45.3647,23.261,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
 1019119,TPP Oradea,Lignite,,Sub-critical Thermal,,170,,,,,,,,,,,,,47.0841666,21.8927777,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,CARMA
 1019101,TPP  Braila,Natural Gas,,Sub-critical Thermal,,413,,,,,0,,,,,,,,45.165969,27.923498,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,WRI
@@ -53,3 +48,8 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1022116,Sălbatica I,Wind,,Onshore Wind,,70,2011,ENEL GreenPower,,Tulcea,,,,,,,,,45.02515,28.85582,,Enel Green Power,https://www.enelgreenpower.com/en-GB/company/worldwide/romania/,,,,,,,,,,,,Romania,,WRI
 1022119,Valea Nucarilor,Wind,,Onshore Wind,,70,2011,ENEL GreenPower,,Tulcea,,,,,,,,,45.0451,28.9607,,Enel Green Power,https://www.enelgreenpower.com/en-GB/company/worldwide/romania/,,,,,,,,,,,,Romania,,WRI
 1023225,Turceni Energetic Complex,Lignite,,Sub-critical Thermal,,1896,1978-1987,,,,"2,311",,,,,,,,44.669443,23.408049,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,WRI
+1019110,HPP Portile de Fier II,Hydro,,Run of River,,245,,,,,,,,,,,,,44.3074,22.5672,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
+1019095,HPP Portile de Fier I,Hydro,,Run of River,,1161,1972,,,,2984.481,,,,,,,,44.6733,22.532,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
+1019120,HPP Sugag,Hydro Water Reservoir,,Dam with Reservoir,,149,,,,,,,,,,,,,45.6892,23.6094,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
+1019121,HPP Galceag,Hydro Water Reservoir,,Dam with Reservoir,,149,,,,,,,,,,,,,45.5879,23.6279,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB
+1019122,HPP Ruieni,Hydro Water Reservoir,,Dam with Reservoir,,138,,,,,,,,,,,,,45.426,22.4757,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Romania,,GEODB

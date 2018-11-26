@@ -7,3 +7,4 @@ chp
 wh
 cogeneracion
 Vapor
+COG

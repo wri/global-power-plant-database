@@ -43,7 +43,7 @@ DATASETS = [{"number": "215392", "fuel": "Thermal", "filename": "chile_power_pla
 
 def lookup_location(fuel, idval, plant_locations):
 
-    fuel_name = next(iter(fuel))
+    fuel_name = fuel
     if fuel_name in ["Coal", "Gas", "Oil"]:
         fuel_name = "Thermal"
 
@@ -78,12 +78,12 @@ with open(LOCATION_FILE_NAME, 'rbu') as f:
     datareader = csv.reader(f)
     headers = [x.lower() for x in datareader.next()]
     for row in datareader:
-        fuel = row[0]
+        primary_fuel = row[0]
         idval = int(row[1])
         name = row[2]
         latitude = float(row[3])
         longitude = float(row[4])
-        plant_locations[fuel][idval] = [latitude, longitude, name]
+        plant_locations[primary_fuel][idval] = [latitude, longitude, name]
 
 # read plant files
 for dataset in DATASETS:
@@ -107,13 +107,13 @@ for dataset in DATASETS:
 
             try:
                 fuel_string = row.get("Tipo", row.get("Tipo ", row.get("Combustible", pw.NO_DATA_UNICODE)))
-                fuel = pw.standardize_fuel(fuel_string, fuel_thesaurus)
+                primary_fuel = pw.standardize_fuel(fuel_string, fuel_thesaurus, as_set=False)
             except:
                 print(u"-Error: Can't read fuel for plant {0}.".format(name))
-                fuel = pw.NO_DATA_SET
+                primary_fuel = pw.NO_DATA_UNICODE
 
             # special treament of name for biomass plants (not included in data file)
-            if fuel == set(["Biomass"]):
+            if primary_fuel == "Biomass":
                 try:
                     name = pw.format_string(plant_locations["Biomass"][idval][2])
                 except:
@@ -121,7 +121,7 @@ for dataset in DATASETS:
                     continue
 
             try:
-                latitude,longitude = lookup_location(fuel, idval, plant_locations)
+                latitude,longitude = lookup_location(primary_fuel, idval, plant_locations)
                 geolocation_source = SOURCE_NAME
             except:
                 print(u"-Error: Can't find location for plant {0}.".format(name))
@@ -154,7 +154,7 @@ for dataset in DATASETS:
             new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
                 plant_owner=owner,
                 plant_location=new_location, plant_coord_source=geolocation_source,
-                plant_fuel=fuel,
+                plant_primary_fuel=primary_fuel,
                 plant_capacity=capacity, plant_cap_year=YEAR_POSTED,
                 plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL)
             plants_dictionary[idnr] = new_plant

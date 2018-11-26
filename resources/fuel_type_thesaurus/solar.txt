@@ -12,6 +12,7 @@ csp
 fotovoltaico
 photovoltaic
 photovoltaics
+Photovoltaic
 pv
 solar
 solar (concentrated solar power)

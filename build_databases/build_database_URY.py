@@ -129,7 +129,7 @@ for p in plant_markers:
     try:
         fuel_string_raw = p_dict['icon']
         fuel_type = parse_fuel_URY(fuel_string_raw[9:12], id_val)         # extract fuel name from icon name
-        fuel = pw.standardize_fuel(fuel_type, fuel_thesaurus)
+        fuel = pw.standardize_fuel(fuel_type, fuel_thesaurus, as_set=False)
     except:
         print(u"- Error: Can't read fuel type for plant {0}".format(id_val))
         continue
@@ -162,7 +162,7 @@ for p in plant_markers:
     new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=fuel, plant_capacity=capacity,
         plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL, plant_cap_year=SOURCE_YEAR)
     plants_dictionary[idnr] = new_plant
 

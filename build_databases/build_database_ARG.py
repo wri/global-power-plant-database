@@ -81,84 +81,77 @@ wb = xlrd.open_workbook(RAW_FILE_NAME)
 ws = wb.sheet_by_name(TAB)
 
 # treat first data row specially for plant name
-rv0 = ws.row_values(START_ROW)
-current_plant_name = pw.format_string(rv0[COLS['name']])
-current_owner = pw.format_string(rv0[COLS['owner']])
-current_fuel_types = pw.standardize_fuel(rv0[COLS['fuel']], fuel_thesaurus)
-current_capacity_sum = float(rv0[COLS['capacity']]) * CAPACITY_CONVERSION_TO_MW
-current_generation_sum = float(rv0[COLS['generation']]) * GENERATION_CONVERSION_TO_GWH
+#rv0 = ws.row_values(START_ROW)
+#current_plant_name = pw.format_string(rv0[COLS['name']])
+#current_owner = pw.format_string(rv0[COLS['owner']])
+#current_fuel_type = pw.standardize_fuel(rv0[COLS['fuel']], fuel_thesaurus, as_set=False)
+#current_capacity_sum = float(rv0[COLS['capacity']]) * CAPACITY_CONVERSION_TO_MW
+#current_generation_sum = float(rv0[COLS['generation']]) * GENERATION_CONVERSION_TO_GWH
 
-test_print = False
-for row_id in range(START_ROW+1, ws.nrows):
+previous_owner = u'None'
+previous_name = u'None'
+plant_names = {}
+
+for row_id in range(START_ROW, ws.nrows):
+
     rv = ws.row_values(row_id) 
 
-    row_fuel = pw.format_string(rv[COLS['fuel']], None)
-    row_name = pw.format_string(rv[COLS['name']], None)
-    row_grid = pw.format_string(rv[COLS['grid']], None)
+    # get fuel
+    fuel_string = pw.format_string(rv[COLS['fuel']], None)
+    if not fuel_string:
+        continue                    # row without fuel type is empty
+    else:
+        fuel_type = pw.standardize_fuel(fuel_string, fuel_thesaurus)
 
-    if row_grid == u"AISLADO":
+    # check for islanded generator
+    grid_string = pw.format_string(rv[COLS['grid']], None)
+    if grid_string == u"AISLADO":
         continue                    # don't add islanded generators (not grid-connected)
 
-    if row_fuel:
+    # get name
+    name_string = pw.format_string(rv[COLS['name']], None)
+    if name_string:
+        previous_name = name_string
+    else:
+        name_string = previous_name
 
-        if row_name:
+    # get owner
+    owner_string = pw.format_string(rv[COLS['owner']], None)
+    if owner_string:
+        previous_owner = owner_string
+    else:
+        owner_string = previous_owner
 
-            if current_plant_name:
+    # get capacity
+    try:
+        capacity_value = float(rv[COLS['capacity']]) * CAPACITY_CONVERSION_TO_MW
+    except:
+        print("Cant read capacity for plant {0}.".format(name_string))
+        capacity_value = 0
 
-                # assign ID number, make PowerPlant object, add to dictionary
-                idnr = pw.make_id(SAVE_CODE, count)
-                annual_generation = pw.PlantGenerationObject(gwh=current_generation_sum, start_date=gen_start, end_date=gen_stop, source=SOURCE_NAME)
-                new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=current_plant_name, plant_owner=current_owner,
-                    plant_fuel=current_fuel_types, plant_country=COUNTRY_NAME, plant_capacity=current_capacity_sum,
-                    plant_cap_year=YEAR_OF_DATA, plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
-                    plant_generation=annual_generation)
-                plants_dictionary[idnr] = new_plant
-                count += 1
+    # check if we've seen this plant before
+    if name_string not in plant_names.keys():
 
-            # reset all current values to this row
-            current_plant_name = row_name
-            current_fuel_types = pw.standardize_fuel(row_fuel, fuel_thesaurus)
-            current_owner = pw.format_string(rv[COLS['owner']], None)
-            try:
-                current_capacity_sum = float(rv[COLS['capacity']]) * CAPACITY_CONVERSION_TO_MW
-            except:
-                print(u"-Error: Can't read capacity for plant {0}.".format(current_plant_name))
-                current_capacity_sum = 0.0
-            try:
-                current_generation_sum = float(rv[COLS['generation']]) * GENERATION_CONVERSION_TO_GWH
-            except:
-                print(u"-Error: Can't read generation for plant {0}; value is {1}.".format(current_plant_name, rv[COLS['generation']]))
-                current_generation_sum = 0.0
-    
-        else:
-            # additional unit of current plant
-            current_capacity_sum += float(rv[COLS['capacity']]) * CAPACITY_CONVERSION_TO_MW
-            current_generation_sum += float(rv[COLS['generation']]) * GENERATION_CONVERSION_TO_GWH
-            current_fuel_types.update(pw.standardize_fuel(row_fuel, fuel_thesaurus))
+        # first time we've seen this plant
+        idnr = pw.make_id(SAVE_CODE, count)
+        new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name_string, plant_owner=owner_string,
+            plant_country=COUNTRY_NAME, plant_capacity=capacity_value,
+            plant_primary_fuel=fuel_type,
+            plant_cap_year=YEAR_OF_DATA, plant_source=SOURCE_NAME, 
+            plant_source_url=SOURCE_URL)
+        plants_dictionary[idnr] = new_plant
+        plant_names[name_string] = idnr
 
     else:
 
-        if current_plant_name:
+        # this row is an additional fuel type for a plant we've already seen
+        idnr = plant_names[name_string]
+        plants_dictionary[idnr].other_fuel.update(fuel_type)
+        plants_dictionary[idnr].capacity += capacity_value
 
-            # assign ID number, make PowerPlant object, add to dictionary
-            idnr = pw.make_id(SAVE_CODE, count)
-            annual_generation = pw.PlantGenerationObject(gwh=current_generation_sum, start_date=gen_start, end_date=gen_stop, source=SOURCE_NAME)
-            new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=current_plant_name, plant_owner=current_owner,
-                plant_fuel=current_fuel_types, plant_country=COUNTRY_NAME, plant_capacity=current_capacity_sum,
-                plant_cap_year=YEAR_OF_DATA, plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
-                plant_generation=annual_generation)
-            plants_dictionary[idnr] = new_plant
-            count += 1
+    # increment count
+    count += 1
 
-            # reset all current values to null
-            current_plant_name = pw.NO_DATA_UNICODE
-            current_fuel_types = pw.NO_DATA_SET.copy()
-            current_owner = pw.NO_DATA_UNICODE
-            current_capacity_sum = 0.0
-            current_generation_sum = 0.0
-
-        else:
-            continue
 
 # now assign locations and commissioning years
 location_not_found = 0
