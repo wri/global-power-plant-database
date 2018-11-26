@@ -4,6 +4,7 @@ Global Power Plant Database
 build_database_australia.py
 Converts GIS data from Australian Renewable Energy Mapping Infrastructure (AREMI) 
 to the Global Power Plant Database format.
+Uses NGER data for generation.
 
 Last download date: 2018-11-17
 """
@@ -20,8 +21,21 @@ COUNTRY_NAME = u"Australia"
 SAVE_CODE = u"AUS"
 SOURCE_NAME = u"Australian Renewable Energy Mapping Infrastructure"
 SOURCE_URL = u"http://services.ga.gov.au/site_3/rest/services/Electricity_Infrastructure/MapServer"
+
 NGER_URL_1617 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities%202016-17.csv"
 NGER_FILENAME_1617 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2016-2017.csv")
+NGER_URL_1516 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities%202015-16.csv"
+NGER_FILENAME_1516 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2015-2016.csv")
+
+NGER_URL_1415 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/2014-15%20Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities.csv"
+NGER_FILENAME_1415 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2014-2015.csv")
+
+NGER_URL_1314 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/2013-14%20Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities.csv"
+NGER_FILENAME_1314 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2013-2014.csv")
+
+NGER_URL_1213 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/2012-13%20Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities.csv"
+NGER_FILENAME_1213 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2012-2013.csv")
+
 RAW_FILE_NAME = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="australia_power_plants.xml")
 CSV_FILE_NAME = pw.make_file_path(fileType="src_csv", filename="database_AUS.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
@@ -33,7 +47,13 @@ API_CALL = "service=WFS&version=1.1.0&request=GetFeature&typeName=National_Major
 
 # optional raw file(s) download
 URL = API_BASE + "?" + API_CALL
-FILES = {RAW_FILE_NAME: URL, NGER_FILENAME_1617: NGER_URL_1617}
+FILES = {RAW_FILE_NAME: URL,
+		NGER_FILENAME_1617: NGER_URL_1617,
+		NGER_FILENAME_1516: NGER_URL_1516,
+		NGER_FILENAME_1415: NGER_URL_1415,
+		NGER_FILENAME_1314: NGER_URL_1314,
+		NGER_FILENAME_1213: NGER_URL_1213,
+		}
 DOWNLOAD_FILES = pw.download(COUNTRY_NAME, FILES)
 
 # set up fuel type thesaurus
@@ -54,6 +74,10 @@ print(u"Reading NGER files to memory...")
 
 # read NGER file into a list, so the facilities can be referenced by their index in the original file
 nger_1617 = list(csv.DictReader(open(NGER_FILENAME_1617)))
+nger_1516 = list(csv.DictReader(open(NGER_FILENAME_1516)))
+nger_1415 = list(csv.DictReader(open(NGER_FILENAME_1415)))
+nger_1314 = list(csv.DictReader(open(NGER_FILENAME_1314)))
+nger_1213 = list(csv.DictReader(open(NGER_FILENAME_1213)))
 
 # create a dictinary of namespaces
 ns = {"gml": "http://www.opengis.net/gml",
@@ -113,21 +137,37 @@ with open(RAW_FILE_NAME, "rU") as f:
 
         # get generation data (if any) from the NGER datasets
         generation = []
-        try:
-            nger_1617_index = int(linking_table[plant_oid]['nger_2016-2017_index'])
-        except:
-            pass
-        else:
-            nger_1617_row = nger_1617[nger_1617_index]
-            gen_1617_mwh = nger_1617_row['Electricity Production (Mwh)']
-            try:
-                gen_1617_gwh = float(gen_1617_mwh.replace(",", ""))  / 1000
-            except:
-                print("Error with NGER16-17 generation for {0} (NGER index = {1}; value={2})".format(name, nger_1617_index, gen_1617_mwh))
-                pass
-            else:
-                # TODO: give proper time bounds
-                generation.append(pw.PlantGenerationObject.create(gen_1617_gwh, 2017))
+        for yr, lookup in zip(
+                range(2013, 2018),
+                [nger_1213, nger_1314, nger_1415, nger_1516, nger_1617]
+            ):
+            index_title = 'nger_{0}-{1}_index'.format(yr-1, yr)
+            # get the raw form of the nger indices field
+            nger_indices_raw = linking_table[plant_oid][index_title]
+            # if blank, continue to next year
+            if not nger_indices_raw.rstrip():
+                continue
+            # get ampersand-separated list of nger indices
+            nger_indices = nger_indices_raw.split('&')
+            # convert to real integers usable for list indexing
+            nger_indices = map(int, nger_indices)
+            gwh = 0
+            for idx in nger_indices:
+                try:
+                    nger_row = lookup[idx]
+                except:
+                    print("Error with looking up NGER row for {0} (year = {1}; NGER index = {2};)".format(name, yr, idx))
+                    continue
+                gen_gj = nger_row['Electricity Production (GJ)']
+                try:
+                    gen_gwh = float(gen_gj.replace(",", ""))  / 3600.
+                except:
+                    print("Error with NGER generation for {0} (year = {1}; NGER index = {2}; value={3})".format(name, yr, idx, gen_gj))
+                    pass
+                else:
+                    gwh += gen_gwh
+            # TODO: give proper time bounds
+            generation.append(pw.PlantGenerationObject.create(gwh, yr))
 
 
         # assign ID number
