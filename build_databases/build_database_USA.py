@@ -3,6 +3,7 @@
 Global Power Plant Database
 build_database_USA.py
 Converts plant-level data from EIA-860 and EIA-923 to the Global Power Plant Database format.
+Uses EIA-923 for years 2013-2017 to obtain net generation values.
 Does not currently implement download of EIA spreadsheets.
 Uses data from WRI Fusion tables for Puerto Rico and Guam.
 """
@@ -17,45 +18,78 @@ import powerplant_database as pw
 # params
 COUNTRY_NAME = u"United States of America"
 SAVE_CODE  = u"USA"
-RAW_FILE_NAME_860_2 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="2___Plant_Y2016.xlsx")
-RAW_FILE_NAME_860_3 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="3_1_Generator_Y2016.xlsx")
-RAW_FILE_NAME_923_2 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="EIA923_Schedules_2_3_4_5_M_12_2016_Final_Revision.xlsx")
+SOURCE_NAME = u"U.S. Energy Information Administration"
+SOURCE_URL = u"http://www.eia.gov/electricity/data/browser/"
+YEAR = 2017  # year of reported capacity value
+
+# 860 - use 2017
+RAW_FILE_NAME_860_2 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="2___Plant_Y2017.xlsx")
+RAW_FILE_NAME_860_3 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="3_1_Generator_Y2017.xlsx")
+
+# 923 - use 2013-2017
+RAW_FILE_NAME_923_2_2017 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="EIA923_Schedules_2_3_4_5_M_12_2017_Final_Revision.xlsx")
+RAW_FILE_NAME_923_2_2016 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="EIA923_Schedules_2_3_4_5_M_12_2016_Final_Revision.xlsx")
+RAW_FILE_NAME_923_2_2015 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="EIA923_Schedules_2_3_4_5_M_12_2015_Final_Revision.xlsx")
+RAW_FILE_NAME_923_2_2014 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="EIA923_Schedules_2_3_4_5_M_12_2014_Final_Revision.xlsx")
+RAW_FILE_NAME_923_2_2013 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="EIA923_Schedules_2_3_4_5_2013_Final_Revision.xlsx")
+
 WRI_DATABASE = pw.make_file_path(fileType="src_bin", filename=u"WRI-Database.bin")
 CSV_FILE_NAME = pw.make_file_path(fileType="src_csv", filename="database_USA.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
-SOURCE_NAME = u"U.S. Energy Information Administration"
-SOURCE_URL = u"http://www.eia.gov/electricity/data/browser/"
-YEAR = 2016
 GENERATION_CONVERSION_TO_GWH = 0.001	# generation values are given in MWh in the raw data
 SUBSIDIARY_COUNTRIES = ["Puerto Rico", "Guam"]
 
 COLS_860_2 = {'name':3, 'idnr':2, 'owner':1, 'lat':9, 'lng':10}
 COLS_860_3 = {'idnr':2, 'capacity':15, 'primary_fuel':33, 'other_fuel':[34,35,36], 'operating_month':25, 'operating_year':26}
-COLS_923_2 = {'idnr':0, 'generation':95}
+# note: yes, these are redundant, but saves on refactoring later
+COLS_923_2_2017 = {'idnr':0, 'generation':95}
+COLS_923_2_2016 = {'idnr':0, 'generation':95}
+COLS_923_2_2015 = {'idnr':0, 'generation':95}
+COLS_923_2_2014 = {'idnr':0, 'generation':95}
+COLS_923_2_2013 = {'idnr':0, 'generation':95}
 TAB_NAME_860_2 = "Plant"
 TAB_NAME_860_3 = "Operable"
-TAB_NAME_923_2 = "Page 1 Generation and Fuel Data"
+# note: yes, these are redundant, but saves on refactoring later
+TAB_NAME_923_2_2017 = "Page 1 Generation and Fuel Data"
+TAB_NAME_923_2_2016 = "Page 1 Generation and Fuel Data"
+TAB_NAME_923_2_2015 = "Page 1 Generation and Fuel Data"
+TAB_NAME_923_2_2014 = "Page 1 Generation and Fuel Data"
+TAB_NAME_923_2_2013 = "Page 1 Generation and Fuel Data"
 
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
 
 # Open workbooks
 print("Loading workbooks...")
-print("Loading Form 923-2")
-wb1 = xlrd.open_workbook(RAW_FILE_NAME_923_2)
-ws1 = wb1.sheet_by_name(TAB_NAME_923_2)
+
+print("Loading Form 923-2 (2017)")
+wb923_2017 = xlrd.open_workbook(RAW_FILE_NAME_923_2_2017)
+ws923_2017 = wb923_2017.sheet_by_name(TAB_NAME_923_2_2017)
+print("Loading Form 923-2 (2016)")
+wb923_2016 = xlrd.open_workbook(RAW_FILE_NAME_923_2_2016)
+ws923_2016 = wb923_2016.sheet_by_name(TAB_NAME_923_2_2016)
+print("Loading Form 923-2 (2015)")
+wb923_2015 = xlrd.open_workbook(RAW_FILE_NAME_923_2_2015)
+ws923_2015 = wb923_2015.sheet_by_name(TAB_NAME_923_2_2015)
+print("Loading Form 923-2 (2014)")
+wb923_2014 = xlrd.open_workbook(RAW_FILE_NAME_923_2_2014)
+ws923_2014 = wb923_2014.sheet_by_name(TAB_NAME_923_2_2014)
+print("Loading Form 923-2 (2013)")
+wb923_2013 = xlrd.open_workbook(RAW_FILE_NAME_923_2_2013)
+ws923_2013 = wb923_2013.sheet_by_name(TAB_NAME_923_2_2013)
+
 print("Loading Form 860-2")
-wb2 = xlrd.open_workbook(RAW_FILE_NAME_860_2)
-ws2 = wb2.sheet_by_name(TAB_NAME_860_2)
+wb860_2 = xlrd.open_workbook(RAW_FILE_NAME_860_2)
+ws860_2 = wb860_2.sheet_by_name(TAB_NAME_860_2)
 print("Loading Form 860-3")
-wb3 = xlrd.open_workbook(RAW_FILE_NAME_860_3)
-ws3 = wb3.sheet_by_name(TAB_NAME_860_3)
+wb860_3 = xlrd.open_workbook(RAW_FILE_NAME_860_3)
+ws860_3 = wb860_3.sheet_by_name(TAB_NAME_860_3)
 
 # read in plants from File 2 of EIA-860
 print("Reading in plants...")
 plants_dictionary = {}
-for row_id in xrange(2, ws2.nrows):
-	rv = ws2.row_values(row_id) # row value
+for row_id in xrange(2, ws860_2.nrows):
+	rv = ws860_2.row_values(row_id) # row value
 	name = pw.format_string(rv[COLS_860_2['name']])
 	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_860_2['idnr']]))
 	capacity = 0.0
@@ -81,13 +115,13 @@ for row_id in xrange(2, ws2.nrows):
 print("Reading in capacities...")
 commissioning_year_by_unit = {}	 # temporary method until PowerPlant object includes unit-level information
 
-for row_id in xrange(2, ws3.nrows):
-	rv = ws3.row_values(row_id)  # row value
+for row_id in xrange(2, ws860_3.nrows):
+	rv = ws860_3.row_values(row_id)  # row value
 	try:
 		idnr = pw.make_id(SAVE_CODE, int(rv[COLS_860_3['idnr']]))
 	except:
 		continue
-	if idnr in plants_dictionary.keys():
+	if idnr in plants_dictionary:
 		unit_capacity = float(rv[COLS_860_3['capacity']])
 		plants_dictionary[idnr].capacity += unit_capacity
 		# todo: average commissioning year calculation
@@ -95,11 +129,12 @@ for row_id in xrange(2, ws3.nrows):
 		unit_month = int(rv[COLS_860_3['operating_month']])
 		unit_year_raw = int(rv[COLS_860_3['operating_year']])
 		unit_year = 1.0 * unit_year_raw + unit_month / 12
-		if idnr in commissioning_year_by_unit.keys():
+		if idnr in commissioning_year_by_unit:
 			commissioning_year_by_unit[idnr].append([unit_capacity, unit_year])
 		else:
 			commissioning_year_by_unit[idnr] = [ [unit_capacity, unit_year] ]
 
+		# identify primary and other fuels
 		primary_fuel = pw.standardize_fuel(rv[COLS_860_3['primary_fuel']], fuel_thesaurus, as_set=False)
 		plants_dictionary[idnr].primary_fuel = primary_fuel
 
@@ -126,18 +161,71 @@ for idnr,unit_vals in commissioning_year_by_unit.iteritems():
 
 print("...added plant capacities and commissioning year.")
 
-# read in generation from File 2 of EIA-923
-print("Reading in generation...")
-for row_id in xrange(6, ws1.nrows):
-	rv = ws1.row_values(row_id)
-	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2['idnr']]))
-	if idnr in plants_dictionary.keys():
-		if not plants_dictionary[idnr].generation[0]:
-			generation = pw.PlantGenerationObject.create(0.0, YEAR, source=SOURCE_URL)
-			plants_dictionary[idnr].generation[0] = generation
-		plants_dictionary[idnr].generation[0].gwh += float(rv[COLS_923_2['generation']]) * GENERATION_CONVERSION_TO_GWH
+# read in generation from File 2 of EIA-923 (2017)
+print("Reading in generation for 2017...")
+for row_id in xrange(6, ws923_2017.nrows):
+	rv = ws923_2017.row_values(row_id)
+	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2017['idnr']]))
+	if idnr in plants_dictionary:
+		if not plants_dictionary[idnr].generation[-1]:
+			generation = pw.PlantGenerationObject.create(0.0, 2017, source=SOURCE_URL)
+			plants_dictionary[idnr].generation[-1] = generation
+		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2017['generation']]) * GENERATION_CONVERSION_TO_GWH
 	else:
 		print("Can't find plant with ID: {0}".format(idnr))
+
+# read in generation from File 2 of EIA-923 (2016)
+print("Reading in generation for 2016...")
+for row_id in xrange(6, ws923_2016.nrows):
+	rv = ws923_2016.row_values(row_id)
+	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2016['idnr']]))
+	if idnr in plants_dictionary:
+		if not pw.annual_generation(plants_dictionary[idnr].generation, 2016):
+			generation = pw.PlantGenerationObject.create(0.0, 2016, source=SOURCE_URL)
+			plants_dictionary[idnr].generation.append(generation)
+		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2016['generation']]) * GENERATION_CONVERSION_TO_GWH
+	else:
+		print("Can't find plant with ID: {0}".format(idnr))
+
+# read in generation from File 2 of EIA-923 (2015)
+print("Reading in generation for 2015...")
+for row_id in xrange(6, ws923_2015.nrows):
+	rv = ws923_2015.row_values(row_id)
+	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2015['idnr']]))
+	if idnr in plants_dictionary:
+		if not pw.annual_generation(plants_dictionary[idnr].generation, 2015):
+			generation = pw.PlantGenerationObject.create(0.0, 2015, source=SOURCE_URL)
+			plants_dictionary[idnr].generation.append(generation)
+		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2015['generation']]) * GENERATION_CONVERSION_TO_GWH
+	else:
+		print("Can't find plant with ID: {0}".format(idnr))
+
+# read in generation from File 2 of EIA-923 (2014)
+print("Reading in generation for 2014...")
+for row_id in xrange(6, ws923_2014.nrows):
+	rv = ws923_2014.row_values(row_id)
+	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2014['idnr']]))
+	if idnr in plants_dictionary:
+		if not pw.annual_generation(plants_dictionary[idnr].generation, 2014):
+			generation = pw.PlantGenerationObject.create(0.0, 2014, source=SOURCE_URL)
+			plants_dictionary[idnr].generation.append(generation)
+		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2014['generation']]) * GENERATION_CONVERSION_TO_GWH
+	else:
+		print("Can't find plant with ID: {0}".format(idnr))
+
+# read in generation from File 2 of EIA-923 (2013)
+print("Reading in generation for 2013...")
+for row_id in xrange(6, ws923_2013.nrows):
+	rv = ws923_2013.row_values(row_id)
+	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2013['idnr']]))
+	if idnr in plants_dictionary:
+		if not pw.annual_generation(plants_dictionary[idnr].generation, 2013):
+			generation = pw.PlantGenerationObject.create(0.0, 2013, source=SOURCE_URL)
+			plants_dictionary[idnr].generation.append(generation)
+		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2013['generation']]) * GENERATION_CONVERSION_TO_GWH
+	else:
+		print("Can't find plant with ID: {0}".format(idnr))
+
 print("...Added plant generations.")
 
 # read in subsidiary states (Puerto Rico, Guam)
