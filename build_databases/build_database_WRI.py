@@ -210,7 +210,12 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
 						print(u" - Warning: plant {0} has no capacity".format(idnr))
 
                 # assign ID number
-                idnr_full = pw.make_id(SAVE_CODE, int(idnr))
+                # have to use a hack for United Kingdom/GBR because we previously used an automated script
+                # original ID codes for GBR plants start with GBR, not WRI
+                if country == "United Kingdom":
+                    idnr_full = pw.make_id("GBR", int(idnr))
+                else:
+                    idnr_full = pw.make_id(SAVE_CODE, int(idnr))
 
                 # check if this ID is already in the dictionary - if so, this is a unit
                 if idnr_full in plants_dictionary:
