@@ -173,11 +173,12 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     commissioning_year = pw.NO_DATA_NUMERIC
 
                 try:
-                    geolocation_source_string = row[geolocation_source_col]
+                    geolocation_source_string = row[geolocation_source_col].decode(pw.UNICODE_ENCODING)
                     if geolocation_source_string.startswith(u'WRI'):  # map 'WRI [Name]' to 'WRI'
                         geolocation_source_string = u'WRI'
                 except:
                     geolocation_source_string = pw.NO_DATA_UNICODE
+					print(u"-Error: Can't read geolocation source for plant {0} {1}".format(country, str(idnr)))
 
                 # track geolocation source
                 if (not latitude) or (not longitude):

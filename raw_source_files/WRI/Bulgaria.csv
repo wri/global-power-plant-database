@@ -12,7 +12,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1008059,TOPLO RUSE,Coal,,,,110,,,,,,,,,,,,,42.25687,26.13602,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008060,Maritsa Iztok 2,Coal,,,,1604,,,,,,,,,,,,,42.05321,25.62315,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008061,Maritsa Iztok 3,Coal,,,,908,,,,,,,,,,,,,42.1421,26.00253,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008062,SVETI NIKOLA,Wind,,Onshore,,156,,,,,,,,,,,,,43.422902,28.376047,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008046,RUSE,Coal,,,,180,,,,,,,,,,,,,43.866241,26.009316,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008042,DEVEN,Coal,,,,132,,,,,,,,,,,,,43.196359,27.636752,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008045,REPUBLIKA PK,Coal,,,,105,,,,,,,,,,,,,42.606429,23.078445,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
@@ -21,3 +20,4 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1008050,MOMINA KLISU,Hydro,,Dam with Reservoir,,120,,,,,,,,,,,,,42.232024,23.949392,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008051,PESHTERA,Hydro,,Dam with Reservoir,,135,,,,,,,,,,,,,42.013194,24.257405,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008052,SESTRIMO,Hydro,,Dam with Reservoir,,240,,,,,,,,,,,,,42.208314,23.915829,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
+1008062,SVETI NIKOLA,Wind,,Onshore Wind,,156,,,,,,,,,,,,,43.422902,28.376047,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI

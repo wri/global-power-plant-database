@@ -5,6 +5,7 @@ SOLAR
 Solar_PV
 Solar_Thermal
 Solar Photovoltaics
+Photovoltaic
 SUN
 concentrated solar power
 concentrating solar power

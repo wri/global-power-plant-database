@@ -1,34 +1,20 @@
 Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
-1003706,Novokuznetsk GTPP,Natural Gas,,,,297.44,2014,Kuzbassenergo,,,,2015,,,,,,,,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,,,,,Russia,,
 1003792,RVC BTC,Coal,,,,430,1982,Kuzbassenergo,,,,2015,,,,,,,,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,,,,,Russia,,
-1003854,Vorkuta HPP-2,Coal,,,,270,1955,OOO Vorkuta Thermal Power Station,Operational,,,,,,,,,,67.610556,64.081389,1,EnergyBase (RUS),https://energybase.ru/power-plant/Vorkuta_CHP-2,,,,,,,,,,,,Russia,,
-1003855,Vortkuta HPP-1,Coal,,,,25,1939,OOO Vorkuta Thermal Power Station,Operational,,,,,,,,,,67.5,64.018056,1,EnergyBase (RUS),https://energybase.ru/power-plant/Vorkuta_CHP-1,,,,,,,,,,,,Russia,,
 1003676,Cascade of Kubanskiye HPPs,Hydro,,,,477,,RusHydro,,,"1,384",,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003677,Cascade of Verkhnevolzhskiye HPPs,Hydro,,,,477,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003678,Cascade of Viluysky HPPs,Hydro,,,,680,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003709,HPP of the Northern Ossetian Branch,Hydro,,,,95,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003715,Kabardino-Balkarian Branch,Hydro,,,,158,,RusHydro,,,565,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003722,Karachaevo-Cherkessian Branch HPP,Hydro,,,,160,,RusHydro,,,1,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
-1003779,Pavlovskaya HPP,Hydro,,CCGT,,166.4,1950,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,55.406032,56.55556,,EnergyBase (RUS),https://energybase.ru/power-plant/Pavlovskaya_HPP,,,,,,,,,,,,Russia,,
 1003831,Tolmachyovskiye HPPs,Hydro,,,,45,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
-1003861,Yumaguzinskaya HPP,Hydro,,CCGT,,45,1998,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,52.956389,56.414722,,EnergyBase (RUS),https://energybase.ru/power-plant/Yumaguzinskaya_HPP,,,,,,,,,,,,Russia,,
 1003867,Zaramagsky HPP,Hydro,,,,342,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003655,Alexin TPP,Natural Gas,,,,62,1941,Quandra,,,,,,,,,,,,,,Quandra,Quadra Production Capacity,,,,,,,,,,,,Russia,,
-1003656,Amurskaya CHPP,Natural Gas,fuel oil,,,285,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,50.227442,136.882095,,EnergyBase (RUS),https://energybase.ru/power-plant/Amur_CHP-1,,,,,,,,,,,,Russia,,
 1003658,Anadyrskaya Gas Engine CHPP,Natural Gas,,,,304,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
-1003661,Artyomovskaya CHPP,Natural Gas,,,,400,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,43.371389,132.305,,EnergyBase (RUS),https://energybase.ru/power-plant/Artemovskaya_CHP,,,,,,,,,,,,Russia,,
-1003672,Blagoveshenskaya CHPP,Natural Gas,,,,280,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational / under construction,,,,,,,,,,50.285278,127.489722,,EnergyBase (RUS),https://energybase.ru/power-plant/Blagoveshenskaya_CHP,,,,,,,,,,,,Russia,,
 1003694,Chulmanskaya CHPP,Natural Gas,,,,48,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
-1003696,Dankov TPP,Natural Gas,,,,10,1961,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,53.256111,39.164167,,EnergyBase (RUS),https://energybase.ru/power-plant/Dankovskaya_CHP,,,,,,,,,,,,Russia,,
-1003699,Dzhubginskaya,Natural Gas,natural gas,,,198,2013,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,44.438835,38.763556,,EnergyBase (RUS),https://energybase.ru/power-plant/Dzhubginskaya_TPP,,,,,,,,,,,,Russia,,
-1003700,Efremov TPP,Natural Gas,,,,160,1931,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,53.157329,38.117924,,EnergyBase (RUS),https://energybase.ru/power-plant/Efremovskaya_CHP,,,,,,,,,,,,Russia,,
-1003701,Egvenkinotskaya TPP,Natural Gas,,,,34,,"JSC ""Chukotenergo""",Operational,,,,,,,,,,66.401256,-179.133804,,EnergyBase (RUS),https://energybase.ru/power-plant/Egvekinotskaya_TPP,,,,,,,,,,,,Russia,,
 1003702,Elets TPP,Natural Gas,,,,57,1955,Quandra,,,,,,,,,,,,,,Quandra,Quadra Production Capacity,,,,,,,,,,,,Russia,,
-1003713,Ivanovskiye,Natural Gas,diesel,,,325,2008,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,57.023139,40.384793,,EnergyBase (RUS),https://energybase.ru/power-plant/Ivanovo_CCPF,,,,,,,,,,,,Russia,,
 1003718,Kaluga TPP,Natural Gas,,,,41.8,1948,Quandra,,,,,,,,,,,,,,Quandra,Quadra Production Capacity,,,,,,,,,,,,Russia,,
 1003719,Kamchatskiye CHPPs,Natural Gas,,,,407,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003732,Kizelovskaya TPP-3,Natural Gas,,,,29,2004,t+group,,,,,,,,,,,,,1,t+group,Kizelovskaya TPP-3,,,,,,,,,,,,Russia,,
-1003745,Kursk TPP-4*,Natural Gas,,,,4.8,1934,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,51.730752,36.198489,,EnergyBase (RUS),https://energybase.ru/power-plant/Kursk_CHP-4,,,,,,,,,,,,Russia,,
 1003747,Kyzym Mobile PP,Natural Gas,,,,72,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003750,Livny TPP,Natural Gas,,,,42,1958,Quandra,,,,,,,,,,,,,,Quandra,Quadra Production Capacity,,,,,,,,,,,,Russia,,
 1003751,Magadanskaya CHPP,Natural Gas,,,,96,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
@@ -39,34 +25,66 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003762,Northwest CHP,Natural Gas,,,2(450),900,2000-2006,Technoproexport,,,,,,,,,,,,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,,,,,Russia,,
 1003767,"Novo-Sterlitamakskaya TPP, a generation facility of Sterlitamakskaya TPP",Natural Gas,,CCGT,,255,1977,Bashkir,,,,2014,,,,,,,,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,,,,,Russia,,
 1003769,Novocheboksarsk CHPP-2,Natural Gas,,,,370,1965,t+group,,,,,,,,,,,,,1,t+group,Novocheboksarsk CHPP-2,,,,,,,,,,,,Russia,,
-1003773,Novomoskovsk SDPS,Natural Gas,,,,233.7,1934,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,54.086389,38.2375,,EnergyBase (RUS),https://energybase.ru/power-plant/Novomoskovskaya_TPP,,,,,,,,,,,,Russia,,
 1003783,Perm HPP-9,Natural Gas,,,,410,1951-1980,t+group,,,,,,,,,,,,,1,t+group,Perm HPP-9,,,,,,,,,,,,Russia,,
-1003787,Priufimskaya TPP,Natural Gas,,CCGT,,210,1976,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,55.028785,56.032988,,EnergyBase (RUS),https://energybase.ru/power-plant/Priufimskaya_CHP,,,,,,,,,,,,Russia,,
 1003789,Raychikhiskaya TPP,Natural Gas,,,,102,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003794,Sakhalinskaya TPP,Natural Gas,,,,252,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
+1003825,Tchailkovsky CHP-18,Natural Gas,,,,200,1978,t+group,,,,,,,,,,,,,1,t+group,Tchailkovsky CHP-18,,,,,,,,,,,,Russia,,
+1003838,TPP-9,Natural Gas,,,,210,1933,Mosenergo (subsidiary of Gazprom),,,,2010,,,,,,,,,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,,,,,Russia,,
+1003848,Vanovskie,Natural Gas,,,2(325),650,2007-2012,Technoproexport,,,,,,,,,,,,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,,,,,Russia,,
+1003857,Yakutskaya TPP,Natural Gas,,,,320,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
+1003863,Yuzhno-Sakhalinskaya CHPP,Natural Gas,,,,316,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
+1003727,Khabarovskiye CHPPs,Natural Gas,,,,1155,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
+1003654,Adlerskaya TPP,Natural Gas,,,,351,,OGK-2 (subsidiary of GazProm),,,"2,538",2014,,,,,,,,,,OGK-2,http://www.ogk2.ru/eng/about/branch/adlerskaya/,,,,,0.724,,,,,,,Russia,,
+1003827,Thermal Power Station 11,Coal,,,,250,1959,Irkutskenergo,,,,2015,,,,,,,56.123,101.601,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,,,,,Russia,,GEODB
+1003827,Thermal Power Station 16,Coal,,,8(10),80,1966,Irkutskenergo,,,,2015,,,,,,,56.123,101.601,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,,,,,Russia,,GEODB
+1003704,GES-1 (PG Smidovich),Natural Gas,,,,86,1897,Mosenergo (subsidiary of Gazprom),,,,2010,,,,,,,55.74808153,37.63021231,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,,,,,Russia,,GEODB
+1003845,Urengoyskaya,Natural Gas,,,1 unit,450,2012,Technoproexport,,,,,,,,,,,66.0327,78.0816,,Technoproexport,Technoproexport (p.6-7),,,,,,,,,,,,Russia,,GEODB
+1003726,Kemerovo thermal power station,Coal,,,,80,1940,Kuzbassenergo,,,,2015,,,,,,,55.3333333,86.0833333,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,,,,,Russia,,CARMA
+1003791,Rostov NPP,Nuclear,,,,4000,2001,Rosatom,,,"15,704",,,,,,,,47.5993,42.3717,,IAEA,http://www.rosenergoatom.ru/wps/wcm/connect/rosenergoatom_copy/ronpp/,,,,,,,,,,,,Russia,,GEODB
+1003714,Izhevsk HPP-1,Natural Gas,,,"60, 231",291,1986-2011,t+group,,,,,,,,,,,56.8918,53.34,1,t+group,http://www.tplusgroup.ru/org/udmurtia/organization/izhevskaja-chp2/,,,,,,,,,,,,Russia,,WRI
+1003730,Kirov CHPP-3,Coal,,,,385,1942,t+group,,,,,,,,,,,58.621,49.5944,1,t+group,http://www.tplusgroup.ru/org/kirov/organization/kirovskaja-chp4/,,,,,,,,,,,,Russia,,GEODB
+1003712,Ivanovskaya CHPP-3,Natural Gas,,,,330,1974,t+group,,,,,,,,,,,55.23,61.490833,1,t+group,http://www.tplusgroup.ru/org/ivanovo/key-figure/,,,,,,,,,,,,Russia,,GEODB
+1003667,Berezniki CHPP-10,Natural Gas,,,,27,1953,t+group,,,,,,,,,,,53.50965,45.318412,1,t+group,http://www.tplusgroup.ru/org/perm/organization/bereznikovskaja-chp10/,,,,,,,,,,,,Russia,,CARMA
+1003666,Beloyarsk,Nuclear,,,"600, 840",1480,1964,Rosatom,,x,"4,523",,,,,,,,56.84166667,61.3225,,IAEA,http://www.rosenergoatom.ru/wps/wcm/connect/rosenergoatom_copy/site_en/NPP/,,,,,,,,,,,,Russia,,CARMA
+1003858,Yaroslavl TPP-1,Natural Gas,,,,345,1934,TGC-2,,,,,,,,,,,57.550971,39.769699,,TGC-2,http://www.tgc-2.ru/about/indicators/,,,,,,,,,,,,Russia,,WRI
+1003858,Yaroslavl TPP-2,Natural Gas,,,,160,1955,TGC-2,,,,,,,,,,,57.550971,39.769699,,TGC-2,http://www.tgc-2.ru/about/indicators/,,,,,,,,,,,,Russia,,WRI
+1003807,Severodvinsk CHPP-2,Coal,,,,410,1976,TGC-2,,,,,,,,,,,64.562652,39.833898,,TGC-2,http://www.tgc-2.ru/about/indicators/,,,,,,,,,,,,Russia,,CARMA
+1003813,Smolensk TPP-2,Natural Gas,,,,275,1973,Quandra,,,,,,,,,,,47.2161,39.5794,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
+1003836,TPP-2,Natural Gas,,,,127,1957,Quandra,,,,,,,,,,,47.2161,39.5794,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
+1003836,TPP-2,Natural Gas,,,,515,1978,Quandra,,,,,,,,,,,47.2161,39.5794,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
+1003834,TPP-1,Natural Gas,,,,175,1955,Quandra,,,,,,,,,,,54.84017,56.09098,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
+1003834,TPP-1,Natural Gas,,,,138,1933,Quandra,,,,,,,,,,,54.84017,56.09098,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
+1003742,Krostromskaya,Natural Gas,fuel oil,,"8(300), 1200",3600,1969-1980,Inter RAO,,,,2016,,,,,,,57.45963,41.17408,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,,,,,Russia,,WRI
+1003736,Komsomolskiye CHPPs,Natural Gas,,,,600,,RusHydro,,,,,,,,,,,53.134735,140.723625,,RusHydro,http://www.eng.rushydro.ru/company_geography/,,,,,,,,,,,,Russia,,WRI
+1003695,Dagestan Branch,Hydro,,,,1786,,RusHydro,,,"4,014",,,,,,,,46.8712,46.8712,,RusHydro,http://www.eng.rushydro.ru/company_geography/,,,,,,,,,,,,Russia,,WRI
+1003683,Cherepetskaya GRES,Coal,,,4(15)3(300),450,1953,Inter RAO,,,,2016,,,,,,,54.136,36.48,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,,,,,Russia,,GEODB
+1003706,Novokuznetsk GTPP,Natural Gas,,,,297.44,2015,Kuzbassenergo,,,,2015,,,,,,,,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,,,,,Russia,,
+1003854,Vorkuta HPP-2,Coal,,,,270,1955,OOO Vorkuta Thermal Power Station,Operational,,,,,,,,,,67.610556,64.081389,1,EnergyBase (RUS),https://energybase.ru/power-plant/Vorkuta_CHP-2,,,,,,,,,,,,Russia,,
+1003656,Amurskaya CHPP,Natural Gas,fuel oil,,,285,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,50.227442,136.882095,,EnergyBase (RUS),https://energybase.ru/power-plant/Amur_CHP-1,,,,,,,,,,,,Russia,,
+1003661,Artyomovskaya CHPP,Natural Gas,,,,400,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,43.371389,132.305,,EnergyBase (RUS),https://energybase.ru/power-plant/Artemovskaya_CHP,,,,,,,,,,,,Russia,,
+1003672,Blagoveshenskaya CHPP,Natural Gas,,,,280,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational / under construction,,,,,,,,,,50.285278,127.489722,,EnergyBase (RUS),https://energybase.ru/power-plant/Blagoveshenskaya_CHP,,,,,,,,,,,,Russia,,
+1003696,Dankov TPP,Natural Gas,,,,10,1961,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,53.256111,39.164167,,EnergyBase (RUS),https://energybase.ru/power-plant/Dankovskaya_CHP,,,,,,,,,,,,Russia,,
+1003699,Dzhubginskaya,Natural Gas,natural gas,,,198,2013,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,44.438835,38.763556,,EnergyBase (RUS),https://energybase.ru/power-plant/Dzhubginskaya_TPP,,,,,,,,,,,,Russia,,
+1003700,Efremov TPP,Natural Gas,,,,160,1931,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,53.157329,38.117924,,EnergyBase (RUS),https://energybase.ru/power-plant/Efremovskaya_CHP,,,,,,,,,,,,Russia,,
+1003701,Egvenkinotskaya TPP,Natural Gas,,,,34,,"JSC ""Chukotenergo""",Operational,,,,,,,,,,66.401256,-179.133804,,EnergyBase (RUS),https://energybase.ru/power-plant/Egvekinotskaya_TPP,,,,,,,,,,,,Russia,,
+1003713,Ivanovskiye,Natural Gas,diesel,,,325,2008,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,57.023139,40.384793,,EnergyBase (RUS),https://energybase.ru/power-plant/Ivanovo_CCPF,,,,,,,,,,,,Russia,,
+1003745,Kursk TPP-4*,Natural Gas,,,,4.8,1934,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,51.730752,36.198489,,EnergyBase (RUS),https://energybase.ru/power-plant/Kursk_CHP-4,,,,,,,,,,,,Russia,,
+1003773,Novomoskovsk SDPS,Natural Gas,,,,233.7,1934,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,54.086389,38.2375,,EnergyBase (RUS),https://energybase.ru/power-plant/Novomoskovskaya_TPP,,,,,,,,,,,,Russia,,
+1003787,Priufimskaya TPP,Natural Gas,,CCGT,,210,1976,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,55.028785,56.032988,,EnergyBase (RUS),https://energybase.ru/power-plant/Priufimskaya_CHP,,,,,,,,,,,,Russia,,
 1003796,Salavatskaya TPP,Natural Gas,,CCGT,,185,1953,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,53.396944,55.8875,,EnergyBase (RUS),https://energybase.ru/power-plant/Salavatskaya_CHP,,,,,,,,,,,,Russia,,
 1003809,Shchekinskaya SDPS*,Natural Gas,,,,400,1950,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,53.948578,37.648934,,EnergyBase (RUS),https://energybase.ru/power-plant/Shekinskaya_TPP,,,,,,,,,,,,Russia,,
 1003811,"Sibay TPP, a generation facility of Zauralskaya TPP",Natural Gas,,CCGT,,16,2001,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,,,,EnergyBase (RUS),https://energybase.ru/power-plant/GT_Sibai,,,,,,,,,,,,Russia,,
 1003820,Sterlitamakskaya TPP,Natural Gas,,CCGT,,345,1957,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,53.666561,55.96192,,EnergyBase (RUS),https://energybase.ru/power-plant/Sterlitamak_CHP,,,,,,,,,,,,Russia,,
-1003825,Tchailkovsky CHP-18,Natural Gas,,,,200,1978,t+group,,,,,,,,,,,,,1,t+group,Tchailkovsky CHP-18,,,,,,,,,,,,Russia,,
 1003833,TPP Quadra,Natural Gas,,,,116.9,2011,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,51.765965,36.138945,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP_Northwestern_District,,,,,,,,,,,,Russia,,
 1003835,"TPP-1, a generation facility of Ufimskaya TPP-4",Natural Gas,,CCGT,,77.74,1938,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,54.84,56.091111,,EnergyBase (RUS),https://energybase.ru/power-plant/Ufa_CHP-1,,,,,,,,,,,,Russia,,
-1003838,TPP-9,Natural Gas,,,,210,1933,Mosenergo (subsidiary of Gazprom),,,,2010,,,,,,,,,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,,,,,Russia,,
 1003844,Urengoy Mobile PP,Natural Gas,,,,72,,"OJSC ""Mobile power engineering""",Operational,,,,,,,,,,66.092202,76.734079,,EnergyBase (RUS),https://energybase.ru/power-plant/urengoy,,,,,,,,,,,,Russia,,
-1003848,Vanovskie,Natural Gas,,,2(325),650,2007-2012,Technoproexport,,,,,,,,,,,,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,,,,,Russia,,
-1003857,Yakutskaya TPP,Natural Gas,,,,320,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
-1003863,Yuzhno-Sakhalinskaya CHPP,Natural Gas,,,,316,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
 1003866,Zakamskaya,Natural Gas,,,,69,1936,"Perm Branch of PJSC ""T Plus""",Operational,,,,,,,,,,58.077226,55.770639,1,EnergyBase (RUS),https://energybase.ru/power-plant/Zakamskaya_CHP-5,,,,,,,,,,,,Russia,,
 1003868,Zauralskaya TPP,Natural Gas,,CCGT,,15,2004,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,52.726389,58.707222,,EnergyBase (RUS),https://energybase.ru/power-plant/Zauralskaya_CHP,,,,,,,,,,,,Russia,,
 1003841,Tyupkildy Wind Farm,Wind,,,,2.2,2001,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,54.576689,54.248343,,EnergyBase (RUS),https://energybase.ru/power-plant/Tyupkildy_WPP,,,,,,,,,,,,Russia,,
-1003727,Khabarovskiye CHPPs,Natural Gas,,,,1155,,RusHydro,,,,,,,,,,,,,,RusHydro,RusHydro,,,,,,,,,,,,Russia,,
-1003654,Adlerskaya TPP,Natural Gas,,,,351,,OGK-2 (subsidiary of GazProm),,,"2,538",2014,,,,,,,,,,OGK-2,http://www.ogk2.ru/eng/about/branch/adlerskaya/,,,,,0.724,,,,,,,Russia,,
 1003653,ABAKAN CHP,Coal,,,,270,1982,"JSC ""Yenisei TGC (TGC-13)""",Operational / under construction,,,2015,,,,,,,53.719444,91.321944,,EnergyBase (RUS),https://energybase.ru/power-plant/Abakan_CHP,,,,,,,,,,,,Russia,,GEODB
 1003663,BARNAUL THERMAL POWER STATION-2,Coal,,,,200,1955,"LLC ""Siberian Generating Company""",Operational / upgrading,,,2015,,,,,,,53.388889,83.758056,,EnergyBase (RUS),https://energybase.ru/power-plant/Barnaul_CHP-2,,,,,,,,,,,,Russia,,GEODB
 1003688,CHP-17,Coal,,,,192,1950,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,54.902778,38.055,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-17,,,,,,,,,,,,Russia,,GEODB
 1003765,Novo-Irkustsk,Coal,,,,655,1960,"PJSC ""IRKUTSKENERGO""",Operational,,,2015,,,,,,,52.250833,104.203889,,EnergyBase (RUS),https://energybase.ru/power-plant/Novo-Irkutsk_CHP,,,,,,,,,,,,Russia,,GEODB
-1003827,Thermal Power Station 11,Coal,,,,250,1959,Irkutskenergo,,,,2015,,,,,,,56.123,101.601,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,,,,,Russia,,GEODB
-1003827,Thermal Power Station 16,Coal,,,8(10),80,1966,Irkutskenergo,,,,2015,,,,,,,56.123,101.601,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,,,,,Russia,,GEODB
 1003827,Thermal Power Station 6,Coal,,,,270,1961,"PJSC ""IRKUTSKENERGO""",Operational,,,2015,,,,,,,56.122651,101.596541,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-6,,,,,,,,,,,,Russia,,GEODB
 1003828,Thermal Power Station 9,Coal,,,,475,,"PJSC ""IRKUTSKENERGO""",Operational,,,2015,,,,,,,52.532917,103.936452,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-9,,,,,,,,,,,,Russia,,GEODB
 1003832,TOM-USINSK GRES,Coal,,,,1272,1958,OAO Kuzbassenergo,Operational / upgrading,,,2015,,,,,,,53.781389,87.587778,,EnergyBase (RUS),https://energybase.ru/power-plant/tom-usinskaya-tpp,,,,,,,,,,,,Russia,,GEODB
@@ -75,32 +93,24 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003687,CHP-16,Natural Gas,,,,780,1955,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.783333,37.502222,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-16,,,,,,,,,,,,Russia,,GEODB
 1003689,CHP-20,Natural Gas,fuel oil,,,1150,1952,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.700081,37.585989,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-20,,,,,,,,,,,,Russia,,GEODB
 1003693,CHP-8,Natural Gas,,,,605,1930,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.72425,37.696611,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-8,,,,,,,,,,,,Russia,,GEODB
-1003704,GES-1 (PG Smidovich),Natural Gas,,,,86,1897,Mosenergo (subsidiary of Gazprom),,,,2010,,,,,,,55.74808153,37.63021231,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,,,,,Russia,,GEODB
 1003814,Smolenskaya GRES,Natural Gas,,,,630,1970,"PJSC ""Unipro""",Operational,,"2,390",2007,,,,,,,55.605556,32.413889,CHP,EnergyBase (RUS),https://energybase.ru/power-plant/Smolenskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003842,Ufimskaya TPP-2,Natural Gas,,CCGT,,514,1940,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,54.792222,56.117778,,EnergyBase (RUS),https://energybase.ru/power-plant/Ufa_CHP-2,,,,,,,,,,,,Russia,,GEODB
 1003842,Ufimskaya TPP-3,Natural Gas,,CCGT,,85,1951,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,54.870833,56.091389,,EnergyBase (RUS),https://energybase.ru/power-plant/Ufa_CHP-3,,,,,,,,,,,,Russia,,GEODB
 1003842,Ufimskaya TPP-4,Natural Gas,,CCGT,,330,1956,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,54.913056,56.071944,,EnergyBase (RUS),https://energybase.ru/power-plant/Ufa_CHP-4,,,,,,,,,,,,Russia,,GEODB
 1003845,Urengoyskaya,Natural Gas,fuel oil,,,529.7,1987,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,66.034992,78.083847,,EnergyBase (RUS),https://energybase.ru/power-plant/Urengoyskaya_TPP,,,,,,,,,,,,Russia,,GEODB
-1003845,Urengoyskaya,Natural Gas,,,1 unit,450,2012,Technoproexport,,,,,,,,,,,66.0327,78.0816,,Technoproexport,Technoproexport (p.6-7),,,,,,,,,,,,Russia,,GEODB
-1003864,Yuzhnouralskaya 1,Natural Gas,"natural gas, diesel",,2(200 use coal) 2(50)(35)(83)(100)2(82),747,1948,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,54.455653,61.232464,,EnergyBase (RUS),https://energybase.ru/power-plant/Yuzhnouralskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003864,Yuzhnouralskaya 2,Natural Gas,diesel,,2(400),844.5,2014,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,54.467519,61.203032,,EnergyBase (RUS),https://energybase.ru/power-plant/Yuzhnouralskaya_TPP-2,,,,,,,,,,,,Russia,,GEODB
 1003669,Berezovskaya GRES,Coal,,,,2400,1979,"PJSC ""Unipro""",Operational,,"6,920",2007,,,,,,,55.579444,89.0725,CHP,EnergyBase (RUS),https://energybase.ru/power-plant/Berezovskaya_TPP-1,,,,,,,,,,,,Russia,,GEODB
-1003683,Cherepetskaya GRES,Coal,,,4(15)3(300),450,1953-1999,Inter RAO,,,,2016,,,,,,,54.136,36.48,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,,,,,Russia,,GEODB
 1003691,CHP-22,Coal,coal,,,1310,1960,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.634141,37.817298,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-22,,,,,,,,,,,,Russia,,GEODB
 1003826,Thermal Power Station 10,Coal,,,,1110,1959-1962,"PJSC ""IRKUTSKENERGO""",Operational,,,2015,,,,,,,52.462194,103.979083,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-10,,,,,,,,,,,,Russia,,GEODB
 1003739,Krasnoyarsk,Hydro,,Dam with Reservoir,,6000,1972,"JSC ""Krasnoyarsk HPP""",Operational,,"18,300",2005,,,,,,,55.936667,92.295556,Generation is annual average,EnergyBase (RUS),https://energybase.ru/power-plant/Krasnoyarsk_HPP,,,,,,,,,,,,Russia,,GEODB
 1003846,Ust Illminsk (HPP),Hydro,,,,3840,1974,"PJSC ""IRKUTSKENERGO""",Operational,,,2015,,,,,,,57.968333,102.695833,,EnergyBase (RUS),https://energybase.ru/power-plant/Ust-Ilim_HPP,,,,,,,,,,,,Russia,,GEODB
-1003690,CHP-21,Natural Gas,,,,1800,1960,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.894675,37.510719,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-21,,,,,,,,,,,,Russia,,GEODB
 1003692,CHP-23,Natural Gas,,,,1420,1966,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.821111,37.771667,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-23,,,,,,,,,,,,Russia,,GEODB
 1003692,CHP-25,Natural Gas,fuel oil,,,1370,1975,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.695278,37.446111,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-25,,,,,,,,,,,,Russia,,GEODB
 1003692,CHP-26,Natural Gas,fuel oil,,,1840,1979,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.5775,37.63,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-26,,,,,,,,,,,,Russia,,GEODB
 1003692,CHP-27,Natural Gas,,,,1060,1996,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.91625,37.687869,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-27,,,,,,,,,,,,Russia,,GEODB
 1003761,Nizhnevartovskaya,Natural Gas,natural gas,,3 units,2013,1993,ZAO Nizhnevartovskaya GRES,Operational,,,2016,,,,,,,60.975833,76.943333,,EnergyBase (RUS),https://energybase.ru/power-plant/Nizhnevartovsk_TPP,,,,,,,,,,,,Russia,,GEODB
-1003780,Pechorskaya,Natural Gas,fuel oil,,2(210)2(215),1060,1974,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,65.134444,57.315639,,EnergyBase (RUS),https://energybase.ru/power-plant/Pechorskaya_TPP,,,,,,,,,,,,Russia,,GEODB
-1003784,Permskaya,Natural Gas,fuel oil,,3(800),3363,1974,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,58.495937,56.347075,,EnergyBase (RUS),https://energybase.ru/power-plant/Permskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003808,Shaturskaya GRES,Natural Gas,Peat,,,1493,1923,"PJSC ""Unipro""",Operational,,"4,760",2007,,,,,,,55.583333,39.561111,CHP,EnergyBase (RUS),https://energybase.ru/power-plant/Shaturskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003821,Surgutskaya GRES-2,Natural Gas,,,,5597,1979,"PJSC ""Unipro""",Operational,,"32,890",2007,,,,,,,61.279444,73.5125,CHP,EnergyBase (RUS),https://energybase.ru/power-plant/Surgutskaya_TPP-2,,,,,,,,,,,,Russia,,GEODB
-1003849,Verkhnetagilskaya,Natural Gas,natural gas,,4(88)2(100)2(165)3(205),1062.15,1951,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,57.355556,59.960278,,EnergyBase (RUS),https://energybase.ru/power-plant/Verhnetagilskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003788,Pskovskaya GRES,Natural Gas,fuel oil,,,440,1993,"PJSC ""OGK-2""",Operational,,992,2014,,,,,,,57.509722,29.969444,,EnergyBase (RUS),https://energybase.ru/power-plant/Pskovskaya_TPP,,,,,0.258,,,,,,,Russia,,GEODB
 1003684,Cherepovetskaya GRES,Coal,natural gas,,,1051.6,1976,"PJSC ""OGK-2""",Operational / under construction,,3088,2014,,,,,,,59.228889,37.125,,EnergyBase (RUS),https://energybase.ru/power-plant/Cherepovetskaya_TPP,,,,,0.53,,,,,,,Russia,,GEODB
 1003741,Krasnoyarskaya GRES-2,Coal,fuel oil,,,1250,1957,"PJSC ""OGK-2""",Operational,,4650,2014,,,,,,,56.150278,94.480556,,EnergyBase (RUS),https://energybase.ru/power-plant/Krasnoyarskaya_TPP-2,,,,,0.42,,,,,,,Russia,,GEODB
@@ -109,15 +119,12 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003729,Kirishskaya GRES,Natural Gas,fuel oil,,,2595,,"PJSC ""OGK-2""",Operational,,5796,2014,,,,,,,59.489167,32.050278,,EnergyBase (RUS),https://energybase.ru/power-plant/Kirishskaya_TPP,,,,,0.255,,,,,,,Russia,,GEODB
 1003793,Ryazanskaya GRES,Natural Gas,fuel oil,,,3070,1968,"PJSC ""OGK-2""",Operational / upgrading,,6323,2014,,,,,,,54.035556,39.779444,,EnergyBase (RUS),https://energybase.ru/power-plant/Ryazanskaya_TPP,,,,,0.235,,,,,,,Russia,,GEODB
 1003821,Surgutskaya GRES-1,Natural Gas,,,,3268,1968,"PJSC ""OGK-2""",Operational,,21615,2014,,,,,,,61.279444,73.488889,,EnergyBase (RUS),https://energybase.ru/power-plant/Surgutskaya_TPP-1,,,,,0.75,,,,,,,Russia,,GEODB
-1003728,Kharanorskaya,Coal,fuel oil,,,655,1990,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,50.853889,115.7,,EnergyBase (RUS),https://energybase.ru/power-plant/Kharanorskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003721,KANSK CHP,Coal,,,,24,1953,"JSC ""Yenisei TGC (TGC-13)""",Operational,,,2015,,,,,,,56.229194,95.696083,,EnergyBase (RUS),https://energybase.ru/power-plant/Kan_CHP,,,,,,,,,,,,Russia,,CARMA
 1003746,KUZNETSK THERMAL POWER STATION,Coal,,,,100,1944,Owner / Investor,Operational,,,2015,,,,,,,53.769724,87.087582,,EnergyBase (RUS),https://energybase.ru/power-plant/centralnaya-chp-novokuznetsk,,,,,,,,,,,,Russia,,CARMA
 1003753,MINUSINSK CHP,Coal,,,,85,1997,"JSC ""Yenisei TGC (TGC-13)""",Operational,,,2015,,,,,,,53.651583,91.777889,,EnergyBase (RUS),https://energybase.ru/power-plant/Minusinskaya_CHP,,,,,,,,,,,,Russia,,CARMA
 1003847,Ust Illminsk (TPP),Coal,,,,525,1978,"PJSC ""IRKUTSKENERGO""",Operational,,,2015,,,,,,,58.049227,102.808793,,EnergyBase (RUS),https://energybase.ru/power-plant/Ust-Ilim_CHP,,,,,,,,,,,,Russia,,CARMA
-1003726,Kemerovo thermal power station,Coal,,,,80,1940,Kuzbassenergo,,,,2015,,,,,,,55.3333333,86.0833333,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,,,,,Russia,,CARMA
 1003743,Kumertauskaya TPP,Natural Gas,,CCGT,,120,1954,"OJSC ""Sverdlovsk Energy and Gas Company"" (JSC ""SEGK"")",Operational,,,2014,,,,,,,52.771461,55.823126,,EnergyBase (RUS),https://energybase.ru/power-plant/Kumertauskaya_CHP,,,,,,,,,,,,Russia,,CARMA
 1003815,Sochinskaya,Natural Gas,diesel,,2(78)1(80),160.5,2004,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,43.594722,39.754444,,EnergyBase (RUS),https://energybase.ru/power-plant/Sochi_TPP,,,,,,,,,,,,Russia,,CARMA
-1003711,Iriklinskaya,Natural Gas,fuel oil,,8(300)1(30),2444,1962,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,51.754001,58.803291,,EnergyBase (RUS),https://energybase.ru/power-plant/Iriklinskaya_TPP,,,,,,,,,,,,Russia,,WRI
 1003755,NAZAROVO GRES,Coal,,,,1243,1961,"JSC ""Yenisei TGC (TGC-13)""",Operational,,,2015,,,,,,,56.037889,90.347778,,EnergyBase (RUS),https://energybase.ru/power-plant/Nazarovskaya_TPP,,,,,,,,,,,,Russia,,WRI
 1003665,BELOVO TPP,Coal,,,,1200,1964,OAO Kuzbassenergo,Operational / upgrading,,,2015,,,,,,,54.445556,86.423056,,EnergyBase (RUS),https://energybase.ru/power-plant/Belovskaya_tpp,,,,,,,,,,,,Russia,,WRI
 1003766,NOVO-KEMEROVO CHP,Coal,,,,565,1955,"LLC ""Siberian Generating Company""",Operational,,,2015,,,,,,,55.351111,85.994167,,EnergyBase (RUS),https://energybase.ru/power-plant/Novo-Kemerovskaya_CHP,,,,,,,,,,,,Russia,,WRI
@@ -132,13 +139,10 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003843,Ulyanovsk TPP-2,Natural Gas,,,,417,1978,"Ulyanovsk branch of PJSC ""T Plus""",Operational,,,,,,,,,,54.347214,48.624952,1,EnergyBase (RUS),https://energybase.ru/power-plant/Ulyanovsk_CHP-2,,,,,,,,,,,,Russia,,GEODB
 1003810,Shirokovskaya HPP,Hydro,,,,28,1948,"Perm Branch of PJSC ""T Plus""",Operational,,,,,,,,,,58.834541,57.792546,1,EnergyBase (RUS),https://energybase.ru/power-plant/shirokovskaya-hpp,,,,,,,,,,,,Russia,,CARMA
 1003812,Smolensk,Nuclear,,,,3000,1982-1990,"JSC ""Concern Rosenergoatom""",Operational,,"23,673",,,,,,,,54.164722,33.236667,,EnergyBase (RUS),https://energybase.ru/power-plant/Smolensk_NPP,,,,,,,,,,,,Russia,,GEODB
-1003790,Reftinskaya GRES,Coal,,,6(300)4(500),3800,1963,"PJSC ""Enel Russia""",Operational,,20037,2015,,,,,,,57.106667,61.711667,Generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Reftinskaya_TPP,,,,,,,,,,,,Russia,,GEODB
-1003791,Rostov NPP,Nuclear,,,,4000,2001,Rosatom,,,"15,704",,,,,,,,47.5993,42.3717,,IAEA,http://www.rosenergoatom.ru/wps/wcm/connect/rosenergoatom_copy/ronpp/,,,,,,,,,,,,Russia,,GEODB
 1003797,Samara GRES,Natural Gas,,,,61,1900,"Samara branch of PJSC ""T Plus""",Operational,,,,,,,,,,53.145,50.056389,1,EnergyBase (RUS),https://energybase.ru/power-plant/Samara_TPP,,,,,,,,,,,,Russia,,CARMA
 1003795,Sakmarskaya TPP,Natural Gas,,,,460,1969,"Orenburg Branch of PJSC ""T Plus""",Operational,,,,,,,,,,51.843282,55.098753,1,EnergyBase (RUS),https://energybase.ru/power-plant/Sakmarskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003798,Samara TPP,Natural Gas,,,5 units,440,1971,"Samara branch of PJSC ""T Plus""",Operational,,,,,,,,,,53.251389,50.275556,1,EnergyBase (RUS),https://energybase.ru/power-plant/Samara_CHP,,,,,,,,,,,,Russia,,GEODB
 1003799,Saransk CHP-2,Natural Gas,,,,340,1958,"Mordovian branch of PJSC ""T Plus""",Operational,,,,,,,,,,54.217101,45.209266,1,EnergyBase (RUS),https://energybase.ru/power-plant/Saransk_CHP-2,,,,,,,,,,,,Russia,,WRI
-1003714,Izhevsk HPP-1,Natural Gas,,,"60, 231",291,1986-2011,t+group,,,,,,,,,,,56.8918,53.34,1,t+group,http://www.tplusgroup.ru/org/udmurtia/organization/izhevskaja-chp2/,,,,,,,,,,,,Russia,,WRI
 1003714,Izhevsk HPP-2,Natural Gas,,,,390,1982,"Udmurtsky branch of PJSC ""T Plus""",Operational,,,,,,,,,,56.893629,53.34035,1,EnergyBase (RUS),https://energybase.ru/power-plant/Izhevsk_CHP-2,,,,,,,,,,,,Russia,,WRI
 1003850,Vladivostok CHPP,Natural Gas,,,,497,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,43.100278,131.972778,,EnergyBase (RUS),https://energybase.ru/power-plant/Vladivostok_CHP-2,,,,,,,,,,,,Russia,,WRI
 1003853,Volzhskaya HPP,Hydro,,,,2671,1952,"PJSC ""RusHydro""",Operational,,"11,566",,,,,,,,48.824444,44.676667,,EnergyBase (RUS),https://energybase.ru/power-plant/Volgskaya_HPP,,,,,,,,,,,,Russia,,GEODB
@@ -159,7 +163,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003664,Belgorod TPP (thermal power plant),Natural Gas,,,,60,1938,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,50.6,36.618611,,EnergyBase (RUS),https://energybase.ru/power-plant/Belgorod_CHP,,,,,,,,,,,,Russia,,CARMA
 1003735,Komsomolskaya CHPP,Natural Gas,,,,360,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational / under construction,,,,,,,,,,50.606111,136.954722,,EnergyBase (RUS),https://energybase.ru/power-plant/Komsomolskaya_CHP-3,,,,,,,,,,,,Russia,,WRI
 1003737,Konakovskaya,Natural Gas,fuel oil,,3(320)5(300),2520,1965,"PJSC ""Enel Russia""",Operational,,7753,2015,,,,,,,56.740961,36.770742,Gross generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Konakovskaya_TPP,,,,,,,,,,,,Russia,,GEODB
-1003730,Kirov CHPP-3,Coal,,,,385,1942,t+group,,,,,,,,,,,58.621,49.5944,1,t+group,http://www.tplusgroup.ru/org/kirov/organization/kirovskaja-chp4/,,,,,,,,,,,,Russia,,GEODB
 1003730,Kirov CHPP-4,Coal,,,,353,1963,"Kirov branch of PJSC ""T Plus""",Operational / upgrading,,,,,,,,,,58.621083,49.596528,1,EnergyBase (RUS),https://energybase.ru/power-plant/Kirov_CHP-4,,,,,,,,,,,,Russia,,GEODB
 1003731,Kirov TPP-5,Coal,,,,450,1980,"Kirov branch of PJSC ""T Plus""",Operational,,,,,,,,,,58.549516,49.583316,1,EnergyBase (RUS),https://energybase.ru/power-plant/Kirov_CHP-5,,,,,,,,,,,,Russia,,GEODB
 1003733,Kola NPP,Nuclear,,,4(440),1760,1973-1984,"JSC ""Concern Rosenergoatom""",Operational,,"10,361",,,,,,,,67.466667,32.466667,,EnergyBase (RUS),https://energybase.ru/power-plant/Kola_NPP,,,,,,,,,,,,Russia,,GEODB
@@ -167,7 +170,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003723,Kargalinskaya,Natural Gas,,,,320,1973,"Orenburg Branch of PJSC ""T Plus""",Operational,,,,,,,,,,51.866104,54.774056,1,EnergyBase (RUS),https://energybase.ru/power-plant/Kargalin_CHP,,,,,,,,,,,,Russia,,GEODB
 1003720,Kamskaya HPP,Hydro,,,,543,1949,"PJSC ""RusHydro""",Operational,,"1,998",,,,,,,,58.114556,56.328861,,EnergyBase (RUS),https://energybase.ru/power-plant/Kamskaya_HPP,,,,,,,,,,,,Russia,,GEODB
 1003712,Ivanovskaya CHPP-2,Natural Gas,,,,200,1954,"Ivanovo branch of PJSC ""T Plus""",Operational,,,,,,,,,,56.990656,41.011334,1,EnergyBase (RUS),https://energybase.ru/power-plant/Ivanovo_CHP-2,,,,,,,,,,,,Russia,,GEODB
-1003712,Ivanovskaya CHPP-3,Natural Gas,,,,330,1974,t+group,,,,,,,,,,,55.23,61.490833,1,t+group,http://www.tplusgroup.ru/org/ivanovo/key-figure/,,,,,,,,,,,,Russia,,GEODB
 1003802,Saratovskaya HPP,Hydro,,,,1403,1956,"PJSC ""RusHydro""",Operational,,"5,600",,,,,,,,52.048056,47.762222,,EnergyBase (RUS),https://energybase.ru/power-plant/Saratovskaya_HPP,,,,,,,,,,,,Russia,,GEODB
 1003668,Berezniki CHPP-2,Natural Gas,,,,98,1947,"Perm Branch of PJSC ""T Plus""",Operational,,,,,,,,,,59.450278,56.820556,1,EnergyBase (RUS),https://energybase.ru/power-plant/Bereznikovskaya_CHP-2,,,,,,,,,,,,Russia,,CARMA
 1003668,Berezniki CHPP-4,Natural Gas,,,,29.2,1931,"Perm Branch of PJSC ""T Plus""",Operational,,,,,,,,,,59.406944,56.735833,1,EnergyBase (RUS),https://energybase.ru/power-plant/Bereznikovskaya_CHP-4,,,,,,,,,,,,Russia,,CARMA
@@ -191,18 +193,13 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003777,Orsk TPP-1,Natural Gas,fuel oil,,,245,1938,"Orenburg Branch of PJSC ""T Plus""",Operational,,,,,,,,,,51.240816,58.49855,1,EnergyBase (RUS),https://energybase.ru/power-plant/Orsk_CHP-1,,,,,,,,,,,,Russia,,GEODB
 1003662,Balakovo TPP-4,Natural Gas,,,,370,1962,"Saratov Branch of PJSC ""T Plus""",Operational,,,,,,,,,,51.975556,47.783333,1,EnergyBase (RUS),https://energybase.ru/power-plant/Balakovo_CHP-4,,,,,,,,,,,,Russia,,GEODB
 1003660,Arkhangelsk CHPP,Natural Gas,,,,450,1970,"PJSC ""TGC-2""",Operational,,,,,,,,,,64.575278,40.573056,,EnergyBase (RUS),https://energybase.ru/power-plant/Arkhangelsk_CHP,,,,,,,,,,,,Russia,,WRI
-1003667,Berezniki CHPP-10,Natural Gas,,,,27,1953,t+group,,,,,,,,,,,53.50965,45.318412,1,t+group,http://www.tplusgroup.ru/org/perm/organization/bereznikovskaja-chp10/,,,,,,,,,,,,Russia,,CARMA
 1003671,Bilibino,Nuclear,,,4(12),48,1973-1977,"JSC ""Concern Rosenergoatom""",Operational,,220,,,,,,,,68.050278,166.538889,,EnergyBase (RUS),https://energybase.ru/power-plant/Bilibino_NPP,,,,,,,,,,,,Russia,,GEODB
-1003666,Beloyarsk,Nuclear,,,"600, 840",1480,1964,Rosatom,,x,"4,523",,,,,,,,56.84166667,61.3225,,IAEA,http://www.rosenergoatom.ru/wps/wcm/connect/rosenergoatom_copy/site_en/NPP/,,,,,,,,,,,,Russia,,CARMA
 1003763,Novgorod CHPP,Coal,,,,190,1968,"PJSC ""TGC-2""",Operational,,,,,,,,,,58.623611,31.221944,,EnergyBase (RUS),https://energybase.ru/power-plant/Novgorod_CHP,,,,,,,,,,,,Russia,,CARMA
 1003852,Vologda CHP,Natural Gas,,CCGT,,136.1,2011,"PJSC ""TGC-2""",Operational,,,,,,,,,,59.195,39.938889,,EnergyBase (RUS),https://energybase.ru/power-plant/Vologda_CHP,,,,,,,,,,,,Russia,,GEODB
-1003858,Yaroslavl TPP-1,Natural Gas,,,,345,1934,TGC-2,,,,,,,,,,,57.550971,39.769699,,TGC-2,http://www.tgc-2.ru/about/indicators/,,,,,,,,,,,,Russia,,WRI
-1003858,Yaroslavl TPP-2,Natural Gas,,,,160,1955,TGC-2,,,,,,,,,,,57.550971,39.769699,,TGC-2,http://www.tgc-2.ru/about/indicators/,,,,,,,,,,,,Russia,,WRI
 1003858,Yaroslavl TPP-3,Natural Gas,,,,345,1961-1970,"PJSC ""TGC-2""",Operational,,,,,,,,,,57.550556,39.771111,,EnergyBase (RUS),https://energybase.ru/power-plant/Yaroslavl_CHP-3,,,,,,,,,,,,Russia,,WRI
 1003738,Kostroma CHPP-1,Natural Gas,,,,33,1930,"PJSC ""TGC-2""",Operational,,,,,,,,,,57.783611,40.905556,,EnergyBase (RUS),https://energybase.ru/power-plant/Kostroma_CHP-1,,,,,,,,,,,,Russia,,CARMA
 1003738,Kostroma CHPP-2,Natural Gas,,,,170,1978,"PJSC ""TGC-2""",Operational,,,,,,,,,,57.753611,41.03,,EnergyBase (RUS),https://energybase.ru/power-plant/Kostroma_CHP-2,,,,,,,,,,,,Russia,,CARMA
 1003807,Severodvinsk CHPP-1,Coal,,,,188.5,1941,"PJSC ""TGC-2""",Operational / under construction,,,,,,,,,,64.581009,39.857712,,EnergyBase (RUS),https://energybase.ru/power-plant/Severodvinsk_CHP-1,,,,,,,,,,,,Russia,,CARMA
-1003807,Severodvinsk CHPP-2,Coal,,,,410,1976,TGC-2,,,,,,,,,,,64.562652,39.833898,,TGC-2,http://www.tgc-2.ru/about/indicators/,,,,,,,,,,,,Russia,,CARMA
 1003840,Tyumen CHP-1,Natural Gas,,,2(40)3(77)1(220)1(230),662,1960,"PJSC ""Fortum""",Operational,,,2016,,,,,,,57.147139,65.606861,,EnergyBase (RUS),https://energybase.ru/power-plant/Tyumen_CHP-1,,,,,,,,,,,,Russia,,GEODB
 1003840,Tyumen CHP-2,Natural Gas,,,"3(180), 1(215)",755,1986,"PJSC ""Fortum""",Operational,,,2016,,,,,,,57.086667,65.626944,,EnergyBase (RUS),https://energybase.ru/power-plant/Tyumen_CHP-2,,,,,,,,,,,,Russia,,GEODB
 1003681,Chelyabinsk CHP-1,Natural Gas,,,,232.8,1942,"PJSC ""Fortum""",Operational,,,2016,,,,,,,55.133889,61.4775,,EnergyBase (RUS),https://energybase.ru/power-plant/Chelyabinsk_CHP-1,,,,,,,,,,,,Russia,,GEODB
@@ -210,26 +207,18 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003681,Chelyabinsk CHP-3,Natural Gas,,,,576.3,1996-2011,"PJSC ""Fortum""",Operational,,,2016,,,,,,,55.23,61.490833,,EnergyBase (RUS),https://energybase.ru/power-plant/Chelyabinsk_CHP-3,,,,,,,,,,,,Russia,,GEODB
 1003682,Chelyabinsk GRES,Natural Gas,,,"286, 209",742,1930,"PJSC ""Fortum""",Operational,,,2016,,,,,,,55.201389,61.403056,,EnergyBase (RUS),https://energybase.ru/power-plant/Chelyabinsk_TPP,,,,,,,,,,,,Russia,,GEODB
 1003829,Tobolsk CHP,Natural Gas,,,"165, 170, 140 (Thermal units), 213 (CCGT)",878.3,1980,TOBOLSKAYA TPP,Operational,,,2016,,,,,,,58.244944,68.44525,,EnergyBase (RUS),https://energybase.ru/power-plant/Tobolsk_TEC,,,,,,,,,,,,Russia,,GEODB
-1003813,Smolensk TPP-2,Natural Gas,,,,275,1973,Quandra,,,,,,,,,,,47.2161,39.5794,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
 1003705,"GT-TPP (gas turbine TPP) ""Luch""",Natural Gas,,,,60,2005,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,50.560923,36.580634,,EnergyBase (RUS),https://energybase.ru/power-plant/GTU_CHP_BEAM,,,,,,,,,,,,Russia,,CARMA
 1003707,Gubkin TPP,Natural Gas,,,,29,1954,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,51.280869,37.578425,,EnergyBase (RUS),https://energybase.ru/power-plant/Gubkinskaya_CHP,,,,,,,,,,,,Russia,,CARMA
 1003824,Tambov TPP,Natural Gas,fuel oil,,,235,1954,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,52.753334,41.478539,,EnergyBase (RUS),https://energybase.ru/power-plant/Tambov_CHP,,,,,,,,,,,,Russia,,CARMA
 1003697,Dyagilev TPP,Natural Gas,,,,225,1958,"PJSC ""Quadra - Power Generation""",Operational / under construction,,,,,,,,,,54.676528,39.624083,,EnergyBase (RUS),https://energybase.ru/power-plant/Diaghilev_CHP,,,,,,,,,,,,Russia,,CARMA
 1003776,Orel TPP,Natural Gas,,,,330,1946,"PJSC ""Quadra - Power Generation""",Operational,,,,,,,,,,52.987898,36.098328,,EnergyBase (RUS),https://energybase.ru/power-plant/Orel_CHP,,,,,,,,,,,,Russia,,WRI
-1003836,TPP-2,Natural Gas,,,,127,1957,Quandra,,,,,,,,,,,47.2161,39.5794,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
-1003836,TPP-2,Natural Gas,,,,515,1978,Quandra,,,,,,,,,,,47.2161,39.5794,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
-1003834,TPP-1,Natural Gas,,,,175,1955,Quandra,,,,,,,,,,,54.84017,56.09098,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
-1003834,TPP-1,Natural Gas,,,,138,1933,Quandra,,,,,,,,,,,54.84017,56.09098,,Quandra,http://www.quadra.ru/about/production_capacity/,,,,,,,,,,,,Russia,,GEODB
 1003740,KRASNOYARSK CHP-1,Coal,,,,481,1943,"JSC ""Yenisei TGC (TGC-13)""",Operational,,,2015,,,,,,,56.024444,93.032778,,EnergyBase (RUS),https://energybase.ru/power-plant/Krasnoyarsk_CHP-1,,,,,,,,,,,,Russia,,WRI
 1003740,KRASNOYARSK CHP-2,Coal,,,,465,1979,"JSC ""Yenisei TGC (TGC-13)""",Operational,,,2015,,,,,,,55.971389,92.896667,,EnergyBase (RUS),https://energybase.ru/power-plant/Krasnoyarsk_CHP-2,,,,,,,,,,,,Russia,,WRI
 1003740,KRASNOYARSK CHP-3,Coal,,,,208,1992,"JSC ""Yenisei TGC (TGC-13)""",Operational,,,2015,,,,,,,56.109722,93.094806,,EnergyBase (RUS),https://energybase.ru/power-plant/Krasnoyarsk_CHP-3,,,,,,,,,,,,Russia,,WRI
 1003756,Nerunginskya TPP,Coal,,,,618,,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,56.668889,124.853333,,EnergyBase (RUS),https://energybase.ru/power-plant/Neryungrinskaya,,,,,,,,,,,,Russia,,WRI
 1003859,Yavinskaya GRES,Natural Gas,,,,1025,1956,"PJSC ""Unipro""",Operational,,"4,070",2007,,,,,,,59.337778,57.246111,CHP,EnergyBase (RUS),https://energybase.ru/power-plant/Yayvinskaya_TPP,,,,,,,,,,,,Russia,,GEODB
 1003673,Boguchanskaya HPP,Hydro,,Dam with Reservoir,,2997,2012,"PJSC ""RusHydro""",Operational,Angara Rive,"8,362",,,,,,,,58.694444,99.148889,,EnergyBase (RUS),https://energybase.ru/power-plant/Boguchanskaya_HPP,,,,,,,,,,,,Russia,,GEODB
-1003757,Nevinnomysskya,Natural Gas,fuel oil,CCGT,14 units,1530.2,1958,"PJSC ""Enel Russia""",Operational,,8601,2015,,,,,,,44.6595,41.929361,Generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Nevinnomysskaya_TPP,,,,,,,,,,,,Russia,,GEODB
-1003716,Kaliningradskaya,Natural Gas,diesel,,,900,2005,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,54.661944,20.590833,,EnergyBase (RUS),https://energybase.ru/power-plant/Kaliningrad_CHP-2,,,,,,,,,,,,Russia,,WRI
 1003708,Gusinoozyorskaya,Coal,fuel oil,,2(170)2(180)2(200),1160,1976,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,51.300833,106.483333,,EnergyBase (RUS),https://energybase.ru/power-plant/Gusinoozerskaya_TPP,,,,,,,,,,,,Russia,,WRI
-1003742,Krostromskaya,Natural Gas,fuel oil,,"8(300), 1200",3600,1969-1980,Inter RAO,,,,2016,,,,,,,57.45963,41.17408,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,,,,,Russia,,WRI
 1003819,Stavropolskaya GRES,Natural Gas,fuel oil,,,2415,1971,"PJSC ""OGK-2""",Operational,,8496,2014,,,,,,,45.312222,41.511111,,EnergyBase (RUS),https://energybase.ru/power-plant/Stavropolskaya_TPP,,,,,0.404,,,,,,,Russia,,WRI
 1003724,Karmanovskaya TPP,Natural Gas,,,,1831,1968,"LLC ""Bashkir Generation Company""",Operational,,"19,567",2014,,,,,,,56.248556,54.588194,Generation is from 2014,EnergyBase (RUS),https://energybase.ru/power-plant/Karmanovskaia_TPP,,,,,,,,,,,,Russia,,WRI
 1003806,Severo-Zapadnaya,Natural Gas,diesel,,2(450),900,2000-2006,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,60.015978,30.097817,,EnergyBase (RUS),https://energybase.ru/power-plant/North-West_CHP,,,,,,,,,,,,Russia,,WRI
@@ -242,10 +231,7 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1003786,Primorskaya TPP,Coal,,,,1467,1974,"JSC ""FAR EASTERN GK"" (JSC ""DGK"")",Operational,,,,,,,,,,46.4625,134.291111,,EnergyBase (RUS),https://energybase.ru/power-plant/Primorsk_TPP,,,,,,,,,,,,Russia,,WRI
 1003865,Zagorskaya PSPP,Hydro,,,,1200,,"PJSC ""RusHydro""",Operational,,"1,860",,,,,,,,56.482222,38.185556,,EnergyBase (RUS),https://energybase.ru/power-plant/Zagorskaya_PSPs,,,,,,,,,,,,Russia,,WRI
 1003869,Zeyskaya HPP,Hydro,,,,1330,,"PJSC ""RusHydro""",Operational,,"6,428",,,,,,,,53.769806,127.305444,,EnergyBase (RUS),https://energybase.ru/power-plant/Zeya_HPP,,,,,,,,,,,,Russia,,WRI
-1003736,Komsomolskiye CHPPs,Natural Gas,,,,600,,RusHydro,,,,,,,,,,,53.134735,140.723625,,RusHydro,http://www.eng.rushydro.ru/company_geography/,,,,,,,,,,,,Russia,,WRI
 1003734,Kolymskaya HPP,Hydro,,,,900,,"PJSC ""RusHydro""",Operational,,"1,558",,,,,,,,62.058333,150.416667,,EnergyBase (RUS),https://energybase.ru/power-plant/Kolyma_HPP,,,,,,,,,,,,Russia,,WRI
-1003818,Srednevralskaya,Natural Gas,fuel oil,,,1578.5,1931,"PJSC ""Enel Russia""",Operational,,8029,2015,,,,,,,57.002265,60.463481,Generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Sredneuralskaya_TPP,,,,,,,,,,,,Russia,,WRI
-1003695,Dagestan Branch,Hydro,,,,1786,,RusHydro,,,"4,014",,,,,,,,46.8712,46.8712,,RusHydro,http://www.eng.rushydro.ru/company_geography/,,,,,,,,,,,,Russia,,WRI
 1003771,Novogorkovskaya CHP,Natural Gas,,CCGT,,548.3,1956,"Nizhny Novgorod branch of PJSC ""T Plus""",Operational / under construction,,,,,,,,,,56.106869,44.135408,1,EnergyBase (RUS),https://energybase.ru/power-plant/Novogorkovskaya_CHP,,,,,,,,,,,,Russia,,WRI
 1003774,Novosibirskaya HPP,Hydro,,,,480,,"PJSC ""RusHydro""",Operational,,"2,118",,,,,,,,54.850278,82.986389,,EnergyBase (RUS),https://energybase.ru/power-plant/Novosibirsk_HPP,,,,,,,,,,,,Russia,,WRI
 1003862,Yuzhnaya Tets,Natural Gas,fuel oil,,1 unit,1207,1978,"PJSC ""TGC-1""",Operational,,,,,,,,,,59.827586,30.451183,,EnergyBase (RUS),https://energybase.ru/power-plant/South_CHP-22,,,,,,,,,,,,Russia,,WRI
@@ -329,9 +315,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1061702,Ezminskaya HPP,Hydro,,,,45,,"PJSC ""RusHydro""",Operational,,,,,,,,,,42.7662,44.6326,,EnergyBase (RUS),https://energybase.ru/power-plant/Ezminskaya_HPP,,,,,,,,,,,,Russia,,
 1061703,Gizeldonskaya HPP,Hydro,,,,22.8,,"PJSC ""RusHydro""",Operational,,,,,,,,,,42.9025,44.4601,,EnergyBase (RUS),https://energybase.ru/power-plant/Gizeldonskaya_HPP,,,,,,,,,,,,Russia,,
 1061704,Ozernovskaya Diesel Power Plant,fuel oil,,,,1.57,,"PJSC ""RusHydro""",Operational,,,,,,,,,,51.491389,156.506389,,EnergyBase (RUS),https://energybase.ru/power-plant/DES_Ozernovo,,,,,,,,,,,,Russia,,
-1061705,Pauzhetskaya GeoPP,geothermal,,,,12,,"PJSC ""RusHydro""",Operational,,,,,,,,,,51.465833,156.810278,,EnergyBase (RUS),https://energybase.ru/power-plant/Pauzhetskaya_GeoPP,,,,,,,,,,,,Russia,,
-1061706,Mutnovskaya GeoPP,geothermal,,,,50,,"PJSC ""RusHydro""",Operational,,,,,,,,,,52.535278,158.201111,,EnergyBase (RUS),https://energybase.ru/power-plant/Mutnovskaya_GeoPP,,,,,,,,,,,,Russia,,
-1061707,Verkhne-Mutnovskaya GeoPP,geothermal,,,,12,,"PJSC ""RusHydro""",Operational,,,,,,,,,,52.551404,158.237672,,EnergyBase (RUS),https://energybase.ru/power-plant/Upper_Mutnovskaya_GeoPP,,,,,,,,,,,,Russia,,
 1061708,Svistukhinskaya HPP of the Cascade of Kuban HPPs,Hydro,,,,11.76,,"PJSC ""RusHydro""",Operational,,,,,,,,,,44.741667,41.901111,,EnergyBase (RUS),https://energybase.ru/power-plant/Svistukhinskaya_Kuban_HPP_HPP_Cascade,,,,,,,,,,,,Russia,,
 1061709,Novotroitskaya HPP of the Cascade of the Kuban HPPs,Hydro,,,,3.68,,"PJSC ""RusHydro""",Operational,,,,,,,,,,45.315556,41.531111,,EnergyBase (RUS),https://energybase.ru/power-plant/Novotroitskaya_Kuban_HPP_HPP_Cascade,,,,,,,,,,,,Russia,,
 1061710,Egorylykskaya HPP-2 of the Cascade of Kuban HPPs,Hydro,,,,14.2,,"PJSC ""RusHydro""",Operational,,,,,,,,,,45.110833,41.550556,,EnergyBase (RUS),https://energybase.ru/power-plant/Egorlykskaya_HPP-2_Kuban_HPP_Cascade,,,,,,,,,,,,Russia,,
@@ -456,7 +439,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1061829,Nizhnekamsk cogeneration station-1,Natural Gas,fuel oil,,,880,,"OJSC ""TGC-16""",Operational,,,,,,,,,,55.606611,51.940389,,EnergyBase (RUS),https://energybase.ru/power-plant/Nizhnekamsk_CHP-1,,,,,,,,,,,,Russia,,
 1061830,Kazan CHP 3,Natural Gas,,,,772.64,,"OJSC ""TGC-16""",Operational,,,,,,,,,,55.867389,48.952056,,EnergyBase (RUS),https://energybase.ru/power-plant/Kazan_CHP-3,,,,,,,,,,,,Russia,,
 1061831,Nizhnekamsk cogeneration station-2,Natural Gas,fuel oil,,,724,,"OOO ""Nizhnekamsk COGENERATION STATION""",Operational,,,,,,,,,,55.606611,51.940389,,EnergyBase (RUS),https://energybase.ru/power-plant/Nizhnekamsk_CHP,,,,,,,,,,,,Russia,,
-1061832,Irkutsk TPP-3,,,,,11.7,,"PJSC ""IRKUTSKENERGO""",Operational,,,,,,,,,,53.935185,102.075037,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-3,,,,,,,,,,,,Russia,,
 1061833,Irkutsk TPP-12,Coal,,,,7.5,,"PJSC ""IRKUTSKENERGO""",Operational,,,,,,,,,,53.123959,103.132573,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-12,,,,,,,,,,,,Russia,,
 1061834,Irkutsk TPP-11,Coal,,,,350.3,,"PJSC ""IRKUTSKENERGO""",Operational,,,,,,,,,,52.782429,103.602598,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-11,,,,,,,,,,,,Russia,,
 1061835,GTU-TPP Lyublino OAO MOEK,Natural Gas,,,,12,,"PJSC ""MOSCOW UNITED ENERGY COMPANY"" (MOEK)",Operational,,,,,,,,,,55.675286,37.787103,,EnergyBase (RUS),https://energybase.ru/power-plant/Gas_turbine_CHP_Ljublino_of_MIPC,,,,,,,,,,,,Russia,,
@@ -470,7 +452,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1061843,Norilsk CHPP-2,Natural Gas,,,,425,1965,JSC Norilsk-Taimyr Energy Company (JSC NTEK),Operational,,,,,,,,,,69.51828,88.344189,,EnergyBase (RUS),https://energybase.ru/power-plant/HPP-2_OJSC_NTEC,,,,,,,,,,,,Russia,,
 1061844,Norilsk TPP-1,Coal,,,,370,1942,JSC Norilsk-Taimyr Energy Company (JSC NTEK),Operational,,,,,,,,,,69.33418,88.231367,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-1_OJSC_NTEC,,,,,,,,,,,,Russia,,
 1061845,CHPP of OAO Altai-koks,Natural Gas,,,,200,,OAO Altai-koks,Operational,,,,,,,,,,53.683368,84.989682,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP_Altai,,,,,,,,,,,,Russia,,
-1061846,TPP VTI,,,,,18,,"OAO ""All-Russian Thermal Engineering Institute"" (VTI)",Operational,,,,,,,,,,55.705338,37.6488,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP_VTI,,,,,,,,,,,,Russia,,
 1061847,Novo-Ryazan Thermal Power Station,Natural Gas,,,,425,,OOO NOVO-RJaZANSKAYA TEZ,Operational,,,,,,,,,,54.564905,39.766219,,EnergyBase (RUS),https://energybase.ru/power-plant/Novo-Ryazan_CHP,,,,,,,,,,,,Russia,,
 1061848,Okhinskaya CHPP,Natural Gas,,,,99,,"JSC ""Okhinskaya CHPP""",Operational,,,,,,,,,,53.573328,142.909781,,EnergyBase (RUS),https://energybase.ru/power-plant/Ohinskaya_CHP,,,,,,,,,,,,Russia,,
 1061849,Experimental TPP,Coal,,,,79.2,,"JSC ""Experimental TPP""",Operational,,,,,,,,,,47.871389,40.018611,,EnergyBase (RUS),https://energybase.ru/power-plant/experimental_TPP,,,,,,,,,,,,Russia,,
@@ -686,7 +667,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1062068,Talakhovskaya TPP,Natural Gas,diesel,,,160,,"LLC ""Kaliningrad generation""",under construction,,,,,,,,,,55.094406,21.801252,,EnergyBase (RUS),https://energybase.ru/power-plant/talakhovskaya-tpp,,,,,,,,,,,,Russia,,
 1062069,Rubtsovsk TPP,Coal,,,,61,1943,"LLC ""Investment and Development Company""",Operational,,,,,,,,,,51.542519,81.208577,,EnergyBase (RUS),https://energybase.ru/power-plant/rubtsovskaya-chp,,,,,,,,,,,,Russia,,
 1062070,Orskaya SES them. AAVlazneva (Sakmarskaya),Solar,,,,25,2014,"Orenburg Branch of PJSC ""T Plus""",Operational,,,,,,,,,,51.266023,58.474689,,EnergyBase (RUS),https://energybase.ru/power-plant/orskaya-solar-power-plant,,,,,,,,,,,,Russia,,
-1062071,Priobskaya GTES,associated petroleum gas,,,,315,2007,"PJSC ""NK"" ROSNEFT """,Operational,,,,,,,,,,61.106954,70.242946,,EnergyBase (RUS),https://energybase.ru/power-plant/priobskaya-gtpp,,,,,,,,,,,,Russia,,
 1062072,Novotroitskaya TPP,Coal,natural gas,,,172,,"OJSC ""Ural Steel""",Operational,,,,,,,,,,51.224572,58.364096,,EnergyBase (RUS),https://energybase.ru/power-plant/novotroitskaya-chp,,,,,,,,,,,,Russia,,
 1062073,Gaiskaya TPP,Natural Gas,fuel oil,,,24,,"JSC ""Gaisky mining and processing enterprise""",Operational,,,,,,,,,,51.482105,58.458896,,EnergyBase (RUS),https://energybase.ru/power-plant/ggok-chp,,,,,,,,,,,,Russia,,
 1062074,CHP Plant of MMK,Coal,natural gas,,,330,1954,"PJSC ""Magnitogorsk Iron and Steel Works""",Operational,,,,,,,,,,53.395357,59.019928,,EnergyBase (RUS),https://energybase.ru/power-plant/mmk-chp,,,,,,,,,,,,Russia,,
@@ -717,11 +697,7 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1062099,The Palocorg hydropower plant,Hydro,,,,30,1964,"PJSC ""TGC-1""",Operational,,,,,,,,,,64.221752,34.336344,,EnergyBase (RUS),https://energybase.ru/power-plant/palokorgskaya-hpp,,,,,,,,,,,,Russia,,
 1062100,PGU-TPP Udarnaya (Tamanskaya),Natural Gas,natural gas,,,500,,"OOO ""VO"" Tekhnopromexport """,design stage,,,,,,,,,,45.076188,37.703705,,EnergyBase (RUS),https://energybase.ru/power-plant/tamanskaya-tpp,,,,,,,,,,,,Russia,,
 1062101,Syzran HPP,Hydro,,,,2.04,1925,"LLC ""Syzran City Electricity Network""",Operational,,,,,,,,,,53.148443,48.429687,,EnergyBase (RUS),https://energybase.ru/power-plant/syzranskaya-hpp,,,,,,,,,,,,Russia,,
-1062102,GTES of the Igolsko-Talovoye field,associated petroleum gas,,,,24,2002,OAO Tomskneft VNK,Operational,,,,,,,,,,57.749092,76.434535,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-igolsko-tall-oil-field,,,,,,,,,,,,Russia,,
-1062103,GTES of Dvurechensky deposit,associated petroleum gas,,,,24,,OAO Tomskneft VNK,Operational,,,,,,,,,,58.271263,75.749611,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-dvurechenskoe-oil-field,,,,,,,,,,,,Russia,,
-1062104,GTPP of the West-Poludenny deposit,associated petroleum gas,,,,7.5,,OAO Tomskneft VNK,Operational,,,,,,,,,,60.553128,76.483866,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-zapadno-poludennoe-oil-field,,,,,,,,,,,,Russia,,
 1062105,Western Thermal Power Plant,Natural Gas,,,,23.23,,OAO Kurgan Generation Company,Operational,,,,,,,,,,55.427286,65.293025,,EnergyBase (RUS),https://energybase.ru/power-plant/zapadnaya-chp,,,,,,,,,,,,Russia,,
-1062107,GTES of the East Messoyakhsky deposit,associated petroleum gas,,,,84,,JSC Messoyakhaneftegaz,under construction,,,,,,,,,,68.510571,79.748554,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-vostochno-messoyakhskoye-oil-field,,,,,,,,,,,,Russia,,
 1062108,Thermal power station Myakinino,Natural Gas,,,,30,,ZAO NATEK Invest-Energo,Operational,,,,,,,,,,55.81245,37.385752,,EnergyBase (RUS),https://energybase.ru/power-plant/chp-myakinino,,,,,,,,,,,,Russia,,
 1062109,CHPP in Lobnya,Natural Gas,,,,36,,ZAO NATEK Invest-Energo,Operational,,,,,,,,,,56.025895,37.440816,,EnergyBase (RUS),https://energybase.ru/power-plant/chp-lobnya,,,,,,,,,,,,Russia,,
 1062110,GTU-TPP in the city of Zvenigorod,Natural Gas,,,,18,,ZAO NATEK Invest-Energo,Operational,,,,,,,,,,55.721654,36.867794,,EnergyBase (RUS),https://energybase.ru/power-plant/gt-chp-zvenigorod,,,,,,,,,,,,Russia,,
@@ -744,8 +720,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1062127,Gas Turbine Power Plant of Salekhardenergo JSC,Natural Gas,,,,39.4,,Salekhardenergo JSC,Operational,,,,,,,,,,66.537775,66.671047,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-slenergo,,,,,,,,,,,,Russia,,
 1062128,"Diesel power station of Pelvozh village JSC ""Salekhardenergo""",fuel oil,,,,0.36,,Salekhardenergo JSC,Operational,,,,,,,,,,66.235816,66.623154,,EnergyBase (RUS),https://energybase.ru/power-plant/diesel-pp-pelvozh,,,,,,,,,,,,Russia,,
 1062129,Shinginskaya GTES,Natural Gas,,,,24,,OOO Gazpromneft-Vostok,Operational,,,,,,,,,,58.330314,78.487873,,EnergyBase (RUS),https://energybase.ru/power-plant/shinginskay-gtpp,,,,,,,,,,,,Russia,,
-1062130,Energocenter of the Yaregsky deposit,associated petroleum gas,,,,75,,OOO LUKOIL-Komi,under construction,,,,,,,,,,63.358596,53.633795,,EnergyBase (RUS),https://energybase.ru/power-plant/yaregskoe-oilfield-pp,,,,,,,,,,,,Russia,,
-1062131,GTU-TPP of Usinskoe deposit,associated petroleum gas,,,,100,,OOO LUKOIL-Komi,Operational,,,,,,,,,,66.179826,57.331638,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-usinskoe-oilfield,,,,,,,,,,,,Russia,,
 1062132,Amur TPP (TPP of Siberia),Natural Gas,,,,440,,OOO Gazprom Energoholding,design stage,,,,,,,,,,51.578606,128.189109,,EnergyBase (RUS),https://energybase.ru/power-plant/tpp-sibir-power,,,,,,,,,,,,Russia,,
 1062133,Ulyanovsk (Simbirskaya) wind farm,Wind,,,,35,,"PJSC ""Fortum""",Operational,,,,,,,,,,54.274246,48.585148,,EnergyBase (RUS),https://energybase.ru/power-plant/simbirskaya-wpp,,,,,,,,,,,,Russia,,
 1062134,"GTPP ""Vnukovo""",Natural Gas,,,,90.66,,"State-owned enterprise ""Moscow Energy Directorate""",Operational,,,,,,,,,,55.610002,37.262803,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-vnukovo,,,,,,,,,,,,Russia,,
@@ -796,7 +770,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1062179,CHP-PVS,Natural Gas,,,,286,,PJSC Severstal,Operational,,,,,,,,,,59.137248,37.848415,,EnergyBase (RUS),https://energybase.ru/power-plant/severstal-chp-pvs,,,,,,,,,,,,Russia,,
 1062180,Thermal power station EVS-2,Natural Gas,,,,160,,PJSC Severstal,Operational,,,,,,,,,,59.12756,37.829104,,EnergyBase (RUS),https://energybase.ru/power-plant/severstal-chp-evs2,,,,,,,,,,,,Russia,,
 1062181,Naryan-Mar power plant,Natural Gas,diesel,,,38.15,,"GUP NAO ""NARYAN-MARSK POWER PLANT""",Operational,,,,,,,,,,67.641342,53.037883,,EnergyBase (RUS),https://energybase.ru/power-plant/naryan-mar-power-plant,,,,,,,,,,,,Russia,,
-1062182,Power Center of Yarakta Oil and Gas,associated petroleum gas,diesel,,,96,,"LLC ""INC"" (Irkutsk Oil Company)",Operational,,,,,,,,,,57.983918,106.794437,,EnergyBase (RUS),https://energybase.ru/power-plant/energycenter-yaraktinskogo-oilfield,,,,,,,,,,,,Russia,,
 1062183,GT SES,Natural Gas,,,,18,,"JSC ""GTEnergo""",Operational,,,,,,,,,,54.370174,41.941984,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-sasovskaya,,,,,,,,,,,,Russia,,
 1062184,GT CHPP of Saransk,Natural Gas,,,,18,,"JSC ""GTEnergo""",Operational,,,,,,,,,,54.22582,45.160246,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-saranskaya,,,,,,,,,,,,Russia,,
 1062185,GT CHP Shelkovskaya,Natural Gas,,,,18,,"JSC ""GTEnergo""",Operational,,,,,,,,,,55.917134,37.973621,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-shelkovskaya,,,,,,,,,,,,Russia,,
@@ -815,7 +788,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1062198,GT CHP Rezhevskaya,Natural Gas,,,,18,,"JSC ""GTEnergo""",Operational,,,,,,,,,,57.375639,61.431089,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-rezhevskaya,,,,,,,,,,,,Russia,,
 1062199,The central thermal power station (ES-1),Natural Gas,fuel oil,,,155,,"PJSC ""TGC-1""",Operational,,,,,,,,,,59.906893,30.334421,,EnergyBase (RUS),https://energybase.ru/power-plant/central-chp-1,,,,,,,,,,,,Russia,,
 1062200,Central Thermal Power Plant (ES-3),Natural Gas,,,,155,,"PJSC ""TGC-1""",Operational,,,,,,,,,,59.922809,30.324031,,EnergyBase (RUS),https://energybase.ru/power-plant/central-chp-3,,,,,,,,,,,,Russia,,
-1062201,Talakanskaya GTES,associated petroleum gas,,,,48,,"OJSC ""Surgutneftegas""",Operational,,,,,,,,,,59.793078,110.872602,,EnergyBase (RUS),https://energybase.ru/power-plant/talakanskaya-gtpp,,,,,,,,,,,,Russia,,
 1062202,CHP of the Achinsk Alumina Combine (TPP AGK),Coal,fuel oil,,,320,,OK Rusal,Operational,,,,,,,,,,56.233178,90.404198,,EnergyBase (RUS),https://energybase.ru/power-plant/achinsk-alumina-combine-chp,,,,,,,,,,,,Russia,,
 1062203,Novosergievskaya SES (Orenburg SES-1),Solar,,,,45,2017,"Orenburg Branch of PJSC ""T Plus""",under construction,,,,,,,,,,52.078578,53.613383,,EnergyBase (RUS),https://energybase.ru/power-plant/orenburgskaya-solar-powerplant-1,,,,,,,,,,,,Russia,,
 1062204,Sorochinskaya SES (Orenburg SES-3),Solar,,,,60,2017,"Orenburg Branch of PJSC ""T Plus""",under construction,,,,,,,,,,52.465109,53.219662,,EnergyBase (RUS),https://energybase.ru/power-plant/orenburgskaya-solar-powerplant-3,,,,,,,,,,,,Russia,,
@@ -830,3 +802,31 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1062213,Ondsk Hydroelectric Power Station,Hydro,,,,80,1950,"JSC ""EuroSibEnergo""",Operational,,,,,,,,,,63.917407,34.17822,,EnergyBase (RUS),https://energybase.ru/power-plant/ondskaya-hpp,,,,,,,,,,,,Russia,,
 1062214,Floating nuclear thermal power plant (APPP) Akademik Lomonosov,Nuclear,,,,70,2006,"JSC ""Concern Rosenergoatom""",under construction,,,,,,,,,,69.708762,170.311207,,EnergyBase (RUS),https://energybase.ru/power-plant/floating-nuclear-thermal-power-plant-akademik-lomonosov,,,,,,,,,,,,Russia,,
 1062215,Novokuybyshevskaya CHPP-2,Natural Gas,,,,470,1962,Novokuibyshevskaya Petrochemical Company JSC,Operational,,,,,,,,,,53.081583,49.870056,,EnergyBase (RUS),https://energybase.ru/power-plant/Novokuibyshev_CHP-2,,,,,,,,,,,,Russia,,
+1003818,Srednevralskaya,Natural Gas,fuel oil,,,1578.5,1936,"PJSC ""Enel Russia""",Operational,,8029,2015,,,,,,,57.002265,60.463481,Generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Sredneuralskaya_TPP,,,,,,,,,,,,Russia,,WRI
+1003728,Kharanorskaya,Coal,fuel oil,,,655,1995,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,50.853889,115.7,,EnergyBase (RUS),https://energybase.ru/power-plant/Kharanorskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003757,Nevinnomysskya,Natural Gas,fuel oil,CCGT,14 units,1530.2,1960,"PJSC ""Enel Russia""",Operational,,8601,2015,,,,,,,44.6595,41.929361,Generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Nevinnomysskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003784,Permskaya,Natural Gas,fuel oil,,3(800),3363,1986,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,58.495937,56.347075,,EnergyBase (RUS),https://energybase.ru/power-plant/Permskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003716,Kaliningradskaya,Natural Gas,diesel,,,900,2018,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,54.661944,20.590833,,EnergyBase (RUS),https://energybase.ru/power-plant/Kaliningrad_CHP-2,,,,,,,,,,,,Russia,,WRI
+1003779,Pavlovskaya HPP,Hydro,,CCGT,,166.4,1959,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,55.406032,56.55556,,EnergyBase (RUS),https://energybase.ru/power-plant/Pavlovskaya_HPP,,,,,,,,,,,,Russia,,
+1003711,Iriklinskaya,Natural Gas,fuel oil,,8(300)1(30),2444,1970,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,51.754001,58.803291,,EnergyBase (RUS),https://energybase.ru/power-plant/Iriklinskaya_TPP,,,,,,,,,,,,Russia,,WRI
+1003790,Reftinskaya GRES,Coal,,,6(300)4(500),3800,1970,"PJSC ""Enel Russia""",Operational,,20037,2015,,,,,,,57.106667,61.711667,Generation from 2015,EnergyBase (RUS),https://energybase.ru/power-plant/Reftinskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003861,Yumaguzinskaya HPP,Hydro,,CCGT,,45,2004,"LLC ""Bashkir Generation Company""",Operational,,,2014,,,,,,,52.956389,56.414722,,EnergyBase (RUS),https://energybase.ru/power-plant/Yumaguzinskaya_HPP,,,,,,,,,,,,Russia,,
+1003849,Verkhnetagilskaya,Natural Gas,natural gas,,4(88)2(100)2(165)3(205),1062.15,1955,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,57.355556,59.960278,,EnergyBase (RUS),https://energybase.ru/power-plant/Verhnetagilskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003780,Pechorskaya,Natural Gas,fuel oil,,2(210)2(215),1060,1979,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,65.134444,57.315639,,EnergyBase (RUS),https://energybase.ru/power-plant/Pechorskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003864,Yuzhnouralskaya 1,Natural Gas,"natural gas, diesel",,2(200 use coal) 2(50)(35)(83)(100)2(82),747,1952,JSC INTER RAO-Electric Power Generation,Operational,,,2016,,,,,,,54.455653,61.232464,,EnergyBase (RUS),https://energybase.ru/power-plant/Yuzhnouralskaya_TPP,,,,,,,,,,,,Russia,,GEODB
+1003855,Vortkuta HPP-1,Coal,,,,25,1942,OOO Vorkuta Thermal Power Station,Operational,,,,,,,,,,67.5,64.018056,1,EnergyBase (RUS),https://energybase.ru/power-plant/Vorkuta_CHP-1,,,,,,,,,,,,Russia,,
+1003690,CHP-21,Natural Gas,,,,1800,1963,"PJSC ""Mosenergo""",Operational,,,2010,,,,,,,55.894675,37.510719,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP-21,,,,,,,,,,,,Russia,,GEODB
+1061705,Pauzhetskaya GeoPP,Geothermal,,,,12,,"PJSC ""RusHydro""",Operational,,,,,,,,,,51.465833,156.810278,,EnergyBase (RUS),https://energybase.ru/power-plant/Pauzhetskaya_GeoPP,,,,,,,,,,,,Russia,,
+1061706,Mutnovskaya GeoPP,Geothermal,,,,50,,"PJSC ""RusHydro""",Operational,,,,,,,,,,52.535278,158.201111,,EnergyBase (RUS),https://energybase.ru/power-plant/Mutnovskaya_GeoPP,,,,,,,,,,,,Russia,,
+1061707,Verkhne-Mutnovskaya GeoPP,Geothermal,,,,12,,"PJSC ""RusHydro""",Operational,,,,,,,,,,52.551404,158.237672,,EnergyBase (RUS),https://energybase.ru/power-plant/Upper_Mutnovskaya_GeoPP,,,,,,,,,,,,Russia,,
+1062071,Priobskaya GTES,Natural Gas,,,,315,2007,"PJSC ""NK"" ROSNEFT """,Operational,,,,,,,,,,61.106954,70.242946,,EnergyBase (RUS),https://energybase.ru/power-plant/priobskaya-gtpp,,,,,,,,,,,,Russia,,
+1062102,GTES of the Igolsko-Talovoye field,Natural Gas,,,,24,2002,OAO Tomskneft VNK,Operational,,,,,,,,,,57.749092,76.434535,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-igolsko-tall-oil-field,,,,,,,,,,,,Russia,,
+1062103,GTES of Dvurechensky deposit,Natural Gas,,,,24,,OAO Tomskneft VNK,Operational,,,,,,,,,,58.271263,75.749611,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-dvurechenskoe-oil-field,,,,,,,,,,,,Russia,,
+1062104,GTPP of the West-Poludenny deposit,Natural Gas,,,,7.5,,OAO Tomskneft VNK,Operational,,,,,,,,,,60.553128,76.483866,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-zapadno-poludennoe-oil-field,,,,,,,,,,,,Russia,,
+1062107,GTES of the East Messoyakhsky deposit,Natural Gas,,,,84,,JSC Messoyakhaneftegaz,under construction,,,,,,,,,,68.510571,79.748554,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-vostochno-messoyakhskoye-oil-field,,,,,,,,,,,,Russia,,
+1062130,Energocenter of the Yaregsky deposit,Natural Gas,,,,75,,OOO LUKOIL-Komi,under construction,,,,,,,,,,63.358596,53.633795,,EnergyBase (RUS),https://energybase.ru/power-plant/yaregskoe-oilfield-pp,,,,,,,,,,,,Russia,,
+1062131,GTU-TPP of Usinskoe deposit,Natural Gas,,,,100,,OOO LUKOIL-Komi,Operational,,,,,,,,,,66.179826,57.331638,,EnergyBase (RUS),https://energybase.ru/power-plant/gtpp-usinskoe-oilfield,,,,,,,,,,,,Russia,,
+1062182,Power Center of Yarakta Oil and Gas,Natural Gas,diesel,,,96,,"LLC ""INC"" (Irkutsk Oil Company)",Operational,,,,,,,,,,57.983918,106.794437,,EnergyBase (RUS),https://energybase.ru/power-plant/energycenter-yaraktinskogo-oilfield,,,,,,,,,,,,Russia,,
+1062201,Talakanskaya GTES,Natural Gas,,,,48,,"OJSC ""Surgutneftegas""",Operational,,,,,,,,,,59.793078,110.872602,,EnergyBase (RUS),https://energybase.ru/power-plant/talakanskaya-gtpp,,,,,,,,,,,,Russia,,
+1061846,TPP VTI,UNKNOWN,,,,18 MW Electricity,,"OAO ""All-Russian Thermal Engineering Institute"" (VTI)",Operational,,,,,,,,,,55.705338,37.6488,,EnergyBase (RUS),https://energybase.ru/power-plant/CHP_VTI,,,,,,,,,,,,Russia,,
+1061832,Irkutsk TPP-3,UNKNOWN,,,,11.7 MW Electricity,,"PJSC ""IRKUTSKENERGO""",Operational,,,,,,,,,,53.935185,102.075037,,EnergyBase (RUS),https://energybase.ru/power-plant/Irkutsk_CHP-3,,,,,,,,,,,,Russia,,
