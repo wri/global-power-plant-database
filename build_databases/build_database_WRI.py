@@ -58,9 +58,9 @@ print(u"Reading in plants...")
 
 # specify column names used in raw file
 COLNAMES = ["Power Plant ID", "Name", "Fuel", "Capacity (MW)", "Location",
-			"Plant type", "Operational Status", "Commissioning Date",
-			"Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country",
-			"Latitude", "Longitude", "Geolocation Source", "Year of Data"]
+            "Plant type", "Operational Status", "Commissioning Date",
+            "Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country",
+            "Latitude", "Longitude", "Geolocation Source", "Year of Data"]
 
 # track IDs that are assigned to plants in two different countries (likely an error)
 overlapping_ids = {}
@@ -178,14 +178,14 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                         geolocation_source_string = u'WRI'
                 except:
                     geolocation_source_string = pw.NO_DATA_UNICODE
-					print(u"-Error: Can't read geolocation source for plant {0} {1}".format(country, str(idnr)))
+                    print(u"-Error: Can't read geolocation source for plant {0} {1}".format(country, str(idnr)))
 
                 # track geolocation source
                 if (not latitude) or (not longitude):
-					try:
-						geolocation_sources_mw[u"Not located"] += capacity
-					except:
-						print(u" - Warning: plant {0} has no capacity".format(idnr))
+                    try:
+                        geolocation_sources_mw[u"Not located"] += capacity
+                    except:
+                        print(u" - Warning: plant {0} has no capacity".format(idnr))
                 elif geolocation_source_string:
                     try:
                         cap = float(capacity)
@@ -199,10 +199,15 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     try:
                         geolocation_sources_mw[u"Located, no source"] += capacity
                     except:
-						print(u" - Warning: plant {0} has no capacity".format(idnr))
+                        print(u" - Warning: plant {0} has no capacity".format(idnr))
 
                 # assign ID number
-                idnr_full = pw.make_id(SAVE_CODE, int(idnr))
+                # have to use a hack for United Kingdom/GBR because we previously used an automated script
+                # original ID codes for GBR plants start with GBR, not WRI
+                if country == "United Kingdom":
+                    idnr_full = pw.make_id("GBR", int(idnr))
+                else:
+                    idnr_full = pw.make_id(SAVE_CODE, int(idnr))
 
                 # check if this ID is already in the dictionary - if so, this is a unit
                 if idnr_full in plants_dictionary:
