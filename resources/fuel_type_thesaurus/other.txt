@@ -30,3 +30,4 @@ unk
 unknown
 CV
 Syngas
+UNKNOWN

@@ -196,9 +196,11 @@ estimated_plants = pw.estimate_generation(core_database)
 print('...estimated for {0} plants.'.format(estimated_plants))
 
 # STEP 4.1: Add WEPP ID matches
+print("Adding WEPP IDs...")
 pw.add_wepp_id(core_database)
 if DATA_DUMP:
 	pw.add_wepp_id(datadump)
+print("...done.")
 
 # STEP 5: Write the Global Power Plant Database
 for dbname, data in database_additions.iteritems():

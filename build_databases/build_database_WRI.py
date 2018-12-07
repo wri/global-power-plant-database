@@ -166,6 +166,8 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     print(u"-Error: Can't read URL for plant {0}.".format(name))
                     url = pw.NO_DATA_UNICODE
                 try:
+                    # TODO: Include YYYY-MM-DD format parsing
+                    # TODO: Include Mmmm DD, YYYY format parsing
                     commissioning_year_string = row[commissioning_year_col].replace('"', '')
                     if not commissioning_year_string:
                         commissioning_year = pw.NO_DATA_NUMERIC
