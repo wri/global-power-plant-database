@@ -67,6 +67,8 @@ SUMMARY_FIELDNAMES = (
 			'count_null_latitude',
 			'count_null_longitude',
 			'count_null_fuel',
+			'count_wepp_id',
+			'capacity_gw_wepp_id',
 			'count_null_generation_gwh_all',
 			'count_generation_gwh_2013',
 			'count_generation_gwh_2014',
@@ -193,6 +195,21 @@ def country_summary(db_conn, country, iso_code):
 					AND other_fuel3 is NULL)'''
 	query = c.execute(stmt, (iso_code,))
 	summary['count_null_fuel'], = query.fetchone()
+
+	# count plants with a wepp_id 
+	stmt = '''SELECT COUNT(*) FROM powerplants
+				WHERE (country=?
+					AND wepp_id IS NOT NULL)'''
+	query = c.execute(stmt, (iso_code,))
+	summary['count_wepp_id'], = query.fetchone()
+
+	# count plants with a wepp_id 
+	stmt = '''SELECT SUM(capacity_mw) FROM powerplants
+				WHERE (country=?
+					AND wepp_id IS NOT NULL)'''
+	query = c.execute(stmt, (iso_code,))
+	wepp_id_mw, = query.fetchone()
+	summary['capacity_gw_wepp_id'] = wepp_id_mw / 1000.
 
 	# count null generation data for all years
 	stmt = '''SELECT COUNT(*) FROM powerplants

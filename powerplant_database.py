@@ -32,6 +32,7 @@ HEADER_NAMES_THESAURUS_FILE		= os.path.join(RESOURCES_DIR, "header_names_thesaur
 COUNTRY_NAMES_THESAURUS_FILE	= os.path.join(RESOURCES_DIR, "country_names_thesaurus.csv")
 COUNTRY_INFORMATION_FILE		= os.path.join(RESOURCES_DIR, "country_information.csv")
 MASTER_PLANT_CONCORDANCE_FILE	= os.path.join(RESOURCES_DIR, "master_plant_concordance.csv")
+WEPP_CONCORDANCE_FILE 			= os.path.join(RESOURCES_DIR, "master_wepp_concordance.csv")
 SOURCE_THESAURUS_FILE			= os.path.join(RESOURCES_DIR, "sources_thesaurus.csv")
 GENERATION_FILE      			= os.path.join(RESOURCES_DIR, "generation_by_country_by_fuel_2014.csv")
 
@@ -59,7 +60,8 @@ class PowerPlant(object):
 		plant_other_fuel=NO_DATA_SET,
 		plant_generation=NO_DATA_OTHER,
 		plant_commissioning_year=NO_DATA_NUMERIC,
-		plant_estimated_generation_gwh=NO_DATA_NUMERIC
+		plant_estimated_generation_gwh=NO_DATA_NUMERIC,
+		plant_wepp_id=NO_DATA_UNICODE
 	):
 
 		# check and set data for attributes that should be unicode
@@ -67,7 +69,8 @@ class PowerPlant(object):
 			'idnr': plant_idnr, 'name': plant_name, 'country': plant_country,
 			'owner': plant_owner, 'nat_lang': plant_nat_lang,
 			'url': plant_source_url, 'coord_source': plant_coord_source,
-			'primary_fuel': plant_primary_fuel
+			'primary_fuel': plant_primary_fuel,
+			'wepp_id': plant_wepp_id
 		}
 
 		for attribute, input_parameter in unicode_attributes.iteritems():
@@ -819,6 +822,41 @@ def make_plant_concordance(master_plant_condordance_file=MASTER_PLANT_CONCORDANC
 			}
 	return plant_concordance
 
+def add_wepp_id(powerplant_dictionary, wepp_matches_file=WEPP_CONCORDANCE_FILE):
+	"""
+	Set WEPP Location ID for each plant, if a match is available.
+	Modifies powerplant_dictionary in place.
+	Parameters
+	----------
+	powerplant_dictionary : dict
+		Dictionary of all PowerPlant objects.
+	wepp_concordance_file : path
+		Path to file with WEPP Location ID matches.
+	Returns
+	-------
+	None.
+	"""
+	wepp_match_count = 0
+	with open(wepp_matches_file, 'rbU') as f:
+		csvreader = csv.DictReader(f)
+		for row in csvreader:
+			if row['wepp_location_id']:
+				gppd_id = str(row['gppd_idnr'])
+				wepp_id = str(row['wepp_location_id'])
+				if gppd_id in powerplant_dictionary:
+					# test that we haven't already set this wepp id
+					try:
+						if not powerplant_dictionary[gppd_id].wepp_id:
+							powerplant_dictionary[gppd_id].wepp_id = wepp_id
+							wepp_match_count += 1
+						else:
+							print(u"Error: Duplicate WEPP match for plant {0}".format(gppd_id))
+					except:
+						print(u"Error: plant {0} does not have wepp_id attribute".format(gppd_id))
+				else:
+					print(u"Error: Attempt to match WEPP ID {0} to non-existant plant {1}".format(wepp_id, gppd_id))
+	print(u"Added {0} matches to WEPP plants.".format(wepp_match_count))
+
 ### STRING CLEANING ###
 
 def format_string(value, encoding=UNICODE_ENCODING):
@@ -1097,6 +1135,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 			ret['latitude'] = NO_DATA_NUMERIC
 			ret['longitude'] = NO_DATA_NUMERIC
 		ret['geolocation_source'] = powerplant.coord_source.encode(UNICODE_ENCODING)
+		ret['wepp_id'] = powerplant.wepp_id.encode(UNICODE_ENCODING)
 		ret['commissioning_year'] = powerplant.commissioning_year
 		# handle fuel
 		ret['primary_fuel'] = powerplant.primary_fuel
@@ -1140,6 +1179,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"source",
 		"url",
 		"geolocation_source",
+		"wepp_id",
 		"year_of_capacity_data",
 		"generation_gwh_2013",
 		"generation_gwh_2014",
@@ -1234,6 +1274,9 @@ def read_csv_file_to_dict(filename):
 			# check if geolocation source is empty string
 			if not row['geolocation_source']:
 				row['geolocation_source'] = None
+			# check if wepp_id is empty string
+			if not row['wepp_id']:
+				row['wepp_id'] = None
 			# add row to output dict
 			pdb[row['gppd_idnr']] = row
 		return pdb
@@ -1291,6 +1334,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						source TEXT,
 						url TEXT,
 						geolocation_source TEXT,
+						wepp_id TEXT,
 						year_of_capacity_data INTEGER,
 						generation_gwh_2013 REAL,
 						generation_gwh_2014 REAL,
@@ -1304,7 +1348,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 	c.execute('begin')
 	for k, p in plants_dict.iteritems():
 		stmt = u'''INSERT INTO powerplants VALUES (
-					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
 		vals = (
 				p['country'],
 				p['country_long'],
@@ -1322,6 +1366,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['source'],
 				p['url'],
 				p['geolocation_source'],
+				p['wepp_id'],
 				p['year_of_capacity_data'],
 				p['generation_gwh_2013'],
 				p['generation_gwh_2014'],

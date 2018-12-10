@@ -5,11 +5,10 @@ build_global_power_plant_database.py
 Builds the Global Power Plant Database from various data sources.
 - Log build to DATABASE_BUILD_LOG_FILE
 - Use country and fuel information as specified in powerplant_database.py
+- Use matches/concordances as specified in powerplants_database.py
 
 TO-DOS:
 - Alias list for power plants
-- Primary fuel type designation
-- Link to Platts/WEPP ID
 """
 
 import csv
@@ -195,6 +194,11 @@ count_plants_with_generation = 0
 print('Estimating generation...')
 estimated_plants = pw.estimate_generation(core_database)
 print('...estimated for {0} plants.'.format(estimated_plants))
+
+# STEP 4.1: Add WEPP ID matches
+pw.add_wepp_id(core_database)
+if DATA_DUMP:
+	pw.add_wepp_id(datadump)
 
 # STEP 5: Write the Global Power Plant Database
 for dbname, data in database_additions.iteritems():
