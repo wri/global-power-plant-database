@@ -57,8 +57,8 @@ plants_dictionary = {}
 print(u"Reading in plants...")
 
 # specify column names used in raw file
-COLNAMES = ["Power Plant ID", "Name", "Fuel", "Capacity (MW)", "Location",
-            "Plant type", "Operational Status", "Commissioning Date",
+COLNAMES = ["Power Plant ID", "Name", "Fuel", "Secondary Fuel", "Capacity (MW)",
+            "Location", "Operational Status", "Commissioning Date",
             "Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country",
             "Latitude", "Longitude", "Geolocation Source", "Year of Data"]
 
@@ -72,15 +72,19 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
         country = afile.replace(".csv", "")
         country_plant_count = 0
 
+        # capacities by plant, by fuel
+        plant_fuel_capacities = {}
+
         with open(os.path.join(RAW_FILE_DIRECTORY, afile), 'rU') as f:
             datareader = csv.reader(f)
             headers = datareader.next()
             try:
                 id_col = headers.index(COLNAMES[0])
                 name_col = headers.index(COLNAMES[1])
-                fuel_col = headers.index(COLNAMES[2])
-                capacity_col = headers.index(COLNAMES[3])
-                location_col = headers.index(COLNAMES[4])
+                primary_fuel_col = headers.index(COLNAMES[2])
+                other_fuel_col = headers.index(COLNAMES[3])
+                capacity_col = headers.index(COLNAMES[4])
+                location_col = headers.index(COLNAMES[5])
                 status_col = headers.index(COLNAMES[6])
                 commissioning_year_col = headers.index(COLNAMES[7])
                 owner_col = headers.index(COLNAMES[9])
@@ -122,11 +126,21 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 except:
                     print(u"-Error: Can't read capacity for plant {0}; value: {1}".format(name, row[capacity_col]))
                     capacity = pw.NO_DATA_NUMERIC
+                # primary fuel
                 try:
-                    fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+                    primary_fuel = pw.standardize_fuel(row[primary_fuel_col], fuel_thesaurus, as_set=False)
                 except:
                     print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-                    fuel = pw.NO_DATA_SET
+                    fuel = pw.NO_DATA_UNICODE
+                # other fuels
+                try:
+                    if row[other_fuel_col]:
+                        other_fuel = pw.standardize_fuel(row[other_fuel_col], fuel_thesaurus, as_set=True)
+                    else:
+                        other_fuel = pw.NO_DATA_SET.copy()
+                except:
+                    print(u"-Error: Can't read secondary fuel type for plant {0}.".format(name))
+                    other_fuel = pw.NO_DATA_SET.copy()
                 try:
                     latitude = float(row[latitude_col])
                     longitude = float(row[longitude_col])
@@ -209,6 +223,18 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 else:
                     idnr_full = pw.make_id(SAVE_CODE, int(idnr))
 
+
+                # store the capacity by fuel for this plant
+                fuel_capacities = plant_fuel_capacities.get(idnr_full, {})
+                fuel_capacity = fuel_capacities.get(primary_fuel, 0)
+                if capacity:
+                    fuel_capacity += capacity
+                for fuel_type in other_fuel:
+                    if fuel_type not in fuel_capacities:
+                        fuel_capacities[fuel_type] = 0
+                fuel_capacities[primary_fuel] = fuel_capacity
+                plant_fuel_capacities[idnr_full] = fuel_capacities
+
                 # check if this ID is already in the dictionary - if so, this is a unit
                 if idnr_full in plants_dictionary:
 
@@ -223,7 +249,6 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     # update plant
                     existing_plant = plants_dictionary[idnr_full]
                     existing_plant.capacity += capacity
-                    existing_plant.fuel.update(fuel)
                     # append generation object - may want to sum generation instead?
                     if generation:
                         if not isinstance(existing_plant.generation, list):
@@ -240,12 +265,32 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     new_location = pw.LocationObject(location, latitude, longitude)
                     new_plant = pw.PowerPlant(plant_idnr=idnr_full, plant_name=name, plant_country=country,
                         plant_location=new_location, plant_coord_source=geolocation_source_string,
-                        plant_fuel=fuel, plant_capacity=capacity,
+                        plant_capacity=capacity,
                         plant_owner=owner, plant_generation=generation,
                         plant_source=source, plant_source_url=url,
                         plant_commissioning_year=commissioning_year)
                     plants_dictionary[idnr_full] = new_plant
                     country_plant_count += 1
+
+            # figure out primary and other fuels once all units/plants have been read in
+            for gppd_idnr, fuel_capacities in plant_fuel_capacities.iteritems():
+                # get primary, which is the fuel with the highest capacity
+                try:
+                    primary_fuel = max(fuel_capacities, key=lambda x: fuel_capacities[x])
+                except ValueError:  # tried max of empty sequence - plants w/o operable units
+                    primary_fuel = pw.NO_DATA_UNICODE
+                    print('-ERROR: could not determine primary fuel for plant <{0}>'.format(gppd_idnr))
+                # set primary
+                plants_dictionary[gppd_idnr].primary_fuel = primary_fuel
+                # make a set out of all fuels encountered for this plant
+                other_fuels = set(fuel_capacities)
+                # remove the already-named primary fuel
+                try:
+                    other_fuels.remove(primary_fuel)
+                except:
+                    pass
+                else:
+                    plants_dictionary[gppd_idnr].other_fuel = other_fuels
 
         print("Read {:4d} plants from file {:}.".format(country_plant_count, afile))
         if country_plant_count == 0:
@@ -267,7 +312,7 @@ if len(countries_with_zero_plants) > 0:
 
 # report on geolocation sources
 print(u"Geolocation sources:")
-for source, capacity in sorted(geolocation_sources_mw.iteritems(),key=lambda (k,v):(v,k), reverse=True):
+for source, capacity in sorted(geolocation_sources_mw.items(), key=lambda (k,v):(v,k), reverse=True):
     print(u" - {:12,.1f} MW: {:20}".format(capacity,source))
 
 # report on plants read from file

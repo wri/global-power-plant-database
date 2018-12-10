@@ -9,6 +9,7 @@ Biocombustibles liquidos
 Biomass (co-firing)
 Biomass (dedicated)
 Biomass energy
+Biodiesel
 Black Liquor
 Black liquor and concentrated liquors
 Capim Elefante
@@ -29,6 +30,7 @@ Straw
 bag
 bagazzo
 biocombustibles liquidos
+biodiesel
 biomass
 bl
 black liquor

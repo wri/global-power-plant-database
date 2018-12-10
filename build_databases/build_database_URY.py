@@ -25,6 +25,7 @@ from lxml import etree, html
 import ast
 import csv
 import sys, os
+import json
 
 sys.path.insert(0, os.pardir)
 import powerplant_database as pw
@@ -46,6 +47,7 @@ DOWNLOAD_FILES = pw.download('UTE data', {RAW_FILE_NAME: SOURCE_URL})
 
 # make URY-specific fuel parser
 def parse_fuel_URY(fuel_string, id_val):
+    """Returns a tuple of primary_fuel, other_fuel_set."""
 
     fuel_synonyms = {   "fot": "Solar",
                         "eol": "Wind",
@@ -53,22 +55,23 @@ def parse_fuel_URY(fuel_string, id_val):
                         "bio": "Biomass",
                         "hid": "Hydro"}
 
-    special_fuel_corrections = {819: "Gas",
-                                824: "Gas and Oil",
-                                825: "Gas",
-                                826: "Gas",
-                                837: "Gas",
-                                891: "Oil",
-                                894: "Oil"}
+    special_fuel_corrections = {819: ("Gas", pw.NO_DATA_SET.copy()),
+                                825: ("Gas", set(['Oil'])),
+                                825: ("Gas", pw.NO_DATA_SET.copy()),
+                                826: ("Gas", pw.NO_DATA_SET.copy()),
+                                837: ("Gas", pw.NO_DATA_SET.copy()),
+                                891: ("Oil", pw.NO_DATA_SET.copy()),
+                                894: ("Oil", pw.NO_DATA_SET.copy())}
 
-    if id_val in special_fuel_corrections.keys():
+    if id_val in special_fuel_corrections:
         return special_fuel_corrections[id_val]
 
-    elif fuel_string in fuel_synonyms.keys():
-        return fuel_synonyms[fuel_string]
+    elif fuel_string in fuel_synonyms:
+        return (fuel_synonyms[fuel_string], pw.NO_DATA_SET.copy())
 
     else:   # case of very small "thermal" plants - must be diesel generators
-        return "Oil"
+        return ("Oil", pw.NO_DATA_SET.copy())
+
 
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
@@ -89,7 +92,8 @@ for p in plant_markers:
 
     dict_string = p.attrib['data-gmapping']
     try:
-        p_dict = ast.literal_eval(dict_string)      # safer than eval()
+        #p_dict = ast.literal_eval(dict_string)      # safer than eval()
+        p_dict = json.loads(dict_string)      # safer than eval()
     except:
         print(u"- Error: Can't evaluate string to dictionary:")
         print(dict_string)
@@ -128,10 +132,10 @@ for p in plant_markers:
     # get fuel type
     try:
         fuel_string_raw = p_dict['icon']
-        fuel_type = parse_fuel_URY(fuel_string_raw[9:12], id_val)         # extract fuel name from icon name
-        fuel = pw.standardize_fuel(fuel_type, fuel_thesaurus)
+        primary_fuel_string, other_fuel_set = parse_fuel_URY(fuel_string_raw[9:12], id_val)         # extract fuel name from icon name
+        primary_fuel = pw.standardize_fuel(primary_fuel_string, fuel_thesaurus, as_set=False)
     except:
-        print(u"- Error: Can't read fuel type for plant {0}".format(id_val))
+        print(u"- Error: Can't read fuel type {0} for plant {1}".format(primary_fuel_string, id_val))
         continue
 
     # get coordinates
@@ -162,7 +166,8 @@ for p in plant_markers:
     new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel, plant_other_fuel=other_fuel_set,
+		plant_capacity=capacity,
         plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL, plant_cap_year=SOURCE_YEAR)
     plants_dictionary[idnr] = new_plant
 

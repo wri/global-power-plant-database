@@ -105,7 +105,7 @@ with open(RAW_FILE_NAME, "rU") as f:
             owner = pw.format_string(plant.find("Electricity_Infrastructure:OWNER", ns).text)
         except:
             owner = pw.NO_DATA_UNICODE
-        fuel = pw.standardize_fuel(plant.find("Electricity_Infrastructure:PRIMARYFUELTYPE", ns).text,fuel_thesaurus)
+        primary_fuel = pw.standardize_fuel(plant.find("Electricity_Infrastructure:PRIMARYFUELTYPE", ns).text, fuel_thesaurus)
         try:
             capacity = plant.find("Electricity_Infrastructure:GENERATIONMW", ns).text
             capacity = float(capacity)
@@ -176,7 +176,7 @@ with open(RAW_FILE_NAME, "rU") as f:
         new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_owner=owner, 
             plant_country=COUNTRY_NAME,
             plant_location=new_location, plant_coord_source=geolocation_source,
-            plant_fuel=fuel, plant_capacity=capacity,
+            plant_primary_fuel=primary_fuel, plant_capacity=capacity,
             plant_generation=generation,
             plant_source=SOURCE_NAME, plant_cap_year=year_updated,
             plant_source_url=SOURCE_URL)

@@ -11,6 +11,7 @@ OTH
 Other non-specified energy sources
 PUR
 Separate electricity production
+Syngas
 TDF
 Thermal
 Unknown

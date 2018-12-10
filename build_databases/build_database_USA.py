@@ -40,7 +40,7 @@ GENERATION_CONVERSION_TO_GWH = 0.001	# generation values are given in MWh in the
 SUBSIDIARY_COUNTRIES = ["Puerto Rico", "Guam"]
 
 COLS_860_2 = {'name':3, 'idnr':2, 'owner':1, 'lat':9, 'lng':10}
-COLS_860_3 = {'idnr':2, 'capacity':15, 'fuel_type':[33,34,35,36], 'operating_month':25, 'operating_year':26}
+COLS_860_3 = {'idnr':2, 'capacity':15, 'primary_fuel': 33, 'other_fuel': [34,35,36], 'operating_month':25, 'operating_year':26}
 # note: yes, these are redundant, but saves on refactoring later
 COLS_923_2_2017 = {'idnr':0, 'generation':95}
 COLS_923_2_2016 = {'idnr':0, 'generation':95}
@@ -114,6 +114,7 @@ for row_id in xrange(2, ws860_2.nrows):
 # read in capacities from File 3 of EIA-860
 print("Reading in capacities...")
 commissioning_year_by_unit = {}	 # temporary method until PowerPlant object includes unit-level information
+plant_fuel_capacity = {idnr: {} for idnr in plants_dictionary}
 
 for row_id in xrange(2, ws860_3.nrows):
 	rv = ws860_3.row_values(row_id)  # row value
@@ -124,7 +125,6 @@ for row_id in xrange(2, ws860_3.nrows):
 	if idnr in plants_dictionary:
 		unit_capacity = float(rv[COLS_860_3['capacity']])
 		plants_dictionary[idnr].capacity += unit_capacity
-		# todo: average commissioning year calculation
 
 		unit_month = int(rv[COLS_860_3['operating_month']])
 		unit_year_raw = int(rv[COLS_860_3['operating_year']])
@@ -134,16 +134,34 @@ for row_id in xrange(2, ws860_3.nrows):
 		else:
 			commissioning_year_by_unit[idnr] = [ [unit_capacity, unit_year] ]
 
-		for i in COLS_860_3['fuel_type']:
+		primary_fuel = pw.standardize_fuel(rv[COLS_860_3['primary_fuel']], fuel_thesaurus, as_set=False)
+		plants_dictionary[idnr].other_fuel.update(set([primary_fuel]))
+		for i in COLS_860_3['other_fuel']:
 			try:
 				if rv[i] == "None":
 					continue
-				fuel_type = pw.standardize_fuel(rv[i], fuel_thesaurus)
-				plants_dictionary[idnr].fuel.update(fuel_type)
+				fuel_type = pw.standardize_fuel(rv[i], fuel_thesaurus, as_set=True)
+				plants_dictionary[idnr].other_fuel.update(fuel_type)
 			except:
 				continue
+		cap_fuel = plant_fuel_capacity[idnr].get(primary_fuel, 0)
+		cap_fuel += unit_capacity
+		plant_fuel_capacity[idnr][primary_fuel] = cap_fuel
+
 	else:
 		print("Can't find plant with ID: {0}".format(idnr))
+
+# determine the primary fuel based on a fuel's capacity share in the plant
+for idnr, fuel_capacity_dict in plant_fuel_capacity.iteritems():
+	try:
+		largest_capacity_fuel = max(fuel_capacity_dict, key=lambda f: fuel_capacity_dict[f])
+	except ValueError:  # tried max of empty sequence - plants w/o operable units
+		continue
+	plants_dictionary[idnr].primary_fuel = largest_capacity_fuel
+	try:
+		plants_dictionary[idnr].other_fuel.remove(largest_capacity_fuel)
+	except:
+		pass
 
 # calculate and save average commissioning year
 for idnr,unit_vals in commissioning_year_by_unit.iteritems():

@@ -108,8 +108,8 @@ COLNAMES = {
     'year': u"DT_ COMM",
     'capacity': u"CAPACITY MW AS ON 31/03/2017",
     'type':    u"TYPE",
-    'fuel1': u"FUEL 1",
-    'fuel2': u"FUEL 2",
+    'primary_fuel': u"FUEL 1",
+    'other_fuel': u"FUEL 2",
     'gen_13-14': u"2013-14\n\nNet \nGeneration \nGWh",
     'gen_14-15': u"2014-15\n\nNet \nGeneration \nGWh",
     'gen_15-16': u"2015-16\n\nNet \nGeneration \nGWh",
@@ -136,8 +136,8 @@ unit_col = rv.index(COLNAMES['unit'])
 year_col = rv.index(COLNAMES['year'])
 capacity_col = rv.index(COLNAMES['capacity'])
 type_col = rv.index(COLNAMES['type'])
-fuel1_col = rv.index(COLNAMES['fuel1'])
-fuel2_col = rv.index(COLNAMES['fuel2'])
+primary_fuel_col = rv.index(COLNAMES['primary_fuel'])
+other_fuel_col = rv.index(COLNAMES['other_fuel'])
 gen_13_14_col = rv.index(COLNAMES['gen_13-14'])
 gen_14_15_col = rv.index(COLNAMES['gen_14-15'])
 gen_15_16_col = rv.index(COLNAMES['gen_15-16'])
@@ -199,12 +199,13 @@ for i in xrange(1, sheet.nrows):
     try:
         plant_type = pw.format_string(rv[type_col])
         if plant_type in [u"HYDRO", u"NUCLEAR"]:
-            fuel = pw.standardize_fuel(plant_type, fuel_thesaurus)
+            primary_fuel = pw.standardize_fuel(plant_type, fuel_thesaurus, as_set=False)
         elif plant_type == u"THERMAL":
-            fuel = pw.standardize_fuel(rv[fuel1_col], fuel_thesaurus)
-            if rv[fuel2_col] and rv[fuel2_col] != 'n/a':
-                fuel2 = pw.standardize_fuel(rv[fuel2_col], fuel_thesaurus)
-                fuel = fuel.union(fuel2)
+            primary_fuel = pw.standardize_fuel(rv[primary_fuel_col], fuel_thesaurus, as_set=False)
+            if rv[other_fuel_col] and rv[other_fuel_col] != 'n/a':
+                other_fuel = pw.standardize_fuel(rv[other_fuel_col], fuel_thesaurus, as_set=True)
+            else:
+                other_fuel = pw.NO_DATA_SET.copy()
         else:
             print("Can't identify plant type {0}".format(plant_type))
     except:
@@ -228,7 +229,7 @@ for i in xrange(1, sheet.nrows):
     new_location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel,
+        plant_primary_fuel=primary_fuel, plant_other_fuel=other_fuel,
         plant_capacity=capacity, plant_cap_year=DATA_YEAR,
         plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL,
         plant_generation=generation)

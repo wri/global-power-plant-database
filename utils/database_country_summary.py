@@ -122,17 +122,17 @@ def country_summary(db_conn, country, iso_code):
 
 	# count distinct fuel types 
 	stmt = '''SELECT COUNT(*) FROM (
-				SELECT DISTINCT(fuel1) from powerplants
-					WHERE (country="{0}" AND fuel1 IS NOT NULL)
+				SELECT DISTINCT(primary_fuel) from powerplants
+					WHERE (country="{0}" AND primary_fuel IS NOT NULL)
 				UNION
-				SELECT DISTINCT(fuel2) from powerplants
-					WHERE (country="{0}" AND fuel2 IS NOT NULL)
+				SELECT DISTINCT(other_fuel1) from powerplants
+					WHERE (country="{0}" AND other_fuel1 IS NOT NULL)
 				UNION
-				SELECT DISTINCT(fuel3) from powerplants
-					WHERE (country="{0}" AND fuel3 IS NOT NULL)
+				SELECT DISTINCT(other_fuel2) from powerplants
+					WHERE (country="{0}" AND other_fuel2 IS NOT NULL)
 				UNION
-				SELECT DISTINCT(fuel4) from powerplants
-					WHERE (country="{0}" AND fuel4 IS NOT NULL)
+				SELECT DISTINCT(other_fuel3) from powerplants
+					WHERE (country="{0}" AND other_fuel3 IS NOT NULL)
 				) AS temp'''.format(iso_code)
 	query = c.execute(stmt)
 	summary['count_distinct_fuel'], = query.fetchone()
@@ -143,19 +143,19 @@ def country_summary(db_conn, country, iso_code):
 		fuel_column_name = '_'.join(fuel.lower().split())
 		stmt = '''SELECT COUNT(*) FROM powerplants
 					WHERE (country=?
-						AND (fuel1="{fuel}"
-							OR fuel2="{fuel}"
-							OR fuel3="{fuel}"
-							OR fuel4="{fuel}"))'''.format(fuel=fuel)
+						AND (primary_fuel="{fuel}"
+							OR other_fuel1="{fuel}"
+							OR other_fuel2="{fuel}"
+							OR other_fuel3="{fuel}"))'''.format(fuel=fuel)
 		query = c.execute(stmt, (iso_code,))
 		summary['count_fuel_{0}'.format(fuel_column_name)], = query.fetchone()
 
 		stmt = '''SELECT SUM(capacity_mw) FROM powerplants
 					WHERE (country=?
-						AND (fuel1="{fuel}"
-							OR fuel2="{fuel}"
-							OR fuel3="{fuel}"
-							OR fuel4="{fuel}"))'''.format(fuel=fuel)
+						AND (primary_fuel="{fuel}"
+							OR other_fuel1="{fuel}"
+							OR other_fuel2="{fuel}"
+							OR other_fuel3="{fuel}"))'''.format(fuel=fuel)
 		query = c.execute(stmt, (iso_code,))
 		fuel_capacity_mw, = query.fetchone()
 		summary_name = 'capacity_gw_fuel_{0}'.format(fuel_column_name)
@@ -187,10 +187,10 @@ def country_summary(db_conn, country, iso_code):
 	# count null fuel occurrences
 	stmt = '''SELECT COUNT(*) FROM powerplants
 				WHERE (country=?
-					AND fuel1 IS NULL
-					AND fuel2 IS NULL
-					AND fuel3 IS NULL
-					AND fuel4 is NULL)'''
+					AND primary_fuel IS NULL
+					AND other_fuel1 IS NULL
+					AND other_fuel2 IS NULL
+					AND other_fuel3 is NULL)'''
 	query = c.execute(stmt, (iso_code,))
 	summary['count_null_fuel'], = query.fetchone()
 

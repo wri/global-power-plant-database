@@ -119,10 +119,10 @@ for i in xrange(1, sheet.nrows):
         owner = pw.NO_DATA_UNICODE
 
     try:
-        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+        primary_fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set=False)
     except:
         print(u"-Error: Can't read fuel for plant with name {0}".format(name))
-        fuel = pw.NO_DATA_SET
+        primary_fuel = pw.NO_DATA_UNICODE
 
     try:
         capacity = float(row[capacity_col])
@@ -158,7 +158,8 @@ for i in xrange(1, sheet.nrows):
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_owner=owner, plant_cap_year=data_date,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel,
+        plant_capacity=capacity,
         plant_source=source, plant_source_url=SOURCE_URL_1)
     plants_dictionary[idnr] = new_plant
 
@@ -215,10 +216,10 @@ for i in xrange(1, sheet.nrows):
         owner = pw.NO_DATA_UNICODE
 
     try:
-        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+        primary_fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set=False)
     except:
         print(u"-Error: Can't read fuel for plant with name {0}".format(name))
-        fuel = pw.NO_DATA_SET
+        primary_fuel = pw.NO_DATA_UNICODE
 
     try:
         latitude = float(row[latitude_col])
@@ -248,7 +249,7 @@ for i in xrange(1, sheet.nrows):
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_owner=owner, plant_cap_year=data_date,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel, plant_capacity=capacity,
         plant_source=source, plant_source_url=SOURCE_URL_2)
     plants_dictionary[idnr] = new_plant
 
@@ -317,11 +318,31 @@ for i in xrange(2, sheet.nrows):
         print(u"-Error: Can't read owner of plant with name {0}".format(name))
         owner = pw.NO_DATA_UNICODE
 
-    try:
-        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
-    except:
-        print(u"-Error: Can't read fuel for plant with name {0}".format(name))
-        fuel = pw.NO_DATA_SET
+    try:  # (A) try to read a single fuel
+        primary_fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set=False)
+    except:  # if (A) fails mabye due to two separate fuels:
+        # (B) split phrase & try to get a fuel from each value
+        fuel_string_list = row[fuel_col].split(' y ')
+        if len(fuel_string_list) == 1:  # if (B) doesn't result in more potential fuels
+            print(u"-Error: Can't read fuel <{0}> for plant with name {1}".format(row[fuel_col], name))
+            # assign no data
+            primary_fuel = pw.NO_DATA_UNICODE
+            other_fuel = pw.NO_DATA_SET.copy()
+        else:  # if (B) results in more strings:
+            try:  # (C) try to assign primary fuel to first value
+                primary_fuel = pw.standardize_fuel(fuel_string_list[0], fuel_thesaurus, as_set=False)
+            except:  # if (C) fails, ignore the rest of the values and give nodata
+                print(u"-Error: Can't read fuel <{0}> for plant with name {1}".format(fuel_string_list[0], name))
+                primary_fuel = pw.NO_DATA_UNICODE
+                other_fuel = pw.NO_DATA_SET.copy()
+            else:  # if (C) succeeds:
+                try:  # (D) try to assign the remaining values to other fuels
+                    fuel_set = pw.standardize_fuel('/'.join(fuel_string_list[1:]), fuel_thesaurus, as_set=True)
+                except:  # if (D) fails, give an empty value for the other fuels
+                    print(u"-Error: Can't read other fuels for plant with name {0}".format(name))
+                    other_fuel = pw.NO_DATA_SET.copy()
+    else:  # if (A) succeeds, give an empty value for the other fuels
+        other_fuel = pw.NO_DATA_SET.copy()
 
     try:
         location = pw.format_string(row[location_col], None)
@@ -347,7 +368,7 @@ for i in xrange(2, sheet.nrows):
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
         plant_owner=owner, plant_cap_year=SOURCE_YEAR,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=primary_fuel, plant_capacity=capacity,
         plant_source=SOURCE_URL_3, plant_source_url=SOURCE_URL_3)
     plants_dictionary[idnr] = new_plant
 

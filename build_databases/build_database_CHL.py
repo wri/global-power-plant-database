@@ -43,9 +43,10 @@ DATASETS = [{"number": "215392", "fuel": "Thermal", "filename": "chile_power_pla
 
 def lookup_location(fuel, idval, plant_locations):
 
-    fuel_name = next(iter(fuel))
-    if fuel_name in ["Coal", "Gas", "Oil"]:
+    if fuel in ["Coal", "Gas", "Oil", "Cogeneration", "Petcoke"]:
         fuel_name = "Thermal"
+    else:
+        fuel_name = fuel
 
     if idval in plant_locations[fuel_name].keys():
         return plant_locations[fuel_name][idval][0:2]
@@ -78,12 +79,12 @@ with open(LOCATION_FILE_NAME, 'rbu') as f:
     datareader = csv.reader(f)
     headers = [x.lower() for x in datareader.next()]
     for row in datareader:
-        fuel = row[0]
+        fuel_type = row[0]
         idval = int(row[1])
         name = row[2]
         latitude = float(row[3])
         longitude = float(row[4])
-        plant_locations[fuel][idval] = [latitude, longitude, name]
+        plant_locations[fuel_type][idval] = [latitude, longitude, name]
 
 # read plant files
 for dataset in DATASETS:
@@ -107,13 +108,27 @@ for dataset in DATASETS:
 
             try:
                 fuel_string = row.get("Tipo", row.get("Tipo ", row.get("Combustible", pw.NO_DATA_UNICODE)))
-                fuel = pw.standardize_fuel(fuel_string, fuel_thesaurus)
+                fuels = pw.standardize_fuel(fuel_string, fuel_thesaurus, as_set=True)
             except:
                 print(u"-Error: Can't read fuel for plant {0}.".format(name))
-                fuel = pw.NO_DATA_SET
+                primary_fuel = pw.NO_DATA_UNICODE
+                other_fuels = pw.NO_DATA_SET.copy()
+            else:
+                if len(fuels) == 1:
+                    primary_fuel = fuels.pop()
+                    other_fuels = pw.NO_DATA_SET.copy()
+                elif len(fuels) == 2:
+                    primary, secondary = fuel_string.split(' / ')
+                    primary_fuel = pw.standardize_fuel(primary, fuel_thesaurus, as_set=False)
+                    other_fuels = pw.standardize_fuel(secondary, fuel_thesaurus, as_set=True)
+                else:
+                    print(u"-Error: Bad number of fuels for plant {0}.".format(name))
+                    primary_fuel = pw.NO_DATA_UNICODE
+                    other_fuels = pw.NO_DATA_SET.copy()
+
 
             # special treament of name for biomass plants (not included in data file)
-            if fuel == set(["Biomass"]):
+            if primary_fuel == "Biomass":
                 try:
                     name = pw.format_string(plant_locations["Biomass"][idval][2])
                 except:
@@ -121,7 +136,7 @@ for dataset in DATASETS:
                     continue
 
             try:
-                latitude,longitude = lookup_location(fuel, idval, plant_locations)
+                latitude,longitude = lookup_location(primary_fuel, idval, plant_locations)
                 geolocation_source = SOURCE_NAME
             except:
                 print(u"-Error: Can't find location for plant {0}.".format(name))
@@ -154,7 +169,7 @@ for dataset in DATASETS:
             new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=COUNTRY_NAME,
                 plant_owner=owner,
                 plant_location=new_location, plant_coord_source=geolocation_source,
-                plant_fuel=fuel,
+                plant_primary_fuel=primary_fuel, plant_other_fuel=other_fuels,
                 plant_capacity=capacity, plant_cap_year=YEAR_POSTED,
                 plant_source=SOURCE_NAME, plant_source_url=SOURCE_URL)
             plants_dictionary[idnr] = new_plant

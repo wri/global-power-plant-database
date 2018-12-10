@@ -17,6 +17,7 @@ FUEL OIL NRO 6
 Fuel Oil
 Fuel Oil #2
 Fuel Oil #6
+Fuel oil
 HFO
 Heavy Fuel Oil
 Heavy Fuel oil

@@ -113,10 +113,10 @@ for row in rows:
     except:
         capacity = pw.NO_DATA_NUMERIC
     try:
-        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus)
+        fuel = pw.standardize_fuel(row[fuel_col], fuel_thesaurus, as_set=False)
     except:
         print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-        fuel = pw.NO_DATA_SET
+        fuel = pw.NO_DATA_UNICODE
     try:
         latitude = float(row[latitude_col])
         longitude = float(row[longitude_col])
@@ -152,7 +152,7 @@ for row in rows:
     new_location = pw.LocationObject(location, latitude, longitude)
     new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_country=country,
         plant_location=new_location, plant_coord_source=geolocation_source,
-        plant_fuel=fuel, plant_capacity=capacity,
+        plant_primary_fuel=fuel, plant_capacity=capacity,
         plant_source=SAVE_CODE, plant_source_url=SOURCE_URL,
         plant_generation=generation, plant_cap_year=2017)
     plants_dictionary[idnr] = new_plant
