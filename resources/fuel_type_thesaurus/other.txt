@@ -15,6 +15,7 @@ Syngas
 TDF
 Thermal
 Unknown
+UNKNOWN
 calor residual
 fuel
 helium

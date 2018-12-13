@@ -131,7 +131,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     primary_fuel = pw.standardize_fuel(row[primary_fuel_col], fuel_thesaurus, as_set=False)
                 except:
                     print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-                    fuel = pw.NO_DATA_UNICODE
+                    primary_fuel = pw.NO_DATA_UNICODE
                 # other fuels
                 try:
                     if row[other_fuel_col]:

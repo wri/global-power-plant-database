@@ -18,6 +18,7 @@ Sub-bituminous Coal
 TURBO VAPOR
 WC
 ant
+anthracite
 anthracite coal
 bit
 bitumen
