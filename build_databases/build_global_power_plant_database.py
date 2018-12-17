@@ -202,7 +202,7 @@ if DATA_DUMP:
 	pw.add_wepp_id(datadump)
 print("...done.")
 
-# STEP 5: Write the Global Power Plant Database
+# STEP 5: Write the Global Power Plant Database as CSV
 for dbname, data in database_additions.iteritems():
 	print("Added {0} plants ({1} MW) from {2}.".format(data['count'], data['capacity'], dbname))
 
@@ -210,6 +210,10 @@ f_log.close()
 print("Loaded {0} plants to the Global Power Plant Database.".format(len(core_database)))
 pw.write_csv_file(core_database, DATABASE_CSV_SAVEFILE)
 print("Global Power Plant Database built.")
+
+# STEP 5.1: Write Global Power Plant Database as shapefile.
+pw.save_shapefile(core_database)
+print("Shapefile version of Global Power Plant Database saved.")
 
 # STEP 6: Dump Data
 if DATA_DUMP:

@@ -14,6 +14,7 @@ import sys
 import os
 import sqlite3
 import re
+import shapefile 			# package is pyshp
 
 ### PARAMS ###
 # Folder directories
@@ -1069,6 +1070,82 @@ def excel_date_as_datetime(excel_date, date_mode=0):
 	"""
 
 	return datetime.datetime(1899, 12, 30) + datetime.timedelta(days=excel_date + date_mode * 1462)
+
+### SAVE SHAPEFILE ###
+
+def save_shapefile(plant_dict, filename='global_power_plant_database', savedir=OUTPUT_DIR):
+	"""
+	Save in-memory database to Shapefile.
+	Assumes that file global_power_plant_database.prj exists in output_database.
+	
+	Parameters
+	----------
+	plant_dict : dict
+		Dict of {'gppd_idnr': PowerPlant} to save.
+	filename : str
+		Base filename to save the pickle.
+	savedir : str, optional
+		Directory in which `filename` will be located.
+	"""
+
+	# TODO
+	# Specify different data types for each field instead of using "C" for text
+	# Add generation, other fuels
+
+	# declare shapefile writer
+	plants_shp = shapefile.Writer(os.path.join(OUTPUT_DIR,filename),shapeType=shapefile.POINT)
+	plants_shp.autoBalance = 1
+
+	# add fields
+	fieldnames = [
+		'gppd_id',
+		'name',
+		'country',
+		'owner',
+		'name_natural_language',
+		'url',
+		'coord_source',
+		'primary_fuel',
+		'wepp_id',
+		'capacity_mw',
+		'capacity_year',
+		'commissioning_year',
+		'estimated_generation_gwh',
+	]
+	for fn in fieldnames:
+		plants_shp.field(fn,"C")
+
+	# add each plant location and corresponding data
+	counter = 1
+	for i,p in plant_dict.iteritems():
+
+		# add geometry (point)
+		plants_shp.point(float(p.location.longitude),float(p.location.latitude))
+
+		# add attributes
+		gppd_id = str(i)
+		name = p.name
+		country = p.country
+		owner = p.owner
+		nat_lang = p.nat_lang
+		url = p.url
+		coord_source = p.coord_source
+		primary_fuel = p.primary_fuel
+		wepp_id = p.wepp_id
+		capacity_mw = str(p.capacity)
+		capacity_year = str(p.cap_year)
+		commissioning_year = str(p.commissioning_year)
+		estimated_generation_gwh = str(p.estimated_generation_gwh)
+
+		plants_shp.record(gppd_id, name, country, owner, nat_lang, url, coord_source, primary_fuel, 
+							wepp_id, capacity_mw, capacity_year, commissioning_year, 
+							estimated_generation_gwh)
+
+		counter += 1
+
+	# close file and print count
+	plants_shp.close()
+	print("Loaded {0} plants to shapefile: {1}.".format(counter,filename))
 
 
 ### LOAD/SAVE/WRITE CSV ###
