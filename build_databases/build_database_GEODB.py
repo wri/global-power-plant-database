@@ -34,7 +34,7 @@ SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
 SOURCE_URL = "http://globalenergyobservatory.org"
 URL_BASE = "https://morph.io/coroa/global_energy_observatory_power_plants"
 URL_END = "/data.sqlite?key=RopNCJ6LtIx9%2Bdp1r%2BQV"
-YEAR = 2017
+YEAR = 2018
 
 # optional raw file(s) download
 URL = URL_BASE + URL_END
