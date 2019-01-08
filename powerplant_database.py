@@ -1106,6 +1106,7 @@ def save_shapefile(plant_dict, filename='global_power_plant_database', savedir=O
 		'url',
 		'coord_source',
 		'primary_fuel',
+		'other_fuel',
 		'wepp_id',
 		'capacity_mw',
 		'capacity_year',
@@ -1131,15 +1132,16 @@ def save_shapefile(plant_dict, filename='global_power_plant_database', savedir=O
 		url = p.url
 		coord_source = p.coord_source
 		primary_fuel = p.primary_fuel
+		other_fuel = ', '.join(p.other_fuel)
 		wepp_id = p.wepp_id
 		capacity_mw = str(p.capacity)
 		capacity_year = str(p.cap_year)
 		commissioning_year = str(p.commissioning_year)
 		estimated_generation_gwh = str(p.estimated_generation_gwh)
 
-		plants_shp.record(gppd_id, name, country, owner, nat_lang, url, coord_source, primary_fuel, 
-							wepp_id, capacity_mw, capacity_year, commissioning_year, 
-							estimated_generation_gwh)
+		plants_shp.record(gppd_id, name, country, owner, nat_lang, url, coord_source, 
+							primary_fuel, other_fuel, wepp_id, capacity_mw, capacity_year, 
+							commissioning_year, estimated_generation_gwh)
 
 		counter += 1
 
