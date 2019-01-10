@@ -840,6 +840,9 @@ def add_wepp_id(powerplant_dictionary, wepp_matches_file=WEPP_CONCORDANCE_FILE):
 	with open(wepp_matches_file, 'rbU') as f:
 		csvreader = csv.DictReader(f)
 		for row in csvreader:
+			# skip rows we have marked to ignore (for various reasons)
+			if row['ignore'] == '1':
+				continue
 			if row['wepp_location_id']:
 				gppd_id = str(row['gppd_idnr'])
 				wepp_id = str(row['wepp_location_id'])
