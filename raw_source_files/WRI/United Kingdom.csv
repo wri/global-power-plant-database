@@ -2561,10 +2561,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 2000173,Roade,Wind,,,,7.2,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000177,Winscales I,Wind,,,,1.98,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000178,Winscales II,Wind,,,,6.8,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
-2000198,Bowbeat (Emly Bank),Wind,,,,15.6,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
-2000199,Bowbeat (Roughside),Wind,,,,15.6,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
-2000200,Butterwick Moor Circuit 1,Wind,,,,10.25,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
-2000201,Butterwick Moor Circuit 2,Wind,,,,10.25,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000208,Haswell Moor Circuit 1,Wind,,,,5.125,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000209,Haswell Moor Circuit 2,Wind,,,,5.125,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000210,High Volts,Wind,,,,2.75,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
@@ -2668,3 +2664,7 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 2000861,Eye,Wind,,,,5,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000871,Newton of Fortrie,Wind,,,,6.9,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
 2000883,Ysgellog,Wind,,,,4.6,,,Operational,,,None,,,,,,,,,,,,,,,,,,,,,,,United Kingdom,,
+2000198,Bowbeat (Emly Bank),Wind,,,,15.6,,,Operational,,,2018,,,,,,,55.7117,-3.1336,,UK DUKES,,,,,,,,,,,,,United Kingdom,,WRI [Colin]
+2000199,Bowbeat (Roughside),Wind,,,,15.6,,,Operational,,,2018,,,,,,,55.7117,-3.1336,,,,,,,,,,,,,,,United Kingdom,,WRI [Colin]
+2000200,Butterwick Moor Circuit 1,Wind,,,,10.25,,,Operational,,,2018,,,,,,,54.6652,-1.3750,,,,,,,,,,,,,,,United Kingdom,,WRI [Colin]
+2000201,Butterwick Moor Circuit 2,Wind,,,,10.25,,,Operational,,,2018,,,,,,,54.6652,-1.3750,,,,,,,,,,,,,,,United Kingdom,,WRI [Colin]

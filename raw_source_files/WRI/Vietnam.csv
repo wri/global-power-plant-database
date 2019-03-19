@@ -302,3 +302,4 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1030735,Lap Vo Rice Husk Power Plant,Biomass,,,,10,,,Operational,,,,,,,,,,10.3492,105.57,,CDM,https://cdm.unfccc.int/Projects/DB/TUEV-SUED1268324091.74/view,,,,,,,,,,,,,,CDM
 1030749,Thuan Nhien Phong,Wind,,Onshore Wind,,32,2017,Asia Renewable Energy Corporation,Operational,,,,,,,,,,11.0525,108.41,,CDM,https://cdm.unfccc.int/Projects/DB/ICONTEC1347549044.44/view,,,,,,,,,,,,,,CDM
 1030755,Phuong Mai 3,Wind,,Onshore Wind,,21,2017,Central Wind power Joint Stock Company,Operational,,,,,,,,,,13.9077,109.26,,CDM,https://cdm.unfccc.int/Projects/DB/ICONTEC1347544560.36/view,,,,,,,,,,,,,,CDM
+1075848,Thai Binh Power Center,Coal,,,,600.0,2017,Electricity of Vietnam,,,,2018.0,,,,,,,20.4809977,106.5604517," / GCPT_Plant_Units_Link: L104341=>G110041;G110042;G110043;G110044 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Vietnam,,GCPT

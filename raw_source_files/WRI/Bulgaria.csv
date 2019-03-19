@@ -3,21 +3,23 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1008043,EVN PLOVDIV,Coal,,,,105,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,
 1008044,LUKOIL NEFTO,Coal,,,,257,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,
 1008047,SVILOZA,Coal,,,,120,,,,,,,,,,,,,,,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,
-1008041,BRIKEL 1,Coal,,,,200,,,,,,,,,,,,,42.155150,25.907211,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008053,KOZLODUY,Nuclear,,,,2000,,,,,,,,,,,,,43.7438,23.77233,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008054,PSBELMEKEN,Hydro,,Pumped Storage,,375,,,,,,,,,,,,,42.199561,23.858585,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008055,PSCHAIRA GEN,Hydro,,Pumped Storage,,864,,,,,,,,,,,,,42.160298,23.861188,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008057,TEC BOBOVDOL EAD,Coal,,,,570,,,,,,,,,,,,,42.285508,23.031871,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008058,TEC MARITSA 3 AD,Coal,,,,120,,,,,,,,,,,,,42.05321,25.62315,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008059,TOPLO RUSE,Coal,,,,110,,,,,,,,,,,,,42.25687,26.13602,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008060,Maritsa Iztok 2,Coal,,,,1604,,,,,,,,,,,,,42.05321,25.62315,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008061,Maritsa Iztok 3,Coal,,,,908,,,,,,,,,,,,,42.1421,26.00253,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008046,RUSE,Coal,,,,180,,,,,,,,,,,,,43.866241,26.009316,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008042,DEVEN,Coal,,,,132,,,,,,,,,,,,,43.196359,27.636752,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
-1008045,REPUBLIKA PK,Coal,,,,105,,,,,,,,,,,,,42.606429,23.078445,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008048,IVAILOVGRAD,Hydro,,Dam with Reservoir,,114,,,,,,,,,,,,,41.583862,26.107533,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008049,KARDZHALI,Hydro,,Dam with Reservoir,,110,,,,,,,,,,,,,41.633409,25.338059,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008050,MOMINA KLISU,Hydro,,Dam with Reservoir,,120,,,,,,,,,,,,,42.232024,23.949392,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008051,PESHTERA,Hydro,,Dam with Reservoir,,135,,,,,,,,,,,,,42.013194,24.257405,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008052,SESTRIMO,Hydro,,Dam with Reservoir,,240,,,,,,,,,,,,,42.208314,23.915829,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
 1008062,SVETI NIKOLA,Wind,,Onshore Wind,,156,,,,,,,,,,,,,43.422902,28.376047,,ENTSOE,https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,,,,,Bulgaria,,WRI
+1008041,Brikel power station,Coal,,,,240,1961,Brikel EAD,,,,2018.0,,,,,,,42.155150,25.907211," / GCPT_Plant_Units_Link: L100142=>G101051;G101052;G101053;G101054;G101055;G101056 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,WRI
+1008057,Bobov Dol power station,Coal,,,,630,1974,Energia MK,,,,2018.0,,,,,,,42.285508,23.034163," / GCPT_Plant_Units_Link: L100137=>G100971;G100972;G100973 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
+1008058,Maritsa 3 power station,Coal,,,,120,1971,TEC Maritsa 3 AD,,,,2018.0,,,,,,,42.051942,25.62315," / No Units",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
+1008060,Maritsa Itzok-2 power station,Coal,,,,1602,1979,TEC Maritsa Iztok 2 EAD,,,,2018.0,,,,,,,42.254053000000006,26.134007," / GCPT_Plant_Units_Link: L100143=>G106669;G106670;G106671;G106672;G106673;G106674;G106675;G106676 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
+1008061,Maritsa Itzok-3 power station,Coal,,,,908,1980,Contour Global Maritsa Iztok 3 AD,,,,2018.0,,,,,,,42.14502,26.00253," / GCPT_Plant_Units_Link: L100144=>G106677;G106678;G106679;G106680 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
+1008042,Deven power station,Coal,,,,174,2009,Deven AD,,,,2018.0,,,,,,,43.196359,27.632675199999998," / No Units",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
+1008045,Republika power station,Coal,,,,105,1951,Toplofikacia Pernik Ead,,,,2018.0,,,,,,,42.606429,23.078445," / No Units",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,WRI
+1075858,AES Galabovo,Coal,,,,670,2011,AES,,,,2018.0,,,,,,,42.1573,25.9084," / GCPT_Plant_Units_Link: L100148=>G106681;G106682 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
+1075859,Vidin Works power station,Coal,,,,120,1970,Vidachim,,,,2018.0,,,,,,,43.948363,22.850904," / GCPT_Plant_Units_Link: L100147=>G110587;G110588 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Bulgaria,,GCPT
