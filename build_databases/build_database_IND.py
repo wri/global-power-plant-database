@@ -200,6 +200,7 @@ for i in xrange(1, sheet.nrows):
         plant_type = pw.format_string(rv[type_col])
         if plant_type in [u"HYDRO", u"NUCLEAR"]:
             primary_fuel = pw.standardize_fuel(plant_type, fuel_thesaurus, as_set=False)
+            other_fuel = pw.NO_DATA_SET.copy()
         elif plant_type == u"THERMAL":
             primary_fuel = pw.standardize_fuel(rv[primary_fuel_col], fuel_thesaurus, as_set=False)
             if rv[other_fuel_col] and rv[other_fuel_col] != 'n/a':
