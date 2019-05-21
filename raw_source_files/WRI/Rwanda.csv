@@ -33,6 +33,6 @@ Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW)
 1061166,Kayonza solar,Solar,,PV,,10,2020,Government of Rwanda,Under Development,,,,,,,,,,,,,Business Sweden,https://www.business-sweden.se/contentassets/f0b02a0b8a7543688b89c7f7482308a4/fact-pack---rwanda-energy-sector-2016.pdf,,,,,,,,,,"Rwinkwavu, Kayonza District",,,,
 1061159,Rwamagana solar,Solar,,PV,,8.5,2015,Scatec Solar Company & GigaWatt Global Cooperatief,Operational,,,2015,,,,,,,-2.026,30.377,,The Guardian,https://www.theguardian.com/environment/2015/nov/23/how-africas-fastest-solar-power-project-is-lighting-up-rwanda,,,,,,,,Principal grid of Rwanda,Agahozo-Shalom Youth Village,"Agahozo, Rwamagana Distict",,,,KTH
 1061167,KivuWatt II,Methane,,Thermal,,74,2019,KivuWatt Limited (ContourGlobal),Under Development,,,,,,,,,,-2.068,29.32,Start construction: 2017; Completion expected 2019,Business Sweden,https://www.business-sweden.se/contentassets/f0b02a0b8a7543688b89c7f7482308a4/fact-pack---rwanda-energy-sector-2016.pdf,,,,,,,,,,,,,,KTH
-1023156,KivuWatt,Methane,,Thermal,,26,2016,KivuWatt Limited (ContourGlobal),Operational,,,,,,,,,,-2.068,29.32,"Extraction platform: 
+1061167,KivuWatt,Methane,,Thermal,,26,2016,KivuWatt Limited (ContourGlobal),Operational,,,,,,,,,,-2.068,29.32,"Extraction platform: 
  Lake Kivu
  -2.087764, 29.202007",Power Africa,https://medium.com/power-africa/the-floating-gas-plant-that-powers-rwanda-1638362a8c76,,,,,,,,National grid,,"Kibuye, Karongi District",,,,KTH
