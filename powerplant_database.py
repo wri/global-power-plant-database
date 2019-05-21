@@ -881,7 +881,7 @@ def format_string(value, encoding=UNICODE_ENCODING):
 	"""
 	# if encoding=None, don't decode
 	try:
-		if encoding == None:
+		if encoding is None:
 			unicode_value = value
 		else:
 			unicode_value = value.decode(encoding)

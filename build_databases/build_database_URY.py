@@ -92,7 +92,6 @@ for p in plant_markers:
 
     dict_string = p.attrib['data-gmapping']
     try:
-        #p_dict = ast.literal_eval(dict_string)      # safer than eval()
         p_dict = json.loads(dict_string)      # safer than eval()
     except:
         print(u"- Error: Can't evaluate string to dictionary:")
@@ -117,7 +116,7 @@ for p in plant_markers:
 
     # get name
     try:
-        name = pw.format_string(p_dict['generador'], ENCODING)
+        name = pw.format_string(p_dict['generador'].encode(ENCODING), ENCODING)
     except:
         print(u"- Error: Can't get name for plant {0}".format(id_val))
         continue
