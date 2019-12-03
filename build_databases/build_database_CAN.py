@@ -7,7 +7,7 @@ Data Source 1: North American Cooperation on Energy Information (via Natural Res
 - 
 Explanation:
 We use NACEI (government-supplied data) for all renewable plants and all conventional plants of 100MW or higher.
-We supplement this with Fusion Table data manually collected for conventional plants < 100 MW.
+We supplement this with data manually collected for conventional plants < 100 MW.
 -
 Issues:
 - NACIE data are very good, but do not include conventional plants below 100 MW.
@@ -238,7 +238,7 @@ for i in xrange(1, sheet.nrows):
         plant_source=SOURCE_NAME_1, plant_source_url=SOURCE_URL_2)
     plants_dictionary[idnr] = new_plant
 
-# 3: read in conventional plants under 100MW from Fusion Table data
+# 3: read in conventional plants under 100MW from WRI-collected data
 COLNAMES = ["Power Plant ID", "Name", "Fuel", "Capacity (MW)", "Location", "Plant type", "Commissioning Date",
                 "Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country", "Latitude",
                 "Longitude", "Geolocation Source"]
@@ -307,7 +307,7 @@ with open(FUSION_TABLE_FILE,'rU') as f:
             owner = pw.NO_DATA_UNICODE
         try:
             source = pw.format_string(row[source_col])
-            if source == u"Open Government Portal":  # avoid duplication (can remove after updating FT)
+            if source == u"Open Government Portal":  # avoid duplication (can remove after updating WRI data)
                 continue
         except:
             print(u"-Error: Can't read source for plant {0}.".format(name))

@@ -108,8 +108,8 @@ for plant_id, plant in wri_database.iteritems():
 	# Skip plants in countries where we will use GEO data
 	if country_dictionary[plant.country].use_geo:
 		continue
-	# skip plants in countries where fusion table data is already handled in an automated script
-	if country_dictionary[plant.country].ft_built_in:
+	# skip plants in countries where WRI-collected data is already handled in an automated script
+	if country_dictionary[plant.country].wri_data_built_in:
 		continue
 
 	datadump[plant_id] = plant

@@ -2,10 +2,9 @@
 """
 Global Power Plant Database
 build_database_WRI.py
-Download power plant data from WRI Fusion Tables and convert to the Global Power Plant Database format.
+Convert manually-collected tabular data to the Global Power Plant Database format.
 Data Source: World Resources Institute (manually assembled from multiple sources).
 Additional information: https://github.com/wri/global-power-plant-database
-Issues: Requires an API key to retrieve data from Fusion Tables.
 """
 
 import argparse
@@ -22,27 +21,8 @@ SAVE_CODE = u"WRI"
 CSV_FILE_NAME = pw.make_file_path(fileType="src_csv", filename="database_WRI.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
 RAW_FILE_DIRECTORY = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE)
-API_KEY_FILE = pw.make_file_path(fileType="resource", subFolder="api_keys", filename="fusion_tables_api_key.txt")
 OVERLAP_FILE = "Power_Plant_ID_overlaps.csv"
 
-# other parameters as needed
-URL_BASE = "https://www.googleapis.com/fusiontables/v2/query?alt=csv&sql=SELECT * FROM "
-
-# set up country dictionary (need this for fusion table keys)
-country_dictionary = pw.make_country_dictionary()
-
-if '--download' in sys.argv:
-    # get API key
-    with open(API_KEY_FILE, 'r') as f:
-        API_KEY = f.readline().rstrip()
-    FILES = {}
-    for country_name, country_info in country_dictionary.iteritems():
-        if country_info.fusion_table_id:
-            RAW_FILE_NAME = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename=country_name + ".csv")
-            URL = URL_BASE + country_info.fusion_table_id + "&key=" + API_KEY
-            FILES[RAW_FILE_NAME] = URL
-    # optional raw file download
-    DOWNLOAD_FILES = pw.download(SOURCE_NAME, FILES)
 
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
@@ -304,7 +284,7 @@ if len(overlapping_ids) > 0:
         for idnr, overlap in overlapping_ids.iteritems():
             f.write('{0},{1},{2}\n'.format(idnr, overlap['country1'], overlap['country2']))
 
-# report on fusion table files with zero plants read
+# report on files with zero plants read
 if len(countries_with_zero_plants) > 0:
     print(u"ERROR: The following files yielded no plants for the database:")
     for fn in countries_with_zero_plants:

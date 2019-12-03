@@ -212,7 +212,7 @@ class SourceObject(object):
 class CountryObject(object):
 	def __init__(self, primary_name, iso_code, iso_code2,
 			geo_name, carma_name, iea_name, automated,
-			use_geo, ft_built_in, fusion_table_id):
+			use_geo, wri_data_built_in):
 		"""
 		Class holding information on a specific country.
 
@@ -234,10 +234,8 @@ class CountryObject(object):
 			1 or 0 depending on automatic energy report releases.
 		use_geo : int
 			1 or 0 depending on whether GEODB is the sole source of data.
-		ft_built_in : str
-			3-letter ISO code of the country that the fusion table data should actually belong to.
-		fusion_table_id : str
-			Alphanumeric id for fusion table where data is stored.
+		wri_data_built_in : str
+			3-letter ISO code of the country that the WRI-collected data should actually belong to.
 
 		"""
 		self.primary_name = primary_name
@@ -248,8 +246,7 @@ class CountryObject(object):
 		self.iea_name = iea_name
 		self.automated = automated
 		self.use_geo = use_geo
-		self.ft_built_in = ft_built_in
-		self.fusion_table_id = fusion_table_id
+		self.wri_data_built_in = wri_data_built_in
 
 
 class LocationObject(object):
@@ -734,15 +731,14 @@ def make_country_dictionary(country_information_file=COUNTRY_INFORMATION_FILE):
 			country_code2 = row['iso_country_code_2'].decode(UNICODE_ENCODING)
 			automated = int(row['automated'])
 			use_geo = int(row['use_geo'])
-			ft_built_in = row['ft_built_in'].decode(UNICODE_ENCODING)
+			wri_data_built_in = row['wri_data_built_in'].decode(UNICODE_ENCODING)
 			geo_name = row['geo_country_name'].decode(UNICODE_ENCODING)
 			carma_name = row['carma_country_name'].decode(UNICODE_ENCODING)
 			iea_name = row['iea_country'].decode(UNICODE_ENCODING)
-			fusion_table_id = row['fusion_table_id'].decode(UNICODE_ENCODING)
 
 			new_country = CountryObject(primary_name, country_code, country_code2,
 					geo_name, carma_name, iea_name,
-					automated, use_geo, ft_built_in, fusion_table_id)
+					automated, use_geo, wri_data_built_in)
 			country_dictionary[primary_name] = new_country
 	return country_dictionary
 

@@ -5,7 +5,7 @@ build_database_USA.py
 Converts plant-level data from EIA-860 and EIA-923 to the Global Power Plant Database format.
 Uses EIA-923 for years 2013-2017 to obtain net generation values.
 Does not currently implement download of EIA spreadsheets.
-Uses data from WRI Fusion tables for Puerto Rico and Guam.
+Uses data from WRI manually-collected tables for Puerto Rico and Guam.
 """
 
 import xlrd
@@ -242,10 +242,10 @@ for row_id in xrange(6, ws923_2013.nrows):
 print("...Added plant generations.")
 
 # read in subsidiary states (Puerto Rico, Guam)
-print("Adding additional plants from Fusion Table data...")
-fusion_table_data = pw.load_database(WRI_DATABASE)
+print("Adding additional plants from WRI-collected table...")
+wri_collected_data = pw.load_database(WRI_DATABASE)
 for country in SUBSIDIARY_COUNTRIES:
-	these_plants = {k:v for k,v in fusion_table_data.iteritems() if v.country == country}
+	these_plants = {k:v for k,v in wri_collected_data.iteritems() if v.country == country}
 	for k,v in these_plants.iteritems():
 		v.country = COUNTRY_NAME
 	plants_dictionary.update(these_plants)

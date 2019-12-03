@@ -5,7 +5,7 @@ build_database_IND.py
 Get power plant data from India and convert to the Global Power Plant Database format.
 Data Sources:
 - Central Electricity Authority (for all conventional plants)
-- WRI Fusion Table data (for all non-conventional plants)
+- WRI manually-collected data (for all non-conventional plants)
 
 Additional information: [URL]
 
@@ -268,9 +268,9 @@ for serial_id_val, units in unit_list.iteritems():
 
             print(u'-Error: Plant {0} total capacity ({1}) does not match unit capacity sum ({2}).'.format(plant.name, total_capacity, plant.capacity))
 
-# now add plants from WRI Fusion Tables (non-conventional/not included in CEA data)
+# now add plants from WRI manually-collected table (non-conventional/not included in CEA data)
 
-# read in additional data from Fusion Table file
+# read in additional data from WRI-collected data file
 print("Adding additional plants from WRI manually gathered data...")
 wri_database = pw.load_database(WRI_DATABASE)
 plants_dictionary.update({k: v for k, v in wri_database.iteritems() if v.country == 'India'})

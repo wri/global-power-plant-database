@@ -2,21 +2,21 @@
 
 This project aims to build [an open database of all the power plants in the world](http://www.wri.org/publication/global-power-plant-database). It is the result of a large collaboration involving many partners, coordinated by the [World Resources Institute](https://www.wri.org/) and [Google Earth Outreach](https://www.google.com/earth/outreach/index.html). If you would like to get involved, please [email the team](mailto:powerexplorer@wri.org) or fork the repo and code! To learn more about how to contribute to this repository, read the [`CONTRIBUTING`](https://github.com/wri/global-power-plant-database/blob/master/.github/CONTRIBUTING.md) document.
 
-The latest database release (v1.1.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). A bleeding-edge version is in the [`output_database`](https://github.com/wri/global-power-plant-database/blob/master/output_database) directory of this repo.
+The latest database release (v1.2.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). A bleeding-edge version is in the [`output_database`](https://github.com/wri/global-power-plant-database/blob/master/output_database) directory of this repo.
 
 All Python source code is available under a [MIT license](https://opensource.org/licenses/MIT).
 
-This work is made possible and supported by [Google](https://environment.google/).
+This work is made possible and supported by [Google](https://environment.google/), among other organizations.
 
 ## Database description
 
 The Global Power Plant Database is built in several steps.
 
-* The first step involves gathering and processing country-level data. In some cases, these data are read automatically from offical government websites; the code to implement this is in the build_databases directory.
-* In other cases we gather country-level data manually. These data are saved as public Google Fusion Tables, and are read into the processing chain using the build_database_WRI.py script in the build_database directory. 
+* The first step involves gathering and processing country-level data. In some cases, these data are read automatically from offical government websites; the code to implement this is in the `build_databases` directory.
+* In other cases we gather country-level data manually. These data are saved in `raw_source_files/WRI` and processed with the `build_database_WRI.py` script in the `build_database` directory. 
 * The second step is to integrate data from different sources, particularly for geolocation of power plants and annual total electricity generation. Some of these different sources are multi-national databases. For this step, we rely on offline work to match records; the concordance table mapping record IDs across databases is saved in resources/master_plant_concordance.csv.
 
-Throughout the processing, we represent power plants as instances of the PowerPlant class, defined in powerplant_database.py. The final database is in a flat-file CSV format.
+Throughout the processing, we represent power plants as instances of the `PowerPlant` class, defined in `powerplant_database.py`. The final database is in a flat-file CSV format.
 
 ## Key attributes of the database
 
