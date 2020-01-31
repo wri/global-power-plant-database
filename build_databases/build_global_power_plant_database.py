@@ -185,6 +185,58 @@ for plant_id,plant in geo_database.iteritems():
 				core_database[plant_id] = plant
 				database_additions['GEO']['count'] += 1
 
+# STEP 3.1: Append another multinational database
+wiki_solar_file = pw.make_file_path(fileType="raw", subFolder="Wiki-Solar", filename="wiki-solar-plant-additions-2019.csv")
+country_lookup = {cc.iso_code: cc.primary_name for cc in country_dictionary.values()}
+# FIXME: patch lookup with additional geographies relevant in the wikisolar dataset
+country_lookup.update({
+	# Bonaire, Sint Eustatius and Saba
+	"BES": "Netherlands",
+	# Cayman Islands
+	"CYM": "United Kingdom",
+	# Puerto Rico
+	"PRI": "United States of America",
+	# Reunion
+	"REU": "France",
+	# The Virgin Islands of the United States
+	"VIR": "United States of America",
+})
+wiki_solar_skip = {
+	'United States of America': (0, 0)
+}
+wiki_solar_whitelist = ['PRI']
+
+wiki_solar_count = 0
+with open(wiki_solar_file) as fin:
+	wiki_solar = csv.DictReader(fin)
+	for solar_plant in wiki_solar:
+		country = country_lookup.get(solar_plant['country'], '')
+		plant_idnr = 'WKS{0:07d}'.format(int(solar_plant['id']))
+		plant_location = pw.LocationObject(latitude=float(solar_plant['lat']), longitude=float(solar_plant['lon']))
+		plant = pw.PowerPlant(
+				plant_idnr=plant_idnr,
+				plant_name=solar_plant['name'],
+				plant_country=country,
+				plant_capacity=float(solar_plant['capacity']),
+				plant_location=plant_location,
+				plant_coord_source='Wiki-Solar',
+				plant_source='Wiki-Solar',
+				plant_source_url='https://www.wiki-solar.org',
+				plant_primary_fuel = 'Solar'
+		)
+		if (country in wiki_solar_skip) and \
+		(solar_plant["country"] not in wiki_solar_whitelist):
+			_n, _capacity = wiki_solar_skip[country]
+			wiki_solar_skip[country] = (_n + 1, _capacity + plant.capacity)
+			continue
+		core_database[plant_idnr] = plant
+		wiki_solar_count += 1
+print("Loaded {0} plants from Wiki-Solar database.".format(wiki_solar_count))
+for _country, _vals in wiki_solar_skip.iteritems():
+	if _vals[0] != 0:
+		print("...skipped {0} plants ({1} MW) for {2}.".format(_vals[0], _vals[1], _country))
+
+
 # STEP 4: Estimate generation for plants without reported generation for target year
 count_plants_with_generation = 0
 #for plant_id,plant in core_database.iteritems():

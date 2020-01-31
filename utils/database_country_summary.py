@@ -209,7 +209,10 @@ def country_summary(db_conn, country, iso_code):
 					AND wepp_id IS NOT NULL)'''
 	query = c.execute(stmt, (iso_code,))
 	wepp_id_mw, = query.fetchone()
-	summary['capacity_gw_wepp_id'] = wepp_id_mw / 1000.
+	if wepp_id_mw is None:
+		summary['capacity_gw_wepp_id'] = 0
+	else:
+		summary['capacity_gw_wepp_id'] = wepp_id_mw / 1000.
 
 	# count null generation data for all years
 	stmt = '''SELECT COUNT(*) FROM powerplants
