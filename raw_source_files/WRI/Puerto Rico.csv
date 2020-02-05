@@ -1,42 +1,42 @@
-Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
-1026807,AES Ilumina,Solar,,PV,,24,,AES Corporation,Operational,Guayama,,,,,,,,,17.9468,-66.1591,,PV Tech,http://www.pv-tech.org/news/aes_solar_closes_financing_on_24mw_pv_power_plant_in_puerto_rico_constructi,,,,,,,,,,,,Puerto Rico,,WRI
-1026808,A.E.S. Corp.,Coal,,Sub-critical Thermal,,454.3,,AES Corporation,Operational,Guayama,,,,,,,,,17.9474,-66.1494,,Fluor; PREPA,http://www.fluor.com/projects/solid-fueled-power-aes-puerto-rico-epc; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026809,Aguirre,Diesel oil,,Sub-critical Thermal,,900,1975,PREPA,Operational,Salinas,,,,,,,,,17.9519,-66.2308,,PREPA,http://www.prepa.com/aguirre.asp,,,,,,,,,,,,Puerto Rico,,WRI
-1026809,Aguirre CC,Heavy fuel oil,,CCGT,,592,1977,PREPA,Operational,Salinas,,,,,,,,,17.9519,-66.2308,,PREPA; CEPR,http://www.prepa.com/aguirre.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026810,Cambalache,Diesel oil,,Sub-critical Thermal,,247.5,,PREPA,Operational,Arecibo,,,,,,,,,18.4691,-66.6968,,PREPA,http://www.prepa.com/AEEES2_ENG.ASP,,,,,,,,,,,,Puerto Rico,,WRI
-1026811,Costa Sur,Heavy fuel oil,,Sub-critical Thermal,,990,1962,PREPA,Operational,Guayanilla,,,,,,,,,18.00033,-66.7534,,PREPA,http://www.prepa.com/costasur.asp,,,,,,,,,,,,Puerto Rico,,WRI
-1026812,EcoEléctrica,Gas,,,,507,,"Gas Natural Fenosa, International Power",Operational,Peñuelas,,,,,,,,,17.98116,-66.7552,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026813,Oriana Solar Farm,Solar,,PV,,57.65,2015,Sonnedix,Operational,Isabela,,,,,,,,,18.4729,-67.0443,,Sonnedix,http://www.sonnedix.com/news/sonnedix-and-yarotek-announce-start-of-construction-of-58mw-solar-farm-in-puerto-rico/,,,,,,,,,,,,Puerto Rico,,WRI
-1026814,Palo Seco,Heavy fuel oil,,Sub-critical Thermal,,602,1960,PREPA,Operational,Toa Baja,,,,,,,,,18.4553,-66.1486,,PREPA,http://www.prepa.com/PALOSECO.ASP,,,,,,,,,,,,Puerto Rico,,WRI
-1026815,Punta Lima,Wind,,Onshore Wind,,23.4,2011,Sovereign Bank,Operational,Naguabo,,,,,,,,,18.1868,-65.6948,,Gestamp Wind,http://www.gestampwind.com/en/business/innovating-projects/punta-lima,,,,,,,,,,,,Puerto Rico,,WRI
-1026816,San Juan CC,Diesel oil,,CCGT,,464,2009,PREPA,Operational,San Juan,,,,,,,,,18.427,-66.1045,,PREPA,http://www.prepa.com/sanjuan.asp,,,,,,,,,,,,Puerto Rico,,WRI
-1026816,San Juan,Heavy fuel oil,,Sub-critical Thermal,,400,1969,PREPA,Operational,San Juan,,,,,,,,,18.427,-66.1045,,PREPA,http://www.prepa.com/sanjuan.asp,,,,,,,,,,,,Puerto Rico,,WRI
-1026817,Loiza Solar Park,Solar,,PV,,26,2012,Uriel Renewables and Coqui Power,Operational,Loiza,,,,,,,,,18.4134,-65.9028,,Clean Technica,http://www.eosolenergy.com/proyectos.html,,,,,,,,,,,,Puerto Rico,,WRI
-1026818,Santa Isabel Wind Farm,Wind,,Onshore Wind,,101.2,2012,Pattern Energy,Operational,Santa Isabel,,,,,,,,,17.9853,-66.398,,Pattern Energy,http://patternenergy.com/en/operations/facilities/santa_isabel/,,,,,,,,,,,,Puerto Rico,,WRI
-1026819,Windmar Ponce,Solar,,PV,,4.5,,Windmar Renewable Energy,Operational,Ponce,,,,,,,,,18.0623,-66.5485,,Windmar Renewable Energy,http://www.windmarpv.com/#filter=*,,,,,,,,,,,,Puerto Rico,,WRI
-1026820,Salinas,Solar,,PV,,15.5,,Sonnedix,Operational,,,,,,,,,,17.9786,-66.2205,,Sonnedix,http://www.sonnedix.com/news/sonnedix-and-yarotek-announce-start-of-construction-of-58mw-solar-farm-in-puerto-rico/,,,,,,,,,,,,Puerto Rico,,WRI
-1026821,Carite 1,Hydro,,,,10,1915,PREPA,Operational,,,,,,,,,,18.0447,-66.106,,PREPA,"http://www.prepa.com/historia_eng.asp, https://mapcarta.com/21472530",,,,,,,,,,,,Puerto Rico,,WRI
-1026823,Toro Negro 1,Hydro,,,,8.64,1929,PREPA,Operational,,,,,,,,,,18.13178,-66.4879,,PREPA,http://www.prepa.com/historia_eng.asp,,,,,,,,,,,,Puerto Rico,,WRI
-1026824,Toro Negro 2,Hydro,,,,1.92,1937,PREPA,Operational,,,,,,,,,,18.1664,-66.5116,,PREPA; CEPR,http://www.prepa.com/historia_eng.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026825,Garzas 1,Hydro,,,,7.2,1941,PREPA,Operational,,,,,,,,,,18.0941,-66.7346,,PREPA; CEPR,http://www.prepa.com/historia_eng.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026826,Garzas 2,Hydro,,,,5.04,1941,PREPA,Operational,,,,,,,,,,18.0727,-66.7305,,PREPA; CEPR,http://www.prepa.com/historia_eng.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026827,Dos Bocas,Hydro,,,,15,1942,PREPA,Operational,,,,,,,,,,18.33592,-66.6663,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026828,Yauco 1,Hydro,,,,25,,,Operational,,,,,,,,,,18.1106,-66.8711,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026829,Yauco 2,Hydro,,,,9,,PREPA,Operational,,,,,,,,,,18.05356,-66.8837,,PREPA,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1026831,Río Blanco,Hydro,,,,5,,PREPA,Operational,,,,,,,,,,18.2436,-65.7852,,PREPA,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028007,Mayagüez,Gas,,,,220,,,Operational,Mayagüez,,,,,,,,,18.21942,-67.16,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028008,Palo Seco,Gas,,OCGT,,126,,,Operational,,,,,,,,,,18.45508,-66.1498,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028009,Vega Baja,Gas,,OCGT,,42,,,Operational,,,,,,,,,,18.44577,-66.3914,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028010,Jobos,Gas,,OCGT,,42,,,Operational,,,,,,,,,,17.96147,-66.1402,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028011,Costa Sur,Gas,,OCGT,,42,,,Operational,Guayanilla,,,,,,,,,18.0018,-66.7537,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028012,Aguirre,Gas,,OCGT,,42,,,Operational,,,,,,,,,,17.95327,-66.2312,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028013,Daguao,Gas,,OCGT,,42,,,Operational,,,,,,,,,,18.23252,-65.6677,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028014,Yabucoa,Gas,,OCGT,,42,,,Operational,,,,,,,,,,18.10636,-65.8249,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028015,Caonillas 1,Hydro,,,,18,,,Operational,,,,,,,,,,18.29612,-66.6432,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028016,Caonillas 2,Hydro,,,,3.6,,,Operational,,,,,,,,,,18.23965,-66.6691,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
-1028017,San Fermin Solar Farm,Solar,,,,27,,,Operational,,,,,,,,,,18.40553,-65.9077,,TSK,http://www.grupotsk.com/proyectos/puerto-rico,,,,,,,,,,,,Puerto Rico,,WRI
-1026822,Carite 2,Hydro,,,,2,1922,PREPA,Shutdown,,,,,,,,,,,,,PREPA,http://www.prepa.com/historia_eng.asp,,,,,,,,,,,,Puerto Rico,,
-1026830,Patillas,Hydro,,,,1.4,,PREPA,Shutdown,,,,,,,,,,,,,Small Hydro World,http://www.smallhydroworld.org/fileadmin/user_upload/pdf/Americas_Caribbean/WSHPDR_2013_Puerto_Rico.pdf,,,,,,,,,,,,Puerto Rico,,
-1026832,El Yunque,Hydro,,,,10,1946,PREPA,Shutdown,,,,,,,,,,,,,Puerto Rico Water Resources Authority,https://archive.org/details/CAT31363293,,,,,,,,,,,,Puerto Rico,,
-1026833,El Yunque 2,Hydro,,,,2,1946,PREPA,Shutdown,,,,,,,,,,,,,Puerto Rico Water Resources Authority,https://archive.org/details/CAT31363293,,,,,,,,,,,,Puerto Rico,,
-1028006,Vieques EPP,Diesel,,Diesel Engine,,6,,,Operational,,,,,,,,,,18.14295,-65.444,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Generation Data Source,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
+1026807,AES Ilumina,Solar,,PV,,24,,AES Corporation,Operational,Guayama,,,,,,,,,,17.9468,-66.1591,,PV Tech,http://www.pv-tech.org/news/aes_solar_closes_financing_on_24mw_pv_power_plant_in_puerto_rico_constructi,,,,,,,,,,,,Puerto Rico,,WRI
+1026808,A.E.S. Corp.,Coal,,Sub-critical Thermal,,454.3,,AES Corporation,Operational,Guayama,,,,,,,,,,17.9474,-66.1494,,Fluor; PREPA,http://www.fluor.com/projects/solid-fueled-power-aes-puerto-rico-epc; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026809,Aguirre,Diesel oil,,Sub-critical Thermal,,900,1975,PREPA,Operational,Salinas,,,,,,,,,,17.9519,-66.2308,,PREPA,http://www.prepa.com/aguirre.asp,,,,,,,,,,,,Puerto Rico,,WRI
+1026809,Aguirre CC,Heavy fuel oil,,CCGT,,592,1977,PREPA,Operational,Salinas,,,,,,,,,,17.9519,-66.2308,,PREPA; CEPR,http://www.prepa.com/aguirre.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026810,Cambalache,Diesel oil,,Sub-critical Thermal,,247.5,,PREPA,Operational,Arecibo,,,,,,,,,,18.4691,-66.6968,,PREPA,http://www.prepa.com/AEEES2_ENG.ASP,,,,,,,,,,,,Puerto Rico,,WRI
+1026811,Costa Sur,Heavy fuel oil,,Sub-critical Thermal,,990,1962,PREPA,Operational,Guayanilla,,,,,,,,,,18.00033,-66.7534,,PREPA,http://www.prepa.com/costasur.asp,,,,,,,,,,,,Puerto Rico,,WRI
+1026812,EcoEléctrica,Gas,,,,507,,"Gas Natural Fenosa, International Power",Operational,Peñuelas,,,,,,,,,,17.98116,-66.7552,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026813,Oriana Solar Farm,Solar,,PV,,57.65,2015,Sonnedix,Operational,Isabela,,,,,,,,,,18.4729,-67.0443,,Sonnedix,http://www.sonnedix.com/news/sonnedix-and-yarotek-announce-start-of-construction-of-58mw-solar-farm-in-puerto-rico/,,,,,,,,,,,,Puerto Rico,,WRI
+1026814,Palo Seco,Heavy fuel oil,,Sub-critical Thermal,,602,1960,PREPA,Operational,Toa Baja,,,,,,,,,,18.4553,-66.1486,,PREPA,http://www.prepa.com/PALOSECO.ASP,,,,,,,,,,,,Puerto Rico,,WRI
+1026815,Punta Lima,Wind,,Onshore Wind,,23.4,2011,Sovereign Bank,Operational,Naguabo,,,,,,,,,,18.1868,-65.6948,,Gestamp Wind,http://www.gestampwind.com/en/business/innovating-projects/punta-lima,,,,,,,,,,,,Puerto Rico,,WRI
+1026816,San Juan CC,Diesel oil,,CCGT,,464,2009,PREPA,Operational,San Juan,,,,,,,,,,18.427,-66.1045,,PREPA,http://www.prepa.com/sanjuan.asp,,,,,,,,,,,,Puerto Rico,,WRI
+1026816,San Juan,Heavy fuel oil,,Sub-critical Thermal,,400,1969,PREPA,Operational,San Juan,,,,,,,,,,18.427,-66.1045,,PREPA,http://www.prepa.com/sanjuan.asp,,,,,,,,,,,,Puerto Rico,,WRI
+1026817,Loiza Solar Park,Solar,,PV,,26,2012,Uriel Renewables and Coqui Power,Operational,Loiza,,,,,,,,,,18.4134,-65.9028,,Clean Technica,http://www.eosolenergy.com/proyectos.html,,,,,,,,,,,,Puerto Rico,,WRI
+1026818,Santa Isabel Wind Farm,Wind,,Onshore Wind,,101.2,2012,Pattern Energy,Operational,Santa Isabel,,,,,,,,,,17.9853,-66.398,,Pattern Energy,http://patternenergy.com/en/operations/facilities/santa_isabel/,,,,,,,,,,,,Puerto Rico,,WRI
+1026819,Windmar Ponce,Solar,,PV,,4.5,,Windmar Renewable Energy,Operational,Ponce,,,,,,,,,,18.0623,-66.5485,,Windmar Renewable Energy,http://www.windmarpv.com/#filter=*,,,,,,,,,,,,Puerto Rico,,WRI
+1026820,Salinas,Solar,,PV,,15.5,,Sonnedix,Operational,,,,,,,,,,,17.9786,-66.2205,,Sonnedix,http://www.sonnedix.com/news/sonnedix-and-yarotek-announce-start-of-construction-of-58mw-solar-farm-in-puerto-rico/,,,,,,,,,,,,Puerto Rico,,WRI
+1026821,Carite 1,Hydro,,,,10,1915,PREPA,Operational,,,,,,,,,,,18.0447,-66.106,,PREPA,"http://www.prepa.com/historia_eng.asp, https://mapcarta.com/21472530",,,,,,,,,,,,Puerto Rico,,WRI
+1026823,Toro Negro 1,Hydro,,,,8.64,1929,PREPA,Operational,,,,,,,,,,,18.13178,-66.4879,,PREPA,http://www.prepa.com/historia_eng.asp,,,,,,,,,,,,Puerto Rico,,WRI
+1026824,Toro Negro 2,Hydro,,,,1.92,1937,PREPA,Operational,,,,,,,,,,,18.1664,-66.5116,,PREPA; CEPR,http://www.prepa.com/historia_eng.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026825,Garzas 1,Hydro,,,,7.2,1941,PREPA,Operational,,,,,,,,,,,18.0941,-66.7346,,PREPA; CEPR,http://www.prepa.com/historia_eng.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026826,Garzas 2,Hydro,,,,5.04,1941,PREPA,Operational,,,,,,,,,,,18.0727,-66.7305,,PREPA; CEPR,http://www.prepa.com/historia_eng.asp; http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026827,Dos Bocas,Hydro,,,,15,1942,PREPA,Operational,,,,,,,,,,,18.33592,-66.6663,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026828,Yauco 1,Hydro,,,,25,,,Operational,,,,,,,,,,,18.1106,-66.8711,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026829,Yauco 2,Hydro,,,,9,,PREPA,Operational,,,,,,,,,,,18.05356,-66.8837,,PREPA,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1026831,Río Blanco,Hydro,,,,5,,PREPA,Operational,,,,,,,,,,,18.2436,-65.7852,,PREPA,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028007,Mayagüez,Gas,,,,220,,,Operational,Mayagüez,,,,,,,,,,18.21942,-67.16,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028008,Palo Seco,Gas,,OCGT,,126,,,Operational,,,,,,,,,,,18.45508,-66.1498,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028009,Vega Baja,Gas,,OCGT,,42,,,Operational,,,,,,,,,,,18.44577,-66.3914,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028010,Jobos,Gas,,OCGT,,42,,,Operational,,,,,,,,,,,17.96147,-66.1402,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028011,Costa Sur,Gas,,OCGT,,42,,,Operational,Guayanilla,,,,,,,,,,18.0018,-66.7537,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028012,Aguirre,Gas,,OCGT,,42,,,Operational,,,,,,,,,,,17.95327,-66.2312,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028013,Daguao,Gas,,OCGT,,42,,,Operational,,,,,,,,,,,18.23252,-65.6677,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028014,Yabucoa,Gas,,OCGT,,42,,,Operational,,,,,,,,,,,18.10636,-65.8249,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028015,Caonillas 1,Hydro,,,,18,,,Operational,,,,,,,,,,,18.29612,-66.6432,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028016,Caonillas 2,Hydro,,,,3.6,,,Operational,,,,,,,,,,,18.23965,-66.6691,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI
+1028017,San Fermin Solar Farm,Solar,,,,27,,,Operational,,,,,,,,,,,18.40553,-65.9077,,TSK,http://www.grupotsk.com/proyectos/puerto-rico,,,,,,,,,,,,Puerto Rico,,WRI
+1026822,Carite 2,Hydro,,,,2,1922,PREPA,Shutdown,,,,,,,,,,,,,,PREPA,http://www.prepa.com/historia_eng.asp,,,,,,,,,,,,Puerto Rico,,
+1026830,Patillas,Hydro,,,,1.4,,PREPA,Shutdown,,,,,,,,,,,,,,Small Hydro World,http://www.smallhydroworld.org/fileadmin/user_upload/pdf/Americas_Caribbean/WSHPDR_2013_Puerto_Rico.pdf,,,,,,,,,,,,Puerto Rico,,
+1026832,El Yunque,Hydro,,,,10,1946,PREPA,Shutdown,,,,,,,,,,,,,,Puerto Rico Water Resources Authority,https://archive.org/details/CAT31363293,,,,,,,,,,,,Puerto Rico,,
+1026833,El Yunque 2,Hydro,,,,2,1946,PREPA,Shutdown,,,,,,,,,,,,,,Puerto Rico Water Resources Authority,https://archive.org/details/CAT31363293,,,,,,,,,,,,Puerto Rico,,
+1028006,Vieques EPP,Diesel,,Diesel Engine,,6,,,Operational,,,,,,,,,,,18.14295,-65.444,,CEPR,http://energia.pr.gov/datos/plantas/,,,,,,,,,,,,Puerto Rico,,WRI

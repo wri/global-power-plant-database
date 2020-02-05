@@ -237,6 +237,79 @@ for _country, _vals in wiki_solar_skip.iteritems():
 		print("...skipped {0} plants ({1} MW) for {2}.".format(_vals[0], _vals[1], _country))
 
 
+# STEP 3.9: Add in multinational generation datasets
+COUNTRY_DATABASE_FILE = pw.make_file_path(fileType="src_bin", filename="COUNTRY-Database.bin")
+JRC_OPEN_PERFORMANCE = pw.make_file_path('raw', 'JRC-PPDB-OPEN', 'JRC_OPEN_PERFORMANCE.csv')
+JRC_OPEN_UNITS = pw.make_file_path('raw', 'JRC-PPDB-OPEN', 'JRC_OPEN_UNITS.csv')
+JRC_OPEN_LINKAGES = pw.make_file_path('raw', 'JRC-PPDB-OPEN', 'JRC_OPEN_LINKAGES.csv')
+JRC_OPEN_TEMPORAL = pw.make_file_path('raw', 'JRC-PPDB-OPEN', 'JRC_OPEN_TEMPORAL.csv')
+JRC_BLACKLIST = set([
+	# blacklist created looking at obviously-wrong matches based on country designation
+	# eic_g,  # bad_wri_id
+	'50WG00000001097W',  # 'BRA0030768'
+	'48W000000SUTB-1P',  # 'USA0060878'
+	'26WUCNTRLDSCND24',  # 'CAN0008429'
+	'26WUCNTRLDSCND16',  # 'CAN0008429'
+	'50WG000000019861',  # 'BRA0029858'
+	'50WG000000019853',  # 'BRA0029858'
+	'50WGI00000019875',  # 'BRA0029858'
+	'48W000000ROOS-1P',  # 'USA0006202'
+])
+
+# {wri_id: [eic_g_1, eic_g_2, ...], ...}
+gppd_ppdb_link = {}
+with open(JRC_OPEN_LINKAGES) as fin:
+	r = csv.DictReader(fin)
+	for row in r:
+		wri_id = row['WRI_id']
+		gen_id = row['eic_g']
+		if gen_id:  # some blank gen_ids, which currently don't have wri_id matches
+			gppd_ppdb_link[wri_id] = gppd_ppdb_link.get(wri_id, []) + [gen_id]
+
+# {yr: {eic_g: (gen, time_coverage), ...}, ...}
+ppdb_generation = {str(yr): {} for yr in [2015, 2016, 2017, 2018]}
+with open(JRC_OPEN_TEMPORAL) as fin:
+	r = csv.DictReader(fin)
+	skipped_generation = 0
+	for row in r:
+		year_data = ppdb_generation[row['cyear']]
+		# value is in MWh according to `datapackage.json` in JRC-PPDB-OPEN
+		year_data[row['eic_g']] = (row['Generation'], row['time_coverage'])
+
+# desired lookup structure: {plant1: {year1: val, year2: val2, ...}, ...}
+agg_gen_by_gppd = {}
+# per-unit time availability
+time_threshold = '0.950'  # yes this is a string
+# WRI plants that aren't having the estimation applied [(plant1, yearA), ...]
+jrc_skipped_plants = []
+for wri_id, gen_ids in gppd_ppdb_link.items():
+	plant_totals = {}
+	for year in map(str, [2015, 2016, 2017]):
+		year_data = ppdb_generation[year]
+		year_gen_val = 0
+		accepted_gen_ids = []
+		for gen_id in gen_ids:
+			gen, time_coverage = year_data.get(gen_id, (0, '0.000'))
+			if time_coverage < time_threshold or gen_id in JRC_BLACKLIST:
+				jrc_skipped_plants.append((wri_id, int(year)))
+				break
+			year_gen_val += float(gen)
+			accepted_gen_ids.append(gen_id)
+		if set(accepted_gen_ids) == set(gen_ids):
+			# convert MWh to GWh and assign value for the year
+			plant_totals[int(year)] = year_gen_val / 1000
+	agg_gen_by_gppd[wri_id] = plant_totals
+
+for pid, pp in core_database.items():
+	if agg_gen_by_gppd.get(pid, {}):
+		new_generation = []
+		for yr, val in agg_gen_by_gppd[pid].items():
+			gen = pw.PlantGenerationObject.create(val, year=yr, source='JRC-PPDB-OPEN')
+			new_generation.append(gen)
+		if new_generation:
+			pp.generation = new_generation
+#print("Added {0} plants ({1} MW) from {2}.".format(data['count'], data['capacity'], dbname))
+
 # STEP 4: Estimate generation for plants without reported generation for target year
 count_plants_with_generation = 0
 #for plant_id,plant in core_database.iteritems():

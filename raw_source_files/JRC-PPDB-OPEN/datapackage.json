@@ -1,0 +1,403 @@
+{
+    "profile": "tabular-data-package",
+    "name": "jrc-ppdb-open",
+      "title": "JRC Open Power-plants database",
+    "keywords": [
+        "power plants", "energy", "database", "electricity", "emissions"
+      ],
+      
+      "homepage": "https://zenodo.org/record/3266808",
+      "description": "The JRC-PPDB-OPEN is primarily based on a collection of all the information published by ENTSO-E on the European power plants at unit level. This information was extended, improved, and where possible corrected using information contained in open datasets published by WRI Powerwatch , Global energy observatory , FRESNA  and the EEA. The JRC-PPDB-OPEN database is a first attempt towards a more detailed and coherent, albeit still incomplete, dataset of European power plants. Further work to expand and improve the information contained therein is called for. To this extend, and in order to facilitate the future involvement of third parties in such efforts, the associations between records in the different datasets (linkage) are included.",
+      "version": "1.00",
+      "contributors": [
+        {
+          "title": "K. Kanellopoulos",
+          "role": "author"
+        },
+        {
+          "title": "M. De Felice",
+          "role": "author"
+        },
+        {
+          "title": "I. Hidalgo Gonzalez",
+          "role": "author"
+        },
+        {
+          "title": "A. Bocin Dimitriu",
+          "role": "author"
+        }
+      ],
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "title": "Creative Commons Attribution 4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+    "resources": [
+      {
+        "name": "units",
+        "path": "JRC_OPEN_UNITS.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "eic_p",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the producing unit",
+              "constraints": {
+                  "pattern": "^[a-zA-Z0-9-]{16}$"
+              }
+            },
+            {
+              "name": "eic_g",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the generation unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+                }
+            },
+            {
+              "name": "name_p",
+              "type": "string",
+              "format": "default",
+              "description": "Production unit name"
+            },
+            {
+              "name": "name_g",
+              "type": "string",
+              "format": "default",
+              "description": "Generating unit name"
+            },
+            {
+              "name": "capacity_p",
+              "type": "number",
+              "format": "default",
+              "description": "Production unit capacity, net (MW)",
+              "constraints": {
+                  "minimum": 0
+              }
+            },
+            {
+              "name": "capacity_g",
+              "type": "number",
+              "format": "default",
+              "description": "Generating unit capacity, net (MW)",
+              "constraints": {
+                "minimum": 0
+                }
+            },
+            {
+              "name": "type_g",
+              "type": "string",
+              "format": "default",
+              "description": "ENTSO-E classification for the generation type",
+              "constraints": {
+                  "enum": ["Fossil Peat", "Nuclear", "Fossil Hard coal", "Wind Onshore", "Fossil Brown coal/Lignite", "Geothermal", "Hydro Run-of-river and poundage", "Hydro Water Reservoir", "Wind Offshore", "Hydro Pumped Storage", "Other renewable", "Solar", "Fossil Oil shale", "Waste", "Fossil Gas", "Fossil Coal-derived gas", "Fossil Oil", "Marine", "Other", "Biomass"]
+              }
+            },
+            {
+              "name": "lat",
+              "type": "number",
+              "format": "default",
+              "description": "Latitude (WGS84)",
+              "constraints": {
+                  "minimum": -90,
+                  "maximum": 90
+              }
+            },
+            {
+              "name": "lon",
+              "type": "number",
+              "format": "default",
+              "description": "Longitude in the range -180, 180 (WGS84)",
+              "constraints": {
+                "minimum": -180,
+                "maximum": 180
+            }
+            },
+            {
+              "name": "country",
+              "type": "string",
+              "format": "default",
+              "description": "Name of the country"
+            },
+            {
+              "name": "NUTS2",
+              "type": "string",
+              "format": "default",
+              "description": "NUTS2 code according to the NUTS 2016 definition",
+              "constraints": {
+                "pattern": "^[A-Z0-9]{4}$"
+            }
+            },
+            {
+              "name": "status_g",
+              "type": "string",
+              "format": "default",
+              "description": "Status of the generating unit",
+              "constraints":{
+                  "enum": ["COMMISSIONED","RESERVE", "DECOMMISSIONED", "MOTHBALLED", "CONSTRUCTION"]
+              }
+            },
+            {
+              "name": "year_commissioned",
+              "type": "year",
+              "format": "default",
+              "description": "Year of commissioning"
+            },
+            {
+              "name": "year_decommissioned",
+              "type": "year",
+              "format": "default",
+              "description": "Year of decommissioning"
+            },
+			{
+              "name": "water_type",
+              "type": "string",
+              "format": "default",
+              "description": "Source of the water used for cooling",
+              "constraints":{
+                  "enum": ["Freshwater", "Seawater", "None"]
+              }
+            },
+			{
+              "name": "cooling_type",
+              "type": "string",
+              "format": "default",
+              "description": "Cooling technology",
+              "constraints":{
+                  "enum": ["Air cooling", "Once-through", "Mechanical Draught Tower", "Natural Draught Tower", "No cooling"]
+              }
+            },
+          ]
+        }
+      },
+      {
+        "name": "linkages",
+        "path": "JRC_OPEN_LINKAGES.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "eic_p",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the producing unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+                }
+            },
+            {
+              "name": "eic_g",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the generation unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+            }
+            },
+            {
+              "name": "eprtr_facilityID",
+              "type": "string",
+              "format": "default",
+              "description": "Facility ID in E-PRTR"
+            },
+            {
+              "name": "WRI_id",
+              "type": "string",
+              "format": "default",
+              "description": "ID in WRI Power Watch",
+              "constraints": {
+                "pattern": "^[A-Z0-9]{10}$"
+                }
+            },
+            {
+              "name": "GEO_id",
+              "type": "string",
+              "format": "default",
+              "description": "ID in Global Energy Observatory",
+              "constraints": {
+                  "pattern": "^[0-9]{5,6}$"
+              }
+            },
+            {
+              "name": "fresna_id",
+              "type": "string",
+              "format": "default",
+              "description": "ID in FIAS Renewable Energy Systems & Network Analysis"
+            }
+          ]
+        }
+      },
+      {
+        "name": "performance",
+        "path": "JRC_OPEN_PERFORMANCE.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "eic_p",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the producing unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+            }
+            },
+            {
+              "name": "eic_g",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the generation unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+            }
+            },
+            {
+              "name": "min_load",
+              "type": "number",
+              "format": "default",
+              "description": "% of installed net capacity",
+              "constraints": {
+                  "minimum": 0,
+                  "maximum": 1
+              }
+            },
+            {
+              "name": "ramp_up",
+              "type": "number",
+              "format": "default",
+              "description": "Ramp-up capability, % of installed net capacity per minute",
+              "constraints": {
+                "minimum": 0,
+                "maximum": 1
+                }
+            },
+            {
+              "name": "ramp_down",
+              "type": "number",
+              "format": "default",
+              "description": "Ramp-down capability, % of installed net capacity per minute",
+              "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+            },
+            {
+              "name": "minimum_up_time",
+              "type": "number",
+              "format": "default",
+              "description": "Minimum time the unit was in operation during cycling (minutes)",
+              "constraints": {
+                "minimum": 0
+            }
+            },
+            {
+              "name": "minimum_down_time",
+              "type": "number",
+              "format": "default",
+              "description": "Minimum time the unit was shut down during cycling (minutes)",
+              "constraints": {
+                "minimum": 0
+            }
+            },
+            {
+              "name": "eff",
+              "type": "number",
+              "format": "default",
+              "description": "Net electrical efficiency of thermal power plants"
+            },
+            {
+              "name": "best_source",
+              "type": "string",
+              "format": "default",
+              "description": "Source of efficiency estimate"
+            }
+          ]
+        }
+      },
+      {
+        "name": "temporal",
+        "path": "JRC_OPEN_TEMPORAL.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "eic_p",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the producing unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+            }
+            },
+            {
+              "name": "eic_g",
+              "type": "string",
+              "format": "default",
+              "description": "EIC (Energy Identification Code) for the generation unit",
+              "constraints": {
+                "pattern": "^[a-zA-Z0-9-]{16}$"
+            }
+            },
+            {
+              "name": "type_g",
+              "type": "string",
+              "format": "default",
+              "description": "ENTSO-E classification for the production type",
+              "constraints": {
+                "enum": ["Fossil Peat", "Nuclear", "Fossil Hard coal", "Wind Onshore", "Fossil Brown coal/Lignite", "Geothermal", "Hydro Run-of-river and poundage", "Hydro Water Reservoir", "Wind Offshore", "Hydro Pumped Storage", "Other renewable", "Solar", "Fossil Oil shale", "Waste", "Fossil Gas", "Fossil Coal-derived gas", "Fossil Oil", "Marine", "Other", "Biomass"]
+            }
+            },
+            {
+              "name": "cyear",
+              "type": "year",
+              "format": "default",
+              "description": "Year that the record refers to"
+            },
+            {
+              "name": "Generation",
+              "type": "number",
+              "format": "default",
+              "description": "Sum of reported generation in the time series in MWh",
+              "constraints": {
+                  "minimum": 0
+              }
+            },
+            {
+              "name": "cf",
+              "type": "number",
+              "format": "default",
+              "description": "Capacity factor of plant operation in the published record set",
+              "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+            },
+            {
+              "name": "time_coverage",
+              "type": "number",
+              "format": "default",
+              "description": "Fraction of the total hours in a year covered",
+              "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+            },
+            {
+              "name": "co2emitted",
+              "type": "number",
+              "format": "default",
+              "description": "Kg of CO2 emitted/year based on the reported annual emissions",
+              "constraints": {
+                "minimum": 0
+            }
+            }
+          ]
+        }
+      }
+    ]
+  }

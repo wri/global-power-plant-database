@@ -1,0 +1,15 @@
+# JRC-PPDB-OPEN Changelog
+
+## version 1.0
+- Corrections
+- Added water technologies and water consumption factors (see the JRC report "Projected fresh water use from the European energy sector" for details: https://europa.eu/!vV63Qw )
+- Updated linkage to current Fresna dataset. 
+
+## version 0.91
+- Updated metadata
+- Added JRC report
+- Updated data for the Montalto plant in the performance table
+- Replaced NULL with empty spaces
+
+## version 0.9
+- First release

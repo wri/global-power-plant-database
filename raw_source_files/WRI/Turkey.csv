@@ -1,336 +1,336 @@
-Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
-1018758,Yeni Elektrik Doğalgaz Çevrim Santrali,Natural Gas,,CCGT,,865,,Yeni Elektrik Üretim,,Kocaeli,"6,500",,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/yeni-elektrik-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,
-1018767,Marmaraereğlisi DKÇS,Natural Gas,,CCGT,,478,,Trakya Elektrik,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018769,Aliağa Çakmaktepe Doğalgaz Termik Santrali,Natural Gas,,CCGT,,268,,Çakmaktepe Enerji,,İzmir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018771,Gebze Dilovası DGKÇ Santrali,Natural Gas,,CCGT,,253,,Çolakoğlu Şirketler Grubu,,Kocaeli,"1,832",,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/ova-elektrik-gebze-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,
-1018772,Mersin Soda Sanayii Termik Santrali,Natural Gas,,CCGT,,252,,Şişecam Elektrik Üretim,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018773,Habaş Aliağa Doğalgaz Termik Santrali,Natural Gas,,CCGT,,240,,Habaş Enerji,,İzmir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018821,Soma,Wind,,Onshore Wind,,240,2007-2014,,,,474,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/soma-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018774,Esenyurt Doğalgaz Termik Santrali,Natural Gas,,CCGT,,189,,American Edison Mission Energy,,İstanbul,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018775,Aliağa Doğalgaz Çevrim Santrali,Natural Gas,,CCGT,,180,,EÜAŞ,,İzmir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018695,KARKEY (SİLOPİ),Fuel Oil,,,1,171.9,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018776,Kırklareli Termik Santrali,Natural Gas,,CCGT,,164,,Alarko Enerji,,Kırklareli,384,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/kirklareli-termik-santrali.html,,,,,,,,,,,,Turkey,,
-1018780,Kırklareli Lüleburgaz Termik Santrali,Natural Gas,,CCGT,,164,,Zorlu Enerji,,Kırklareli,804,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/kirklareli-luleburgaz-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,
-1018777,Zorlu Enerji Kayseri Doğalgaz Santrali,Natural Gas,,CCGT,,163,,Zorlu Enerji,,Kayseri,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018931,H Polatkan/Sanyar,Hydro,,Dam with Reservoir,,160,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018778,Entek Doğalgaz Termik Santrali,Natural Gas,,CCGT,,157,,Koç Holding,,Kocaeli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018822,Geycek,Wind,,Onshore Wind,,150,2013-2014,,,Kirsehir Mucur,237,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/geycek-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018781,Entek Bursa Doğalgaz Termik Santrali,Natural Gas,,CCGT,,143,,Koç Holding,,Bursa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018782,Aksa Akrilik Kimya Doğalgaz Termik Santrali,Natural Gas,,CCGT,,143,,Aksa Akrilik Kimya,,Yalova,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018823,Balikesir,Wind,,Onshore Wind,,143,2009,,,"Balıkesir, Kepsut",375,,,,,,,,,,,Enerji Atlasi,https://drive.google.com/file/d/0B47ZSAUzDND1cm8tN2lOVWR0eVU/view,,,,,,,,,,,,Turkey,,
-1018783,Manisa OSB Kojenerasyon Santralı,Natural Gas,,CCGT,,140,,MOSB Enerji,,Manisa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018691,Asfaltit Copy,Fuel Oil,,,1,135,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018784,Enerjisa Adana Doğalgaz Santrali,Natural Gas,,CCGT,,131,,Enerjisa Elektrik,,Adana,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018694,F.O.2011-2012,Fuel Oil,,,1,129.3,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018785,Çay DGKÇS,Natural Gas,,CCGT,,126,,Yıldızlar SSS Holding,,Afyonkarahisar,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018786,Bilecik DGKÇS,Natural Gas,,CCGT,,126,,Yıldızlar SSS Holding,,Bilecik,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018787,Modern Enerji Çorlu Doğalgaz Termik Santrali,Natural Gas,,CCGT,,124,,Eren Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018788,Nuh Enerji Kocaeli Doğalgaz Santrali,Natural Gas,,CCGT,,120,,Nuh Enerji,,Kocaeli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018826,Karaburun,Wind,,Onshore Wind,,120,2013,,,,288,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/karaburun-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018789,Aksa Enerji Manisa Doğalgazlı Elektrik Santrali,Natural Gas,,CCGT,,115,,Aksa Enerji,,Manisa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018790,Van Doğalgaz Çevrim Santrali,Natural Gas,,CCGT,,115,,Aksa Enerji,,Van,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018827,Dinar,Wind,,Onshore Wind,,115,2013,,,,166,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/dinar-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018828,Samli,Wind,,Onshore Wind,,114,2008-2010,,,,326,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/samli-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018690,Aksa-Habaş Izmir+Sirnak+Bilecik+Mardin,Fuel Oil,,,1,111,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018829,SahRES,Wind,,Onshore Wind,,105,2011-2013,Doğan Enerji,,,308,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/sah-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018943,Kralkizi,Hydro,,Dam with Reservoir,,95,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018791,Antalya OSB Doğalgaz Santrali,Natural Gas,,CCGT,,94,,Enda Enerji,,Antalya,675,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/antalya-osb-dogalgaz-termik-santrali.html,,,,,,,,,,,,Turkey,,
-1018942,Koklucie,Hydro,,Dam with Reservoir,,90,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018792,Zorlu Enerji Bursa Doğalgaz Santrali,Natural Gas,,,,90,,Zorlu Enerji,,Bursa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018830,Bergama Rüzgar ,Wind,,Onshore Wind,,90,2007,,,,265,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/bergama-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018936,Karacoaren I and II,Hydro,,Dam with Reservoir,,79,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018831,Kangal Rüzgar,Wind,,Onshore Wind,,78,2014,,,,144,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/kangal-ruzgar-santrali-res.html,,,,,,,,,,,,Turkey,,
-1018940,Kesikkopru,Hydro,,Dam with Reservoir,,76,1966,,,Ankara,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018911,Ziyaret,Wind,,Onshore Wind,,75,2010-2014,,,,238,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/ziyaret-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018832,Aksu,Wind,,Onshore Wind,,72,2012,,,,175,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/aksu-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018793,Sönmez Elektrik Uşak Doğalgaz Santrali,Natural Gas,,,,71,,Sönmez Elektrik Üretim,,Uşak,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018794,Marmara Pamuklu Mensucat Termik Santrali,Natural Gas,,,,70,,Marmara Pamuklu Mensucat,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018951,S Ugurlu,Hydro,,Dam with Reservoir,,69,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018833,Poyraz Rüzgar,Wind,,Onshore Wind,,67,2012,,,,138,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/poyraz-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018795,Çanakkale Doğalgaz Santrali,Natural Gas,,,,65,,Enerjisa Elektrik,,Çanakkale,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018834,Senbuk,Wind,,Onshore Wind,,65,2010-2014,,,,,,,,,,,,,,,TWEA (Turkish Wind Energy Association),https://drive.google.com/file/d/0B47ZSAUzDND1cm8tN2lOVWR0eVU/view,,,,,,,,,,,,Turkey,,
-1018796,Çebi Enerji Tekirdağ Doğalgaz Santrali,Natural Gas,,,,64,,Çebi Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018797,Mersin Doğalgaz Santrali,Natural Gas,,,,63,,Enerjisa Elektrik,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018912,Adiguzel,Hydro,,Dam with Reservoir,,62,1976-1989,,,Denzili,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018798,Delta Termik Santrali,Natural Gas,,,,60,,Palmet Enerji,,Kırklareli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018799,Uğur Enerji Çerkezköy OSB Üretim Santrali,Natural Gas,,,,60,,Uğur Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018835,Çatalca,Wind,,Onshore Wind,,60,2008,,,,180,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/catalca-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018836,Sebenoba,Wind,,Onshore Wind,,60,,,,,135,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/sebenoba-res.html,,,,,,,,,,,,Turkey,,
-1018837,Süloğlu,Wind,,Onshore Wind,,60,2014,,,,164,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/suloglu-res.html,,,,,,,,,,,,Turkey,,
-1018838,Susurluk,Wind,,Onshore Wind,,60,2012,,,,145,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/susurluk-ruzgar-santrali-res.html,,,,,,,,,,,,Turkey,,
-1018839,Yuntdag,Wind,,Onshore Wind,,60,2011-2014,,,,187,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/yuntdag-ruzgar-santrali-res.html,,,,,,,,,,,,Turkey,,
-1018800,Eskişehir OSB Termik Santrali,Natural Gas,,,,59,,Eskişehir Endüstriyel Elektrik,,Eskişehir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018840,Çerçikaya,Wind,,Onshore Wind,,57,,,,,186,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/cercikaya-res.html,,,,,,,,,,,,Turkey,,
-1018869,Edincik,Wind,,Onshore Wind,,56.4,2013-2014,,,,90,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/edincik-res.html,,,,,,,,,,,,Turkey,,
-1018801,Çorlu Doğalgaz Termik Santrali,Natural Gas,,,,56,,Can Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018841,Sayalar,Wind,,Onshore Wind,,54.2,2008-2013,,,,92,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/sayalar-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
-1018935,Kapulukaya,Hydro,,Dam with Reservoir,,54,1979-1989,,,Kirikkale,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018842,USak,Wind,,Onshore Wind,,54,2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018843,Kavakli,Wind,,Onshore Wind,,52,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018844,Duzova,Wind,,Onshore Wind,,51.5,2009-2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018802,Çerkezköy Enerji Kojenerasyon Santrali,Natural Gas,,,,51,,Çerkezköy Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018846,Hasanbeyli,Wind,,Onshore Wind,,50,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018847,Zeytineli,Wind,,Onshore Wind,,50,2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018945,Manavgat,Hydro,,Dam with Reservoir,,48,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018848,Belen,Wind,,Onshore Wind,,48,2009-2012,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018849,Canta,Wind,,Onshore Wind,,47,2013-2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018850,Mersin Mut,Wind,,Onshore Wind,,47,2010-2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018851,AKRES,Wind,,Onshore Wind,,45,2000,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018852,Silivri,Wind,,Onshore Wind,,45,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018959,Maren,Geothermal,,,,44,2014,Kipaş Holding Enerji Grubu,,Aydin,260,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/maren-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,
-1018853,Kangal,Wind,,Onshore Wind,,44,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018803,Kemalpaşa Doğalgaz Termik Santrali,Natural Gas,,,,43,,Karadeniz Enerji,,İzmir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018804,Ostim Doğalgaz Çevrim Santrali,Natural Gas,,,,41,,Ayen Enerji,,Ankara,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018854,Amasya,Wind,,Onshore Wind,,40,2008,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018855,Metristepe,Wind,,Onshore Wind,,40,2011,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018805,Bilecik Doğalgaz Santrali,Natural Gas,,,,39,,Tekno Enerji,,Bilecik,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018857,Dagpazan,Wind,,Onshore Wind,,39,2011,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018858,Mare Manastir,Wind,,Onshore Wind,,39,2006-2007,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018859,Sadili,Wind,,Onshore Wind,,38.5,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018806,Hereke Doğalgaz Termik Santralı,Natural Gas,,OCGT,,38,,Nuh Enerji,,Kocaeli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018860,Senkoy,Wind,,Onshore Wind,,36,2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018698,PS3-A -1 & 2 (İDİL),Fuel Oil,,,1,35.8,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018861,GokRES,Wind,,Onshore Wind,,35.75,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018862,Intepe,Wind,,Onshore Wind,,35,2007-2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018863,Samurlu,Wind,,Onshore Wind,,34.5,2012-2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1019000,Odayeri Çöp Gazı,Waste,,Waste Incinerator,,34,,Ortadoğu Enerji,,İstanbul,214,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/odayeri-cop-gazi-santrali.html,,,,,,,,,,,,Turkey,,
-1018864,Sebenoba,Wind,,Onshore Wind,,34,2008,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018807,Trakya Şişecam Termik Santrali,Natural Gas,,,,33,,Şişecam Elektrik Üretim,,Kırklareli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018924,Calmigoze,Hydro,,Dam with Reservoir,,32,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018865,Kozbeyli,Wind,,Onshore Wind,,32,2012-2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018866,Mordogan,Wind,,Onshore Wind,,31.5,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1019001,Toros Tarım Samsun Atık ,Waste,,Waste Incinerator,,31,,Toros Tarim,,Samsun,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018867,Akbuk,Wind,,Onshore Wind,,31,2009,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018868,Dates Datca,Wind,,Onshore Wind,,30,2008,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018870,Mahmudiye,Wind,,Onshore Wind,,30,2010,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018871,Mazi-3,Wind,,Onshore Wind,,30,2011,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018872,Seyitali,Wind,,Onshore Wind,,30,2011,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018873,Soke Catalbuk,Wind,,Onshore Wind,,30,2010,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018808,Tekirdağ Enerji Üretim Santrali,Natural Gas,,,,29,,Can Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018874,Sankaya,Wind,,Onshore Wind,,28.8,2009,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018876,Kiyikoy,Wind,,Onshore Wind,,28,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018878,Salman,Wind,,Onshore Wind,,27.5,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018879,Sincik,Wind,,Onshore Wind,,27.5,2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018913,Almus,Hydro,,Dam with Reservoir,,27,1964-1966,,,Tokat,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018809,Şahinler Enerji Çorlu Kojenerasyon Santrali,Natural Gas,,,,26,,Şahinler Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018700,SİİRT,Fuel Oil,,,1,25.6,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018880,Kuyucak,Wind,,Onshore Wind,,25.6,2010,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018961,Enerjeo Kemaliye,Geothermal,,,,25,2016,Enerjeo Kemaliye Enerji Üretim,,Manisa,199,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/enerjeo-kemaliye-santrali.html,,,,,,,,,,,,Turkey,,
-1019002,Mamak Çöplüğü ,Waste,,Waste Incinerator,,25,,ITC-Ka Atik Enerji,,Ankara,151,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/mamak-coplugu-biyogaz.html,,,,,,,,,,,,Turkey,,
-1018881,Korkmaz,Wind,,Onshore Wind,,25,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018882,SaRES,Wind,,Onshore Wind,,25,2010-2011,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018963,Ken Kipaş,Geothermal,,,,24,2012,Kipaş Holding Enerji Grubu,,Aydin,186,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/ken-kipas-jeotermal-santrali.html,,,,,,,,,,,,Turkey,,
-1018964,Kerem,Geothermal,,,,24,2015,Kipaş Holding Enerji Grubu,,Manisa,112,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/kerem-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,
-1018965,Türkerler Alaşehir,Geothermal,,,,24,2015,Türkerler Holding,,Aydin,178,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/turkerler-alasehir-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,
-1018810,Çorlu Pelitlik Elektrik Santrali,Natural Gas,,,,24,,Global Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018883,Kemerburgaz,Wind,,Onshore Wind,,24,2008,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018884,Turguttepe,Wind,,Onshore Wind,,24,2010,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1019003,Sincan Çadırtepe Biyokütle,Waste,,Waste Incinerator,,23,,ITC-Ka Atik Enerji,,Ankara,97,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/sincan-cadirtepe-biyokutle-enerji-santrali.html,,,,,,,,,,,,Turkey,,
-1018885,Keltepe,Wind,,Onshore Wind,,23,2009-2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018944,Kuzgun,Hydro,,Dam with Reservoir,,21,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018886,Camseki,Wind,,Onshore Wind,,21,2009,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018887,Madranbaba,Wind,,Onshore Wind,,20,2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018811,Kırka Bor İşletme Müdürlüğü Termik Santrali,Natural Gas,,,,18,,Cengiz Enerji,,Eskişehir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018970,Konya Karatay Kızör,Solar,,PV,,18,,Tekno Enerji,,"Konya, Karatay",26,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/karatay-kizoren-ges.html,,,,,,,,,,,,Turkey,,
-1018888,AYYildiz,Wind,,Onshore Wind,,18,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018889,KORES,Wind,,Onshore Wind,,17.5,2012,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018920,Beykuy,Hydro,,Dam with Reservoir,,17,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018697,Nafta Copy,Fuel Oil,,"2,795",1,16,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1018812,Eskişehir Şeker Fabrikası Doğalgaz Santrali,Natural Gas,,,,16,,Türkiye Şeker Fabrikaları,,Eskişehir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1019004,Adana Yüreğir Sofulu Çöplüğü ,Waste,,Waste Incinerator,,16,,ITC-Ka Atik Enerji,,Adana,95,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/sofulu-coplugu-biyogaz-santrali.html,,,,,,,,,,,,Turkey,,
-1018890,Cataltepe,Wind,,Onshore Wind,,16,2010,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018891,Karadere,Wind,,Onshore Wind,,16,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018892,Burgaz,Wind,,Onshore Wind,,15,2007,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018893,Enez,Wind,,Onshore Wind,,15,2008,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018894,Incesu,Wind,,Onshore Wind,,13.2,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1019006,Eti Alüminyum Atık Isı Elektrik Santrali,Waste,,Waste Incinerator,,13,,Cengiz Enerji,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018896,Gunaydin,Wind,,Onshore Wind,,12.5,2012,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018814,Arenko Elektrik Santrali,Natural Gas,,,,12,,,,Denizli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1019007,Eti Maden Bandırma Atık Isı Santrali,Waste,,Waste Incinerator,,12,,Eti Maden,,Balıkesir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019008,ITC-KA Sincan Biyokütle Gazlaştırma Tesisi,Waste,,Waste Incinerator,,11,,ITC Katı Atık Enerji,,Ankara,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018897,Karakurt,Wind,,Onshore Wind,,11,2007,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018696,Motorin Copy,Fuel Oil,,,1,10.3,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
-1019009,Bağfaş Gübre Fabrikası Biyogaz Santrali,Waste,,Waste Incinerator,,10,,Bağfaş Gübre Fabrikası,,Balıkesir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019010,Hamitler Çöplüğü Biyogaz Santrali,Waste,,Waste Incinerator,,10,,ITC Katı Atık Enerji,,Bursa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019011,Çimsa Atık Isı Santrali,Waste,,Waste Incinerator,,10,,Enerjisa Elektrik,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018898,Allaga,Wind,,Onshore Wind,,10,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018900,Karadag,Wind,,Onshore Wind,,10,2012,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018901,Umurlar,Wind,,Onshore Wind,,10,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018815,Pınarbaşı Doğalgaz Santrali,Natural Gas,,,,9.81,,Yaşar Holding,,İzmir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018974,Kayseri Çiftlik Güneş,Solar,,PV,,9,2014,,,"Kayseri, Melikgazi",12,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/kayseri-ciftlik-gunes-enerjisi-santrali.html,,,,,,,,,,,,Turkey,,
-1019012,Batıçim Atık Isı Santrali,Waste,,Waste Incinerator,,9,,Batıçim Batı Anadolu,,İzmir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018902,Gunayadin,Wind,,Onshore Wind,,8.25,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018975,Yarışlı Güneş Enerji Santrali,Solar,,PV,,8,,Zen Enerji,,Burdur,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018976,Sunergie Güneş Enerji Santrali,Solar,,PV,,8,,,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018816,Çorlu Hacı Şeremet Doğalgaz Santrali,Natural Gas,,,,7.83,,Global Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018817,Hayat Kağıt Termik Santrali,Natural Gas,,,,7.22,,,,Çorum,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018977,Aksaray İncesu Köyü Güneş Enerji Santrali,Solar,,PV,,7,,,,Aksaray,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018978,Saçıkara Güneş Enerji Santrali,Solar,,PV,,7,,,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018979,Fer Sa Salihli Dombaylı Güneş Enerjisi Santrali,Solar,,PV,,7,,Fer Sa,,Manisa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018980,T Dinamik Enerji Konya Ereğli GES,Solar,,PV,,7,,T Dinamik Enerji,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018981,Kayages Elektrik Güneş Enerji Santrali,Solar,,PV,,7,,Kayages Elektrik Üretim,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018982,Kahramanmaraş Elbistan Güneş Enerji Santrali,Solar,,PV,,7,,,,Kahramanmaraş,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018983,Niğde Bor Badak Güneş Enerjisi Santrali,Solar,,PV,,7,,Niğde Bor Badak,,Niğde,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018984,Yeşilvadi GES,Solar,,PV,,7,,Akfen Enerji,,Denizli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1019013,Prokom Pirolitik Yağ ve Pirolitik Gaz Tesisi,Waste,,Waste Incinerator,,7,,Prokom Madencilik,,Erzincan,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018903,ARES,Wind,,Onshore Wind,,7,1998,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018818,İnönü Kojenerasyon Tesisi,Natural Gas,,,,6.92,,Yurtbay Seramik,,Eskişehir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018819,Arçelik Eskişehir Fabrikası Doğalgaz Santrali,Natural Gas,,,,6.31,,Arçelik,,Eskişehir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018985,Bereket Enerji Denizli Lisanssız GES,Solar,,PV,,6,,Bereket Enerji,,Denizli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018986,Asunim Solarpower Güneş Enerji Santrali,Solar,,PV,,6,,Asunim Enerji,,Kayseri,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018987,Kayseri OSB Güneş Enerjisi Santrali,Solar,,PV,,6,,Kayseri OSB,,Kayseri,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018988,Konya Çumra Güneş Enerji Santrali,Solar,,PV,,6,,,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018989,Karadona Güneş Enerji Santrali,Solar,,PV,,6,,,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018990,Gülnar Güneş Enerji Santrali,Solar,,PV,,6,,,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1019014,Aksaray OSB Gübre Gazı Elektrik Santrali,Waste,,Waste Incinerator,,6,,Sütaş Süt Enfaş Enerji,,Aksaray,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019015,Şanlıurfa Biyokütle Enerji Santrali,Waste,,Waste Incinerator,,6,,Full Force Enerji,,Şanlıurfa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019016,Eman Enerji Mersin Biyokütle Enerji Santrali,Waste,,Waste Incinerator,,6,,Mersin Büyükşehir Belediyesi,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019017,Avdan Biyogaz Tesisi,Waste,,Waste Incinerator,,6,,Avdan Enerji,,Samsun,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019018,Modern Biyokütle Enerji Santrali,Waste,,Waste Incinerator,,6,,Eren Enerji,,Tekirdağ,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019019,Trakya Yenişehir Cam Atık Isı Santrali,Waste,,Waste Incinerator,,6,,Trakya Yenişehir Cam,,Bursa,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019020,Kayseri Çöplüğü Biyogaz Elektrik Santrali,Waste,,Waste Incinerator,,6,,Her Enerji,,Kayseri,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019021,Konya Aslım Çöplüğü Elektrik Üretim Santrali,Waste,,Waste Incinerator,,6,,ITC Katı Atık Enerji,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019022,Gaziantep Çöp Gazı,Waste,,Waste Incinerator,,6,,CEV Enerji,,Gaziantep,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018916,Atakoy,Hydro,,Dam with Reservoir,,5,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
-1018991,Diana Hotel Güneş Enerjisi Santrali,Solar,,PV,,5,,Diana Hotel,,Burdur,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018992,Mersin Gülnar Güneş Enerji Santrali,Solar,,PV,,5,,T Dinamik Enerji,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018993,T Dinamik Enerji Güneş Enerjisi Santrali,Solar,,PV,,5,,T Dinamik Enerji,,Adana,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018994,Özkoyuncu Madencilik Güneş Santrali,Solar,,PV,,5,,Özkoyuncu Madencilik,,Kayseri,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018995,Ekonova Güneş Enerji Santrali,Solar,,PV,,5,,,,Ankara,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018996,Omega Enerji Konya Karatay GES,Solar,,PV,,5,,Omega Enerji,,Konya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018997,T Dinamik Niğde Gölcük GES,Solar,,PV,,5,,T Dinamik Enerji,,Niğde,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018998,Malatya İnönü Üni. Güneş Santrali,Solar,,PV,,5,,Malatya İnönü Üniversitesi,,Malatya,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1018999,Nar Solar Enerji Güneş Enerji Santrali,Solar,,PV,,5,,Nar Solar Enerji,,Mersin,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
-1019023,Batısöke Söke Çimento Atık Isı Elektrik Santrali,Waste,,Waste Incinerator,,5,,Batısöke Söke Çimento,,Aydın,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1019024,Kocaeli Çöplüğü Biyogaz Santrali,Waste,,Waste Incinerator,,5,,Ortadoğu Enerji,,Kocaeli,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
-1018904,Pitane,Wind,,Onshore Wind,,4.8,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018905,Saray,Wind,,Onshore Wind,,4,2012,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018820,Hatipoğlu Plastik Trijenerasyon Santrali,Natural Gas,,,,2,,Hatipoğlu Plastik,,Eskişehir,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
-1018906,Cesme,Wind,,Onshore Wind,,2,1998,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018907,Sunjut,Wind,,Onshore Wind,,1.2,2006,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018908,BURES,Wind,,Onshore Wind,,1,2014,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018909,Pasalimani,Wind,,Onshore Wind,,1,2013,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1018910,TepeRES,Wind,,Onshore Wind,,1,2006,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
-1019005,Kömürcüoda Çöplüğü ,Waste,,Waste Incinerator,,14,,Ortadoğu Enerji,,İstanbul,93,2015,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/komurcuoda-coplugu-biyogaz-santrali.html,,,,,,,,,,,,Turkey,,
-1018705,İskenderun Atlas Termik Santrali,Coal,,Super-critical Thermal,,1200,,Diler Holding Enerji Grubu,,,"8,500",,,,,,,,36.690424,36.208390,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/iskenderun-atlas-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018693,EÜAS Hopa Termik Sant. Artvin,Fuel Oil,,,1,50,,,,,,,,,,,,,41.4193,41.4393,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,GEODB
-1018750,Enka İzmir Doğalgaz Santrali,Natural Gas,,CCGT,,1520,,Enka Elektrik,,İzmir,"11,120",,,,,,,,38.746677,26.956325,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/enka-izmir-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018751,Bursa Doğalgaz Santrali,Natural Gas,,CCGT,,1432,,EÜAŞ,,Bursa,"5,920",,,,,,,,40.295227,29.0736,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/bursa-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018753,Hamitabat Termik Santrali,Natural Gas,,CCGT,,1156,,Limak Enerji,,Kırklareli,"4,451",,,,,,,,41.48266,27.33665,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018755,Bandırma Doğalgaz Santrali,Natural Gas,,CCGT,,931,,Enerjisa Elektrik,,Balıkesir,"7,540",,,,,,,,40.37859,27.91157,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/bandirma-dogalgaz-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018757,OMV Samsun Doğalgaz Santrali,Natural Gas,,CCGT,,887,,OMV Samsun Elektrik,,Samsun,"6,000",,,,,,,,41.24001,36.47672,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/omv-samsun-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018759,Cengiz Enerji Samsun,Natural Gas,,CCGT,,849,,Cengiz Enerji,,Samsun,"6,822",,,,,,,,41.239321,36.479881,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/cengiz-enerji-samsun.html,,,,,,,,,,,,Turkey,,WRI
-1018761,Baymina Ankara Doğalgaz Santrali,Natural Gas,,CCGT,,798,,Baymina Enerji,,Ankara,"5,376",,,,,,,,39.777258,32.40217,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/baymina-ankara-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018914,Altınkaya Dam,Hydro,,Dam with Reservoir,,700,1980-1988,,,Samsun,,,,,,,,,41.366779,35.724449,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018926,Deriner Dam,Hydro,,Dam with Reservoir,,670,1998-2012,,,Artvin,,,,,,,,,41.169643,41.869745,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018949,Oymapinar Dam,Hydro,,Dam with Reservoir,,540,1977-1984,,,Antalya,,,,,,,,,36.908592,31.531632,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018932,Hasan Uğurlu Dam,Hydro,,Dam with Reservoir,,500,1971-1981,,,Samsun,,,,,,,,,40.936705,36.649285,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018766,Bursa Doğalgaz Termik Santrali,Natural Gas,,CCGT,,486,,Bis Enerji,,Bursa,"1,788",,,,,,,,40.23944,28.951784,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/bursa-dogalgaz-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018768,Unimar Marmara Ereğlisi Doğalgaz Kombine Çevrim Santrali,Natural Gas,,CCGT,,478,,Uni-Mar Enerji,,Tekirdağ,"3,411",,,,,,,,41.007218,27.973617,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/marmaraereglisi-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018953,Sir,Hydro,,Dam with Reservoir,,284,1987-1991,,,Ceyhan,,,,,,,,,37.500853,36.596696,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018930,Gökçekaya Dam,Hydro,,Dam with Reservoir,,278,1967-1972,,,Eskişehir,,,,,,,,,40.033202,31.015965,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018770,Bosen Bursa Doğalgaz Santrali,Natural Gas,,CCGT,,264,,Bosen Enerji,,Bursa,,,,,,,,,40.237743,28.953365,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018946,Menzelet Dam,Hydro,,Dam with Reservoir,,248,1980-1989,,,Kahramanmaraş,,,,,,,,,37.676561,36.850517,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018918,Batman Dam,Hydro,,Dam with Reservoir,,198,1989-1999,,,Batman,,,,,,,,,38.160165,41.202643,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018938,Karkamış Dam,Hydro,,Dam with Reservoir,,192,2000,,,Kahramanmaraş,,,,,,,,,36.869658,38.030722,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018925,Çatalan Dam,Hydro,,Dam with Reservoir,,169,1982-1987,,,Adana,,,,,,,,,37.036846,35.34143,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018699,Samsun1-2,Fuel Oil,,,1,162.6,,,,,,,Once Through,Black Sea,,,,,41.240809,36.456986,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,WRI
-1018952,Sarıyar Dam,Hydro,,Dam with Reservoir,,160,1950-1956,,,Ankara,,,,,,,,,40.039994,31.414433,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018929,Gezende Dam,Hydro,,Dam with Reservoir,,159,1979-1990,,,İçel,,,,,,,,,36.528476,33.194298,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018779,Şanlıurfa OSB Enerji Santrali,Natural Gas,,,,146,,Aksa Enerji,,"Şanlıurfa, Merkez",708,,,,,,,,37.110276,38.652038,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/sanliurfa-osb-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018915,Aslantaş Dam,Hydro,,Dam with Reservoir,,138,1975-1984,,,Osmaniye,,,,,,,,,40.936818,36.64913,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018825,Osmaniye,Wind,,Onshore Wind,,135,2009-2010,,,,334,,,,,,,,37.174142,36.613702,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/osmaniye-gokcedag-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018933,Hirfanlı Dam,Hydro,,Dam with Reservoir,,128,1953-1959,,,Kırşehir,,,,,,,,,39.273147,33.518413,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018941,Kılıçkaya Dam,Hydro,,Dam with Reservoir,,124,1980-1990,,,Sivas,,,,,,,,,40.2419787,38.1859016,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018928,Dicle Dam,Hydro,,Dam with Reservoir,,110,1986-1997,,,Diyarbakir,,,,,,,,,38.348001,40.019739,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018845,Balabani,Wind,,Onshore Wind,,50,2011,,,,,,,,,,,,41.071018,27.646543,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
-1018856,Tokat,Wind,,Onshore Wind,,40,2011,,,,,,,,,,,,40.182424,27.6896,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
-1018927,Devecikonağı Dam,Hydro,,Dam with Reservoir,,29,,,,,,,,,,,,,39.87563,28.575392,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018875,Kapidag,Wind,,Onshore Wind,,28,2013-2014,,,,,,,,,,,,40.488957,27.689621,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
-1018877,GERES,Wind,,Onshore Wind,,27.5,2014,,,,,,,,,,,,39.209227,27.898877,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
-1018968,Kızıldere (Zorlu),Geothermal,,,,15,,MB Holding,,Denizli,75,,,,,,,,37.949878,28.835413,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/kizildere-zorlu-jes.html,,,,,,,,,,,,Turkey,,WRI
-1018969,Gümüşköy,Geothermal,,,,13,2013-2014,Zorlu Enerji,,Aydin,2,,,,,,,,37.853355,27.465762,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/gumuskoy-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018895,Bozyaka,Wind,,Onshore Wind,,13,2012,,,,,,,,,,,,38.746336,26.940282,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
-1018899,Bozcaada,Wind,,Onshore Wind,,10,2000,,,,,,,,,,,,39.831138,25.972116,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
-1018749,Enka Gebze Doğalgaz Santrali,Natural Gas,,CCGT,,1595,,Enka Elektrik,,Sakarya,"11,311",,,,,,,,40.7638,30.392978,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/enka-gebze-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018752,Ambarlı B Doğalgaz Santrali,Natural Gas,,CCGT,,1351,,EÜAŞ,,İstanbul,,,,,,,,,40.983401,28.692053,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018754,Aksa Antalya Doğalgaz Santrali,Natural Gas,,CCGT,,1150,,Aksa Enerji,,Antalya,"6,278",,,,,,,,37.120255,30.601625,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/aksa-antalya-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018756,Erzin Doğalgaz Santrali,Natural Gas,,CCGT,,904,,Akenerji,,Hatay,"4,825",,,,,,,,36.927092,36.053372,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/erzin-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018762,Enka Adapazarı Doğalgaz Santrali,Natural Gas,,CCGT,,770,,Enka Elektrik,,Sakarya,"5,658",,,,,,,,40.865954,30.387316,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018692,EÜAS Ambarlı FO Sant. Istanbul,Fuel Oil,,,1,630,,,,,,,,,,,,,40.978667,28.699343,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,WRI
-1018765,İç Anadolu Doğalgaz Kombine Çevrim Santrali,Natural Gas,,CCGT,,560,,Gama Enerji,,Kirkkale,"4,200",,,,,,,,39.757543,33.44804,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/ic-anadolu-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018923,Boyabat Dam,Hydro,,Dam with Reservoir,,513,,,,,,,,,,,,,41.339146,35.003294,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018919,Berke Dam,Hydro,,Dam with Reservoir,,510,1995-1999,,,Adana,,,,,,,,,37.373149,36.461539,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018922,Borçka Dam,Hydro,,Dam with Reservoir,,300,1999-2006,,,Artvin,,,,,,,,,41.350691,41.683422,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018948,Obruk Dam,Hydro,,Dam with Reservoir,,202,1996-2007,,,Obruk,,,,,,,,,40.770179,34.791302,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018950,Özlüce Dam,Hydro,,Dam with Reservoir,,170,1992-2000,,,Bingöl,,,,,,,,,39.127783,40.085522,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018947,Muratlı Dam,Hydro,,Dam with Reservoir,,115,1999-2005,,,Artvin,,,,,,,,,41.468334,41.713728,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018954,Efeler,Geothermal,,,,114,2014-2015,Güriş Holding,,Aydin,482,,,,,,,,37.865609,27.647354,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/efeler-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018955,Kizildere 2,Geothermal,,,,80,2013,Zorlu Enerji,,Denizli,426,,,,,,,,37.949878,28.835413,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/zorlu-enerji-kizildere-2-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018956,Pamukören,Geothermal,,,,68,2014,Çelikler Enerji,,Aydin,179,,,,,,,,37.917123,28.529719,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/pamukoren-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018957,Galip Hoca Germencik,Geothermal,,,,47,2009,Güriş Holding,,Aydin,314,,,,,,,,37.884537,27.63044,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/germencik-jeotermal-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018958,Alaşehir,Geothermal,,,,45,2015,Zorlu Enerji,,Manisa,300,,,,,,,,38.400169,28.43114,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/zorlu-alasehir-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018960,Dora 3,Geothermal,,,,34,2013,MB Holding,,Aydin,166,,,,,,,,37.857049,28.071553,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/dora-3-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018962,Deniz,Geothermal,,,,24,2012,Kipaş Holding Enerji Grubu,,Aydin,137,,,,,,,,37.85917,27.614527,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/deniz-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018966,Pamukören 2 ,Geothermal,,,,23,,Çelikler Enerji,,Aydin,180,,,,,,,,37.917123,28.529719,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/pamukoren-2-jes.html,,,,,,,,,,,,Turkey,,WRI
-1018967,Dora 4,Geothermal,,,,17,,Çelikler Enerji,,Aydin,125,,,,,,,,37.857817,28.092102,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/dora-4-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018971,Derinkuyu Güneş ,Solar,,PV,,17,,Derinkuyu TM,,"Nevşehir, Derinkuyu",25,,,,,,,,38.41975,34.686918,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/derinkuyu-gunes-enerjisi-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018813,İzmit İpekkağıt Termik Santrali,Natural Gas,,,,16,,Zorlu Enerji,,Yalova,,,,,,,,,40.788154,30.025992,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018972,Makascı Mühendislik,Solar,,PV,,10,2015,,,"Konya, Tuzlukçu",18,,,,,,,,38.527171,31.612113,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/makasci-muhendislik-ges.html,,,,,,,,,,,,Turkey,,WRI
-1018973,Astor,Solar,,PV,,9,2015,,,"Şanlıurfa, Bozova",13,,,,,,,,37.37434,38.51279,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/astor-enerji-gunes-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018917,Atatürk Dam,Hydro,,Dam with Reservoir,,2400,1983-1992,,,Şanlıurfa,,,,,,,,,37.482512,38.318631,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018702,Zonguldak Eren (ZETES),Coal,,Super-critical Thermal,,2090,,Eren Enerji,,,"12,644",,,,,,,,41.50353,31.887529,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/zonguldak-eren-zetes-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018937,Karakaya Dam,Hydro,,Dam with Reservoir,,1800,1976-1987,,,Diyarbakir,,,,,,,,,38.226423,39.135278,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018939,Keban Dam,Hydro,,Dam with Reservoir,,1330,1965-1975,,,Elazığ,,,,,,,,,38.80555,38.759051,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018934,Ilısu Dam,Hydro,,Dam with Reservoir,,1200,,,,,,,,,,,,,37.530202,41.852873,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018763,Turcas Denizli Doğalgaz S.,Natural Gas,,CCGT,,775,,Turcas Elektrik,,Denizli,"6,197",,,,,,,,37.850382,29.415238,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/turcas-denizli-dogalgaz.html,,,,,,,,,,,,Turkey,,WRI
-1018764,Bandirma 2 Doğalgaz Santrali,Natural Gas,,CCGT,,607,,Enerjisa Elektrik,,,,,,,,,,,40.308331,27.76866,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018824,Bandırma Kurşunlu,Wind,,Onshore Wind,,87,2006-2014,,,,220,,,,,,,,39.7434283,28.0743599,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/bandirma-kursunlu-res.html,,,,,,,,,,,,Turkey,,WRI
-1018720,İskenderun Demir Çelik Termik Santrali,Coal,,Sub-critical Thermal,,220,,İskenderun Demir Çelik,,Hatay,767,,,,,,,,,,Hard Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/iskenderun-demir-celik-termik-santrali.html,,,,,,,,,,,,Turkey,,
-1018726,Eti Soda Kojenerasyon Santrali,Lignite Coal,,Sub-critical Thermal,,24,,Ciner Enerji,,Ankara,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018727,Tokat,Lignite Coal,,Sub-critical Thermal,,14,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018728,Konya,Lignite Coal,,Sub-critical Thermal,,14,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018729,Afyon,Lignite Coal,,Sub-critical Thermal,,13,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018730,Balikesir,Lignite Coal,,Sub-critical Thermal,,9.6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018731,Kahramanmaras,Lignite Coal,,Sub-critical Thermal,,9.6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018732,Nigde,Lignite Coal,,Sub-critical Thermal,,9.6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018733,Amasya,Lignite Coal,,Sub-critical Thermal,,7.76,,Amasya Şeker A.Ş.,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018734,Kipaş Kağıt Fabrikası Kömür Santrali,Coal,,Sub-critical Thermal,,7.6,,Kipaş Holding,,,,,,,,,,,,,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018735,Kastamonu,Lignite Coal,,Sub-critical Thermal,,7.32,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018736,Kahramanmaraş Kağıt Termik Santrali,Coal,,Sub-critical Thermal,,6,,Kahramanmaraş Kağıt,,,,,,,,,,,,,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018737,Yozgat,Lignite Coal,,Sub-critical Thermal,,6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018738,Kirsehir,Lignite Coal,,Sub-critical Thermal,,5.9,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018739,Denizli,Lignite Coal,,Sub-critical Thermal,,5.5,,Aynes Gıda,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018740,Kirklareli,Lignite Coal,,Sub-critical Thermal,,5.4,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018741,Erzurum,Lignite Coal,,Sub-critical Thermal,,5.4,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018742,Denizli,Lignite Coal,,Sub-critical Thermal,,5,,Küçüker Tekstil,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018743,Samsun,Lignite Coal,,Sub-critical Thermal,,4.75,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018744,Kütahya,Lignite Coal,,Sub-critical Thermal,,4.57,,Kütahya Şeker Fabrikası,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018745,Erzincan,Lignite Coal,,Sub-critical Thermal,,4,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018746,Usak,Lignite Coal,,Sub-critical Thermal,,3.72,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018747,Cankiri,Lignite Coal,,Sub-critical Thermal,,1.64,,Med-Mar Sağlık Salti Tuz,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018748,Göknur Gıda Termik Santrali,Coal,,Sub-critical Thermal,,1.55,,Göknur Gıda,,,,,,,,,,,,,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
-1018714,İÇDAŞ Biga Termik Santrali,Coal,Natural Gas,Sub-critical Thermal,,1200,2011-2014,İÇDAŞ Elektrik,,"Çanakkale , Biga","8,640",,,,,,,,40.022373,26.977688,Fluidized Bed Combustion,Enerji Atlasi,http://www.icdasenerji.com/pages/1/1/f/tr-TR/icdas_Biga_Termik_Santrali.aspx,,,,,,,,,,,,Turkey,,WRI
-1018760,Ambarlı A Doğalgaz Santrali,Natural Gas,,Sub-critical Thermal,,816,,EÜAŞ,,İstanbul,,,,,,,,,40.979284,28.699412,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
-1018722,Çolakoğlu Termik Santrali,Coal,,Sub-critical Thermal,,190,,Çolakoğlu Metalurji,,"Kocaeli, Gebze","1,425",,,,,,,,39.628912,29.462923,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/colakoglu-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018723,Yunus Emre Termik Santrali,Lignite Coal,,Sub-critical Thermal,,145,,Naskan Energy,,"Eskisehir, Mihaliccik","1,050",,,,,,,,39.983928,31.634858,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/yunus-emre-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018724,Kütahya,Lignite Coal,,Sub-critical Thermal,,50,,Kardemir A.Ş.,,Karabük,365,,,,,,,,41.51,31.9,,Enerji Atlasi,http://www.enerjiatlasi.com/komur/karabuk-demir-celik-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018701,Afşin Elbistan Termik Santrali,Lignite Coal,,Sub-critical Thermal,,2795,,EÜAŞ,,,"7,459",,,,,,,,38.35366,36.980995,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/afsin-elbistan-b-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
-1018921,Birecik Dam,Hydro,,Run of River,,672,1985-2000,,,Şanlıurfa,,,,,,,,,37.054188,37.890062,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
-1018706,İÇDAŞ Bekirli-2 power station,Coal,,Sub-critical Thermal,,1200,,İÇDAŞ Elektrik,,,"8,640",2018.0,,,,,,,40.399121,27.050017,Imported Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018716,İzdemir Enerji power station,Coal,,Sub-critical Thermal,,350,,İzmir Demir Çelik,,"İzmir, Aliağa","2,562",2018.0,,,,,,,38.741739,26.929445,Imported Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018704,İsken Sugözü power station,Coal,,Sub-critical Thermal,,1210.0,,OYAK,,Adana,"9,183",2018.0,,,,,,,36.83463,35.88008,Imported Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018707,Soma power station,Lignite Coal,,Sub-critical Thermal,,990,1986,EÜAŞ,,,"5,535",2018.0,,,,,,,39.195263,27.635731,"/ GCPT_Plant_Units_Link: L103688=>G109496;G109497;G109498;G109499;G109500;G109501 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018709,Yatağan power station,Lignite Coal,,Sub-critical Thermal,,630,,Bereket Enerji,,"Muğla , Bodrum","2,722",2018.0,,,,,,,37.331677,28.101663,Lignite Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018708,Kemerköy power station,Lignite Coal,,Sub-critical Thermal,,630,1994,Limak Enerji,,"Muğla , Milas","2,642",2018.0,Once Through,,,,,,37.0353617,27.901127,"/ GCPT_Plant_Units_Link: L103698=>G105653;G105654;G105655 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
-1018710,Çayırhan power station,Lignite Coal,,Sub-critical Thermal,,620,,Ciner Enerji,,"Ankara, Nallihan","3,533",2018.0,,,,,,,40.097,31.695372,Lignite Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
-1018711,Seyitömer power station,Lignite Coal,,Sub-critical Thermal,,600,1978,Çelikler Elektrik,,"Kütahya, Tavşanlı","3,380",2018.0,,,,,,,39.573573,29.882189,"/ GCPT_Plant_Units_Link: L103685=>G108943;G108944;G108945;G108946 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018712,Kangal power station,Lignite Coal,,Sub-critical Thermal,,537.0,1993,Konya Şeker Enerji,,"Sivas, Kangal","2,078",2018.0,,,,,,,39.077416,37.29581,"/ GCPT_Plant_Units_Link: L103708=>G105539;G105540;G105541 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018713,Yeniköy power station,Lignite Coal,,Sub-critical Thermal,,420,1986,IC İçtaş Enerji,,"Muğla , Milas","2,009",2018.0,,,,,,,37.140454,27.871907,"/ GCPT_Plant_Units_Link: L103701=>G111354;G111355 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018715,Tunçbilek Kütahya power station,Lignite Coal,,Sub-critical Thermal,,365,1975,EÜAŞ,,Kütahya,1605,2018.0,,,,,,,39.6284598,29.4623364,"/ GCPT_Plant_Units_Link: L103686=>G110358;G110359;G110360;G110361 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
-1018718,Çatalağzı-B power station,Coal,,Sub-critical Thermal,,314.0,,Bereket Enerji,,"Zonguldak, Kilimli","1,861",2018.0,,,,,,,41.517402,31.900198,Hard Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
-1018721,Orhaneli power station,Lignite Coal,,Sub-critical Thermal,,210,1992,EÜAŞ,,"Bursa, Orhaneli","1,003",2018.0,,,,,,,39.9502243,28.870858,/ No Units,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
-1018717,Çan-1 power station,Lignite Coal,,Sub-critical Thermal,,320,2003,EÜAŞ,,Çanakkale,"1,605",2018.0,,,,,,,40.02324,26.97684,"/ GCPT_Plant_Units_Link: L103634=>G101181;G101182 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1018719,Bolu Göynük power station,Coal,,Sub-critical Thermal,,270,2015,Aksa Enerji,,"Bolu, Göynük","1,151",2018.0,,,,,,,40.2514,30.8129,"Lignite Coal / GCPT_Plant_Units_Link: L103627=>G101003;G101004 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
-1018725,Polat power station,Coal,,Sub-critical Thermal,,51,2013,Polat Elektrik Üretim,,"Kütahya, Tavşanlı",357,2018.0,,,,,,,39.61601,29.4429,"Lignite Coal / GCPT_Plant_Units_Link: L103684=>G108070;G108071 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
-1075555,Cenal power station,Coal,,,,1320.0,2017,Cenal Elektrik,,,,2018.0,,,,,,,40.4167,27.31829," / GCPT_Plant_Units_Link: L103636=>G101259;G101260 / ",GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Generation Data Source,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
+1018758,Yeni Elektrik Doğalgaz Çevrim Santrali,Natural Gas,,CCGT,,865,,Yeni Elektrik Üretim,,Kocaeli,"6,500",,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/yeni-elektrik-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,
+1018767,Marmaraereğlisi DKÇS,Natural Gas,,CCGT,,478,,Trakya Elektrik,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018769,Aliağa Çakmaktepe Doğalgaz Termik Santrali,Natural Gas,,CCGT,,268,,Çakmaktepe Enerji,,İzmir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018771,Gebze Dilovası DGKÇ Santrali,Natural Gas,,CCGT,,253,,Çolakoğlu Şirketler Grubu,,Kocaeli,"1,832",,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/ova-elektrik-gebze-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,
+1018772,Mersin Soda Sanayii Termik Santrali,Natural Gas,,CCGT,,252,,Şişecam Elektrik Üretim,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018773,Habaş Aliağa Doğalgaz Termik Santrali,Natural Gas,,CCGT,,240,,Habaş Enerji,,İzmir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018821,Soma,Wind,,Onshore Wind,,240,2007-2014,,,,474,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/soma-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018774,Esenyurt Doğalgaz Termik Santrali,Natural Gas,,CCGT,,189,,American Edison Mission Energy,,İstanbul,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018775,Aliağa Doğalgaz Çevrim Santrali,Natural Gas,,CCGT,,180,,EÜAŞ,,İzmir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018695,KARKEY (SİLOPİ),Fuel Oil,,,1,171.9,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018776,Kırklareli Termik Santrali,Natural Gas,,CCGT,,164,,Alarko Enerji,,Kırklareli,384,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/kirklareli-termik-santrali.html,,,,,,,,,,,,Turkey,,
+1018780,Kırklareli Lüleburgaz Termik Santrali,Natural Gas,,CCGT,,164,,Zorlu Enerji,,Kırklareli,804,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/kirklareli-luleburgaz-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,
+1018777,Zorlu Enerji Kayseri Doğalgaz Santrali,Natural Gas,,CCGT,,163,,Zorlu Enerji,,Kayseri,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018931,H Polatkan/Sanyar,Hydro,,Dam with Reservoir,,160,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018778,Entek Doğalgaz Termik Santrali,Natural Gas,,CCGT,,157,,Koç Holding,,Kocaeli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018822,Geycek,Wind,,Onshore Wind,,150,2013-2014,,,Kirsehir Mucur,237,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/geycek-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018781,Entek Bursa Doğalgaz Termik Santrali,Natural Gas,,CCGT,,143,,Koç Holding,,Bursa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018782,Aksa Akrilik Kimya Doğalgaz Termik Santrali,Natural Gas,,CCGT,,143,,Aksa Akrilik Kimya,,Yalova,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018823,Balikesir,Wind,,Onshore Wind,,143,2009,,,"Balıkesir, Kepsut",375,,,,,,,,,,,,Enerji Atlasi,https://drive.google.com/file/d/0B47ZSAUzDND1cm8tN2lOVWR0eVU/view,,,,,,,,,,,,Turkey,,
+1018783,Manisa OSB Kojenerasyon Santralı,Natural Gas,,CCGT,,140,,MOSB Enerji,,Manisa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018691,Asfaltit Copy,Fuel Oil,,,1,135,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018784,Enerjisa Adana Doğalgaz Santrali,Natural Gas,,CCGT,,131,,Enerjisa Elektrik,,Adana,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018694,F.O.2011-2012,Fuel Oil,,,1,129.3,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018785,Çay DGKÇS,Natural Gas,,CCGT,,126,,Yıldızlar SSS Holding,,Afyonkarahisar,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018786,Bilecik DGKÇS,Natural Gas,,CCGT,,126,,Yıldızlar SSS Holding,,Bilecik,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018787,Modern Enerji Çorlu Doğalgaz Termik Santrali,Natural Gas,,CCGT,,124,,Eren Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018788,Nuh Enerji Kocaeli Doğalgaz Santrali,Natural Gas,,CCGT,,120,,Nuh Enerji,,Kocaeli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018826,Karaburun,Wind,,Onshore Wind,,120,2013,,,,288,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/karaburun-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018789,Aksa Enerji Manisa Doğalgazlı Elektrik Santrali,Natural Gas,,CCGT,,115,,Aksa Enerji,,Manisa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018790,Van Doğalgaz Çevrim Santrali,Natural Gas,,CCGT,,115,,Aksa Enerji,,Van,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018827,Dinar,Wind,,Onshore Wind,,115,2013,,,,166,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/dinar-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018828,Samli,Wind,,Onshore Wind,,114,2008-2010,,,,326,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/samli-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018690,Aksa-Habaş Izmir+Sirnak+Bilecik+Mardin,Fuel Oil,,,1,111,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018829,SahRES,Wind,,Onshore Wind,,105,2011-2013,Doğan Enerji,,,308,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/sah-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018943,Kralkizi,Hydro,,Dam with Reservoir,,95,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018791,Antalya OSB Doğalgaz Santrali,Natural Gas,,CCGT,,94,,Enda Enerji,,Antalya,675,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/antalya-osb-dogalgaz-termik-santrali.html,,,,,,,,,,,,Turkey,,
+1018942,Koklucie,Hydro,,Dam with Reservoir,,90,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018792,Zorlu Enerji Bursa Doğalgaz Santrali,Natural Gas,,,,90,,Zorlu Enerji,,Bursa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018830,Bergama Rüzgar ,Wind,,Onshore Wind,,90,2007,,,,265,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/bergama-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018936,Karacoaren I and II,Hydro,,Dam with Reservoir,,79,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018831,Kangal Rüzgar,Wind,,Onshore Wind,,78,2014,,,,144,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/kangal-ruzgar-santrali-res.html,,,,,,,,,,,,Turkey,,
+1018940,Kesikkopru,Hydro,,Dam with Reservoir,,76,1966,,,Ankara,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018911,Ziyaret,Wind,,Onshore Wind,,75,2010-2014,,,,238,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/ziyaret-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018832,Aksu,Wind,,Onshore Wind,,72,2012,,,,175,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/aksu-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018793,Sönmez Elektrik Uşak Doğalgaz Santrali,Natural Gas,,,,71,,Sönmez Elektrik Üretim,,Uşak,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018794,Marmara Pamuklu Mensucat Termik Santrali,Natural Gas,,,,70,,Marmara Pamuklu Mensucat,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018951,S Ugurlu,Hydro,,Dam with Reservoir,,69,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018833,Poyraz Rüzgar,Wind,,Onshore Wind,,67,2012,,,,138,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/poyraz-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018795,Çanakkale Doğalgaz Santrali,Natural Gas,,,,65,,Enerjisa Elektrik,,Çanakkale,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018834,Senbuk,Wind,,Onshore Wind,,65,2010-2014,,,,,,,,,,,,,,,,TWEA (Turkish Wind Energy Association),https://drive.google.com/file/d/0B47ZSAUzDND1cm8tN2lOVWR0eVU/view,,,,,,,,,,,,Turkey,,
+1018796,Çebi Enerji Tekirdağ Doğalgaz Santrali,Natural Gas,,,,64,,Çebi Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018797,Mersin Doğalgaz Santrali,Natural Gas,,,,63,,Enerjisa Elektrik,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018912,Adiguzel,Hydro,,Dam with Reservoir,,62,1976-1989,,,Denzili,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018798,Delta Termik Santrali,Natural Gas,,,,60,,Palmet Enerji,,Kırklareli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018799,Uğur Enerji Çerkezköy OSB Üretim Santrali,Natural Gas,,,,60,,Uğur Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018835,Çatalca,Wind,,Onshore Wind,,60,2008,,,,180,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/catalca-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018836,Sebenoba,Wind,,Onshore Wind,,60,,,,,135,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/sebenoba-res.html,,,,,,,,,,,,Turkey,,
+1018837,Süloğlu,Wind,,Onshore Wind,,60,2014,,,,164,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/suloglu-res.html,,,,,,,,,,,,Turkey,,
+1018838,Susurluk,Wind,,Onshore Wind,,60,2012,,,,145,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/susurluk-ruzgar-santrali-res.html,,,,,,,,,,,,Turkey,,
+1018839,Yuntdag,Wind,,Onshore Wind,,60,2011-2014,,,,187,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/yuntdag-ruzgar-santrali-res.html,,,,,,,,,,,,Turkey,,
+1018800,Eskişehir OSB Termik Santrali,Natural Gas,,,,59,,Eskişehir Endüstriyel Elektrik,,Eskişehir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018840,Çerçikaya,Wind,,Onshore Wind,,57,,,,,186,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/cercikaya-res.html,,,,,,,,,,,,Turkey,,
+1018869,Edincik,Wind,,Onshore Wind,,56.4,2013-2014,,,,90,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/edincik-res.html,,,,,,,,,,,,Turkey,,
+1018801,Çorlu Doğalgaz Termik Santrali,Natural Gas,,,,56,,Can Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018841,Sayalar,Wind,,Onshore Wind,,54.2,2008-2013,,,,92,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/sayalar-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,
+1018935,Kapulukaya,Hydro,,Dam with Reservoir,,54,1979-1989,,,Kirikkale,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018842,USak,Wind,,Onshore Wind,,54,2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018843,Kavakli,Wind,,Onshore Wind,,52,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018844,Duzova,Wind,,Onshore Wind,,51.5,2009-2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018802,Çerkezköy Enerji Kojenerasyon Santrali,Natural Gas,,,,51,,Çerkezköy Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018846,Hasanbeyli,Wind,,Onshore Wind,,50,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018847,Zeytineli,Wind,,Onshore Wind,,50,2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018945,Manavgat,Hydro,,Dam with Reservoir,,48,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018848,Belen,Wind,,Onshore Wind,,48,2009-2012,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018849,Canta,Wind,,Onshore Wind,,47,2013-2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018850,Mersin Mut,Wind,,Onshore Wind,,47,2010-2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018851,AKRES,Wind,,Onshore Wind,,45,2000,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018852,Silivri,Wind,,Onshore Wind,,45,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018959,Maren,Geothermal,,,,44,2014,Kipaş Holding Enerji Grubu,,Aydin,260,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/maren-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,
+1018853,Kangal,Wind,,Onshore Wind,,44,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018803,Kemalpaşa Doğalgaz Termik Santrali,Natural Gas,,,,43,,Karadeniz Enerji,,İzmir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018804,Ostim Doğalgaz Çevrim Santrali,Natural Gas,,,,41,,Ayen Enerji,,Ankara,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018854,Amasya,Wind,,Onshore Wind,,40,2008,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018855,Metristepe,Wind,,Onshore Wind,,40,2011,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018805,Bilecik Doğalgaz Santrali,Natural Gas,,,,39,,Tekno Enerji,,Bilecik,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018857,Dagpazan,Wind,,Onshore Wind,,39,2011,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018858,Mare Manastir,Wind,,Onshore Wind,,39,2006-2007,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018859,Sadili,Wind,,Onshore Wind,,38.5,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018806,Hereke Doğalgaz Termik Santralı,Natural Gas,,OCGT,,38,,Nuh Enerji,,Kocaeli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018860,Senkoy,Wind,,Onshore Wind,,36,2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018698,PS3-A -1 & 2 (İDİL),Fuel Oil,,,1,35.8,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018861,GokRES,Wind,,Onshore Wind,,35.75,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018862,Intepe,Wind,,Onshore Wind,,35,2007-2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018863,Samurlu,Wind,,Onshore Wind,,34.5,2012-2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1019000,Odayeri Çöp Gazı,Waste,,Waste Incinerator,,34,,Ortadoğu Enerji,,İstanbul,214,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/odayeri-cop-gazi-santrali.html,,,,,,,,,,,,Turkey,,
+1018864,Sebenoba,Wind,,Onshore Wind,,34,2008,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018807,Trakya Şişecam Termik Santrali,Natural Gas,,,,33,,Şişecam Elektrik Üretim,,Kırklareli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018924,Calmigoze,Hydro,,Dam with Reservoir,,32,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018865,Kozbeyli,Wind,,Onshore Wind,,32,2012-2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018866,Mordogan,Wind,,Onshore Wind,,31.5,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1019001,Toros Tarım Samsun Atık ,Waste,,Waste Incinerator,,31,,Toros Tarim,,Samsun,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018867,Akbuk,Wind,,Onshore Wind,,31,2009,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018868,Dates Datca,Wind,,Onshore Wind,,30,2008,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018870,Mahmudiye,Wind,,Onshore Wind,,30,2010,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018871,Mazi-3,Wind,,Onshore Wind,,30,2011,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018872,Seyitali,Wind,,Onshore Wind,,30,2011,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018873,Soke Catalbuk,Wind,,Onshore Wind,,30,2010,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018808,Tekirdağ Enerji Üretim Santrali,Natural Gas,,,,29,,Can Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018874,Sankaya,Wind,,Onshore Wind,,28.8,2009,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018876,Kiyikoy,Wind,,Onshore Wind,,28,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018878,Salman,Wind,,Onshore Wind,,27.5,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018879,Sincik,Wind,,Onshore Wind,,27.5,2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018913,Almus,Hydro,,Dam with Reservoir,,27,1964-1966,,,Tokat,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018809,Şahinler Enerji Çorlu Kojenerasyon Santrali,Natural Gas,,,,26,,Şahinler Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018700,SİİRT,Fuel Oil,,,1,25.6,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018880,Kuyucak,Wind,,Onshore Wind,,25.6,2010,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018961,Enerjeo Kemaliye,Geothermal,,,,25,2016,Enerjeo Kemaliye Enerji Üretim,,Manisa,199,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/enerjeo-kemaliye-santrali.html,,,,,,,,,,,,Turkey,,
+1019002,Mamak Çöplüğü ,Waste,,Waste Incinerator,,25,,ITC-Ka Atik Enerji,,Ankara,151,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/mamak-coplugu-biyogaz.html,,,,,,,,,,,,Turkey,,
+1018881,Korkmaz,Wind,,Onshore Wind,,25,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018882,SaRES,Wind,,Onshore Wind,,25,2010-2011,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018963,Ken Kipaş,Geothermal,,,,24,2012,Kipaş Holding Enerji Grubu,,Aydin,186,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/ken-kipas-jeotermal-santrali.html,,,,,,,,,,,,Turkey,,
+1018964,Kerem,Geothermal,,,,24,2015,Kipaş Holding Enerji Grubu,,Manisa,112,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/kerem-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,
+1018965,Türkerler Alaşehir,Geothermal,,,,24,2015,Türkerler Holding,,Aydin,178,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/turkerler-alasehir-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,
+1018810,Çorlu Pelitlik Elektrik Santrali,Natural Gas,,,,24,,Global Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018883,Kemerburgaz,Wind,,Onshore Wind,,24,2008,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018884,Turguttepe,Wind,,Onshore Wind,,24,2010,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1019003,Sincan Çadırtepe Biyokütle,Waste,,Waste Incinerator,,23,,ITC-Ka Atik Enerji,,Ankara,97,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/sincan-cadirtepe-biyokutle-enerji-santrali.html,,,,,,,,,,,,Turkey,,
+1018885,Keltepe,Wind,,Onshore Wind,,23,2009-2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018944,Kuzgun,Hydro,,Dam with Reservoir,,21,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018886,Camseki,Wind,,Onshore Wind,,21,2009,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018887,Madranbaba,Wind,,Onshore Wind,,20,2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018811,Kırka Bor İşletme Müdürlüğü Termik Santrali,Natural Gas,,,,18,,Cengiz Enerji,,Eskişehir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018970,Konya Karatay Kızör,Solar,,PV,,18,,Tekno Enerji,,"Konya, Karatay",26,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/karatay-kizoren-ges.html,,,,,,,,,,,,Turkey,,
+1018888,AYYildiz,Wind,,Onshore Wind,,18,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018889,KORES,Wind,,Onshore Wind,,17.5,2012,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018920,Beykuy,Hydro,,Dam with Reservoir,,17,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018697,Nafta Copy,Fuel Oil,,"2,795",1,16,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1018812,Eskişehir Şeker Fabrikası Doğalgaz Santrali,Natural Gas,,,,16,,Türkiye Şeker Fabrikaları,,Eskişehir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1019004,Adana Yüreğir Sofulu Çöplüğü ,Waste,,Waste Incinerator,,16,,ITC-Ka Atik Enerji,,Adana,95,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/sofulu-coplugu-biyogaz-santrali.html,,,,,,,,,,,,Turkey,,
+1018890,Cataltepe,Wind,,Onshore Wind,,16,2010,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018891,Karadere,Wind,,Onshore Wind,,16,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018892,Burgaz,Wind,,Onshore Wind,,15,2007,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018893,Enez,Wind,,Onshore Wind,,15,2008,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018894,Incesu,Wind,,Onshore Wind,,13.2,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1019006,Eti Alüminyum Atık Isı Elektrik Santrali,Waste,,Waste Incinerator,,13,,Cengiz Enerji,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018896,Gunaydin,Wind,,Onshore Wind,,12.5,2012,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018814,Arenko Elektrik Santrali,Natural Gas,,,,12,,,,Denizli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1019007,Eti Maden Bandırma Atık Isı Santrali,Waste,,Waste Incinerator,,12,,Eti Maden,,Balıkesir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019008,ITC-KA Sincan Biyokütle Gazlaştırma Tesisi,Waste,,Waste Incinerator,,11,,ITC Katı Atık Enerji,,Ankara,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018897,Karakurt,Wind,,Onshore Wind,,11,2007,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018696,Motorin Copy,Fuel Oil,,,1,10.3,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,
+1019009,Bağfaş Gübre Fabrikası Biyogaz Santrali,Waste,,Waste Incinerator,,10,,Bağfaş Gübre Fabrikası,,Balıkesir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019010,Hamitler Çöplüğü Biyogaz Santrali,Waste,,Waste Incinerator,,10,,ITC Katı Atık Enerji,,Bursa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019011,Çimsa Atık Isı Santrali,Waste,,Waste Incinerator,,10,,Enerjisa Elektrik,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018898,Allaga,Wind,,Onshore Wind,,10,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018900,Karadag,Wind,,Onshore Wind,,10,2012,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018901,Umurlar,Wind,,Onshore Wind,,10,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018815,Pınarbaşı Doğalgaz Santrali,Natural Gas,,,,9.81,,Yaşar Holding,,İzmir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018974,Kayseri Çiftlik Güneş,Solar,,PV,,9,2014,,,"Kayseri, Melikgazi",12,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/kayseri-ciftlik-gunes-enerjisi-santrali.html,,,,,,,,,,,,Turkey,,
+1019012,Batıçim Atık Isı Santrali,Waste,,Waste Incinerator,,9,,Batıçim Batı Anadolu,,İzmir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018902,Gunayadin,Wind,,Onshore Wind,,8.25,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018975,Yarışlı Güneş Enerji Santrali,Solar,,PV,,8,,Zen Enerji,,Burdur,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018976,Sunergie Güneş Enerji Santrali,Solar,,PV,,8,,,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018816,Çorlu Hacı Şeremet Doğalgaz Santrali,Natural Gas,,,,7.83,,Global Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018817,Hayat Kağıt Termik Santrali,Natural Gas,,,,7.22,,,,Çorum,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018977,Aksaray İncesu Köyü Güneş Enerji Santrali,Solar,,PV,,7,,,,Aksaray,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018978,Saçıkara Güneş Enerji Santrali,Solar,,PV,,7,,,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018979,Fer Sa Salihli Dombaylı Güneş Enerjisi Santrali,Solar,,PV,,7,,Fer Sa,,Manisa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018980,T Dinamik Enerji Konya Ereğli GES,Solar,,PV,,7,,T Dinamik Enerji,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018981,Kayages Elektrik Güneş Enerji Santrali,Solar,,PV,,7,,Kayages Elektrik Üretim,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018982,Kahramanmaraş Elbistan Güneş Enerji Santrali,Solar,,PV,,7,,,,Kahramanmaraş,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018983,Niğde Bor Badak Güneş Enerjisi Santrali,Solar,,PV,,7,,Niğde Bor Badak,,Niğde,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018984,Yeşilvadi GES,Solar,,PV,,7,,Akfen Enerji,,Denizli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1019013,Prokom Pirolitik Yağ ve Pirolitik Gaz Tesisi,Waste,,Waste Incinerator,,7,,Prokom Madencilik,,Erzincan,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018903,ARES,Wind,,Onshore Wind,,7,1998,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018818,İnönü Kojenerasyon Tesisi,Natural Gas,,,,6.92,,Yurtbay Seramik,,Eskişehir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018819,Arçelik Eskişehir Fabrikası Doğalgaz Santrali,Natural Gas,,,,6.31,,Arçelik,,Eskişehir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018985,Bereket Enerji Denizli Lisanssız GES,Solar,,PV,,6,,Bereket Enerji,,Denizli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018986,Asunim Solarpower Güneş Enerji Santrali,Solar,,PV,,6,,Asunim Enerji,,Kayseri,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018987,Kayseri OSB Güneş Enerjisi Santrali,Solar,,PV,,6,,Kayseri OSB,,Kayseri,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018988,Konya Çumra Güneş Enerji Santrali,Solar,,PV,,6,,,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018989,Karadona Güneş Enerji Santrali,Solar,,PV,,6,,,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018990,Gülnar Güneş Enerji Santrali,Solar,,PV,,6,,,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1019014,Aksaray OSB Gübre Gazı Elektrik Santrali,Waste,,Waste Incinerator,,6,,Sütaş Süt Enfaş Enerji,,Aksaray,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019015,Şanlıurfa Biyokütle Enerji Santrali,Waste,,Waste Incinerator,,6,,Full Force Enerji,,Şanlıurfa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019016,Eman Enerji Mersin Biyokütle Enerji Santrali,Waste,,Waste Incinerator,,6,,Mersin Büyükşehir Belediyesi,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019017,Avdan Biyogaz Tesisi,Waste,,Waste Incinerator,,6,,Avdan Enerji,,Samsun,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019018,Modern Biyokütle Enerji Santrali,Waste,,Waste Incinerator,,6,,Eren Enerji,,Tekirdağ,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019019,Trakya Yenişehir Cam Atık Isı Santrali,Waste,,Waste Incinerator,,6,,Trakya Yenişehir Cam,,Bursa,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019020,Kayseri Çöplüğü Biyogaz Elektrik Santrali,Waste,,Waste Incinerator,,6,,Her Enerji,,Kayseri,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019021,Konya Aslım Çöplüğü Elektrik Üretim Santrali,Waste,,Waste Incinerator,,6,,ITC Katı Atık Enerji,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019022,Gaziantep Çöp Gazı,Waste,,Waste Incinerator,,6,,CEV Enerji,,Gaziantep,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018916,Atakoy,Hydro,,Dam with Reservoir,,5,,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,
+1018991,Diana Hotel Güneş Enerjisi Santrali,Solar,,PV,,5,,Diana Hotel,,Burdur,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018992,Mersin Gülnar Güneş Enerji Santrali,Solar,,PV,,5,,T Dinamik Enerji,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018993,T Dinamik Enerji Güneş Enerjisi Santrali,Solar,,PV,,5,,T Dinamik Enerji,,Adana,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018994,Özkoyuncu Madencilik Güneş Santrali,Solar,,PV,,5,,Özkoyuncu Madencilik,,Kayseri,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018995,Ekonova Güneş Enerji Santrali,Solar,,PV,,5,,,,Ankara,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018996,Omega Enerji Konya Karatay GES,Solar,,PV,,5,,Omega Enerji,,Konya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018997,T Dinamik Niğde Gölcük GES,Solar,,PV,,5,,T Dinamik Enerji,,Niğde,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018998,Malatya İnönü Üni. Güneş Santrali,Solar,,PV,,5,,Malatya İnönü Üniversitesi,,Malatya,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1018999,Nar Solar Enerji Güneş Enerji Santrali,Solar,,PV,,5,,Nar Solar Enerji,,Mersin,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/sehir/,,,,,,,,,,,,Turkey,,
+1019023,Batısöke Söke Çimento Atık Isı Elektrik Santrali,Waste,,Waste Incinerator,,5,,Batısöke Söke Çimento,,Aydın,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1019024,Kocaeli Çöplüğü Biyogaz Santrali,Waste,,Waste Incinerator,,5,,Ortadoğu Enerji,,Kocaeli,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/,,,,,,,,,,,,Turkey,,
+1018904,Pitane,Wind,,Onshore Wind,,4.8,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018905,Saray,Wind,,Onshore Wind,,4,2012,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018820,Hatipoğlu Plastik Trijenerasyon Santrali,Natural Gas,,,,2,,Hatipoğlu Plastik,,Eskişehir,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,
+1018906,Cesme,Wind,,Onshore Wind,,2,1998,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018907,Sunjut,Wind,,Onshore Wind,,1.2,2006,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018908,BURES,Wind,,Onshore Wind,,1,2014,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018909,Pasalimani,Wind,,Onshore Wind,,1,2013,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1018910,TepeRES,Wind,,Onshore Wind,,1,2006,,,,,,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,
+1019005,Kömürcüoda Çöplüğü ,Waste,,Waste Incinerator,,14,,Ortadoğu Enerji,,İstanbul,93,2015,,,,,,,,,,,Enerji Atlasi,http://www.enerjiatlasi.com/biyogaz/komurcuoda-coplugu-biyogaz-santrali.html,,,,,,,,,,,,Turkey,,
+1018705,İskenderun Atlas Termik Santrali,Coal,,Super-critical Thermal,,1200,,Diler Holding Enerji Grubu,,,"8,500",,,,,,,,,36.690424,36.208390,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/iskenderun-atlas-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018693,EÜAS Hopa Termik Sant. Artvin,Fuel Oil,,,1,50,,,,,,,,,,,,,,41.4193,41.4393,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,GEODB
+1018750,Enka İzmir Doğalgaz Santrali,Natural Gas,,CCGT,,1520,,Enka Elektrik,,İzmir,"11,120",,,,,,,,,38.746677,26.956325,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/enka-izmir-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018751,Bursa Doğalgaz Santrali,Natural Gas,,CCGT,,1432,,EÜAŞ,,Bursa,"5,920",,,,,,,,,40.295227,29.0736,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/bursa-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018753,Hamitabat Termik Santrali,Natural Gas,,CCGT,,1156,,Limak Enerji,,Kırklareli,"4,451",,,,,,,,,41.48266,27.33665,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018755,Bandırma Doğalgaz Santrali,Natural Gas,,CCGT,,931,,Enerjisa Elektrik,,Balıkesir,"7,540",,,,,,,,,40.37859,27.91157,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/bandirma-dogalgaz-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018757,OMV Samsun Doğalgaz Santrali,Natural Gas,,CCGT,,887,,OMV Samsun Elektrik,,Samsun,"6,000",,,,,,,,,41.24001,36.47672,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/omv-samsun-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018759,Cengiz Enerji Samsun,Natural Gas,,CCGT,,849,,Cengiz Enerji,,Samsun,"6,822",,,,,,,,,41.239321,36.479881,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/cengiz-enerji-samsun.html,,,,,,,,,,,,Turkey,,WRI
+1018761,Baymina Ankara Doğalgaz Santrali,Natural Gas,,CCGT,,798,,Baymina Enerji,,Ankara,"5,376",,,,,,,,,39.777258,32.40217,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/baymina-ankara-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018914,Altınkaya Dam,Hydro,,Dam with Reservoir,,700,1980-1988,,,Samsun,,,,,,,,,,41.366779,35.724449,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018926,Deriner Dam,Hydro,,Dam with Reservoir,,670,1998-2012,,,Artvin,,,,,,,,,,41.169643,41.869745,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018949,Oymapinar Dam,Hydro,,Dam with Reservoir,,540,1977-1984,,,Antalya,,,,,,,,,,36.908592,31.531632,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018932,Hasan Uğurlu Dam,Hydro,,Dam with Reservoir,,500,1971-1981,,,Samsun,,,,,,,,,,40.936705,36.649285,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018766,Bursa Doğalgaz Termik Santrali,Natural Gas,,CCGT,,486,,Bis Enerji,,Bursa,"1,788",,,,,,,,,40.23944,28.951784,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/bursa-dogalgaz-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018768,Unimar Marmara Ereğlisi Doğalgaz Kombine Çevrim Santrali,Natural Gas,,CCGT,,478,,Uni-Mar Enerji,,Tekirdağ,"3,411",,,,,,,,,41.007218,27.973617,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/marmaraereglisi-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018953,Sir,Hydro,,Dam with Reservoir,,284,1987-1991,,,Ceyhan,,,,,,,,,,37.500853,36.596696,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018930,Gökçekaya Dam,Hydro,,Dam with Reservoir,,278,1967-1972,,,Eskişehir,,,,,,,,,,40.033202,31.015965,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018770,Bosen Bursa Doğalgaz Santrali,Natural Gas,,CCGT,,264,,Bosen Enerji,,Bursa,,,,,,,,,,40.237743,28.953365,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018946,Menzelet Dam,Hydro,,Dam with Reservoir,,248,1980-1989,,,Kahramanmaraş,,,,,,,,,,37.676561,36.850517,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018918,Batman Dam,Hydro,,Dam with Reservoir,,198,1989-1999,,,Batman,,,,,,,,,,38.160165,41.202643,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018938,Karkamış Dam,Hydro,,Dam with Reservoir,,192,2000,,,Kahramanmaraş,,,,,,,,,,36.869658,38.030722,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018925,Çatalan Dam,Hydro,,Dam with Reservoir,,169,1982-1987,,,Adana,,,,,,,,,,37.036846,35.34143,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018699,Samsun1-2,Fuel Oil,,,1,162.6,,,,,,,,Once Through,Black Sea,,,,,41.240809,36.456986,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,WRI
+1018952,Sarıyar Dam,Hydro,,Dam with Reservoir,,160,1950-1956,,,Ankara,,,,,,,,,,40.039994,31.414433,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018929,Gezende Dam,Hydro,,Dam with Reservoir,,159,1979-1990,,,İçel,,,,,,,,,,36.528476,33.194298,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018779,Şanlıurfa OSB Enerji Santrali,Natural Gas,,,,146,,Aksa Enerji,,"Şanlıurfa, Merkez",708,,,,,,,,,37.110276,38.652038,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/sanliurfa-osb-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018915,Aslantaş Dam,Hydro,,Dam with Reservoir,,138,1975-1984,,,Osmaniye,,,,,,,,,,40.936818,36.64913,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018825,Osmaniye,Wind,,Onshore Wind,,135,2009-2010,,,,334,,,,,,,,,37.174142,36.613702,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/osmaniye-gokcedag-ruzgar-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018933,Hirfanlı Dam,Hydro,,Dam with Reservoir,,128,1953-1959,,,Kırşehir,,,,,,,,,,39.273147,33.518413,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018941,Kılıçkaya Dam,Hydro,,Dam with Reservoir,,124,1980-1990,,,Sivas,,,,,,,,,,40.2419787,38.1859016,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018928,Dicle Dam,Hydro,,Dam with Reservoir,,110,1986-1997,,,Diyarbakir,,,,,,,,,,38.348001,40.019739,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018845,Balabani,Wind,,Onshore Wind,,50,2011,,,,,,,,,,,,,41.071018,27.646543,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
+1018856,Tokat,Wind,,Onshore Wind,,40,2011,,,,,,,,,,,,,40.182424,27.6896,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
+1018927,Devecikonağı Dam,Hydro,,Dam with Reservoir,,29,,,,,,,,,,,,,,39.87563,28.575392,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018875,Kapidag,Wind,,Onshore Wind,,28,2013-2014,,,,,,,,,,,,,40.488957,27.689621,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
+1018877,GERES,Wind,,Onshore Wind,,27.5,2014,,,,,,,,,,,,,39.209227,27.898877,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
+1018968,Kızıldere (Zorlu),Geothermal,,,,15,,MB Holding,,Denizli,75,,,,,,,,,37.949878,28.835413,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/kizildere-zorlu-jes.html,,,,,,,,,,,,Turkey,,WRI
+1018969,Gümüşköy,Geothermal,,,,13,2013-2014,Zorlu Enerji,,Aydin,2,,,,,,,,,37.853355,27.465762,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/gumuskoy-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018895,Bozyaka,Wind,,Onshore Wind,,13,2012,,,,,,,,,,,,,38.746336,26.940282,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
+1018899,Bozcaada,Wind,,Onshore Wind,,10,2000,,,,,,,,,,,,,39.831138,25.972116,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/,,,,,,,,,,,,Turkey,,WRI
+1018749,Enka Gebze Doğalgaz Santrali,Natural Gas,,CCGT,,1595,,Enka Elektrik,,Sakarya,"11,311",,,,,,,,,40.7638,30.392978,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/enka-gebze-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018752,Ambarlı B Doğalgaz Santrali,Natural Gas,,CCGT,,1351,,EÜAŞ,,İstanbul,,,,,,,,,,40.983401,28.692053,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018754,Aksa Antalya Doğalgaz Santrali,Natural Gas,,CCGT,,1150,,Aksa Enerji,,Antalya,"6,278",,,,,,,,,37.120255,30.601625,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/aksa-antalya-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018756,Erzin Doğalgaz Santrali,Natural Gas,,CCGT,,904,,Akenerji,,Hatay,"4,825",,,,,,,,,36.927092,36.053372,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/erzin-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018762,Enka Adapazarı Doğalgaz Santrali,Natural Gas,,CCGT,,770,,Enka Elektrik,,Sakarya,"5,658",,,,,,,,,40.865954,30.387316,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018692,EÜAS Ambarlı FO Sant. Istanbul,Fuel Oil,,,1,630,,,,,,,,,,,,,,40.978667,28.699343,,Enerji Atlasi,http://www.enerjiatlasi.com/cesitli/,,,,,,,,,,,,Turkey,,WRI
+1018765,İç Anadolu Doğalgaz Kombine Çevrim Santrali,Natural Gas,,CCGT,,560,,Gama Enerji,,Kirkkale,"4,200",,,,,,,,,39.757543,33.44804,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/ic-anadolu-dogalgaz-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018923,Boyabat Dam,Hydro,,Dam with Reservoir,,513,,,,,,,,,,,,,,41.339146,35.003294,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018919,Berke Dam,Hydro,,Dam with Reservoir,,510,1995-1999,,,Adana,,,,,,,,,,37.373149,36.461539,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018922,Borçka Dam,Hydro,,Dam with Reservoir,,300,1999-2006,,,Artvin,,,,,,,,,,41.350691,41.683422,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018948,Obruk Dam,Hydro,,Dam with Reservoir,,202,1996-2007,,,Obruk,,,,,,,,,,40.770179,34.791302,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018950,Özlüce Dam,Hydro,,Dam with Reservoir,,170,1992-2000,,,Bingöl,,,,,,,,,,39.127783,40.085522,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018947,Muratlı Dam,Hydro,,Dam with Reservoir,,115,1999-2005,,,Artvin,,,,,,,,,,41.468334,41.713728,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018954,Efeler,Geothermal,,,,114,2014-2015,Güriş Holding,,Aydin,482,,,,,,,,,37.865609,27.647354,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/efeler-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018955,Kizildere 2,Geothermal,,,,80,2013,Zorlu Enerji,,Denizli,426,,,,,,,,,37.949878,28.835413,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/zorlu-enerji-kizildere-2-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018956,Pamukören,Geothermal,,,,68,2014,Çelikler Enerji,,Aydin,179,,,,,,,,,37.917123,28.529719,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/pamukoren-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018957,Galip Hoca Germencik,Geothermal,,,,47,2009,Güriş Holding,,Aydin,314,,,,,,,,,37.884537,27.63044,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/germencik-jeotermal-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018958,Alaşehir,Geothermal,,,,45,2015,Zorlu Enerji,,Manisa,300,,,,,,,,,38.400169,28.43114,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/zorlu-alasehir-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018960,Dora 3,Geothermal,,,,34,2013,MB Holding,,Aydin,166,,,,,,,,,37.857049,28.071553,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/dora-3-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018962,Deniz,Geothermal,,,,24,2012,Kipaş Holding Enerji Grubu,,Aydin,137,,,,,,,,,37.85917,27.614527,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/deniz-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018966,Pamukören 2 ,Geothermal,,,,23,,Çelikler Enerji,,Aydin,180,,,,,,,,,37.917123,28.529719,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/pamukoren-2-jes.html,,,,,,,,,,,,Turkey,,WRI
+1018967,Dora 4,Geothermal,,,,17,,Çelikler Enerji,,Aydin,125,,,,,,,,,37.857817,28.092102,,Enerji Atlasi,http://www.enerjiatlasi.com/jeotermal/dora-4-jeotermal-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018971,Derinkuyu Güneş ,Solar,,PV,,17,,Derinkuyu TM,,"Nevşehir, Derinkuyu",25,,,,,,,,,38.41975,34.686918,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/derinkuyu-gunes-enerjisi-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018813,İzmit İpekkağıt Termik Santrali,Natural Gas,,,,16,,Zorlu Enerji,,Yalova,,,,,,,,,,40.788154,30.025992,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018972,Makascı Mühendislik,Solar,,PV,,10,2015,,,"Konya, Tuzlukçu",18,,,,,,,,,38.527171,31.612113,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/makasci-muhendislik-ges.html,,,,,,,,,,,,Turkey,,WRI
+1018973,Astor,Solar,,PV,,9,2015,,,"Şanlıurfa, Bozova",13,,,,,,,,,37.37434,38.51279,,Enerji Atlasi,http://www.enerjiatlasi.com/gunes/astor-enerji-gunes-enerji-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018917,Atatürk Dam,Hydro,,Dam with Reservoir,,2400,1983-1992,,,Şanlıurfa,,,,,,,,,,37.482512,38.318631,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018702,Zonguldak Eren (ZETES),Coal,,Super-critical Thermal,,2090,,Eren Enerji,,,"12,644",,,,,,,,,41.50353,31.887529,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/zonguldak-eren-zetes-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018937,Karakaya Dam,Hydro,,Dam with Reservoir,,1800,1976-1987,,,Diyarbakir,,,,,,,,,,38.226423,39.135278,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018939,Keban Dam,Hydro,,Dam with Reservoir,,1330,1965-1975,,,Elazığ,,,,,,,,,,38.80555,38.759051,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018934,Ilısu Dam,Hydro,,Dam with Reservoir,,1200,,,,,,,,,,,,,,37.530202,41.852873,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018763,Turcas Denizli Doğalgaz S.,Natural Gas,,CCGT,,775,,Turcas Elektrik,,Denizli,"6,197",,,,,,,,,37.850382,29.415238,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/turcas-denizli-dogalgaz.html,,,,,,,,,,,,Turkey,,WRI
+1018764,Bandirma 2 Doğalgaz Santrali,Natural Gas,,CCGT,,607,,Enerjisa Elektrik,,,,,,,,,,,,40.308331,27.76866,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018824,Bandırma Kurşunlu,Wind,,Onshore Wind,,87,2006-2014,,,,220,,,,,,,,,39.7434283,28.0743599,,Enerji Atlasi,http://www.enerjiatlasi.com/ruzgar/bandirma-kursunlu-res.html,,,,,,,,,,,,Turkey,,WRI
+1018720,İskenderun Demir Çelik Termik Santrali,Coal,,Sub-critical Thermal,,220,,İskenderun Demir Çelik,,Hatay,767,,,,,,,,,,,Hard Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/iskenderun-demir-celik-termik-santrali.html,,,,,,,,,,,,Turkey,,
+1018726,Eti Soda Kojenerasyon Santrali,Lignite Coal,,Sub-critical Thermal,,24,,Ciner Enerji,,Ankara,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018727,Tokat,Lignite Coal,,Sub-critical Thermal,,14,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018728,Konya,Lignite Coal,,Sub-critical Thermal,,14,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018729,Afyon,Lignite Coal,,Sub-critical Thermal,,13,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018730,Balikesir,Lignite Coal,,Sub-critical Thermal,,9.6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018731,Kahramanmaras,Lignite Coal,,Sub-critical Thermal,,9.6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018732,Nigde,Lignite Coal,,Sub-critical Thermal,,9.6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018733,Amasya,Lignite Coal,,Sub-critical Thermal,,7.76,,Amasya Şeker A.Ş.,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018734,Kipaş Kağıt Fabrikası Kömür Santrali,Coal,,Sub-critical Thermal,,7.6,,Kipaş Holding,,,,,,,,,,,,,,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018735,Kastamonu,Lignite Coal,,Sub-critical Thermal,,7.32,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018736,Kahramanmaraş Kağıt Termik Santrali,Coal,,Sub-critical Thermal,,6,,Kahramanmaraş Kağıt,,,,,,,,,,,,,,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018737,Yozgat,Lignite Coal,,Sub-critical Thermal,,6,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018738,Kirsehir,Lignite Coal,,Sub-critical Thermal,,5.9,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018739,Denizli,Lignite Coal,,Sub-critical Thermal,,5.5,,Aynes Gıda,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018740,Kirklareli,Lignite Coal,,Sub-critical Thermal,,5.4,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018741,Erzurum,Lignite Coal,,Sub-critical Thermal,,5.4,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018742,Denizli,Lignite Coal,,Sub-critical Thermal,,5,,Küçüker Tekstil,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018743,Samsun,Lignite Coal,,Sub-critical Thermal,,4.75,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018744,Kütahya,Lignite Coal,,Sub-critical Thermal,,4.57,,Kütahya Şeker Fabrikası,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018745,Erzincan,Lignite Coal,,Sub-critical Thermal,,4,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018746,Usak,Lignite Coal,,Sub-critical Thermal,,3.72,,Türkiye Şeker Fabrikaları,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018747,Cankiri,Lignite Coal,,Sub-critical Thermal,,1.64,,Med-Mar Sağlık Salti Tuz,,,,,,,,,,,,,,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018748,Göknur Gıda Termik Santrali,Coal,,Sub-critical Thermal,,1.55,,Göknur Gıda,,,,,,,,,,,,,,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/,,,,,,,,,,,,Turkey,,
+1018714,İÇDAŞ Biga Termik Santrali,Coal,Natural Gas,Sub-critical Thermal,,1200,2011-2014,İÇDAŞ Elektrik,,"Çanakkale , Biga","8,640",,,,,,,,,40.022373,26.977688,Fluidized Bed Combustion,Enerji Atlasi,http://www.icdasenerji.com/pages/1/1/f/tr-TR/icdas_Biga_Termik_Santrali.aspx,,,,,,,,,,,,Turkey,,WRI
+1018760,Ambarlı A Doğalgaz Santrali,Natural Gas,,Sub-critical Thermal,,816,,EÜAŞ,,İstanbul,,,,,,,,,,40.979284,28.699412,,Enerji Atlasi,http://www.enerjiatlasi.com/dogalgaz/,,,,,,,,,,,,Turkey,,WRI
+1018722,Çolakoğlu Termik Santrali,Coal,,Sub-critical Thermal,,190,,Çolakoğlu Metalurji,,"Kocaeli, Gebze","1,425",,,,,,,,,39.628912,29.462923,Imported Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/colakoglu-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018723,Yunus Emre Termik Santrali,Lignite Coal,,Sub-critical Thermal,,145,,Naskan Energy,,"Eskisehir, Mihaliccik","1,050",,,,,,,,,39.983928,31.634858,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/yunus-emre-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018724,Kütahya,Lignite Coal,,Sub-critical Thermal,,50,,Kardemir A.Ş.,,Karabük,365,,,,,,,,,41.51,31.9,,Enerji Atlasi,http://www.enerjiatlasi.com/komur/karabuk-demir-celik-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018701,Afşin Elbistan Termik Santrali,Lignite Coal,,Sub-critical Thermal,,2795,,EÜAŞ,,,"7,459",,,,,,,,,38.35366,36.980995,Lignite Coal,Enerji Atlasi,http://www.enerjiatlasi.com/komur/afsin-elbistan-b-termik-santrali.html,,,,,,,,,,,,Turkey,,WRI
+1018921,Birecik Dam,Hydro,,Run of River,,672,1985-2000,,,Şanlıurfa,,,,,,,,,,37.054188,37.890062,,Enerji Atlasi,http://www.enerjiatlasi.com/hidroelektrik/,,,,,,,,,,,,Turkey,,WRI
+1018706,İÇDAŞ Bekirli-2 power station,Coal,,Sub-critical Thermal,,1200,,İÇDAŞ Elektrik,,,"8,640",2018.0,,,,,,,,40.399121,27.050017,Imported Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018716,İzdemir Enerji power station,Coal,,Sub-critical Thermal,,350,,İzmir Demir Çelik,,"İzmir, Aliağa","2,562",2018.0,,,,,,,,38.741739,26.929445,Imported Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018704,İsken Sugözü power station,Coal,,Sub-critical Thermal,,1210.0,,OYAK,,Adana,"9,183",2018.0,,,,,,,,36.83463,35.88008,Imported Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018707,Soma power station,Lignite Coal,,Sub-critical Thermal,,990,1986,EÜAŞ,,,"5,535",2018.0,,,,,,,,39.195263,27.635731,/ GCPT_Plant_Units_Link: L103688=>G109496;G109497;G109498;G109499;G109500;G109501 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018709,Yatağan power station,Lignite Coal,,Sub-critical Thermal,,630,,Bereket Enerji,,"Muğla , Bodrum","2,722",2018.0,,,,,,,,37.331677,28.101663,Lignite Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018708,Kemerköy power station,Lignite Coal,,Sub-critical Thermal,,630,1994,Limak Enerji,,"Muğla , Milas","2,642",2018.0,,Once Through,,,,,,37.0353617,27.901127,/ GCPT_Plant_Units_Link: L103698=>G105653;G105654;G105655 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+1018710,Çayırhan power station,Lignite Coal,,Sub-critical Thermal,,620,,Ciner Enerji,,"Ankara, Nallihan","3,533",2018.0,,,,,,,,40.097,31.695372,Lignite Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+1018711,Seyitömer power station,Lignite Coal,,Sub-critical Thermal,,600,1978,Çelikler Elektrik,,"Kütahya, Tavşanlı","3,380",2018.0,,,,,,,,39.573573,29.882189,/ GCPT_Plant_Units_Link: L103685=>G108943;G108944;G108945;G108946 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018712,Kangal power station,Lignite Coal,,Sub-critical Thermal,,537.0,1993,Konya Şeker Enerji,,"Sivas, Kangal","2,078",2018.0,,,,,,,,39.077416,37.29581,/ GCPT_Plant_Units_Link: L103708=>G105539;G105540;G105541 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018713,Yeniköy power station,Lignite Coal,,Sub-critical Thermal,,420,1986,IC İçtaş Enerji,,"Muğla , Milas","2,009",2018.0,,,,,,,,37.140454,27.871907,/ GCPT_Plant_Units_Link: L103701=>G111354;G111355 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018715,Tunçbilek Kütahya power station,Lignite Coal,,Sub-critical Thermal,,365,1975,EÜAŞ,,Kütahya,1605,2018.0,,,,,,,,39.6284598,29.4623364,/ GCPT_Plant_Units_Link: L103686=>G110358;G110359;G110360;G110361 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+1018718,Çatalağzı-B power station,Coal,,Sub-critical Thermal,,314.0,,Bereket Enerji,,"Zonguldak, Kilimli","1,861",2018.0,,,,,,,,41.517402,31.900198,Hard Coal,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+1018721,Orhaneli power station,Lignite Coal,,Sub-critical Thermal,,210,1992,EÜAŞ,,"Bursa, Orhaneli","1,003",2018.0,,,,,,,,39.9502243,28.870858,/ No Units,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+1018717,Çan-1 power station,Lignite Coal,,Sub-critical Thermal,,320,2003,EÜAŞ,,Çanakkale,"1,605",2018.0,,,,,,,,40.02324,26.97684,/ GCPT_Plant_Units_Link: L103634=>G101181;G101182 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1018719,Bolu Göynük power station,Coal,,Sub-critical Thermal,,270,2015,Aksa Enerji,,"Bolu, Göynük","1,151",2018.0,,,,,,,,40.2514,30.8129,Lignite Coal / GCPT_Plant_Units_Link: L103627=>G101003;G101004 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT
+1018725,Polat power station,Coal,,Sub-critical Thermal,,51,2013,Polat Elektrik Üretim,,"Kütahya, Tavşanlı",357,2018.0,,,,,,,,39.61601,29.4429,Lignite Coal / GCPT_Plant_Units_Link: L103684=>G108070;G108071 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,WRI
+1075555,Cenal power station,Coal,,,,1320.0,2017,Cenal Elektrik,,,,2018.0,,,,,,,,40.4167,27.31829, / GCPT_Plant_Units_Link: L103636=>G101259;G101260 / ,GCPT,https://endcoal.org/global-coal-plant-tracker/,,,,,,,,,,,,Turkey,,GCPT

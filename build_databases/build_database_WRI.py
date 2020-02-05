@@ -36,12 +36,6 @@ plants_dictionary = {}
 # extract powerplant information from file(s)
 print(u"Reading in plants...")
 
-# specify column names used in raw file
-COLNAMES = ["Power Plant ID", "Name", "Fuel", "Secondary Fuel", "Capacity (MW)",
-            "Location", "Operational Status", "Commissioning Date",
-            "Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country",
-            "Latitude", "Longitude", "Geolocation Source", "Year of Data"]
-
 # track IDs that are assigned to plants in two different countries (likely an error)
 overlapping_ids = {}
 countries_with_zero_plants = []
@@ -56,26 +50,26 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
         plant_fuel_capacities = {}
 
         with open(os.path.join(RAW_FILE_DIRECTORY, afile), 'rU') as f:
-            datareader = csv.reader(f)
-            headers = datareader.next()
+            datareader = csv.DictReader(f)
             try:
-                id_col = headers.index(COLNAMES[0])
-                name_col = headers.index(COLNAMES[1])
-                primary_fuel_col = headers.index(COLNAMES[2])
-                other_fuel_col = headers.index(COLNAMES[3])
-                capacity_col = headers.index(COLNAMES[4])
-                location_col = headers.index(COLNAMES[5])
-                status_col = headers.index(COLNAMES[6])
-                commissioning_year_col = headers.index(COLNAMES[7])
-                owner_col = headers.index(COLNAMES[9])
-                generation_col = headers.index(COLNAMES[10])
-                source_col = headers.index(COLNAMES[11])
-                url_col = headers.index(COLNAMES[12])
-                country_col = headers.index(COLNAMES[13])
-                latitude_col = headers.index(COLNAMES[14])
-                longitude_col = headers.index(COLNAMES[15])
-                geolocation_source_col = headers.index(COLNAMES[16])
-                year_of_data_col = headers.index(COLNAMES[17])
+                id_col = "Power Plant ID"
+                name_col = "Name"
+                primary_fuel_col = "Fuel"
+                other_fuel_col = "Secondary Fuel"
+                capacity_col = "Capacity (MW)"
+                location_col = "Location"
+                status_col = "Operational Status"
+                commissioning_year_col = "Commissioning Date"
+                owner_col = "Owner"
+                generation_col = "Annual Generation (GWh)"
+                generation_source_col = "Generation Data Source"
+                source_col = "Source"
+                url_col = "URL"
+                country_col = "Country"
+                latitude_col = "Latitude"
+                longitude_col = "Longitude"
+                geolocation_source_col = "Geolocation Source"
+                year_of_data_col = "Year of Data"
             except:
                 print(u"- ERROR: One or more columns missing in {0}, skipping...".format(afile))
                 continue
@@ -133,9 +127,11 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 try:
                     gen_gwh = float(pw.format_string(row[generation_col].replace(",", "")))
                     gen_year = int(pw.format_string(row[year_of_data_col]))
-                    generation = pw.PlantGenerationObject.create(gen_gwh, year=gen_year)
+                    gen_source = pw.format_string(row[generation_source_col])
                 except:
                     generation = pw.NO_DATA_OTHER
+                else:
+                    generation = pw.PlantGenerationObject.create(gen_gwh, year=gen_year, source=gen_source)
                 try:
                     owner = pw.format_string(row[owner_col])
                 except:

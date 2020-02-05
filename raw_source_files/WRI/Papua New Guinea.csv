@@ -1,20 +1,20 @@
-Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
-1022434,Yuk Creek,Hydro,,,,3,,OK Tedi Mining,,,,,,,,,,,,,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,
-1022428,Warangoi,Hydro,,,,10,,PNG Power Limited,,,,,,,,,,,,,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,
-1022430,Hides,Natural Gas,,OCGT,,72,,Barrick Mining,,Hides,,,,,,,,,-6.004758,142.809589,,Barrick,http://www.barrick.com/operations/papua-new-guinea/porgera/,,,,,,,,,,,,,,WRI
-1022427,Yonki Toe of Dam,Hydro,,Dam with Reservoir,,18,,PNG Power Limited,,,,,,,,,,,-6.248205,145.974385,,Nippon KOEI,https://www.n-koei.co.jp/english/international_operations/e-asia/png.html,,,,,,,,,,,,,,WRI
-1022431,Ok Menga,Hydro,,Dam with Reservoir,,57,,OK Tedi Mining,,,,,,,,,,,-5.244821,141.136371,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,WRI
-1022419,Ramu,Hydro,,,5x15,75,,PNG Power Limited,,,,,,,,,,,-6.250456,145.980542,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
-1022421,Lake Hargy,Hydro,,,,1.5,,PNG Power Limited,,,,,,,,,,,-5.339165,151.134135,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
-1022426,Sirinumu Dam,Hydro,,Dam with Reservoir,,1.5,,PNG Power Limited,,,,,,,,,,,-9.47913,147.446549,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
-1022423,Lihir,Geothermal,,,,30,2005,Lihir Gold Ltd.,,,,,,,,,,,-3.124499,152.646394,,ThinkGeoEnergy,https://www.geothermal-energy.org/pdf/IGAstandard/WGC/2005/0136.pdf,,,,,,,,,,,,,,WRI
-1022424,Vanimo,Diesel,,Diesel Engine,,1.18,,PNG Power Limited,,,,,,,,,,,,,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,
-1022425,Moitaka,Diesel,,Diesel Engine,,30,,PNG Power Limited,,,,,,,,,,,,,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,
-1022429,Porgera,Diesel,,Diesel Engine,,13,,Barrick Mining,,Porgera Gold Mine,,,,,,,,,-5.465531,143.10948,,Barrick,http://www.barrick.com/operations/papua-new-guinea/porgera/,,,,,,,,,,,,,,WRI
-1022435,Lae,Diesel,,Diesel Engine,,30,,Daewoo International,,,,,,,,,,,-6.738047,146.991249,,Lahmeyer India,http://www.lahmeyer.in/30-mw-lae-diesel-power-plant-papua-new-guinea/,,,,,,,,,,,,,,WRI
-1022432,Ok Tedi,Diesel,,Diesel Engine,,45,,OK Tedi Mining,,,,,,,,,,,-5.209472,141.182747,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,WRI
-1022433,Tabubil,Diesel,,Diesel Engine,,16,,OK Tedi Mining,,,,,,,,,,,-5.277331,141.232315,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,WRI
-1023819,Tolkuma,Diesel,,Diesel Engine,,3.5,,Petromin Mining,,,,,,,,,,,-8.565893,147.138263,,Petromin,http://www.petrominpng.com.pg/assets.html,,,,,,,,,,,,,,WRI
-1022418,Kanudi,Diesel,,Diesel Engine,,24,1999,PNG Power Limited,,,,,,,,,,,-9.431778,147.142841,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
-1022422,Ulagunan,Diesel,,Diesel Engine,,8.4,,PNG Power Limited,,,,,,,,,,,-4.355694,152.245427,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
-1022420,Pauanda,Hydro,,Run of River,,12,,PNG Power Limited,,,,,,,,,,,-6.016095,144.057927,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
+Power Plant ID,Name,Fuel,Secondary Fuel,Generator Technology,Units,Capacity (MW),Commissioning Date,Owner,Operational Status,Location,Annual Generation (GWh),Year of Data,Generation Data Source,Cooling Technology,Cooling Source,Fuel Consumption (g/kWh),CO2 Annual Reported,CO2 Specific Emissions (tCO2/MWh),Efficiency,Latitude,Longitude,Other,Source,URL,Source 2,URL 2,Peak Load (MW),Load Factor,Capacity Factor,Availability,Grid Connection (kV),Grid Balancing Area,Address,Municipality,Postal Code,Country,Natural Language,Geolocation Source
+1022434,Yuk Creek,Hydro,,,,3,,OK Tedi Mining,,,,,,,,,,,,,,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,
+1022428,Warangoi,Hydro,,,,10,,PNG Power Limited,,,,,,,,,,,,,,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,
+1022430,Hides,Natural Gas,,OCGT,,72,,Barrick Mining,,Hides,,,,,,,,,,-6.004758,142.809589,,Barrick,http://www.barrick.com/operations/papua-new-guinea/porgera/,,,,,,,,,,,,,,WRI
+1022427,Yonki Toe of Dam,Hydro,,Dam with Reservoir,,18,,PNG Power Limited,,,,,,,,,,,,-6.248205,145.974385,,Nippon KOEI,https://www.n-koei.co.jp/english/international_operations/e-asia/png.html,,,,,,,,,,,,,,WRI
+1022431,Ok Menga,Hydro,,Dam with Reservoir,,57,,OK Tedi Mining,,,,,,,,,,,,-5.244821,141.136371,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,WRI
+1022419,Ramu,Hydro,,,5x15,75,,PNG Power Limited,,,,,,,,,,,,-6.250456,145.980542,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
+1022421,Lake Hargy,Hydro,,,,1.5,,PNG Power Limited,,,,,,,,,,,,-5.339165,151.134135,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
+1022426,Sirinumu Dam,Hydro,,Dam with Reservoir,,1.5,,PNG Power Limited,,,,,,,,,,,,-9.47913,147.446549,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
+1022423,Lihir,Geothermal,,,,30,2005,Lihir Gold Ltd.,,,,,,,,,,,,-3.124499,152.646394,,ThinkGeoEnergy,https://www.geothermal-energy.org/pdf/IGAstandard/WGC/2005/0136.pdf,,,,,,,,,,,,,,WRI
+1022424,Vanimo,Diesel,,Diesel Engine,,1.18,,PNG Power Limited,,,,,,,,,,,,,,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,
+1022425,Moitaka,Diesel,,Diesel Engine,,30,,PNG Power Limited,,,,,,,,,,,,,,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,
+1022429,Porgera,Diesel,,Diesel Engine,,13,,Barrick Mining,,Porgera Gold Mine,,,,,,,,,,-5.465531,143.10948,,Barrick,http://www.barrick.com/operations/papua-new-guinea/porgera/,,,,,,,,,,,,,,WRI
+1022435,Lae,Diesel,,Diesel Engine,,30,,Daewoo International,,,,,,,,,,,,-6.738047,146.991249,,Lahmeyer India,http://www.lahmeyer.in/30-mw-lae-diesel-power-plant-papua-new-guinea/,,,,,,,,,,,,,,WRI
+1022432,Ok Tedi,Diesel,,Diesel Engine,,45,,OK Tedi Mining,,,,,,,,,,,,-5.209472,141.182747,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,WRI
+1022433,Tabubil,Diesel,,Diesel Engine,,16,,OK Tedi Mining,,,,,,,,,,,,-5.277331,141.232315,,OK Tedi Mining,http://www.oktedi.com/our-operations,,,,,,,,,,,,,,WRI
+1023819,Tolkuma,Diesel,,Diesel Engine,,3.5,,Petromin Mining,,,,,,,,,,,,-8.565893,147.138263,,Petromin,http://www.petrominpng.com.pg/assets.html,,,,,,,,,,,,,,WRI
+1022418,Kanudi,Diesel,,Diesel Engine,,24,1999,PNG Power Limited,,,,,,,,,,,,-9.431778,147.142841,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
+1022422,Ulagunan,Diesel,,Diesel Engine,,8.4,,PNG Power Limited,,,,,,,,,,,,-4.355694,152.245427,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
+1022420,Pauanda,Hydro,,Run of River,,12,,PNG Power Limited,,,,,,,,,,,,-6.016095,144.057927,,PNG Power Limited,http://www.pngpower.com.pg/pdfs/PNG-Power-Info-Booklet-2016.pdf,,,,,,,,,,,,,,WRI
