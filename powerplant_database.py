@@ -1154,10 +1154,23 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 			if i == 3: # keep 3 "other" fuels
 				break
 			ret['other_fuel{0}'.format(i+1)] = f
+		# log the sources of generation data
+		gen_sources = {}
+		gen_source_name = NO_DATA_UNICODE
+		if powerplant.generation:
+			for g in powerplant.generation:
+				if g.source and g.gwh is not None:
+					gen_sources[g.source] = gen_sources.get(g.source, 0) + 1
+			gen_source_name = u'|'.join(sorted(gen_sources, key=lambda x: gen_sources[x] * -1))
+		ret['generation_data_source'] = gen_source_name
 		# handle generation
 		for year in range(2013, 2018):
-			gwh = annual_generation(powerplant.generation, year)
-			ret['generation_gwh_{0}'.format(year)] = gwh
+			if gen_sources:
+				gwh = annual_generation(powerplant.generation, year)
+				ret['generation_gwh_{0}'.format(year)] = gwh
+			else:
+				ret['generation_gwh_{0}'.format(year)] = NO_DATA_UNICODE
+				ret['generation_data_source'] = NO_DATA_UNICODE
 		ret['estimated_generation_gwh'] = powerplant.estimated_generation_gwh
 		return ret
 
@@ -1185,6 +1198,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"generation_gwh_2015",
 		"generation_gwh_2016",
 		"generation_gwh_2017",
+		"generation_data_source",
 		"estimated_generation_gwh"
 	]
 
@@ -1268,6 +1282,8 @@ def read_csv_file_to_dict(filename):
 				row['generation_gwh_2016'] = None
 			if not row['generation_gwh_2017']:
 				row['generation_gwh_2017'] = None
+			if not row['generation_data_source']:
+				row['generation_data_source'] = None
 			if not row['estimated_generation_gwh']:
 				row['estimated_generation_gwh'] = None
 			# check if geolocation source is empty string
@@ -1340,6 +1356,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						generation_gwh_2015 REAL,
 						generation_gwh_2016 REAL,
 						generation_gwh_2017 REAL,
+						generation_data_source TEXT,
 						estimated_generation_gwh REAL )''')
 	except:
 		raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
@@ -1347,7 +1364,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 	c.execute('begin')
 	for k, p in plants_dict.iteritems():
 		stmt = u'''INSERT INTO powerplants VALUES (
-					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
 		vals = (
 				p['country'],
 				p['country_long'],
@@ -1372,6 +1389,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['generation_gwh_2015'],
 				p['generation_gwh_2016'],
 				p['generation_gwh_2017'],
+				p['generation_data_source'],
 				p['estimated_generation_gwh'])
 		c.execute(stmt, vals)
 

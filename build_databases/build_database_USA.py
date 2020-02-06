@@ -181,7 +181,7 @@ for row_id in xrange(6, ws923_2017.nrows):
 	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2017['idnr']]))
 	if idnr in plants_dictionary:
 		if not plants_dictionary[idnr].generation[-1]:
-			generation = pw.PlantGenerationObject.create(0.0, 2017, source=SOURCE_URL)
+			generation = pw.PlantGenerationObject.create(0.0, 2017, source=SOURCE_NAME)
 			plants_dictionary[idnr].generation[-1] = generation
 		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2017['generation']]) * GENERATION_CONVERSION_TO_GWH
 	else:
@@ -194,7 +194,7 @@ for row_id in xrange(6, ws923_2016.nrows):
 	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2016['idnr']]))
 	if idnr in plants_dictionary:
 		if not pw.annual_generation(plants_dictionary[idnr].generation, 2016):
-			generation = pw.PlantGenerationObject.create(0.0, 2016, source=SOURCE_URL)
+			generation = pw.PlantGenerationObject.create(0.0, 2016, source=SOURCE_NAME)
 			plants_dictionary[idnr].generation.append(generation)
 		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2016['generation']]) * GENERATION_CONVERSION_TO_GWH
 	else:
@@ -207,7 +207,7 @@ for row_id in xrange(6, ws923_2015.nrows):
 	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2015['idnr']]))
 	if idnr in plants_dictionary:
 		if not pw.annual_generation(plants_dictionary[idnr].generation, 2015):
-			generation = pw.PlantGenerationObject.create(0.0, 2015, source=SOURCE_URL)
+			generation = pw.PlantGenerationObject.create(0.0, 2015, source=SOURCE_NAME)
 			plants_dictionary[idnr].generation.append(generation)
 		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2015['generation']]) * GENERATION_CONVERSION_TO_GWH
 	else:
@@ -220,7 +220,7 @@ for row_id in xrange(6, ws923_2014.nrows):
 	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2014['idnr']]))
 	if idnr in plants_dictionary:
 		if not pw.annual_generation(plants_dictionary[idnr].generation, 2014):
-			generation = pw.PlantGenerationObject.create(0.0, 2014, source=SOURCE_URL)
+			generation = pw.PlantGenerationObject.create(0.0, 2014, source=SOURCE_NAME)
 			plants_dictionary[idnr].generation.append(generation)
 		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2014['generation']]) * GENERATION_CONVERSION_TO_GWH
 	else:
@@ -233,7 +233,7 @@ for row_id in xrange(6, ws923_2013.nrows):
 	idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2_2013['idnr']]))
 	if idnr in plants_dictionary:
 		if not pw.annual_generation(plants_dictionary[idnr].generation, 2013):
-			generation = pw.PlantGenerationObject.create(0.0, 2013, source=SOURCE_URL)
+			generation = pw.PlantGenerationObject.create(0.0, 2013, source=SOURCE_NAME)
 			plants_dictionary[idnr].generation.append(generation)
 		plants_dictionary[idnr].generation[-1].gwh += float(rv[COLS_923_2_2013['generation']]) * GENERATION_CONVERSION_TO_GWH
 	else:

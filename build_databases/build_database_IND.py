@@ -65,14 +65,14 @@ DOWNLOAD_FILES = pw.download(u'CEA and RECS', FILES)
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
 
-def get_CEA_generation(row, col, year, source_url):
+def get_CEA_generation(row, col, year, source_name):
     """Extract a generation data point from CEA data."""
     try:
         if row[col] == u'-':
             generation = pw.PlantGenerationObject()
         else:
             gen_gwh = float(row[col])
-            generation = pw.PlantGenerationObject.create(gen_gwh, year, source=source_url)
+            generation = pw.PlantGenerationObject.create(gen_gwh, year, source=source_name)
     except:
         generation = pw.PlantGenerationObject()
     return generation
@@ -192,11 +192,11 @@ for i in xrange(1, sheet.nrows):
 
     # try to load generation data
     # TODO: organize this into fiscal year (april through march)
-    generation_13 = get_CEA_generation(rv, gen_13_14_col, 2013, SOURCE_URL)
-    generation_14 = get_CEA_generation(rv, gen_14_15_col, 2014, SOURCE_URL)
-    generation_15 = get_CEA_generation(rv, gen_15_16_col, 2015, SOURCE_URL)
-    generation_16 = get_CEA_generation(rv, gen_16_17_col, 2016, SOURCE_URL)
-    generation_17 = get_CEA_generation(rv, gen_17_18_col, 2017, SOURCE_URL)
+    generation_13 = get_CEA_generation(rv, gen_13_14_col, 2013, SOURCE_NAME)
+    generation_14 = get_CEA_generation(rv, gen_14_15_col, 2014, SOURCE_NAME)
+    generation_15 = get_CEA_generation(rv, gen_15_16_col, 2015, SOURCE_NAME)
+    generation_16 = get_CEA_generation(rv, gen_16_17_col, 2016, SOURCE_NAME)
+    generation_17 = get_CEA_generation(rv, gen_17_18_col, 2017, SOURCE_NAME)
     generation = [generation_13, generation_14, generation_15, generation_16, generation_17]
 
     try:

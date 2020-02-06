@@ -21,6 +21,7 @@ COUNTRY_NAME = u"Australia"
 SAVE_CODE = u"AUS"
 SOURCE_NAME = u"Australian Renewable Energy Mapping Infrastructure"
 SOURCE_URL = u"http://services.ga.gov.au/site_3/rest/services/Electricity_Infrastructure/MapServer"
+GENERATION_SOURCE = u"Australia Clean Energy Regulator"
 
 NGER_URL_1617 = u"http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Greenhouse%20and%20energy%20information%20for%20designated%20generation%20facilities%202016-17.csv"
 NGER_FILENAME_1617 = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="NGER_2016-2017.csv")
@@ -167,7 +168,7 @@ with open(RAW_FILE_NAME, "rU") as f:
                 else:
                     gwh += gen_gwh
             # TODO: give proper time bounds
-            generation.append(pw.PlantGenerationObject.create(gwh, yr))
+            generation.append(pw.PlantGenerationObject.create(gwh, yr, source=GENERATION_SOURCE))
 
 
         # assign ID number
