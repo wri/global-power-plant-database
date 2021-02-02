@@ -25,7 +25,7 @@ GPPD is in active development.
 The latest release of the database has advanced our goal of taking inventory of all global power generating facilities, but there is still more work to be done.
 Our development roadmap includes:
   * improving generation estimation methodology
-  * adding plant attributes such as water use, annual emissions (CO2, NOx, SOx, PM, ...), emission control technology, amd more granular fuel types
+  * adding plant attributes such as water use, annual emissions (CO2, NOx, SOx, PM, ...), emission control technology, and more granular fuel types
   * adding more plants in countries and regions where our coverage is weak
   * improving ability to handle and separate generating units that are part of a larger power plant
   * software infrastructure improvements
