@@ -325,6 +325,11 @@ pw.add_wepp_id(core_database)
 if DATA_DUMP:
 	pw.add_wepp_id(datadump)
 
+# STEP 4.2: Add LEI (Legal Entity Identifier) matches
+pw.add_lei_code(core_database)
+if DATA_DUMP:
+	pw.add_lei_code(datadump)
+
 # STEP 5: Write the Global Power Plant Database
 for dbname, data in database_additions.iteritems():
 	print("Added {0} plants ({1} MW) from {2}.".format(data['count'], data['capacity'], dbname))
