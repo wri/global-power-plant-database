@@ -33,6 +33,7 @@ COUNTRY_NAMES_THESAURUS_FILE	= os.path.join(RESOURCES_DIR, "country_names_thesau
 COUNTRY_INFORMATION_FILE		= os.path.join(RESOURCES_DIR, "country_information.csv")
 MASTER_PLANT_CONCORDANCE_FILE	= os.path.join(RESOURCES_DIR, "master_plant_concordance.csv")
 WEPP_CONCORDANCE_FILE 			= os.path.join(RESOURCES_DIR, "master_wepp_concordance.csv")
+LEI_CONCORDANCE_FILE          = os.path.join(RESOURCES_DIR, "master_lei_concordance.csv")
 SOURCE_THESAURUS_FILE			= os.path.join(RESOURCES_DIR, "sources_thesaurus.csv")
 GENERATION_FILE      			= os.path.join(RESOURCES_DIR, "generation_by_country_by_fuel_2014.csv")
 
@@ -61,7 +62,8 @@ class PowerPlant(object):
 		plant_generation=NO_DATA_OTHER,
 		plant_commissioning_year=NO_DATA_NUMERIC,
 		plant_estimated_generation_gwh=NO_DATA_NUMERIC,
-		plant_wepp_id=NO_DATA_UNICODE
+		plant_wepp_id=NO_DATA_UNICODE,
+		plant_lei_code=NO_DATA_UNICODE
 	):
 
 		# check and set data for attributes that should be unicode
@@ -70,7 +72,7 @@ class PowerPlant(object):
 			'owner': plant_owner, 'nat_lang': plant_nat_lang,
 			'url': plant_source_url, 'coord_source': plant_coord_source,
 			'primary_fuel': plant_primary_fuel,
-			'wepp_id': plant_wepp_id
+			'wepp_id': plant_wepp_id, 'lei_code': plant_lei_code
 		}
 
 		for attribute, input_parameter in unicode_attributes.iteritems():
@@ -856,6 +858,38 @@ def add_wepp_id(powerplant_dictionary, wepp_matches_file=WEPP_CONCORDANCE_FILE):
 					print(u"Error: Attempt to match WEPP ID {0} to non-existant plant {1}".format(wepp_id, gppd_id))
 	print(u"Added {0} matches to WEPP plants.".format(wepp_match_count))
 
+def add_lei_code(powerplant_dictionary, lei_matches_file=LEI_CONCORDANCE_FILE):
+	"""
+	Set LEI for each plant, if a match is available.
+	Uses data from GLEIF to match lei_code with gppd_id.
+	Modifies powerplant_dictionary in place.
+	Parameters
+	----------
+	powerplant_dictionary : dict
+		Dictionary of all PowerPlant objects.
+	lei_concordance_file : path
+		Path to file with LEI matches from GLEIF database.
+	Returns
+	-------
+	None.
+	"""
+	lei_match_count = 0
+	with open(lei_matches_file, 'rbU') as f:
+		csvreader = csv.DictReader(f)
+		for row in csvreader:
+			if row['lei']:
+				gppd_id = str(row['gppd_idnr'])
+				lei = str(row['lei'])
+				if gppd_id in powerplant_dictionary:
+					try:
+						powerplant_dictionary[gppd_id].lei_code = lei
+						lei_match_count += 1
+					except:
+						print(u"Error: plant {0} does not have lei_code attribute".format(gppd_id))
+				else:
+					print(u"Error: Attempt to match LEI {0} to non-existant plant {1}".format(lei, gppd_id))
+	print(u"Added {0} matches to LEI codes.".format(lei_match_count))
+
 ### STRING CLEANING ###
 
 def format_string(value, encoding=UNICODE_ENCODING):
@@ -1172,6 +1206,10 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 				ret['generation_gwh_{0}'.format(year)] = NO_DATA_UNICODE
 				ret['generation_data_source'] = NO_DATA_UNICODE
 		ret['estimated_generation_gwh'] = powerplant.estimated_generation_gwh
+		try:
+			ret['lei_code'] = powerplant.lei_code.encode(UNICODE_ENCODING)
+		except:
+			ret['lei_code'] = NO_DATA_UNICODE
 		return ret
 
 	fieldnames = [
@@ -1199,7 +1237,8 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"generation_gwh_2016",
 		"generation_gwh_2017",
 		"generation_data_source",
-		"estimated_generation_gwh"
+		"estimated_generation_gwh",
+		"lei_code"
 	]
 
 	if dump:
@@ -1292,6 +1331,9 @@ def read_csv_file_to_dict(filename):
 			# check if wepp_id is empty string
 			if not row['wepp_id']:
 				row['wepp_id'] = None
+			# check if lei code is empty string
+			if not row['lei_code']:
+				row['lei_code'] = None
 			# add row to output dict
 			pdb[row['gppd_idnr']] = row
 		return pdb
@@ -1357,14 +1399,15 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						generation_gwh_2016 REAL,
 						generation_gwh_2017 REAL,
 						generation_data_source TEXT,
-						estimated_generation_gwh REAL )''')
+						estimated_generation_gwh REAL,
+						lei_code TEXT)''')
 	except:
 		raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
 
 	c.execute('begin')
 	for k, p in plants_dict.iteritems():
 		stmt = u'''INSERT INTO powerplants VALUES (
-					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
 		vals = (
 				p['country'],
 				p['country_long'],
@@ -1390,7 +1433,8 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['generation_gwh_2016'],
 				p['generation_gwh_2017'],
 				p['generation_data_source'],
-				p['estimated_generation_gwh'])
+				p['estimated_generation_gwh'],
+				p['lei_code'])
 		c.execute(stmt, vals)
 
 	c.execute('commit')
