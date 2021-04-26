@@ -10,6 +10,7 @@ Additional information: https://github.com/wri/global-power-plant-database
 import argparse
 import csv
 import sys, os
+import re
 
 sys.path.insert(0, os.pardir)
 import powerplant_database as pw
@@ -134,6 +135,9 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     generation = pw.PlantGenerationObject.create(gen_gwh, year=gen_year, source=gen_source)
                 try:
                     owner = pw.format_string(row[owner_col])
+                    # remove percentage ownership in owner name for denmark plants
+                    if country == "Denmark":
+                        owner = re.sub("[0-9]*(\%)+ ", "", owner)
                 except:
                     owner = pw.NO_DATA_UNICODE
                 try:
