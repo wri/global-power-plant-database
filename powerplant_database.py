@@ -1164,7 +1164,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 			gen_source_name = u'|'.join(sorted(gen_sources, key=lambda x: gen_sources[x] * -1))
 		ret['generation_data_source'] = gen_source_name
 		# handle generation
-		for year in range(2013, 2018):
+		for year in range(2013, 2020):
 			if gen_sources:
 				gwh = annual_generation(powerplant.generation, year)
 				ret['generation_gwh_{0}'.format(year)] = gwh
@@ -1198,6 +1198,8 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"generation_gwh_2015",
 		"generation_gwh_2016",
 		"generation_gwh_2017",
+		"generation_gwh_2018",
+		"generation_gwh_2019",
 		"generation_data_source",
 		"estimated_generation_gwh"
 	]
@@ -1282,6 +1284,10 @@ def read_csv_file_to_dict(filename):
 				row['generation_gwh_2016'] = None
 			if not row['generation_gwh_2017']:
 				row['generation_gwh_2017'] = None
+			if not row['generation_gwh_2018']:
+				row['generation_gwh_2018'] = None
+			if not row['generation_gwh_2019']:
+				row['generation_gwh_2019'] = None
 			if not row['generation_data_source']:
 				row['generation_data_source'] = None
 			if not row['estimated_generation_gwh']:
@@ -1356,6 +1362,8 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						generation_gwh_2015 REAL,
 						generation_gwh_2016 REAL,
 						generation_gwh_2017 REAL,
+						generation_gwh_2018 REAL,
+						generation_gwh_2019 REAL,
 						generation_data_source TEXT,
 						estimated_generation_gwh REAL )''')
 	except:
@@ -1364,7 +1372,7 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 	c.execute('begin')
 	for k, p in plants_dict.iteritems():
 		stmt = u'''INSERT INTO powerplants VALUES (
-					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
 		vals = (
 				p['country'],
 				p['country_long'],
@@ -1389,6 +1397,8 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['generation_gwh_2015'],
 				p['generation_gwh_2016'],
 				p['generation_gwh_2017'],
+				p['generation_gwh_2018'],
+				p['generation_gwh_2019'],
 				p['generation_data_source'],
 				p['estimated_generation_gwh'])
 		c.execute(stmt, vals)

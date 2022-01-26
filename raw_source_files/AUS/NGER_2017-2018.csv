@@ -1,0 +1,532 @@
+Reporting Entity,Facility Name,Type,State,Electricity Production (GJ),Electricity Production (MWh),"Total Scope 1 Emissions 
+(t CO2-e)","Total Scope 2 Emissions 
+(t CO2-e)","Total Emissions 
+(t CO2-e)","Emission Intensity 
+(t CO2-e/ MWh)",Grid Connected,Grid,Primary Fuel,Important Notes
+ACCIONA ENERGY OCEANIA PTY. LTD.,Cathedral Rocks Wind Farm,F,SA,"550,950","153,042",48,136,184,0.00,On,NEM,Wind,-
+ACCIONA ENERGY OCEANIA PTY. LTD.,Gunning Wind Farm,F,NSW,"601,740","167,150",44,205,249,0.00,On,NEM,Wind,-
+ACCIONA ENERGY OCEANIA PTY. LTD.,Mt Gellibrand Wind Farm,F,VIC,"4,320","1,200",0,22,22,0.00,On,NEM,Wind,-
+ACCIONA ENERGY OCEANIA PTY. LTD.,Waubra Wind Farm,F,VIC,"2,317,673","643,798",132,966,"1,098",0.00,On,NEM,Wind,-
+ACCIONA ENERGY OCEANIA PTY. LTD.,Corporate Total,C,-,"3,474,683","965,190",224,"1,329","1,553",-,-,-,-,-
+AGL ENERGY LIMITED,Banimboola Hydro,F,VIC,"11,089","3,080",4,59,63,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Bayswater Power Station,F,NSW,"55,964,880","15,545,800","13,705,014","20,951","13,725,965",0.88,On,NEM,Black Coal,-
+AGL ENERGY LIMITED,Bogong Power Station,F,VIC,"290,885","80,801",82,852,934,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Broken Hill Solar Plant,F,NSW,"470,545","130,707",78,345,423,0.00,On,NEM,Solar,-
+AGL ENERGY LIMITED,Burrendong Hydro,F,NSW,"130,417","36,227",1,36,37,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Clover Hydro,F,VIC,"195,811","54,392",2,268,270,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Coopers Cogeneration,F,SA,"84,730","23,536","17,445",64,"17,509",0.74,On,NEM,Gas,-
+AGL ENERGY LIMITED,Copeton Hydro,F,NSW,"148,524","41,257",1,43,44,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Dartmouth Hydro,F,VIC,"201,611","56,003",1,636,637,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Eildon Hydro,F,VIC,"668,859","185,794",13,667,680,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Glenbawn Hydro,F,NSW,"70,572","19,603",0,11,11,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Glenorchy Landfill Generation,F,TAS,"32,986","9,163",517,1,518,0.06,On,NEM,Landfill Gas,-
+AGL ENERGY LIMITED,Hallett (Stage 1) Wind Farm,F,SA,"1,126,198","312,833",96,191,287,0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,Hallett (Stage 2) Wind Farm,F,SA,"901,465","250,407",71,158,229,0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,Hallett (Stage 4) Wind Farm,F,SA,"1,708,149","474,486",152,377,529,0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,Hallett (Stage 5) Wind Farm,F,SA,"582,085","161,690",62,224,286,0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,Hobart Landfill Generation,F,TAS,"22,430","6,231",358,1,359,0.06,On,NEM,Landfill Gas,-
+AGL ENERGY LIMITED,Hunter Valley Gas Turbines,F,NSW,"3,073",854,"1,037",932,"1,969",1.21,On,NEM,Gas,-
+AGL ENERGY LIMITED,Kemps Creek Landfill Generation,F,NSW,"47,007","13,058",633,18,651,0.05,On,NEM,Landfill Gas,-
+AGL ENERGY LIMITED,Kincumber Landfill Generation,F,NSW,"7,588","2,108",142,19,161,0.07,On,NEM,Landfill Gas,-
+AGL ENERGY LIMITED,Liddell Power Station,F,NSW,"30,667,257","8,518,683","7,799,843","40,396","7,840,239",0.92,On,NEM,Black Coal,-
+AGL ENERGY LIMITED,Loy Yang Power Station and Mine,F,VIC,"61,026,883","16,951,912","19,861,938","245,177","20,107,115",1.17,On,NEM,Brown Coal,-
+AGL ENERGY LIMITED,Macarthur Wind Farm,F,VIC,"3,770,990","1,047,497",434,"2,823","3,257",0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,McKay Creek Hydro,F,VIC,"357,923","99,423",6,"4,693","4,699",0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Moranbah Power Station,F,QLD,"197,704","54,918","33,547",28,"33,575",0.61,On,NEM,Coal Seam Methane,-
+AGL ENERGY LIMITED,Nyngan Solar Plant,F,NSW,"902,651","250,736",150,763,913,0.00,On,NEM,Solar,-
+AGL ENERGY LIMITED,Oaklands Hill Wind Farm,F,VIC,"677,832","188,287",79,615,694,0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,Pindari Hydro,F,NSW,"12,970","3,603",0,22,22,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Rockingham Landfill Generation,F,WA,"84,406","23,446","1,472",8,"1,480",0.06,On,SWIS,Landfill Gas,-
+AGL ENERGY LIMITED,Rubicon Hydro Scheme,F,VIC,"150,908","41,919",1,38,39,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Shoalhaven Landfill Generation,F,NSW,"6,308","1,752",80,5,85,0.05,On,NEM,Landfill Gas,-
+AGL ENERGY LIMITED,Somerton Power Station,F,VIC,"307,506","85,418","61,440","1,851","63,291",0.72,On,NEM,Gas,-
+AGL ENERGY LIMITED,Torrens Island Power Station,F,SA,"10,072,272","2,797,853","1,566,914","14,293","1,581,207",0.56,On,NEM,Gas,-
+AGL ENERGY LIMITED,Wattle Point Wind Farm,F,SA,"977,706","271,585",47,172,219,0.00,On,NEM,Wind,-
+AGL ENERGY LIMITED,Werribee Biogas Generator,F,VIC,"231,340","64,261","3,088","1,157","4,245",0.05,On,NEM,Biogas,-
+AGL ENERGY LIMITED,West Kiewa Hydro,F,VIC,"553,193","153,665",0,"1,272","1,272",0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Wilpena Pound Solar Generation,F,SA,"3,146",874,686,0,686,0.78,Off,Off-grid,Solar,-
+AGL ENERGY LIMITED,Woy Woy Landfill Generation,F,NSW,"27,416","7,616",464,10,474,0.06,On,NEM,Landfill Gas,-
+AGL ENERGY LIMITED,Yarrawonga Hydro,F,VIC,"134,344","37,318",1,39,40,0.00,On,NEM,Hydro,-
+AGL ENERGY LIMITED,Corporate Total,C,-,"172,831,659","48,008,794","43,055,899","339,215","43,395,114",-,-,-,-,-
+ALCOA AUSTRALIAN HOLDINGS PTY LTD,Alinta Pinjarra Generation Facility,F,WA,"7,760,182","2,155,606","1,410,220",333,"1,410,553",0.65,On,SWIS,Gas,-
+ALCOA AUSTRALIAN HOLDINGS PTY LTD,Corporate Total,C,-,"7,760,182","2,155,606","1,410,220",333,"1,410,553",-,-,-,-,-
+APT PIPELINES LIMITED,Daandine Power Station,F,QLD,"787,397","218,721","109,265",0,"109,265",0.50,On,NEM,Coal Seam Methane,"Please note that where more than one person has operational control over a facility at the same time and no nomination of operational control has been made, data for the facility for the entire period must be reported by the controlling corporation of each entity with operational control. This results in the same facility being reported multiple times.
+APT PIPELINES LIMITED and CLARKE ENERGY (AUSTRALIA) PTY. LTD., have each included the same data for the Daandine Power Station in their NGER reports."
+APT PIPELINES LIMITED,Diamantina Power Station,F,QLD,"5,765,248","1,601,458","656,824",114,"656,938",0.41,On,Mt Isa,Gas,-
+APT PIPELINES LIMITED,Emu Downs Solar Farm,F,WA,"97,410","27,058",0,33,33,0.00,On,SWIS,Solar,-
+APT PIPELINES LIMITED,Emu Downs Wind Farm,F,WA,"864,702","240,195",63,333,396,0.00,On,SWIS,Wind,-
+APT PIPELINES LIMITED,Corporate Total,C,-,"7,514,757","2,087,432","766,152",480,"766,632",-,-,-,-,-
+ARROW ENERGY HOLDINGS PTY LTD,Braemar 2 Power Station,F,QLD,"925,917","257,199","154,004","4,349","158,353",0.60,On,NEM,Coal Seam Methane,-
+ARROW ENERGY HOLDINGS PTY LTD,Corporate Total,C,-,"925,917","257,199","154,004","4,349","158,353",-,-,-,-,-
+ATCO AUSTRALIA PTY LTD,Karratha Power Station,F,WA,"284,128","78,924","63,575",146,"63,721",0.81,On,NWIS,Gas,-
+ATCO AUSTRALIA PTY LTD,Osborne facility,F,SA,"4,750,641","1,319,623","542,289",367,"542,656",0.41,On,NEM,Gas,-
+ATCO AUSTRALIA PTY LTD,Corporate Total,C,-,"5,034,769","1,398,547","605,864",513,"606,377",-,-,-,-,-
+AWF AUS HOLD OP CO PTY LTD,Facility,F,VIC,"2,257,531","627,092",17,"1,690","1,707",0.00,On ,NEM,Wind,-
+AWF AUS HOLD OP CO PTY LTD,Corporate Total,C,-,"2,257,531","627,092",17,"1,690","1,707",-,-,-,-,-
+AXIA ENERGY AUSTRALIA PTY LTD,Smithfield Power Partnership,F,NSW,"259,179","71,994","35,045",64,"35,109",0.49,On,NEM,Gas,-
+AXIA ENERGY AUSTRALIA PTY LTD,Corporate Total,C,-,"259,179","71,994","35,045",64,"35,109",-,-,-,-,-
+BALD HILLS WF HOLDINGS PTY LTD,Bald Hills Wind Farm Pty Ltd,F,VIC,"1,306,751","362,986",105,822,927,0.00,On,NEM,Wind,-
+BALD HILLS WF HOLDINGS PTY LTD,Corporate Total,C,-,"1,306,751","362,986",105,822,927,-,-,-,-,-
+BEIJING JINGNENG CLEAN ENERGY (AUSTRALIA) HOLDING PTY LTD,New Gullen Range Wind Farm Pty Ltd,F,NSW,"1,825,008","506,947",52,179,231,0.00,On,NEM,Wind,-
+BEIJING JINGNENG CLEAN ENERGY (AUSTRALIA) HOLDING PTY LTD,Corporate Total,C,-,"1,825,008","506,947",52,179,231,-,-,-,-,-
+BHP BILLITON IRON ORE PTY. LTD.,Yarnima Power Station,F,WA,"2,613,641","726,011","309,875",0,"309,875",0.43,Off,Off-grid,Gas,-
+BHP BILLITON IRON ORE PTY. LTD.,Corporate Total,C,-,"2,613,641","726,011","309,875",0,"309,875",-,-,-,-,-
+BLUEWATERS POWER 1 PTY LTD,Bluewaters Power 1,F,WA,"5,796,946","1,610,263","1,440,940","3,278","1,444,218",0.89,On,SWIS,Black Coal,-
+BLUEWATERS POWER 1 PTY LTD,Corporate Total,C,-,"5,796,946","1,610,263","1,440,940","3,278","1,444,218",-,-,-,-,-
+BLUEWATERS POWER 2 PTY LTD,Bluewaters Power 2,F,WA,"6,232,601","1,731,278","1,521,195","1,138","1,522,333",0.88,On,SWIS,Black Coal,-
+BLUEWATERS POWER 2 PTY LTD,Corporate Total,C,-,"6,232,601","1,731,278","1,521,195","1,138","1,522,333",-,-,-,-,-
+BPIH PTY LIMITED,Enwave Central Park Pty Ltd,F,NSW,"7,740","2,150","2,857",0,"2,857",1.33,On,NEM,Gas,-
+BPIH PTY LIMITED,Enwave Mascot Pty Ltd,F,NSW,"104,473","29,020","15,273","1,870","17,143",0.53,On,NEM,Gas,-
+BPIH PTY LIMITED,Corporate Total,C,-,"112,213","31,170","18,130","1,870","20,000",-,-,-,-,-
+C S ENERGY LIMITED,Callide B Power Station,F,QLD,"19,818,112","5,505,031","5,063,694","39,846","5,103,540",0.92,On,NEM,Black Coal,-
+C S ENERGY LIMITED,Callide C Power Station,F,QLD,"21,023,694","5,839,915","5,240,790","24,875","5,265,665",0.90,On,NEM,Black Coal,"Please note that where more than one person has operational control over a facility at the same time and no nomination of operational control has been made, data for the facility for the entire period must be reported by the controlling corporation of each entity with operational control. This results in the same facility being reported multiple times.
+C S ENERGY LIMITED and OZGEN HOLDINGS AUSTRALIA PTY LTD, have each included the same data for the Callide C Power Station in their NGER reports."
+C S ENERGY LIMITED,Kogan Creek Power Station,F,QLD,"18,916,535","5,254,593","4,354,532","6,154","4,360,686",0.83,On,NEM,Black Coal,-
+C S ENERGY LIMITED,Wivenhoe Power Station,F,QLD,"129,318","35,922",35,"57,660","57,695",0.00,On,NEM,Hydro,-
+C S ENERGY LIMITED,Corporate Total,C,-,"59,887,659","16,635,461","14,659,051","128,535","14,787,586",-,-,-,-,-
+CANUNDA POWER PTY LTD,Canunda Wind Farm,F,SA,"469,585","130,440",13,20,33,0.00,On,NEM,Wind,-
+CANUNDA POWER PTY LTD,Corporate Total,C,-,"469,585","130,440",13,20,33,-,-,-,-,-
+CAPE BYRON MANAGEMENT PTY LTD,Broadwater Power Plant,F,NSW,"846,961","235,267","7,418",725,"8,143",0.03,On,NEM,Bagasse,-
+CAPE BYRON MANAGEMENT PTY LTD,Condong Power Plant,F,NSW,"774,424","215,118","6,020",679,"6,699",0.03,On,NEM,Bagasse,-
+CAPE BYRON MANAGEMENT PTY LTD,Corporate Total,C,-,"1,621,385","450,385","13,438","1,404","14,842",-,-,-,-,-
+CBWF HOLDINGS PTY LIMITED,Facility ,F,VIC,"289,030","80,286",5,78,83,0.00,On,NEM,Wind,-
+CBWF HOLDINGS PTY LIMITED,Corporate Total,C,-,"289,030","80,286",5,78,83,-,-,-,-,-
+CECEP WIND POWER AUSTRALIA HOLDING PTY LTD,White Rock Wind Farm Pty Ltd,F,NSW,"1,245,731","346,036",64,775,839,0.00,On,NEM,Wind,-
+CECEP WIND POWER AUSTRALIA HOLDING PTY LTD,Corporate Total,C,-,"1,245,731","346,036",64,775,839,-,-,-,-,-
+CLARKE ENERGY (AUSTRALIA) PTY LTD,Daandine Power Station,F,QLD,"787,397","218,721","109,265",0,"109,265",0.50,On,NEM,Coal Seam Methane,"Please note that where more than one person has operational control over a facility at the same time and no nomination of operational control has been made, data for the facility for the entire period must be reported by the controlling corporation of each entity with operational control. This results in the same facility being reported multiple times.
+APT PIPELINES LIMITED and CLARKE ENERGY (AUSTRALIA) PTY. LTD., have each included the same data for the Daandine Power Station in their NGER reports."
+CLARKE ENERGY (AUSTRALIA) PTY LTD,Corporate Total,C,-,"787,397","218,721","109,265",0,"109,265",-,-,-,-,-
+CONTRACT POWER AUSTRALIA PTY LTD,Cue Town Powerstation,F,WA,"10,727","2,980","2,060",0,"2,060",0.69,Off,Off-grid,Diesel,-
+CONTRACT POWER AUSTRALIA PTY LTD,Meekatharra Town Powerstation,F,WA,"24,219","6,728","4,610",0,"4,610",0.69,Off,Off-grid,Diesel,-
+CONTRACT POWER AUSTRALIA PTY LTD,Mt Magnet Town Powerstation,F,WA,"13,739","3,816","2,140",0,"2,140",0.56,Off,Off-grid,Gas,-
+CONTRACT POWER AUSTRALIA PTY LTD,Norseman Gold Power Station,F,WA,"15,562","4,323","3,213",0,"3,213",0.74,Off,Off-grid,Diesel,-
+CONTRACT POWER AUSTRALIA PTY LTD,Sandstone Town Powerstation,F,WA,"2,462",684,528,0,528,0.77,Off,Off-grid,Diesel,-
+CONTRACT POWER AUSTRALIA PTY LTD,Wiluna Town Powerstation,F,WA,"8,725","2,424","1,706",0,"1,706",0.70,Off,Off-grid,Diesel,-
+CONTRACT POWER AUSTRALIA PTY LTD,Yalgoo Town Powerstation,F,WA,"3,676","1,021",760,0,760,0.74,Off,Off-grid,Diesel,-
+CONTRACT POWER AUSTRALIA PTY LTD,Corporate Total,C,-,"79,110","21,975","15,017",0,"15,017",-,-,-,-,-
+CULLERIN RANGE WIND FARM PTY LTD,Cullerin Range Wind Farm,F,NSW,"405,688","112,691",28,82,110,0.00,On,NEM,Wind,-
+CULLERIN RANGE WIND FARM PTY LTD,Corporate Total,C,-,"405,688","112,691",28,82,110,-,-,-,-,-
+CWF HOLDINGS PTY LTD,Collgar Wind Farm,F,WA,"2,575,799","715,500",388,590,978,0.00,On,SWIS,Wind,-
+CWF HOLDINGS PTY LTD,Corporate Total,C,-,"2,575,799","715,500",388,590,978,-,-,-,-,-
+CWP RENEWABLES PTY LTD,Boco Rock Wind Farm Pty Ltd,F,NSW,"1,339,270","372,019",365,784,"1,149",0.00,On,NEM,Wind,-
+CWP RENEWABLES PTY LTD,Corporate Total,C,-,"1,339,270","372,019",365,784,"1,149",-,-,-,-,-
+DIF INFRA 4 HOLDINGS AUSTRALIA PTY LTD,Royalla Solar Farm ,F,ACT,"141,150","39,208",0,181,181,0.00,On,NEM,Solar,-
+DIF INFRA 4 HOLDINGS AUSTRALIA PTY LTD,Corporate Total,C,-,"141,150","39,208",0,181,181,-,-,-,-,-
+EDL (OCI) PTY LIMITED,Glennies Creek WCMG Power Station,F,NSW,"278,299","77,305","40,154",10,"40,164",0.52,On,NEM,Waste Coal Mine Gas,-
+EDL (OCI) PTY LIMITED,Oaky Creek II WCMG Power Station,F,QLD,"378,474","105,132","55,021",36,"55,057",0.52,On,NEM,Waste Coal Mine Gas,-
+EDL (OCI) PTY LIMITED,Oaky Creek WCMG Power Station,F,QLD,"481,208","133,669","68,525",67,"68,592",0.51,On,NEM,Waste Coal Mine Gas,-
+EDL (OCI) PTY LIMITED,Corporate Total,C,-,"1,137,981","316,106","163,700",113,"163,813",-,-,-,-,-
+EDL (TT) PTY LIMITED,Tahmoor WCMG Power Station,F,NSW,"118,651","32,959","18,916",7,"18,923",0.57,On,NEM,Waste Coal Mine Gas,-
+EDL (TT) PTY LIMITED,Corporate Total,C,-,"118,651","32,959","18,916",7,"18,923",-,-,-,-,-
+EDL CSM (NSW) PTY LTD,Appin CSM Power Station,F,NSW,"358,092","99,470","72,992",642,"73,634",0.73,On,NEM,Waste Coal Mine Gas,-
+EDL CSM (NSW) PTY LTD,Tower CSM Power Station,F,NSW,"675,750","187,708","143,209",216,"143,425",0.76,On,NEM,Waste Coal Mine Gas,-
+EDL CSM (NSW) PTY LTD,Corporate Total,C,-,"1,033,842","287,178","216,201",858,"217,059",-,-,-,-,-
+EDL CSM (QLD) PTY LTD,German Creek CMM Power Station,F,QLD,"1,091,491","303,192","160,344",29,"160,373",0.53,On,NEM,Waste Coal Mine Gas,-
+EDL CSM (QLD) PTY LTD,Corporate Total,C,-,"1,091,491","303,192","160,344",29,"160,373",-,-,-,-,-
+EDL LFG (ACT) PTY LTD,Mugga Lane LFG Power Station,F,ACT,"114,143","31,706","2,013",1,"2,014",0.06,On,NEM,Landfill Gas,-
+EDL LFG (ACT) PTY LTD,West Belconnen LFG Power Station,F,ACT,"7,519","2,089",146,14,160,0.07,On,NEM,Landfill Gas,-
+EDL LFG (ACT) PTY LTD,Corporate Total,C,-,"121,662","33,795","2,159",15,"2,174",-,-,-,-,-
+EDL LFG (NSW) PTY LTD,Belrose LFG Power Station,F,NSW,"8,209","2,280",185,0,185,0.08,On,NEM,Landfill Gas,-
+EDL LFG (NSW) PTY LTD,Eastern Creek LFG Power Station,F,NSW,"32,006","8,891",519,7,526,0.06,On,NEM,Landfill Gas,-
+EDL LFG (NSW) PTY LTD,Grange Avenue LFG Power Station,F,NSW,"19,676","5,466",326,3,329,0.06,On,NEM,Landfill Gas,-
+EDL LFG (NSW) PTY LTD,Jack's Gully LFG Power Station,F,NSW,"46,214","12,837",799,1,800,0.06,On,NEM,Landfill Gas,-
+EDL LFG (NSW) PTY LTD,Lucas Heights 1 LFG Power Station,F,NSW,"50,303","13,973",896,4,900,0.06,On,NEM,Landfill Gas,-
+EDL LFG (NSW) PTY LTD,Lucas Heights 2 LFG Power Station,F,NSW,"363,867","101,074","6,379",2,"6,381",0.06,On,NEM,Landfill Gas,-
+EDL LFG (NSW) PTY LTD,Corporate Total,C,-,"520,275","144,521","9,104",17,"9,121",-,-,-,-,-
+EDL LFG (QLD) PTY LTD,Browns Plains LFG Power Station,F,QLD,"49,434","13,732",873,2,875,0.06,On,NEM,Landfill Gas,-
+EDL LFG (QLD) PTY LTD,Roghan Road LFG Power Station,F,QLD,"3,462",962,64,43,107,0.07,On,NEM,Landfill Gas,-
+EDL LFG (QLD) PTY LTD,Corporate Total,C,-,"52,896","14,693",937,45,982,-,-,-,-,-
+EDL LFG (SA) PTY LTD,Wingfield 1 LFG Power Station,F,SA,"56,828","15,786","1,000",1,"1,001",0.06,On,NEM,Landfill Gas,-
+EDL LFG (SA) PTY LTD,Wingfield 2 LFG Power Station,F,SA,"53,366","14,824",939,1,940,0.06,On,NEM,Landfill Gas,-
+EDL LFG (SA) PTY LTD,Corporate Total,C,-,"110,194","30,609","1,939",2,"1,941",-,-,-,-,-
+EDL LFG (VIC) PTY LTD,Berwick LFG Power Station,F,VIC,"43,366","12,046",779,318,"1,097",0.06,On,NEM,Landfill Gas,-
+EDL LFG (VIC) PTY LTD,Broadmeadows LFG Power Station,F,VIC,"47,876","13,299",855,97,952,0.06,On,NEM,Landfill Gas,-
+EDL LFG (VIC) PTY LTD,Brooklyn LFG Power Station,F,VIC,"40,378","11,216",704,3,707,0.06,On,NEM,Landfill Gas,-
+EDL LFG (VIC) PTY LTD,Clayton LFG Power Station,F,VIC,"303,134","84,204","4,717",339,"5,056",0.06,On,NEM,Landfill Gas,-
+EDL LFG (VIC) PTY LTD,Corio LFG Power Station,F,VIC,"26,897","7,471",480,4,484,0.06,On,NEM,Landfill Gas,-
+EDL LFG (VIC) PTY LTD,Springvale LFG Power Station,F,VIC,"43,619","12,116",782,9,791,0.06,On,NEM,Landfill Gas,-
+EDL LFG (VIC) PTY LTD,Corporate Total,C,-,"505,270","140,353","8,317",770,"9,087",-,-,-,-,-
+EDL NGD (NT) PTY LTD,McArthur River Power Station,F,NT,"1,007,350","279,819","134,067",0,"134,067",0.48,Off,Off-grid,Gas,-
+EDL NGD (NT) PTY LTD,Pine Creek A Power Station,F,NT,"594,389","165,108","83,976",0,"83,976",0.51,On,DKIS,Gas,-
+EDL NGD (NT) PTY LTD,Corporate Total,C,-,"1,601,739","444,927","218,043",0,"218,043",-,-,-,-,-
+EDL NGD (WA) PTY LTD ,Broome LNG Power Station,F,WA,"500,240","138,956","77,494",28,"77,522",0.56,Off,Off-grid,Gas,-
+EDL NGD (WA) PTY LTD ,Derby LNG Power Station,F,WA,"121,420","33,728","19,928",0,"19,928",0.59,Off,Off-grid,Gas,-
+EDL NGD (WA) PTY LTD ,Fitzroy Crossing LNG Power Station,F,WA,"53,373","14,826","9,437",0,"9,437",0.64,Off,Off-grid,Gas,-
+EDL NGD (WA) PTY LTD ,Halls Creek LNG Power Station,F,WA,"41,293","11,470","7,253",0,"7,253",0.63,Off,Off-grid,Gas,-
+EDL NGD (WA) PTY LTD ,Looma NGD Power Station,F,WA,"9,142","2,539","2,065",0,"2,065",0.81,Off,Off-grid,Diesel,-
+EDL NGD (WA) PTY LTD ,Corporate Total,C,-,"725,468","201,519","116,177",28,"116,205",-,-,-,-,-
+EDL PROJECTS (AUSTRALIA) PTY LTD,Grosvenor 1 WCMG Power Station,F,QLD,"572,111","158,920","86,036",23,"86,059",0.54,On,NEM,Waste Coal Mine Gas,-
+EDL PROJECTS (AUSTRALIA) PTY LTD,Grosvenor 2 WCMG Power Station,F,QLD,"316,384","87,884","48,241",18,"48,259",0.55,On,NEM,Waste Coal Mine Gas,-
+EDL PROJECTS (AUSTRALIA) PTY LTD,Moranbah North CMM Power Station,F,QLD,"1,828,241","507,845","260,078",0,"260,078",0.51,On,NEM,Waste Coal Mine Gas,-
+EDL PROJECTS (AUSTRALIA) PTY LTD,Corporate Total,C,-,"2,716,736","754,649","394,355",41,"394,396",-,-,-,-,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Albany Wind Farm,F,WA,"333,656","92,682",12,10,22,0.00,On,SWIS,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Bremer Bay Wind Diesel Power Station,F,WA,"5,968","1,658",63,3,66,0.04,On,SWIS,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Cockburn Power Station,F,WA,"424,926","118,035","45,893",0,"45,893",0.39,On,SWIS,Gas,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Collie Power Station ,F,WA,"7,314,999","2,031,944","1,842,676","6,017","1,848,693",0.91,On,SWIS,Black Coal,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Coral Bay Wind Diesel Power Station,F,WA,"12,752","3,542","1,592",0,"1,592",0.45,Off,Off-grid,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Denham Wind Farm,F,WA,"4,907","1,363",0,1,1,0.00,Off,Off-grid,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Esperance Wind Farm,F,WA,"56,803","15,779",1,5,6,0.00,Off,Off-grid,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Greenough River Solar Farm,F,WA,"78,534","21,815",0,113,113,0.00,On,SWIS,Solar,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Hopetoun Wind Diesel Power Station,F,WA,"16,787","4,663","2,134",0,"2,134",0.46,Off,Off-grid,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Kalbarri Wind Farm,F,WA,"11,370","3,158",0,1,1,0.00,On,SWIS,Wind,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Kalgoorlie Gas Turbine Station,F,WA,"5,081","1,411","1,402",0,"1,402",0.99,On,SWIS,Gas,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Kwinana Power Station,F,WA,"2,819,814","783,282","429,463",301,"429,764",0.55,On,SWIS,Gas,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Muja Power Station,F,WA,"15,838,621","4,399,617","3,979,427","3,236","3,982,663",0.90,On,SWIS,Black Coal,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Mungarra Gas Turbine Station,F,WA,"69,421","19,284","15,542",0,"15,542",0.81,On,SWIS,Gas,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Pinjar Gas Turbine Station,F,WA,"2,052,787","570,219","446,643",0,"446,643",0.78,On,SWIS,Gas,-
+ELECTRICITY GENERATION AND RETAIL CORPORATION,Corporate Total,C,-,"29,046,426","8,068,452","6,764,848","9,687","6,774,535",-,-,-,-,-
+ELECTRICITY NETWORKS CORPORATION,Ravensthorpe Power Station,F,WA,772,214,146,0,146,0.68,On,SWIS,Diesel,-
+ELECTRICITY NETWORKS CORPORATION,Corporate Total,C,-,772,214,146,0,146,-,-,-,-,-
+ENERGY GENERATION PTY LTD,Ardyaloon Facility,F,WA,"7,064","1,962","1,420",0,"1,420",0.72,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Beagle Bay Facility,F,WA,"6,306","1,752","1,263",0,"1,263",0.72,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Bidyadanga Facility,F,WA,"10,355","2,876","2,117",0,"2,117",0.74,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Coober Pedy Facility,F,SA,"63,093","17,526","2,913",0,"2,913",0.17,Off,Off-grid,Wind,-
+ENERGY GENERATION PTY LTD,Djarindjin Facility,F,WA,"6,923","1,923","1,390",0,"1,390",0.72,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Gascoyne Facility,F,WA,"2,648",736,586,0,586,0.80,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Laverton Facility,F,WA,"14,868","4,130","3,064",0,"3,064",0.74,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Leonora Facility,F,WA,"29,622","8,228","6,248",0,"6,248",0.76,Off,Off-grid,Gas,-
+ENERGY GENERATION PTY LTD,Menzies Facility,F,WA,"2,392",664,538,0,538,0.81,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Warmun Facility,F,WA,"9,546","2,652","1,976",0,"1,976",0.75,Off,Off-grid,Diesel,-
+ENERGY GENERATION PTY LTD,Corporate Total,C,-,"152,817","42,449","21,515",0,"21,515",-,-,-,-,-
+ENERGY QUEENSLAND LIMITED,Barcaldine Power Station Facility,F,QLD,"3,041",845,"4,706",0,"4,706",5.57,On,NEM,Gas,-
+ENERGY QUEENSLAND LIMITED,Energy Impact - Bromelton Peak Generation Plant - Facility,F,QLD,"3,134",871,496,198,694,0.57,On,NEM,Diesel,-
+ENERGY QUEENSLAND LIMITED,Energy Impact - Generation - Facility,F,QLD,"1,964",546,384,0,384,0.70,On,NEM,Diesel,-
+ENERGY QUEENSLAND LIMITED,Corporate Total,C,-,"8,139","2,261","5,586",198,"5,784",-,-,-,-,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Hallett Power Station,F,SA,"71,364","19,823","18,782","1,853","20,635",0.95,On,NEM,Gas,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Jeeralang Power Station,F,VIC,"440,834","122,454","93,370","6,720","100,090",0.76,On,NEM,Gas,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Mt Piper Power Station,F,NSW,"28,311,455","7,864,293","6,823,827","17,475","6,841,302",0.87,On,NEM,Black Coal,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Newport Power Station,F,VIC,"3,666,804","1,018,557","538,108","21,410","559,518",0.53,On,NEM,Gas,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Tallawarra Power Station,F,NSW,"5,286,970","1,468,603","545,668","4,717","550,385",0.37,On,NEM,Gas,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Waterloo Wind Farm,F,SA,"329,504","91,529",6,29,35,0.00,On,NEM,Wind,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Yallourn Power Station,F,VIC,"36,860,112","10,238,920","13,671,954","184,359","13,856,313",1.34,On,NEM,Brown Coal,-
+ENERGYAUSTRALIA HOLDINGS LIMITED,Corporate Total,C,-,"74,967,043","20,824,179","21,691,715","236,563","21,928,278",-,-,-,-,-
+ERM POWER LIMITED,Newgen Neerabup Power Station,F,WA,"916,383","254,551","154,221","2,726","156,947",0.61,On,SWIS,Gas,-
+ERM POWER LIMITED,Oakey Power Station,F,QLD,"268,495","74,582","47,231","2,049","49,280",0.63,On,NEM,Gas,-
+ERM POWER LIMITED,Corporate Total,C,-,"1,184,878","329,133","201,452","4,775","206,227",-,-,-,-,-
+ESPERANCE POWER STATION PTY LTD,Esperance Power Station,F,WA,"249,660","69,350","55,006",0,"55,006",0.79,Off,Off-grid,Gas,-
+ESPERANCE POWER STATION PTY LTD,Corporate Total,C,-,"249,660","69,350","55,006",0,"55,006",-,-,-,-,-
+ESSENTIAL ENERGY,Essential Energy Generation Facility - Broken Hill Gas Turbine,F,NSW,378,105,433,182,615,4.12,On,NEM,Diesel,-
+ESSENTIAL ENERGY,Corporate Total,C,-,378,105,433,182,615,-,-,-,-,-
+FENGATE EXMOUTH ENERGY SPV PTY LTD,Exmouth Power Station Pty Ltd,F,WA,"90,569","25,158","17,343",0,"17,343",0.69,Off,Off-grid,Gas,-
+FENGATE EXMOUTH ENERGY SPV PTY LTD,Corporate Total,C,-,"90,569","25,158","17,343",0,"17,343",-,-,-,-,-
+FORTESCUE METALS GROUP LTD,Solomon Power Station,F,WA,"666,413","185,115","115,169",0,"115,169",0.62,Off,Off-grid,Gas,-
+FORTESCUE METALS GROUP LTD,Corporate Total,C,-,"666,413","185,115","115,169",0,"115,169",-,-,-,-,-
+GENEX POWER LIMITED,Kidston Solar One - Solar – Qld,F,QLD,"190,728","52,980",0,0,0,0.00,On,NEM,Solar,-
+GENEX POWER LIMITED,Corporate Total,C,-,"190,728","52,980",0,0,0,-,-,-,-,-
+GOLDFIELDS POWER PTY LTD,Parkeston Power Station,F,WA,"595,231","165,342","92,650",0,"92,650",0.56,On,SWIS,Gas,-
+GOLDFIELDS POWER PTY LTD,Corporate Total,C,-,"595,231","165,342","92,650",0,"92,650",-,-,-,-,-
+HYDRO POWER PTY LIMITED,Wyangala A,F,NSW,"217,905","60,529",0,0,0,0.00,On,NEM,Hydro,-
+HYDRO POWER PTY LIMITED,Wyangala B,F,NSW,"10,894","3,026",0,0,0,0.00,On,NEM,Hydro,-
+HYDRO POWER PTY LIMITED,Corporate Total,C,-,"228,799","63,555",0,0,0,-,-,-,-,-
+HYDRO-ELECTRIC CORPORATION,Bastyan Hydro Power Station,F,TAS,"1,293,382","359,273",0,23,23,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Butlers Gorge Hydro Power Station,F,TAS,"289,013","80,281",0,0,0,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Catagunya Hydro Power Station,F,TAS,"834,113","231,698",0,21,21,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Cethana Hydro Power Station,F,TAS,"1,535,178","426,438",0,276,276,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Cluny Hydro Power Station,F,TAS,"65,565","18,213",0,40,40,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Devils Gate Hydro Power Station,F,TAS,"1,069,871","297,186",0,20,20,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Fisher Hydro Power Station,F,TAS,"848,230","235,619",0,0,0,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Flinders Island Power Station,F,TAS,"17,127","4,758","1,899",7,"1,906",0.40,Off,Off-grid,Wind,-
+HYDRO-ELECTRIC CORPORATION,Gordon Hydro Power Station,F,TAS,"3,671,003","1,019,723",0,59,59,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,John Butters Hydro Power Station,F,TAS,"2,057,927","571,646",0,334,334,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,King Island Power Station,F,TAS,"47,627","13,230","4,199",0,"4,199",0.32,Off,Off-grid,Wind,-
+HYDRO-ELECTRIC CORPORATION,Lake Echo Hydro Power Station,F,TAS,"213,343","59,262",0,13,13,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Lake Margaret Lower Hydro Power station,F,TAS,"55,960","15,544",0,2,2,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Lake Margaret Upper Hydro Power Station,F,TAS,"163,390","45,386",0,8,8,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Lemonthyme Hydro Power Station,F,TAS,"1,078,743","299,651",0,36,36,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Liapootah Hydro Power Station,F,TAS,"1,497,527","415,980",0,57,57,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Mackintosh Hydro Power Station,F,TAS,"1,418,592","394,053",0,113,113,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Meadowbank Hydro Power Station,F,TAS,"652,866","181,352",0,16,16,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Paloona Hydro Power Station,F,TAS,"489,220","135,894",0,12,12,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Parangana Hydro Power Station,F,TAS,"11,006","3,057",0,0,0,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Poatina Hydro Power Station,F,TAS,"4,371,071","1,214,186",0,854,854,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Reece Hydro Power Station,F,TAS,"3,801,017","1,055,838",0,"1,271","1,271",0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Repulse Hydro Power Station,F,TAS,"430,559","119,600",0,13,13,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Rowallan Hydro Power Station,F,TAS,"141,533","39,315",0,2,2,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Tamar Valley Power Station,F,TAS,"3,047,498","846,527","353,924",987,"354,911",0.42,On,NEM,Gas,-
+HYDRO-ELECTRIC CORPORATION,Tarraleah Hydro Power Station,F,TAS,"2,084,470","579,019",0,85,85,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Tods Corner Hydro Power Station,F,TAS,"6,348","1,763",0,7,7,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Trevallyn Hydro Power Station,F,TAS,"1,272,208","353,391",0,47,47,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Tribute Hydro Power Station,F,TAS,"893,183","248,106",0,45,45,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Tungatinah Hydro Power Station,F,TAS,"1,954,117","542,810",0,107,107,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Wayatinah Hydro Power Station,F,TAS,"1,211,194","336,443",0,33,33,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Wilmot Hydro Power Station,F,TAS,"430,135","119,482",0,32,32,0.00,On,NEM,Hydro,-
+HYDRO-ELECTRIC CORPORATION,Corporate Total,C,-,"36,953,016","10,264,727","360,022","4,520","364,542",-,-,-,-,-
+INFIGEN ENERGY LIMITED,Alinta Wind Farm,F,WA,"1,164,238","323,399",70,692,762,0.00,On,SWIS,Wind,-
+INFIGEN ENERGY LIMITED,Capital East Solar Farm,F,NSW,618,172,0,5,5,0.00,On,NEM,Solar,-
+INFIGEN ENERGY LIMITED,Capital Wind Farm,F,NSW,"1,382,798","384,111",143,852,995,0.00,On,NEM,Wind,-
+INFIGEN ENERGY LIMITED,"Lake Bonney Stage 1,2 & 3 Wind Farm",F,SA,"2,583,503","717,640",96,567,663,0.00,On,NEM,Wind,-
+INFIGEN ENERGY LIMITED,Woodlawn Wind Farm,F,NSW,"566,343","157,318",39,226,265,0.00,On,NEM,Wind,-
+INFIGEN ENERGY LIMITED,Corporate Total,C,-,"5,697,500","1,582,639",348,"2,342","2,690",-,-,-,-,-
+IPM (KWINANA) PTY LTD,Kwinana Cogeneration Plant,F,WA,"3,093,310","859,253","454,837",0,"454,837",0.53,On,SWIS,Gas,-
+IPM (KWINANA) PTY LTD,Corporate Total,C,-,"3,093,310","859,253","454,837",0,"454,837",-,-,-,-,-
+KIAMCO FORESIGHT HANWHA BARCALDINE 1 PTY LTD,Barcaldine Remote Community Solar Farm Pty Ltd,F,QLD,"200,513","55,698",0,123,123,0.00,On,NEM,Solar,-
+KIAMCO FORESIGHT HANWHA BARCALDINE 1 PTY LTD,Corporate Total,C,-,"200,513","55,698",0,123,123,-,-,-,-,-
+KIATA WIND FARM HOLDINGS PTY LTD,Kiata Wind Farm Pty Ltd,F,VIC,"256,172","71,159",5,129,134,0.00,On,NEM,Wind,-
+KIATA WIND FARM HOLDINGS PTY LTD,Corporate Total,C,-,"256,172","71,159",5,129,134,-,-,-,-,-
+LANDFILL GAS & POWER PTY LTD,Kalamunda Power Station,F,WA,18,5,4,2,6,0.80,On,SWIS,Diesel,-
+LANDFILL GAS & POWER PTY LTD,Red Hill LFG Power Station,F,WA,"103,309","28,697","1,627",2,"1,629",0.06,On,SWIS,Landfill Gas,-
+LANDFILL GAS & POWER PTY LTD,Tamala Park LFG Power Station,F,WA,"152,401","42,334","2,677",1,"2,678",0.06,On,SWIS,Landfill Gas,-
+LANDFILL GAS & POWER PTY LTD,Corporate Total,C,-,"255,728","71,036","4,308",5,"4,313",-,-,-,-,-
+LMS ENERGY PTY LTD,Albury Renewable Energy Facility,F,NSW,"26,980","7,494",427,0,427,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Atlas Renewable Energy Facility,F,WA,"7,681","2,134",128,0,128,0.06,On,SWIS,Landfill Gas,-
+LMS ENERGY PTY LTD,Awaba Renewable Energy Facility,F,NSW,"29,701","8,250",451,0,451,0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Ballarat Renewable Energy Facility,F,VIC,"24,853","6,904",396,0,396,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Bendigo Renewable Energy Facility,F,VIC,"15,077","4,188",236,0,236,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Birkdale Renewable Energy Facility,F,QLD,"21,309","5,919",328,0,328,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Darwin Renewable Energy Facility,F,NT,"30,987","8,608",504,0,504,0.06,On,DKIS,Landfill Gas,-
+LMS ENERGY PTY LTD,Eastern Creek 2 Renewable Energy Facility,F,NSW,"205,511","57,086","3,036",0,"3,036",0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Hampton Park Renewable Energy Facility,F,VIC,"228,276","63,410","3,266",0,"3,266",0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Ipswich Renewable Energy Facility,F,QLD,"19,095","5,304",299,0,299,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Mornington Peninsula Renewable Energy Facility,F,VIC,"22,415","6,226",343,0,343,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,NAWMA Renewable Energy Facility,F,SA,"20,784","5,773",311,0,311,0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,NAWMA Solar Facility,F,SA,"4,246","1,179",0,0,0,0.00,On,NEM,Solar,-
+LMS ENERGY PTY LTD,Newcastle Renewable Energy Facility,F,NSW,"67,569","18,769",998,0,998,0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Remount Renewable Energy Facility,F,TAS,"31,208","8,669",456,0,456,0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Rochedale Renewable Energy Facility,F,QLD,"135,177","37,549","2,108",0,"2,108",0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Shepparton Renewable Energy Facility,F,VIC,"18,905","5,251",296,0,296,0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,South Cardup Renewable Energy Facility,F,WA,"105,824","29,396","1,656",0,"1,656",0.06,On,SWIS,Landfill Gas,-
+LMS ENERGY PTY LTD,Stapylton Renewable Energy Facility,F,QLD,"72,885","20,246","1,122",0,"1,122",0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Swanbank Renewable Energy Facility,F,QLD,"45,928","12,758",699,0,699,0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Wollert Renewable Energy Facility,F,VIC,"211,908","58,863","3,244",0,"3,244",0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Wyndham Renewable Energy Facility,F,VIC,"51,706","14,363",759,0,759,0.05,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Wyong Renewable Energy Facility,F,NSW,"68,035","18,899","1,059",0,"1,059",0.06,On,NEM,Landfill Gas,-
+LMS ENERGY PTY LTD,Corporate Total,C,-,"1,466,060","407,239","22,122",0,"22,122",-,-,-,-,-
+MERIDIAN ENERGY AUSTRALIA PTY LTD,Burrinjuck Hydro,F,NSW,"215,404","59,834",16,22,38,0.00,On,NEM,Hydro,-
+MERIDIAN ENERGY AUSTRALIA PTY LTD,Hume Hydro ,F,NSW,"732,139","203,372",32,120,152,0.00,On,NEM,Hydro,-
+MERIDIAN ENERGY AUSTRALIA PTY LTD,Keepit Hydro,F,NSW,"41,182","11,439",68,0,68,0.01,On,NEM,Hydro,-
+MERIDIAN ENERGY AUSTRALIA PTY LTD,Mt Mercer Wind farm Pty Ltd,F,VIC,"1,353,143","375,873",69,0,69,0.00,On,NEM,Wind,-
+MERIDIAN ENERGY AUSTRALIA PTY LTD,Mt Millar Wind Farm Pty Ltd,F,SA,"695,306","193,141",54,0,54,0.00,On,NEM,Wind,-
+MERIDIAN ENERGY AUSTRALIA PTY LTD,Corporate Total,C,-,"3,037,174","843,659",239,142,381,-,-,-,-,-
+MOMENTUM ENERGY PTY LIMITED,Alfred Hospital Cogeneration Plant,F,VIC,"67,158","18,655","15,765",599,"16,364",0.85,On,NEM,Gas,-
+MOMENTUM ENERGY PTY LIMITED,Dandenong Hospital Cogeneration Plant,F,VIC,"60,904","16,918","15,877",382,"16,259",0.94,On,NEM,Gas,-
+MOMENTUM ENERGY PTY LIMITED,Geelong Hospital Cogeneration Plant,F,VIC,"66,473","18,465","12,118",539,"12,657",0.66,On,NEM,Gas,-
+MOMENTUM ENERGY PTY LIMITED,Royal Melbourne Hospital Cogeneration Plant,F,VIC,"142,274","39,521","30,267",741,"31,008",0.77,On,NEM,Gas,-
+MOMENTUM ENERGY PTY LIMITED,ST. Vincent’s Hospital Cogeneration Plant,F,VIC,"63,651","17,681","15,034",600,"15,634",0.85,On,NEM,Gas,-
+MOMENTUM ENERGY PTY LIMITED,Corporate Total,C,-,"400,460","111,239","89,061","2,861","91,922",-,-,-,-,-
+MORTONS LANE WIND FARM (HOLDING) PTY LTD,Mortons Lane Windfarm Pty Ltd,F,VIC,"232,407","64,558",0,57,57,0.00,On,NEM,Wind,-
+MORTONS LANE WIND FARM (HOLDING) PTY LTD,Corporate Total,C,-,"232,407","64,558",0,57,57,-,-,-,-,-
+MUMBIDA WIND FARM NO 1 HOLDINGS PTY LTD,Mumbida Wind Farm Pty Ltd,F,WA,"683,865","189,963",64,410,474,0.00,On,SWIS,Wind,-
+MUMBIDA WIND FARM NO 1 HOLDINGS PTY LTD,Corporate Total,C,-,"683,865","189,963",64,410,474,-,-,-,-,-
+NEOEN AUSTRALIA PTY LTD,DEGRUSSA SOLAR PROJECT PTY LTD,F,WA,"71,487","19,858",0,430,430,0.00,Off,Off-grid,Solar,-
+NEOEN AUSTRALIA PTY LTD,DUBBO SOLAR HUB PTY LTD,F,NSW,"17,821","4,950",0,16,16,0.00,On,NEM,Solar,-
+NEOEN AUSTRALIA PTY LTD,GRIFFITH SOLAR FARM PTY LTD,F,NSW,"59,368","16,491",0,60,60,0.00,On,NEM,Solar,-
+NEOEN AUSTRALIA PTY LTD,HORNSDALE POWER RESERVE PTY LTD,F,SA,"79,298","22,027",0,"13,118","13,118",0.00,On,NEM,Battery,-
+NEOEN AUSTRALIA PTY LTD,HWF1 PTY LTD,F,SA,"1,357,702","377,139",0,119,119,0.00,On,NEM,Wind,-
+NEOEN AUSTRALIA PTY LTD,HWF2 PTY LTD,F,SA,"1,254,608","348,502",0,113,113,0.00,On,NEM,Wind,-
+NEOEN AUSTRALIA PTY LTD,HWF3 PTY LTD,F,SA,"1,013,397","281,499",0,95,95,0.00,On,NEM,Wind,-
+NEOEN AUSTRALIA PTY LTD,PARKES SOLAR FARM PTY LTD,F,NSW,"109,528","30,424",0,145,145,0.00,On,NEM,Solar,-
+NEOEN AUSTRALIA PTY LTD,Corporate Total,C,-,"3,963,209","1,100,891",0,"14,096","14,096",-,-,-,-,-
+NEWGEN KWINANA HOLDINGS PTY LTD,Kwinana Gas Fired Power Station,F,WA,"7,466,829","2,074,119","810,842",243,"811,085",0.39,On,SWIS,Gas,-
+NEWGEN KWINANA HOLDINGS PTY LTD,Corporate Total,C,-,"7,466,829","2,074,119","810,842",243,"811,085",-,-,-,-,-
+NRG VICTORIA 1 PTY LTD,Gladstone Power Station,F,QLD,"32,309,449","8,974,847","8,502,292","44,729","8,547,021",0.95,On,NEM,Black Coal,-
+NRG VICTORIA 1 PTY LTD,Corporate Total,C,-,"32,309,449","8,974,847","8,502,292","44,729","8,547,021",-,-,-,-,-
+ONSLOW ELECTRIC POWER PTY LTD,Onslow Power Station,F,WA,"52,031","14,453","8,704",0,"8,704",0.60,Off,Off-grid,Gas,-
+ONSLOW ELECTRIC POWER PTY LTD,Corporate Total,C,-,"52,031","14,453","8,704",0,"8,704",-,-,-,-,-
+ORIGIN ENERGY LIMITED,Australand,F,NSW,"2,132",592,352,25,377,0.59,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Ballarat Solar Park,F,VIC,"1,446",402,0,2,2,0.00,On,NEM,Solar,-
+ORIGIN ENERGY LIMITED,Bendigo Solar Park,F,VIC,"1,727",480,0,4,4,0.00,On,NEM,Solar,-
+ORIGIN ENERGY LIMITED,Blackmores,F,NSW,"5,027","1,396",906,58,964,0.65,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Bond,F,NSW,"3,465",963,558,40,598,0.58,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Chifley Square,F,NSW,"3,808","1,058",581,44,625,0.55,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Dandenong,F,VIC,851,236,217,375,592,0.92,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Darling Downs Power Station,F,QLD,"8,083,131","2,245,314","937,408","7,274","944,682",0.42,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Drapac,F,VIC,"2,136",593,371,32,403,0.63,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Eraring Power Station,F,NSW,"61,870,118","17,186,144","14,898,414","16,502","14,914,916",0.87,On,NEM,Black Coal,-
+ORIGIN ENERGY LIMITED,Exhibition Street,F,VIC,"8,693","2,415","1,354",130,"1,484",0.56,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Kent Street,F,NSW,"13,175","3,660","1,854",152,"2,006",0.51,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,La Trobe,F,VIC,"2,368",658,341,36,377,0.52,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Ladbroke Grove Power Station,F,SA,"659,904","183,307","103,420",432,"103,852",0.56,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Mirvac,F,NSW,"17,254","4,793","2,653",199,"2,852",0.55,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Mortlake Power Station,F,VIC,"4,603,899","1,278,861","703,023","4,955","707,978",0.55,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Mount,F,NSW,"7,304","2,029","1,120",84,"1,204",0.55,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Mt Stuart Power Station,F,QLD,"35,050","9,736","9,828","4,041","13,869",1.01,On,NEM,Kerosene,-
+ORIGIN ENERGY LIMITED,Quarantine Power Station,F,SA,"686,982","190,828","123,816","1,545","125,361",0.65,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Roma Power Station,F,QLD,"113,872","31,631","20,757",910,"21,667",0.66,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Shoalhaven Scheme,F,NSW,"357,536","99,316",2,"116,369","116,371",0.00,On,NEM,Hydro,-
+ORIGIN ENERGY LIMITED,Stockland Headquarters,F,NSW,"5,280","1,467",844,61,905,0.58,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,University of NSW,F,NSW,"8,434","2,343","1,301",97,"1,398",0.56,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Uranquinty Power Station,F,NSW,"2,002,061","556,128","335,936","4,918","340,854",0.60,On,NEM,Gas,-
+ORIGIN ENERGY LIMITED,Corporate Total,C,-,"78,495,653","21,804,348","17,145,056","158,285","17,303,341",-,-,-,-,-
+OZGEN HOLDINGS AUSTRALIA PTY LTD,Callide C Power Station (facility),F,QLD,"21,023,694","5,839,915","5,240,790","24,875","5,265,665",0.90,On,NEM,Black Coal,"Please note that where more than one person has operational control over a facility at the same time and no nomination of operational control has been made, data for the facility for the entire period must be reported by the controlling corporation of each entity with operational control. This results in the same facility being reported multiple times.
+C S ENERGY LIMITED and OZGEN HOLDINGS AUSTRALIA PTY LTD, have each included the same data for the Callide C Power Station in their NGER reports."
+OZGEN HOLDINGS AUSTRALIA PTY LTD,Millmerran Power Station (facility),F,QLD,"25,420,974","7,061,382","5,790,913","3,438","5,794,351",0.82,On,NEM,Black Coal,-
+OZGEN HOLDINGS AUSTRALIA PTY LTD,Corporate Total,C,-,"46,444,668","12,901,297","11,031,703","28,313","11,060,016",-,-,-,-,-
+PALISADE WATERLOO HOLDINGS PTY LTD,Waterloo Wind Farm,F,SA,"1,103,275","306,465",97,173,270,0.00,On,NEM,Wind,-
+PALISADE WATERLOO HOLDINGS PTY LTD,Corporate Total,C,-,"1,103,275","306,465",97,173,270,-,-,-,-,-
+PELICAN POINT POWER LIMITED,Pelican Point Power Station,F,SA,"9,836,716","2,732,421","1,085,502","2,610","1,088,112",0.40,On,NEM,Gas,-
+PELICAN POINT POWER LIMITED,Corporate Total,C,-,"9,836,716","2,732,421","1,085,502","2,610","1,088,112",-,-,-,-,-
+PERTH ENERGY PTY LTD,Kwinana Swift Power Station,F,WA,"469,390","130,386","68,632","1,390","70,022",0.53,On,SWIS,Gas,-
+PERTH ENERGY PTY LTD,Corporate Total,C,-,"469,390","130,386","68,632","1,390","70,022",-,-,-,-,-
+PILBARA IRON PTY LTD,Cape Lambert Power Station,F,WA,"561,172","155,881","94,474",0,"94,474",0.61,On,NWIS,Gas,-
+PILBARA IRON PTY LTD,Paraburdoo Power Station,F,WA,"1,889,622","524,895","278,826",0,"278,826",0.53,On,NWIS,Gas,-
+PILBARA IRON PTY LTD,West Angelas Power Station,F,WA,"1,645,593","457,109","243,391",0,"243,391",0.53,On,NWIS,Gas,-
+PILBARA IRON PTY LTD,Yurralyi Maya Power Station,F,WA,"2,150,682","597,412","330,538",0,"330,538",0.55,On,NWIS,Gas,-
+PILBARA IRON PTY LTD,Corporate Total,C,-,"6,247,069","1,735,297","947,229",0,"947,229",-,-,-,-,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Bairnsdale Power Station,F,VIC,"938,097","260,583","137,030",773,"137,803",0.53,On,NEM,Gas,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Braemar Power Station,F,QLD,"1,527,900","424,417","248,773","1,905","250,678",0.59,On,NEM,Coal Seam Methane,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Loy Yang B Power Station,F,VIC,"31,933,714","8,870,476","10,131,496","1,280","10,132,776",1.14,On,NEM,Brown Coal,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Newman Power Station,F,WA,"879,617","244,338","188,790",0,"188,790",0.77,Off,Off-grid,Gas,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Port Hedland Power Station,F,WA,"1,868,227","518,952","400,838",0,"400,838",0.77,On,NWIS,Gas,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Wagerup Power Station,F,WA,"1,193,965","331,657","190,098","4,890","194,988",0.57,On,SWIS,Gas,-
+PIONEER SAIL HOLDINGS PTY LIMITED,Corporate Total,C,-,"38,341,520","10,650,422","11,297,025","8,848","11,305,873",-,-,-,-,-
+POWER AND WATER CORPORATION,Alpurrurulam (Lake Nash),F,NT,"5,764","1,601","1,178",0,"1,178",0.74,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Amanbidgi (Kildurk),F,NT,932,259,250,0,250,0.97,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,"Ampilatwatja (Alparra, Ammaroo)",F,NT,"13,015","3,615","2,229",0,"2,229",0.62,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Amunturangu (Mount Liebig),F,NT,"2,939",816,559,0,559,0.68,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Aputula (Finke),F,NT,"3,489",969,697,0,697,0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Areyonga (Utju),F,NT,"3,889","1,080",694,0,694,0.64,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Atitjere (Harts Range),F,NT,"3,425",951,696,0,696,0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Borroloola Generation,F,NT,"22,877","6,355","4,359",0,"4,359",0.69,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Bulla Camp,F,NT,"1,506",418,389,0,389,0.93,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Bulman,F,NT,"4,267","1,185",896,0,896,0.76,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Daly Waters Generation,F,NT,"4,120","1,144",813,0,813,0.71,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Elliot Generation,F,NT,"9,983","2,773","2,020",0,"2,020",0.73,Off,Off-grid,Gas,-
+POWER AND WATER CORPORATION,Engawala (Alcoota),F,NT,"1,949",541,422,0,422,0.78,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Epenarra (Wutunugurra),F,NT,"2,731",759,613,0,613,0.81,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Eva Valley,F,NT,"1,318",366,298,0,298,0.81,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Galiwinku (Elcho Island),F,NT,"25,193","6,998","4,954",0,"4,954",0.71,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Gapuwiyak (Lake Evella),F,NT,"10,934","3,037","2,177",0,"2,177",0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Gunbalanya (Oenpelli),F,NT,"18,396","5,110","3,642",0,"3,642",0.71,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Ikuntji (Haasts Bluff),F,NT,"2,553",709,578,0,578,0.81,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Imangara (Murray Downs),F,NT,"1,071",298,237,0,237,0.80,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Imanpa (Mount Ebenezer),F,NT,"2,234",621,449,0,449,0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Kalkaringi (Wave Hill),F,NT,"9,548","2,652","1,859",0,"1,859",0.70,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Kaltukatjara (Docker River),F,NT,"5,592","1,553",992,0,992,0.64,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Lajamanu (Hooker Creek),F,NT,"11,771","3,270","2,051",0,"2,051",0.63,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Laramba (Napperby),F,NT,"3,462",962,689,0,689,0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Maningrida,F,NT,"31,719","8,811","5,349",0,"5,349",0.61,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Milikapiti (Snake Bay),F,NT,"7,499","2,083","1,591",0,"1,591",0.76,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Milingimbi,F,NT,"13,378","3,716","2,766",0,"2,766",0.74,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Milyakburra (Bickerton Island),F,NT,"3,233",898,653,0,653,0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Minjilang (Croker Island),F,NT,"4,974","1,382","1,051",0,"1,051",0.76,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Minyerri (Hodgson Downs),F,NT,"8,366","2,324","1,708",0,"1,708",0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Nauiyu Nambiyu (Daly River),F,NT,"11,550","3,208","2,018",0,"2,018",0.63,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Nguiu (Bathurst Island),F,NT,"24,394","6,776","4,927",0,"4,927",0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Ngukurr (Roper River),F,NT,"16,495","4,582","3,355",0,"3,355",0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Numbulwar (Rose River),F,NT,"10,635","2,954","2,138",0,"2,138",0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Nyirripi (Waite Creek),F,NT,"3,660","1,017",619,0,619,0.61,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Orwaitilla (Canteen Creek),F,NT,"3,552",987,706,0,706,0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Palumpa,F,NT,"5,382","1,495","1,040",0,"1,040",0.70,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Papunya,F,NT,"6,812","1,892","1,373",0,"1,373",0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Peppimenarti,F,NT,"4,284","1,190",853,0,853,0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Pidgeon Hole,F,NT,"1,731",481,377,0,377,0.78,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Pirlangimpi (Garden Point),F,NT,"7,098","1,972","1,530",0,"1,530",0.78,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Ramingining,F,NT,"11,699","3,250","1,871",0,"1,871",0.58,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Robinson River,F,NT,"4,182","1,162",839,0,839,0.72,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Tara (Neutral Junction),F,NT,"1,211",336,276,0,276,0.82,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Ti Tree Generation,F,NT,"8,345","2,318","1,703",0,"1,703",0.73,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Timber Creek,F,NT,"10,771","2,992","2,114",0,"2,114",0.71,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Titjikala (Maryvale),F,NT,"3,951","1,098",745,0,745,0.68,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Umbakumba,F,NT,"9,152","2,542","1,945",0,"1,945",0.77,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Wadeye (Port Keats),F,NT,"34,017","9,449","5,651",0,"5,651",0.60,Off,Off-grid,Gas,-
+POWER AND WATER CORPORATION,Walungurru (Kintore),F,NT,"6,754","1,876","1,116",0,"1,116",0.59,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Warruwi (Goulburn Is),F,NT,"6,599","1,833","1,260",0,"1,260",0.69,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Wilora (Stirling),F,NT,"1,242",345,277,0,277,0.80,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Wirliyatjarrayi (Willowra),F,NT,"3,591",998,697,0,697,0.70,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Yarralin,F,NT,"4,822","1,339",929,0,929,0.69,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Yuendumu,F,NT,"19,228","5,341","3,361",0,"3,361",0.63,Off,Off-grid,Diesel,-
+POWER AND WATER CORPORATION,Corporate Total,C,-,"463,284","128,690","88,579",0,"88,579",-,-,-,-,-
+POWER GENERATION CORPORATION,Channel Island Power Station,F,NT,"3,826,034","1,062,787","615,463",0,"615,463",0.58,On,DKIS,Gas,-
+POWER GENERATION CORPORATION,Katherine Power Station,F,NT,"71,615","19,893","15,454",0,"15,454",0.78,On,DKIS,Gas,-
+POWER GENERATION CORPORATION,Kings Canyon,F,NT,"4,032","1,120",864,0,864,0.77,Off,Off-grid,Solar,-
+POWER GENERATION CORPORATION,Owen Springs Power Station,F,NT,"268,834","74,676","46,056",0,"46,056",0.62,Off,Off-grid,Gas,-
+POWER GENERATION CORPORATION,Ron Goodin Power Station,F,NT,"453,701","126,028","90,139",0,"90,139",0.72,Off,Off-grid,Gas,-
+POWER GENERATION CORPORATION,Tennant Creek Power Station,F,NT,"104,958","29,155","20,950",0,"20,950",0.72,Off,Off-grid,Gas,-
+POWER GENERATION CORPORATION,Weddell Power Station,F,NT,"1,310,487","364,024","214,572",0,"214,572",0.59,On,DKIS,Gas,-
+POWER GENERATION CORPORATION,Yulara Power Station,F,NT,"70,409","19,558","12,751",0,"12,751",0.65,Off,Off-grid,Gas,-
+POWER GENERATION CORPORATION,Corporate Total,C,-,"6,110,070","1,697,242","1,016,249",0,"1,016,249",-,-,-,-,-
+PRATT CONSOLIDATED HOLDINGS PTY. LTD.,Visy Energy - Coolaroo Co-gen,F,VIC,"66,477","18,466","25,063","11,853","36,916",1.36,On,NEM,Biofuel,-
+PRATT CONSOLIDATED HOLDINGS PTY. LTD.,Visy Power Generation - Smithfield Energy Facility,F,NSW,"16,689","4,636","3,324",913,"4,237",0.72,On,NEM,Gas,-
+PRATT CONSOLIDATED HOLDINGS PTY. LTD.,Corporate Total,C,-,"83,166","23,102","28,387","12,766","41,153",-,-,-,-,-
+QGC UPSTREAM INVESTMENTS PTY LTD ,Condamine Power Station,F,QLD,"3,058,063","849,462","376,831",726,"377,557",0.44,On,NEM,Gas,-
+QGC UPSTREAM INVESTMENTS PTY LTD ,Corporate Total,C,-,"3,058,063","849,462","376,831",726,"377,557",-,-,-,-,-
+RATCH - AUSTRALIA CORPORATION LIMITED,Kemerton Power Station,F,WA,"250,045","69,457","49,896","2,448","52,344",0.72,On,SWIS,Gas,-
+RATCH - AUSTRALIA CORPORATION LIMITED,Starfish Hill Wind Farm,F,SA,"350,856","97,460",31,44,75,0.00,On,NEM,Wind,-
+RATCH - AUSTRALIA CORPORATION LIMITED,Toora Wind Farm,F,VIC,"177,373","49,270",27,216,243,0.00,On,NEM,Wind,-
+RATCH - AUSTRALIA CORPORATION LIMITED,Townsville Power Station,F,QLD,"877,378","243,716","112,366","3,168","115,534",0.46,On,NEM,Coal Seam Methane,-
+RATCH - AUSTRALIA CORPORATION LIMITED,Windy Hill Wind Farm,F,QLD,"108,987","30,274",29,14,43,0.00,On,NEM,Wind,-
+RATCH - AUSTRALIA CORPORATION LIMITED,Corporate Total,C,-,"1,764,639","490,177","162,349","5,890","168,239",-,-,-,-,-
+REGIONAL POWER CORPORATION,Carnarvon Power Station & Distribution network,F,WA,"155,505","43,196","22,422",18,"22,440",0.52,Off,Off-grid,Gas,-
+REGIONAL POWER CORPORATION,Denham Power Station & Denham Distribution network,F,WA,"14,638","4,066","2,674",0,"2,674",0.66,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Kalumburu Power Station & Distribution network,F,WA,"7,474","2,076","1,434",0,"1,434",0.69,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Kununurra Power Station & Kununurra Distribution network,F,WA,337,94,213,54,267,2.28,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Marble Bar Power Station & Marble Bar Distribution network,F,WA,"8,074","2,243","1,091",0,"1,091",0.49,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Murchison Radio Astronomy Power Station and Distribution Network,F,WA,"14,385","3,996","2,397",0,"2,397",0.60,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Nullagine Power Station & Nullagine Distribution network,F,WA,"3,850","1,069",620,0,620,0.58,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Onslow Power Station Horizon Power back-up & Onslow Distribtion Network,F,WA,"23,968","6,658","4,299",240,"4,539",0.65,Off,Off-grid,Gas,-
+REGIONAL POWER CORPORATION,Wyndham Power Station & Distribution network,F,WA,489,136,113,0,113,0.83,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Yungngora Power Station & Yungngora Distribution Network,F,WA,"5,871","1,631",966,0,966,0.59,Off,Off-grid,Diesel,-
+REGIONAL POWER CORPORATION,Corporate Total,C,-,"234,591","65,164","36,229",312,"36,541",-,-,-,-,-
+REGIONAL WIND FARMS PTY LTD,Wonthaggi Wind Farm,F,VIC,"104,304","28,973",13,53,66,0.00,On,NEM,Wind,-
+REGIONAL WIND FARMS PTY LTD,Corporate Total,C,-,"104,304","28,973",13,53,66,-,-,-,-,-
+RENEWABLE POWER AUSTRALIA LIMITED,FPC Green Energy,F,QLD,"273,499","75,972","2,766","1,796","4,562",0.04,On,NEM,Bagasse,-
+RENEWABLE POWER AUSTRALIA LIMITED,Corporate Total,C,-,"273,499","75,972","2,766","1,796","4,562",-,-,-,-,-
+SANTOS LIMITED,Wilga Park Power Station,F,NSW,"304,096","84,471","49,933",73,"50,006",0.59,On,NEM,Coal Seam Methane,-
+SANTOS LIMITED,Corporate Total,C,-,"304,096","84,471","49,933",73,"50,006",-,-,-,-,-
+SHENHUA CLEAN ENERGY HOLDINGS PTY LIMITED                                                           ,Musselroe Wind Farm Pty Ltd,F,TAS,"2,164,720","601,311",162,181,343,0.00,On,NEM,Wind,-
+SHENHUA CLEAN ENERGY HOLDINGS PTY LIMITED                                                           ,Woolnorth Bluff point Wind Farm Pty Ltd,F,TAS,"897,716","249,366",87,26,113,0.00,On,NEM,Wind,-
+SHENHUA CLEAN ENERGY HOLDINGS PTY LIMITED                                                           ,Woolnorth Studland Bay Wind Farm Pty Ltd,F,TAS,"1,038,241","288,400",80,29,109,0.00,On,NEM,Wind,-
+SHENHUA CLEAN ENERGY HOLDINGS PTY LIMITED                                                           ,Corporate Total,C,-,"4,100,677","1,139,077",329,236,565,-,-,-,-,-
+SNOWTOWN SOUTH WIND FARM PTY. LTD.,SNOWTOWN SOUTH WIND FARM,F,SA,"1,657,221","460,339",69,120,189,0.00,On,NEM,Wind,-
+SNOWTOWN SOUTH WIND FARM PTY. LTD.,Corporate Total,C,-,"1,657,221","460,339",69,120,189,-,-,-,-,-
+SNOWTOWN WIND FARM PTY LTD,Snowtown Wind Farm,F,SA,"1,277,877","354,966",198,253,451,0.00,On,NEM,Wind,-
+SNOWTOWN WIND FARM PTY LTD,Corporate Total,C,-,"1,277,877","354,966",198,253,451,-,-,-,-,-
+SNOWTOWN WIND FARM STAGE 2 PTY. LTD.,SNOWTOWN WIND FARM STAGE 2,F,SA,"1,684,213","467,837",79,173,252,0.00,On,NEM,Wind,-
+SNOWTOWN WIND FARM STAGE 2 PTY. LTD.,Corporate Total,C,-,"1,684,213","467,837",79,173,252,-,-,-,-,-
+SNOWY HYDRO LIMITED,Angaston Power Station,F,SA,"8,000","2,222","1,925",324,"2,249",0.87,On,NEM,Diesel,-
+SNOWY HYDRO LIMITED,Colongra Power Station,F,NSW,"54,436","15,121","8,459","6,584","15,043",0.56,On,NEM,Gas,-
+SNOWY HYDRO LIMITED,Laverton North Power Station,F,VIC,"644,421","179,006","108,104","3,307","111,411",0.60,On,NEM,Gas,-
+SNOWY HYDRO LIMITED,Lonsdale/Port Stanvac Power Station,F,SA,"17,488","4,858","3,335",794,"4,129",0.69,On,NEM,Diesel,-
+SNOWY HYDRO LIMITED,Snowy Hydro Ltd,F,NSW,"15,661,978","4,350,549","1,699","214,746","216,445",0.00,On,NEM,Hydro,-
+SNOWY HYDRO LIMITED,Valley Power,F,VIC,"82,369","22,880","17,333","3,003","20,336",0.76,On,NEM,Gas,-
+SNOWY HYDRO LIMITED,Corporate Total,C,-,"16,468,692","4,574,637","140,855","228,758","369,613",-,-,-,-,-
+SOLAR FARM INVESTMENTS PTY LTD,Moree Solar Farm ,F,NSW,"557,766","154,935",0,636,636,0.00,On,NEM,Solar,-
+SOLAR FARM INVESTMENTS PTY LTD,Corporate Total,C,-,"557,766","154,935",0,636,636,-,-,-,-,-
+SPIC PACIFIC ENERGY PTY LTD,Challicum Hills Wind Farm ,F,VIC,"477,876","132,743",58,0,58,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Clements Gap Wind Farm ,F,SA,"680,546","189,041",120,0,120,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Codrington Wind Farm ,F,VIC,"156,907","43,585",23,0,23,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Crowlands Wind Farm,F,VIC,421,117,"1,086",0,"1,086",9.29,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Eildon Pondage Hydro ,F,VIC,"54,693","15,193",2,0,2,0.00,On,NEM,Hydro,-
+SPIC PACIFIC ENERGY PTY LTD,Glenmaggie Hydro ,F,VIC,"14,580","4,050",5,0,5,0.00,On,NEM,Hydro,-
+SPIC PACIFIC ENERGY PTY LTD,Ord Hydro ,F,WA,"794,832","220,787",29,0,29,0.00,Off,Off-grid,Hydro,-
+SPIC PACIFIC ENERGY PTY LTD,Portland Wind Farms ,F,VIC,"1,655,926","459,979",60,0,60,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Taralga Wind Farm ,F,NSW,"1,084,847","301,346",91,0,91,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,The Drop Hydro ,F,NSW,"15,493","4,304",5,0,5,0.00,On,NEM,Hydro,-
+SPIC PACIFIC ENERGY PTY LTD,William Hovell Hydro ,F,VIC,"14,407","4,002",4,0,4,0.00,On,NEM,Hydro,-
+SPIC PACIFIC ENERGY PTY LTD,Yaloak South Wind Farm ,F,VIC,"129,067","35,852",164,0,164,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Yambuk Wind Farm ,F,VIC,"326,561","90,711",37,0,37,0.00,On,NEM,Wind,-
+SPIC PACIFIC ENERGY PTY LTD,Corporate Total,C,-,"5,406,156","1,501,710","1,684",0,"1,684",-,-,-,-,-
+STANWELL CORPORATION LIMITED,Barron Gorge Power Station,F,QLD,"554,034","153,898",21,654,675,0.00,On,NEM,Hydro,-
+STANWELL CORPORATION LIMITED,Kareeya Power Station,F,QLD,"1,621,510","450,419",54,"1,679","1,733",0.00,On,NEM,Hydro,-
+STANWELL CORPORATION LIMITED,Mackay Gas Turbine,F,QLD,683,190,259,2,261,1.37,On,NEM,Diesel,-
+STANWELL CORPORATION LIMITED,Mica Creek Power Station,F,QLD,"435,909","121,086","91,308",388,"91,696",0.75,On,Mt Isa,Gas,-
+STANWELL CORPORATION LIMITED,Stanwell Power Station,F,QLD,"31,695,761","8,804,378","7,627,813","9,922","7,637,735",0.87,On,NEM,Black Coal,-
+STANWELL CORPORATION LIMITED,Swanbank E Power Station,F,QLD,"2,416,169","671,158","259,758","2,670","262,428",0.39,On,NEM,Gas,-
+STANWELL CORPORATION LIMITED,Tarong Power Stations,F,QLD,"43,557,325","12,099,257","10,437,422","36,528","10,473,950",0.86,On,NEM,Black Coal,-
+STANWELL CORPORATION LIMITED,Corporate Total,C,-,"80,281,391","22,300,386","18,416,635","51,843","18,468,478",-,-,-,-,-
+SUNSET POWER INTERNATIONAL PTY LTD,Vales Point Power Station,F,NSW,"29,025,803","8,062,723","6,966,897","48,729","7,015,626",0.86,On,NEM,Black Coal,-
+SUNSET POWER INTERNATIONAL PTY LTD,Corporate Total,C,-,"29,025,803","8,062,723","6,966,897","48,729","7,015,626",-,-,-,-,-
+SWF1 OPERATIONS HOLDINGS PTY LTD,SWF 1 Operations Holdings Pty Ltd,F,NSW,"266,253","73,959","3,078",477,"3,555",0.04,On,NEM,Wind,-
+SWF1 OPERATIONS HOLDINGS PTY LTD,Corporate Total,C,-,"266,253","73,959","3,078",477,"3,555",-,-,-,-,-
+SYNERGEN POWER PTY LIMITED,Dry Creek Power Station,F,SA,"38,614","10,726","10,666",340,"11,006",0.99,On,NEM,Gas,-
+SYNERGEN POWER PTY LIMITED,Mintaro Power Station,F,SA,"152,219","42,283","32,352",104,"32,456",0.77,On,NEM,Gas,-
+SYNERGEN POWER PTY LIMITED,Port Lincoln Power Station,F,SA,"6,022","1,673","2,664",337,"3,001",1.59,On,NEM,Diesel,-
+SYNERGEN POWER PTY LIMITED,Snuggery Power Station,F,SA,"2,678",744,848,428,"1,276",1.14,On,NEM,Diesel,-
+SYNERGEN POWER PTY LIMITED,Corporate Total,C,-,"199,533","55,426","46,530","1,209","47,739",-,-,-,-,-
+TASMANIAN IRRIGATION PTY LTD,Midlands Power Station,F,TAS,"103,308","28,697",0,0,0,0.00,On,NEM,Hydro,-
+TASMANIAN IRRIGATION PTY LTD,Corporate Total,C,-,"103,308","28,697",0,0,0,-,-,-,-,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,Kalgoorlie Power Station,F,WA,"935,310","259,808","148,040",0,"148,040",0.57,On,SWIS,Gas,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,Kambalda Power Station,F,WA,"966,932","268,592","148,433",0,"148,433",0.55,On,SWIS,Gas,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,Leinster Power Station,F,WA,"900,097","250,027","169,107",0,"169,107",0.68,Off,Off-grid,Gas,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,Mt Keith Power Station,F,WA,"1,543,160","428,656","222,682",0,"222,682",0.52,Off,Off-grid,Gas,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,Solomon Power Station,F,WA,"334,016","92,782","58,143",0,"58,143",0.63,Off,Off-grid,Gas,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,South Hedland Power Station,F,WA,"1,542,652","428,514","208,477",0,"208,477",0.49,Off,Off-grid,Gas,-
+TRANSALTA ENERGY (AUSTRALIA) PTY LTD,Corporate Total,C,-,"6,222,167","1,728,380","954,882",0,"954,882",-,-,-,-,-
+WATER CORPORATION,Cocos Keeling Islands - Home Island Generation,F,WA,"8,913","2,476","1,735",0,"1,735",0.70,Off,Off-grid,Diesel,-
+WATER CORPORATION,Cocos Keeling Islands - West Island Generation,F,WA,"8,948","2,486","1,981",0,"1,981",0.80,Off,Off-grid,Diesel,-
+WATER CORPORATION,Corporate Total,C,-,"17,861","4,961","3,716",0,"3,716",-,-,-,-,-
+WEIPA SOLAR FARM PTY LTD,Weipa Solar Power Station,F,QLD,"3,115",865,0,4,4,0.00,Off,Off-grid,Solar,-
+WEIPA SOLAR FARM PTY LTD,Corporate Total,C,-,"3,115",865,0,4,4,-,-,-,-,-
+YARA AUSTRALIA PTY LTD,YPF UTILITIES PRODUCTION AND SUPPLY,F,WA,"96,155","26,710","28,078",0,"28,078",1.05,Off,Off-grid,Gas,-
+YARA AUSTRALIA PTY LTD,Corporate Total,C,-,"96,155","26,710","28,078",0,"28,078",-,-,-,-,-
+,,,,,,,,,,,,,

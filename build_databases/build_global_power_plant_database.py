@@ -187,6 +187,7 @@ for plant_id,plant in geo_database.iteritems():
 
 # STEP 3.1: Append another multinational database
 wiki_solar_file = pw.make_file_path(fileType="raw", subFolder="Wiki-Solar", filename="wiki-solar-plant-additions-2019.csv")
+wiki_solar_exclusion = pw.make_file_path(fileType="resource", filename="wiki-solar-exclusion.csv")
 country_lookup = {cc.iso_code: cc.primary_name for cc in country_dictionary.values()}
 # FIXME: patch lookup with additional geographies relevant in the wikisolar dataset
 country_lookup.update({
@@ -207,9 +208,12 @@ wiki_solar_skip = {
 wiki_solar_whitelist = ['PRI']
 
 wiki_solar_count = 0
+_exclude_list = [row['id'] for row in csv.DictReader(open(wiki_solar_exclusion))]
 with open(wiki_solar_file) as fin:
 	wiki_solar = csv.DictReader(fin)
 	for solar_plant in wiki_solar:
+		if solar_plant['id'] in _exclude_list:
+			continue
 		country = country_lookup.get(solar_plant['country'], '')
 		plant_idnr = 'WKS{0:07d}'.format(int(solar_plant['id']))
 		plant_location = pw.LocationObject(latitude=float(solar_plant['lat']), longitude=float(solar_plant['lon']))

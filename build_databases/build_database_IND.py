@@ -43,7 +43,7 @@ SOURCE_URL = u"http://www.cea.nic.in/"
 SOURCE_URL2 = u"https://www.recregistryindia.nic.in/"
 GEOLOCATION_SOURCE_CEA = u"WRI"
 SAVE_CODE = u"IND"
-RAW_FILE_NAME_CEA = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="database_14.zip")
+RAW_FILE_NAME_CEA = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="database_15.zip")
 RAW_FILE_NAME_CEA_UZ = pw.make_file_path(fileType="raw", filename=SAVE_CODE)
 RAW_FILE_NAME_REC = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="accredited_rec_generators.html")
 WRI_DATABASE = pw.make_file_path(fileType="src_bin", filename=u"WRI-Database.bin")
@@ -53,7 +53,7 @@ PLANT_LOCATIONS_FILE = pw.make_file_path(fileType="resource", subFolder="IND", f
 SAVE_DIRECTORY = pw.make_file_path(fileType="src_bin")
 LOCATION_FILE = pw.make_file_path(fileType="resource", subFolder=SAVE_CODE, filename="plant_locations_IND.csv")
 TAB_NAME = u"Data"
-DATA_YEAR = 2018  # capacity data from CEA
+DATA_YEAR = 2019  # capacity data from CEA
 
 # optional raw files to download
 FILES = {
@@ -88,14 +88,14 @@ plant_locations = {}
 with open(PLANT_LOCATIONS_FILE, 'rU') as f:
     reader = csv.DictReader(f)
     for row in reader:
-        row['match_key'] = int(row['id_2017-2018'])
+        row['match_key'] = int(row['id_2018-2019'])
         try:
             row['latitude'] = float(row['latitude'])
             row['longitude'] = float(row['longitude'])
         except:
             pass
         if row['match_key'] in plant_locations:
-            print(u"-Error: Duplicated ID for 2017-2018: {0}".format(row['match_key']))
+            print(u"-Error: Duplicated ID for 2018-2019: {0}".format(row['match_key']))
         else:
             plant_locations[row['match_key']] = row
 print("Read location coordinates of {0} CEA-listed plants...".format(len(plant_locations)))
@@ -106,15 +106,16 @@ COLNAMES = {
     'name': u"NAME",
     'unit': u"UNIT_NO",
     'year': u"DT_ COMM",
-    'capacity': u"CAPACITY MW AS ON 31/03/2018",
+    'capacity': u"CAPACITY MW AS ON 31/03/2019",
     'type':    u"TYPE",
     'primary_fuel': u"FUEL 1",
     'other_fuel': u"FUEL 2",
-    'gen_13-14': u"2013-14\n\nNet \nGeneration \nGWh",
+    #'gen_13-14': u"2013-14\n\nNet \nGeneration \nGWh",
     'gen_14-15': u"2014-15\n\nNet \nGeneration \nGWh",
     'gen_15-16': u"2015-16\n\nNet \nGeneration \nGWh",
     'gen_16-17': u"2016-17\n\nNet \nGeneration \nGWh",
     'gen_17-18': u"2017-18\n\nNet \nGeneration \nGWh",
+    'gen_18-19': u"2018-19\n\nNet \nGeneration \nGWh",
 }
 
 # prepare list of units
@@ -139,11 +140,12 @@ capacity_col = rv.index(COLNAMES['capacity'])
 type_col = rv.index(COLNAMES['type'])
 primary_fuel_col = rv.index(COLNAMES['primary_fuel'])
 other_fuel_col = rv.index(COLNAMES['other_fuel'])
-gen_13_14_col = rv.index(COLNAMES['gen_13-14'])
+#gen_13_14_col = rv.index(COLNAMES['gen_13-14'])
 gen_14_15_col = rv.index(COLNAMES['gen_14-15'])
 gen_15_16_col = rv.index(COLNAMES['gen_15-16'])
 gen_16_17_col = rv.index(COLNAMES['gen_16-17'])
 gen_17_18_col = rv.index(COLNAMES['gen_17-18'])
+gen_18_19_col = rv.index(COLNAMES['gen_18-19'])
 
 
 # parse each row
@@ -187,17 +189,21 @@ for i in xrange(1, sheet.nrows):
     else:
         date_number = rv[year_col]
         year = pw.excel_date_as_datetime(date_number).year
-        unit_list[serial_id_val].append({'capacity': capacity, 'year': year})
+        try:
+            unit_list[serial_id_val].append({'capacity': capacity, 'year': year})
+        except:
+            print("-Error: Attempting to append unit to non-existent plant {0}".format(name))
         continue   # don't continue reading this line b/c it's not a full plant
 
     # try to load generation data
     # TODO: organize this into fiscal year (april through march)
-    generation_13 = get_CEA_generation(rv, gen_13_14_col, 2013, SOURCE_NAME)
+    #generation_13 = get_CEA_generation(rv, gen_13_14_col, 2013, SOURCE_NAME)
     generation_14 = get_CEA_generation(rv, gen_14_15_col, 2014, SOURCE_NAME)
     generation_15 = get_CEA_generation(rv, gen_15_16_col, 2015, SOURCE_NAME)
     generation_16 = get_CEA_generation(rv, gen_16_17_col, 2016, SOURCE_NAME)
     generation_17 = get_CEA_generation(rv, gen_17_18_col, 2017, SOURCE_NAME)
-    generation = [generation_13, generation_14, generation_15, generation_16, generation_17]
+    generation_18 = get_CEA_generation(rv, gen_18_19_col, 2018, SOURCE_NAME)
+    generation = [generation_14, generation_15, generation_16, generation_17, generation_18]
 
     try:
         plant_type = pw.format_string(rv[type_col])

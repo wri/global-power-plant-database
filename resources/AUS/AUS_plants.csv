@@ -1,494 +1,524 @@
-gppd_idnr,orig_name,aremi_oid,aremi_name,aremi_comment,nger_2012-2013_index,nger_2013-2014_index,nger_2014-2015_index,nger_2015-2016_index,nger_2016-2017_index
-AUS0000001,Wonthaggi Wind Farm,122,,,,383,381,,128
-AUS0000002,Walkaway Wind Farm,123,,,,,,,
-AUS0000003,Cullerin Range Wind Farm,124,,,303,329,322,326,297
-AUS0000004,Wattle Point Wind Farm,92,,,32,32,35,35,36
-AUS0000005,Snowtown Wind Farm Stage 1,125,Snowtown North,,356,391,389,442,433
-AUS0000006,Challicum Hills Wind Farm,1,,,245,252,246,250,446
-AUS0000007,Cape Bridgewater Wind Farm,126,,,,,,,
-AUS0000008,Barcaldine (Len Wishaw),127,,,,,,,170
-AUS0000009,Bluff Point (Woolnorth) Wind Farm,128,,,353,386,384,437,428
-AUS0000010,Studland Bay (Woolnorth) Wind Farm,129,,,354,387,385,438,429
-AUS0000011,The Drop,130,,,251,259,253,257,454
-AUS0000012,Pindari,131,,,24,25,,29,30
-AUS0000013,Nieterana,51,,,,,,,
-AUS0000014,Banimboola,4,,,4,3,4,3,3
-AUS0000015,Codrington Wind Farm,14,,,,254,248,252,448
-AUS0000016,Oakland Hills Wind Farm,52,,,23,24,28,28,29
-AUS0000017,Shepparton Biogas Generation Plant,2,,,277,287,281,285,262
-AUS0000018,Tatura Biogas Generation Plant,53,,,,,,,
-AUS0000019,Waubra Wind Farm,19,,,1,1,2,1,1
-AUS0000020,Yambuk Wind Farm,15,,,253,261,255,259,456
-AUS0000021,Jindabyne Dam Mini Hydro,54,,,,,,,
-AUS0000024,Hallett 4 North Brown Hill  Wind Farm,55,North Brown Hill  Wind Farm,,16,16,17,17,17
-AUS0000025,Daandine,56,,,246,253,247,251,447
-AUS0000026,Wyangala A,57,,,209,217,211,211,200
-AUS0000027,Blayney Wind Farm,58,,,190,207,203,205,
-AUS0000028,Woodlawn Wind Farm,59,,,258,267,261,265,240
-AUS0000029,Woodlawn Bioreactor,60,,,,,,,
-AUS0000030,West Nowra (Shoalhaven),61,,,,,,,
-AUS0000031,Tumut 3,62,,,,,,,
-AUS0000032,Trevallyn,11,,,239,246,240,244,230
-AUS0000033,Summerhill,63,,,,,,,
-AUS0000034,Mugga Lane,64,,,166,170,166,167,114
-AUS0000035,Lucas Heights III,,,,,,,,
-AUS0000036,Lucas Heights II,65,,,160,164,160,163,110
-AUS0000037,Lucas Heights I,66,,,159,163,159,162,109
-AUS0000038,Jounama,67,,,,,,,
-AUS0000039,Jacks Gully,68,,,155,159,154,156,104
-AUS0000040,Gunning,69,,,0,0,0,0,0
-AUS0000041,Grange Avenue,70,,,,,,153,101
-AUS0000042,Esperance Wind Farm Nine Mile Beach,71,,,,,,,
-AUS0000043,Emu Downs Wind Farm,105,,,50,51,52,52,48
-AUS0000044,Eastern Creek 2,72,,,270,280,274,278,255
-AUS0000045,Eastern Creek,73,,,144,147,146,148,96
-AUS0000046,Crookwell Wind Farm,74,,,193,328,205,207,
-AUS0000047,Capital Wind Farm,75,Capital Hill Wind Farm,,256,265,259,263,238
-AUS0000048,Burrinjuck Power Station,76,,,192,209,204,206,192
-AUS0000049,Awaba,77,,,265,275,269,273,250
-AUS0000050,Waterloo Wind Farm,91,,,182,193,189,189,178
-AUS0000051,Windy Hill Wind Farm,78,,,346,374,367,424,409
-AUS0000052,Starfish Hill Wind Farm,79,,,343,371,364,421,406
-AUS0000053,Pioneer Sugar Mill,80,,,,,,,
-AUS0000054,Moranbah North,81,,,164,168,164,166,113
-AUS0000055,Koombooloomba,82,,,,,,,
-AUS0000056,Invicta Sugar Mill,83,,,,,,,
-AUS0000057,Wivenhoe,84,,,,,,,
-AUS0000058,Terminal Storage,85,,,,,,,
-AUS0000059,Suncoast Gold Macadamia,86,,,29,30,33,,
-AUS0000060,Rocky Point Sugar Sugar Mill,87,,,,,,,
-AUS0000061,Mount Millar Wind Farm,88,,,,300,296,296,271
-AUS0000062,Lake Bonney Wind Farm,89,Lake Bonney Stage 2 Wind Farm,,257,266,260,264,239
-AUS0000063,Cathedral Rocks Wind Farm,98,,,179,188,185,185,174
-AUS0000064,Canunda Wind Farm,31,,,87,88,77,78,73
-AUS0000065,Albany Wind Farm,90,,,104,110,107,111,153
-AUS0000066,Wyndham,132,,,282,292,288,292,267
-AUS0000067,Wollert,133,,,281,291,287,291,266
-AUS0000068,Whitwood Road,134,,,,,,,
-AUS0000069,Toora Wind Farm,135,,,344,372,365,422,407
-AUS0000070,Ti Tree Bioenergy,136,,,,,,397,380
-AUS0000071,Springvale,20,,,170,175,172,173,120
-AUS0000072,Roghan Road,137,,,,,170,172,119
-AUS0000073,Rochedale,138,,,276,286,280,284,261
-AUS0000074,Plane Creek Sugar Mill,139,,,,,,,
-AUS0000075,Loy Yang B,26,,,262,271,265,269,244
-AUS0000076,Hume,30,,,194,335,206,208,193
-AUS0000077,Hallam Road,21,,,,,,,
-AUS0000078,Browns Plains,140,,,138,141,139,141,89
-AUS0000079,Brooklyn,141,,,136,139,137,139,87
-AUS0000080,Berwick,142,,,133,136,134,136,84
-AUS0000081,Bairnsdale,28,,,45,46,47,47,329
-AUS0000082,Broadmeadows,143,,,135,138,136,138,86
-AUS0000083,Clayton,9,Claytons,,139,142,141,143,90
-AUS0000084,Eildon,6,,,11,11,12,12,12
-AUS0000085,Energy Brix,144,,,207,215,209,,
-AUS0000086,Lake Glenmaggie,145,,,248,256,250,254,450
-AUS0000087,Hazelwood,146,,,291,310,308,310,281
-AUS0000088,Jeeralang A,24,,,,,,,
-AUS0000089,Jeeralang B,23,,,,,,,
-AUS0000090,Laverton North,7,,,358,395,396,448,439
-AUS0000091,Longford,147,,,,,,,
-AUS0000092,Loy Yang A,25,,,3,20,23,23,24
-AUS0000093,Mornington,148,,,273,283,277,281,258
-AUS0000094,Newport,8,,,102,108,105,109,147
-AUS0000095,Rubicon,149,,,26,27,30,31,32
-AUS0000096,Somerton,150,,,28,29,32,33,34
-AUS0000097,Symex Port Melbourne,151,,,30,,,,
-AUS0000098,Valley (Peaking Facility),27,,,360,397,399,451,442
-AUS0000099,Lake William Hovell,5,,,252,260,254,258,455
-AUS0000100,Yallourn,22,,,183,194,190,190,179
-AUS0000101,Yarrawonga,29,,,37,37,40,40,41
-AUS0000102,Bogong (Mount Beauty Hydro Scheme),152,,,5,4,6,5,5
-AUS0000103,Clover,153,,,7,7,8,8,8
-AUS0000104,McKay Creek (Mount Beauty Hydro Scheme),154,,,21,22,25,25,26
-AUS0000105,West Kiewa (Mount Beauty Hydro Scheme),155,,,34,34,37,37,38
-AUS0000106,Murray 2,156,,,,,,,
-AUS0000107,Murray 1,157,,,,,,,
-AUS0000108,Mortlake,17,,,312,340,332,336,307
-AUS0000109,Dartmouth (Mount Beauty Hydro Scheme),3,,,10,10,11,11,11
-AUS0000110,Cape Sir William Grant Wind Farm,158,,,,,,,
-AUS0000111,Cape Nelson South Wind Farm,159,,,,,,,
-AUS0000112,Cape Nelson North Wind Farm,160,,,,,,,
-AUS0000113,Ballarat Base Hospital,161,,,266,276,270,274,251
-AUS0000114,Anglesea,162,,,40,39,44,44,
-AUS0000115,Remount,163,,,275,285,279,283,260
-AUS0000116,Wayatinah,164,,,242,249,243,247,233
-AUS0000117,Tungatinah,165,,,241,248,242,246,232
-AUS0000118,Tods Corner,166,,,,245,239,243,229
-AUS0000119,Tarraleah,167,,,238,244,238,242,228
-AUS0000120,Repulse,40,,,235,241,235,239,225
-AUS0000121,Poatina,12,,,233,239,233,235,223
-AUS0000122,Meadowbank,168,,,229,236,230,232,220
-AUS0000123,Liapootah,169,,,227,234,228,230,218
-AUS0000124,Lake Echo,13,,,223,230,224,226,214
-AUS0000125,Cluny,170,,,216,223,217,218,207
-AUS0000126,Catagunya,171,,,214,221,215,216,205
-AUS0000127,Butlers Gorge,172,,,213,220,214,215,204
-AUS0000128,Tribute,43,,,240,247,241,245,231
-AUS0000129,Rowallan,173,,,236,242,236,240,226
-AUS0000130,Paloona,50,,,231,,231,233,221
-AUS0000131,Lower Lake Margaret,174,,,224,231,225,227,215
-AUS0000132,Lemonthyme,175,,,226,233,227,229,217
-AUS0000133,Upper Lake Margaret,176,,,225,232,226,228,216
-AUS0000134,John Butters,42,,,221,228,222,224,212
-AUS0000135,Fisher,177,,,218,225,219,220,209
-AUS0000136,Devils Gate,49,,,217,224,218,219,208
-AUS0000137,Bastyan,44,,,212,219,213,213,203
-AUS0000138,Tamar Valley,178,,,237,243,237,241,227
-AUS0000139,Bell Bay (Bell Bay Three),10,,,,,,,
-AUS0000140,Wilmot,48,,,243,250,244,248,234
-AUS0000141,Reece,45,,,234,240,234,238,224
-AUS0000142,Mackintosh,46,,,228,235,229,231,219
-AUS0000143,Gordon,41,,,220,227,221,223,211
-AUS0000144,Cethana,47,,,215,222,216,217,206
-AUS0000145,Inkerman Sugar Mill,179,,,,,,,
-AUS0000146,Mackay,180,,,364,401,403,457,460
-AUS0000147,Roma,181,,,316,344,336,340,311
-AUS0000148,Swanbank B,182,,,,,,,
-AUS0000149,Swanbank E,183,,,367,404,406,,
-AUS0000150,Wivenhoe Hydroelectric,184,,,85,86,91,76,71
-AUS0000151,Barron Gorge,185,,,362,399,401,455,458
-AUS0000152,Braemar 1,186,,,46,47,48,48,330
-AUS0000153,Braemar 2,187,,,54,55,54,54,50
-AUS0000154,Condamine A,188,,,75,76,67,61,403
-AUS0000155,Daandine,189,,,52,53,82,85,130
-AUS0000156,Darling Downs,190,,,305,331,324,328,299
-AUS0000157,German Creek,191,,,153,156,150,151,99
-AUS0000158,Gladstone,192,,,295,316,314,316,287
-AUS0000159,Isis Central Sugar Mill,193,,,,,,,
-AUS0000160,Kalamia Sugar Mill,194,,,,,,,
-AUS0000161,Kareeya,195,,,363,400,402,456,459
-AUS0000162,Kogan Creek,196,,,84,85,90,75,70
-AUS0000163,Millmerran,197,,,322,351,343,346,318
-AUS0000164,Moranbah,198,,,22,23,26,26,27
-AUS0000165,Mount Stuart,199,,,314,342,334,338,309
-AUS0000166,Oakey,200,,,197,197,193,193,182
-AUS0000167,Oaky Creek,201,,,186,171,167,168,
-AUS0000168,Stanwell,202,,,366,403,405,459,462
-AUS0000169,Tarong,243,,,,,,,
-AUS0000170,Tarong North,244,,,,,,,
-AUS0000171,Tarong,245,,,,,,,
-AUS0000172,Yabulu,246,Townsville ,,345,373,366,423,408
-AUS0000173,Yarwun,247,,,,,,,
-AUS0000174,Macknade Sugar Mill,248,,,,,,,
-AUS0000175,Victoria Sugar Mill,249,,,,,,,
-AUS0000176,Callide C,250,,,83,84,89,74,69
-AUS0000177,Callide B,251,,,82,83,88,73,68
-AUS0000178,Callide A,252,,,81,82,87,,
-AUS0000179,Collinsville,253,,,341,,,,
-AUS0000180,Broome,254,,,137,140,138,140,88
-AUS0000181,Burrup Peninsula (Karratha Gas Plant),255,,,,,,,
-AUS0000182,Burrup Peninsula (Pluto Phase 1),256,,,,,,,
-AUS0000183,Cockburn,113,,,106,112,109,113,155
-AUS0000184,Collie (Bluewaters),107,,,,,,,
-AUS0000185,Dampier,120,,,,,,,
-AUS0000186,Esperance,257,,,199,199,195,195,184
-AUS0000187,Geraldton,118,,,111,117,114,,
-AUS0000188,Kalgoorlie (Parkeston),114,,,375,412,414,471,472
-AUS0000189,Karratha,258,,,57,58,57,56,52
-AUS0000190,Kwinana (Alcoa Refinery),259,,,,,,,
-AUS0000191,Kwinana A,111,,,,,,,
-AUS0000192,Kwinana C,112,,,,,,,
-AUS0000193,Kwinana Cogeneration,109,,,260,269,263,267,242
-AUS0000194,Kwinan,260,Kwinana,,,,,,
-AUS0000195,Kwinana High Efficiency Gas Turbine Plant,110,,,,,,,
-AUS0000196,Kwinana (NewGen),261,Kwinana NewGen,,293,314,312,314,285
-AUS0000197,Kwinana Swift,262,,,,,,350,322
-AUS0000198,Neerabup,263,,,196,196,192,192,181
-AUS0000199,Newman Iron Ore Mine,264,,,47,48,49,49,331
-AUS0000200,Pinjar,104,,,119,125,122,124,166
-AUS0000201,Pinjarra Bauxite Mine and Alumina Refinery,265,,,42,41,42,42,43
-AUS0000202,Ravensthorpe,266,,,122,128,125,127,168
-AUS0000203,Wagerup Bauxite Mine and Alumina Refinery,267,,,,,,,
-AUS0000204,Wagerup,108,,,,,,,
-AUS0000205,West Kalgoorlie,268,,,,,,,
-AUS0000206,Port Hedland,269,,,,,,,
-AUS0000207,Mount Magnet,270,,,165,169,165,90,134
-AUS0000208,Collie A,106,,,107,113,110,114,156
-AUS0000209,Kalgoorlie Nickel Smelter,271,,,115,121,118,120,162
-AUS0000210,Kambalda,272,,,376,413,415,472,473
-AUS0000211,Kemerton,103,,,,370,363,420,405
-AUS0000212,Leinster Nickel Mine,273,,,377,414,416,473,474
-AUS0000213,Mount Keith Nickel Mine,274,,,378,415,417,474,475
-AUS0000214,Muja C,275,,,,,,,
-AUS0000215,Muja D,102,,,,,,,
-AUS0000216,Mungarra,117,,,118,124,121,123,165
-AUS0000217,Worsley Cogeneration,276,,,,,,,
-AUS0000218,Yurralyi Maya (Karratha Seven Mile),121,,,,,375,432,327
-AUS0000219,Laverton (Granny Smith Gold Mine),277,,,,,,,
-AUS0000220,Argyle Diamond Mine,278,,,,,,,
-AUS0000221,Christmas Creek Iron Ore Mine,279,,,,,,,
-AUS0000222,Jundee Gold Mine,280,,,,,,,
-AUS0000223,Leonora (Murrin Murrin Nickel Mine),281,Murrin Murrin (Nickel Mine),,,,,,
-AUS0000224,Ord River,101,,,249,257,251,255,451
-AUS0000225,Plutonic Gold Mine,282,,,,,,,
-AUS0000226,Sunrise Dam,283,,,,,,,
-AUS0000227,Wiluna Gold Mine,284,,,,,,,
-AUS0000228,Paraburdoo (Standby),203,,,,,,,
-AUS0000229,Paraburdoo,119,,,,,373,430,325
-AUS0000230,Telfer Gold Mine,204,,,,,,,
-AUS0000231,Amcor Gawler,205,,,,,,,
-AUS0000232,Angaston,39,,,,,393,446,437
-AUS0000233,Dry Creek,33,,,370,407,409,464,467
-AUS0000234,Lonsdale,206,,,,,,,
-AUS0000235,Osborne,36,,,58,59,58,57,53
-AUS0000236,Pedler Creek,207,,,167,172,168,169,
-AUS0000237,Pelican Point,37,,,324,353,345,348,320
-AUS0000238,Port Lincoln,97,,,372,409,411,466,469
-AUS0000239,Quarantine,38,,,315,343,335,339,310
-AUS0000240,Torrens Island A,34,,,,,,,
-AUS0000241,Torrens Island B,35,,,,,,,
-AUS0000242,Wingfield I,208,,,174,181,179,180,126
-AUS0000243,Wingfield II,209,,,175,182,180,181,127
-AUS0000244,Ladbroke Grove,210,,,310,338,330,334,305
-AUS0000245,Snuggery,32,,,373,410,412,467,470
-AUS0000246,Snowtown,,,,,,,,
-AUS0000247,Playford,240,Playford B,,,,,,
-AUS0000248,Northern,212,,,330,359,348,,
-AUS0000249,Mintaro,93,,,371,408,410,465,468
-AUS0000250,Hallett,95,,,180,189,186,186,175
-AUS0000251,Berrimah,213,,,,,,,
-AUS0000252,Landfill Management Services Shoal Bay,214,,,,,,,
-AUS0000253,Tennant Creek,215,,,335,364,357,414,397
-AUS0000254,Ron Goodin,216,,,333,362,356,413,396
-AUS0000255,Owen Springs,217,,,331,360,355,412,395
-AUS0000256,Brewer,218,,,,186,183,183,
-AUS0000257,Yulara,219,,,337,366,359,416,399
-AUS0000258,Pine Creek,220,,,168,173,169,170,117
-AUS0000259,Katherine,221,,,327,356,353,410,393
-AUS0000260,Weddell,100,,,336,365,358,415,398
-AUS0000261,Channel Island,99,,,326,355,352,409,392
-AUS0000262,Warrego,222,,,,,,,
-AUS0000263,Condong Sugar Mill,223,,,,91,80,81,76
-AUS0000264,Appin (Mine),224,,,130,133,130,132,80
-AUS0000265,Bayswater,225,,,285,295,5&291,4,4
-AUS0000266,Bendeela (Shoalhaven Scheme),226,,,,,,,
-AUS0000267,Blowering,227,,,,,,,
-AUS0000268,Broadwater,228,,,,90,79,80,75
-AUS0000269,Brown Mountain,229,,,191,325,,,
-AUS0000270,Capral (Aluminium Smelter),230,,,,,,,
-AUS0000271,Colongra,231,,,95,99,99,447,438
-AUS0000272,EarthPower Biomass Plant,232,,,,,,,
-AUS0000273,Eraring,233,,,,,,,
-AUS0000274,Gadara,234,Visy Pulp and Paper Tumut,,,,,,
-AUS0000275,Glenbawn,235,,,12,12,13,13,13
-AUS0000276,Glennies Creek,236,,,185,157,151,152,100
-AUS0000277,Hunter,237,,,,,,,
-AUS0000278,Hunter Valley,238,,,286,296,20&292,20,20
-AUS0000279,Kangaroo Valley (Shoalhaven Scheme),239,,,,,,,
-AUS0000280,Liddell,240,,,287,297,22&293,22,23
-AUS0000281,Mt Piper,241,,,97,101&190,187,187,176
-AUS0000282,Munmorah,242,,,,,,,
-AUS0000283,Nymboida,285,,,,,,,
-AUS0000284,Oaky,286,,,,,,,
-AUS0000285,Redbank,287,,,,,,,
-AUS0000286,Smithfield Energy,288,,,73,74,65,59,57
-AUS0000287,Tahmoor,289,,,187,176,173,174,121
-AUS0000288,Tallawarra,290,,,181,191,188,188,177
-AUS0000289,Teralba,291,,,,,,,
-AUS0000290,Tomago Aluminium Smelter,292,,,,,,,
-AUS0000291,Tower Mine,293,,,171,178,175,177,123
-AUS0000292,Tumut 1 (Upper Tumut),294,,,,,,,
-AUS0000293,Tumut 2 (Upper Tumut),295,,,,,,,
-AUS0000294,Uranquinty,296,,,,,340,344,315
-AUS0000295,Vales Point B,297,,,98,102,100,102&462,465
-AUS0000296,Wallerawang C,298,,,,,,,
-AUS0000297,Warragamba,299,,,,,,,
-AUS0000298,West Illawarra Leagues Club,300,,,,,,,
-AUS0000299,Western Suburbs Leagues Club (Campbelltown),301,,,,,,,
-AUS0000300,Burrendong,302,,,6,5,7,7,7
-AUS0000301,Copeton,303,,,9,9,10,10,10
-AUS0000302,Wilga Park,304,,,,381,379,434,425
-AUS0000303,Guthega,305,,,,,,,
-AUS0000304,Lake Keepit,306,,,,213,207,209,194
-AUS0000305,Broken Hill,307,,,,,,,
-AUS0000306,Eraring,308,,,297,333,326,330,301
-AUS0000307,Collgar Wind Farm,115,,,92,96,93,96,140
-AUS0000308,Maryvale Mill,309,,,,,,,
-AUS0000309,Grasmere Wind Farm (Albany stage II),310,Grasmere Wind Farm (Albany Stage II),,,,,,
-AUS0000310,Tully Sugar Mill,311,,,,,,,
-AUS0000311,Proserpine Sugar Mill,312,,,,,,,
-AUS0000313,Sydney,314,,,,,,,
-AUS0000314,North Sydney,315,,,,,,,
-AUS0000315,Blackmores,316,,,301,322,319,323,294
-AUS0000316,Nine Network,317,,,,,,,
-AUS0000317,Revesby Workers Club,318,,,,,,,
-AUS0000318,St George Leagues Club,319,,,,,,,
-AUS0000319,University of New South Wales,320,,,318,347,339,343,314
-AUS0000320,Norseman Mine,321,,,90,94,85,91,135
-AUS0000321,Darlot Gold Mine,322,,,,,,,
-AUS0000322,Windimurra Vanadium Mine,323,,,,,,,
-AUS0000323,Rottnest Island Wind Turbine,324,,,,,,,
-AUS0000324,Cloudbreak,325,,,89,93,84,88,
-AUS0000325,Port Hedland,326,,,,,,,
-AUS0000326,Noranda,327,,,,,,,
-AUS0000327,Red Hill,328,,,,,,171,118
-AUS0000328,Shenton Park WMRC Project,329,,,,,,,
-AUS0000329,Kalamunda,330,,,68,69,60,157,105
-AUS0000330,Canning Vale,331,,,,,,,
-AUS0000331,Gosnells,332,,,,,,,
-AUS0000332,KRC Cogeneration Plant,333,,,,,,,
-AUS0000333,Melbourne,334,,,,,,,
-AUS0000334,Carlton,335,,,,,,,
-AUS0000335,Eildon Small Hydro,336,,,247,255,249,253,449
-AUS0000336,Corio,337,,,,,,145,92
-AUS0000337,South East Water Hallam Plant,338,,,,,,,
-AUS0000338,Lower Rubicon,339,,,,,,,
-AUS0000339,Royston,340,,,,,,,
-AUS0000340,Rubicon Falls,341,,,,,,,
-AUS0000341,Leonards Hill,342,,,,,,,
-AUS0000342,Box Hill,343,,,,,,,
-AUS0000343,Highbury,344,,,,,,155,
-AUS0000344,Tea Tree Gully,345,,,,,,176,
-AUS0000345,Port Stanvac,346,,,,,,,
-AUS0000346,Maryborough,347,,,,,,,
-AUS0000347,Stapylton Green Energy,348,,,,,283,287,264
-AUS0000348,Bremer Bay Wind Turbine,349,,,,,,,
-AUS0000349,Bremer Bay Diesel Backup,350,,,,,,,
-AUS0000350,Coral Bay Wind Turbines,351,,,,,,,
-AUS0000351,Coral Bay Diesel Backup,352,,,,,,,
-AUS0000352,Denham Wind Turbines,353,,,,,,,
-AUS0000353,Denham Diesel Backup,354,,,,,,,
-AUS0000354,Woodman Point,395,,,,,,,
-AUS0000355,Henderson,396,,,,,,,
-AUS0000356,Tamala Park,397,,,71,72,63,175,122
-AUS0000357,Mandurah,398,,,,,,,
-AUS0000358,Rockingham,399,,,25,26,29,30,31
-AUS0000359,South Cardup (Shale Road Landfill),400,,,278,288,282,286,263
-AUS0000360,Cue,401,,,141,144,143,87,132
-AUS0000361,Sandstone,402,,,169,174,171,92,136
-AUS0000362,Nullagine Solar Farm,403,,,,,,,
-AUS0000363,Nullagine Diesel Backup,404,,,,,,,
-AUS0000364,Marble Bar Solar Farm,405,,,,,,,
-AUS0000365,Marble Bar Diesel Backup,406,,,,,,,
-AUS0000366,Derby,407,,,142,145,144,146,94
-AUS0000367,Fitzroy Crossing,408,,,151,154,148,149,97
-AUS0000368,Halls Creek,409,,,154,158,152,154,103
-AUS0000369,Warmun,410,,,,,176,178,124
-AUS0000370,Kununurra,411,,,,,,,414
-AUS0000371,Laverton,412,,,157,161,156,159,106
-AUS0000372,Exmouth,413,,,380,420,422,199,188
-AUS0000373,Tableland,414,,,,,,,
-AUS0000374,South Johnstone,415,,,,,,,
-AUS0000375,Mulgrave,416,,,,,,,
-AUS0000376,Blue Lake Milling Power Plant,417,,,,,,,
-AUS0000377,Tatiara Meats,418,,,,,,,
-AUS0000378,Kalumburu,419,,,,,,,413
-AUS0000379,Ardyaloon,420,,,131,134,131,133,81
-AUS0000380,Djarindjin,421,,,143,146,145,147,95
-AUS0000381,Beagle Bay,422,,,132,135,132,134,82
-AUS0000382,Bidyadanga,423,,,134,137,135,137,85
-AUS0000383,Gascoyne Junction,424,,,152,155,149,150,98
-AUS0000384,Wiluna,425,,,173,180,178,93,137
-AUS0000385,Yalgoo,426,,,176,183,181,94,138
-AUS0000386,Carnarvon,427,,,350,378,369,426,411
-AUS0000387,Mungullah,428,,,,,,,
-AUS0000388,Exmouth Advanced Mini Wind Farm,429,,,,,,,
-AUS0000389,Worsley,430,,,,,,,
-AUS0000390,Kalbarri PV System,431,,,113,119,116,,
-AUS0000391,Esperance Wind Farm Ten Mile Lagoon,432,,,,,,,
-AUS0000392,Muja B,433,,,,,,,
-AUS0000393,Muja A,434,,,,,,,
-AUS0000394,Boco Rock,435,,,,,95,98,142
-AUS0000395,Ben Lomond,355,,,,,,,
-AUS0000396,Bannaby,,,,,,,,
-AUS0000397,Bamarang,356,,,,,,,
-AUS0000398,Bango Wind Farm,357,,,,,,,
-AUS0000399,Bankstown Sports Club,358,,,,,,,
-AUS0000400,Belconnen,359,,,172,179,177,179,125
-AUS0000401,Charlestown Square,360,,,,,,,
-AUS0000402,Club Merrylands,361,,,,,,,
-AUS0000403,Erskine Park,362,,,,,,,
-AUS0000404,Kooragang,363,,,,,,,
-AUS0000405,Kalbarri Wind Farm,364,,,114,120,117,119,161
-AUS0000406,Wodgina,365,,,,,,,
-AUS0000407,Savannah Nickel Mine,366,,,,,,,
-AUS0000408,Meekatharra,367,,,162,166,162,89,133
-AUS0000409,Leonora,368,,,158,162,157,160,107
-AUS0000410,Menzies,369,,,163,167,163,165,112
-AUS0000411,Onslow,370,,,,,,318,289
-AUS0000412,Hopetoun Diesel Backup,371,,,,,,,
-AUS0000413,Hopetoun Wind Turbines,372,,,,,,,
-AUS0000414,Camballin,373,,,,,,,
-AUS0000415,Cawse Nickel Mine,374,,,,,,,
-AUS0000416,Buronga,375,,,,,,,
-AUS0000417,Macarthur Wind Farm,16,,,20,21,24,24,25
-AUS0000418,Glenorchy,376,,,13,13,14,14,14
-AUS0000419,Hobart,377,,,18,18,19,19,19
-AUS0000420,Musselroe,378,,,,,,,
-AUS0000421,Kings Canyon,379,,,,,354,411,394
-AUS0000422,Bodangora Wind Farm,380,,,,,,,
-AUS0000424,McArthur River Mine,382,,,161,165,161,164,111
-AUS0000425,University of Queensland (St Lucia Campus) Solar Array,383,,,,,,,
-AUS0000426,Perth Zoo,384,,,,,,,
-AUS0000427,Tulla Calder Interchange Solar Array,385,,,,,,,
-AUS0000428,Bridgewater Solar,386,,,,,,,
-AUS0000429,Monash University (Clayton Campus) Solar Array,387,,,,,,,
-AUS0000430,Queen Victoria Market Solar Array,388,,,,,,,
-AUS0000431,Bendigo Solar Park,389,,,,,318,322,293
-AUS0000432,Adelaide Showgrounds,390,,,,,,,
-AUS0000433,Adelaide Airport,391,,,,,,,
-AUS0000434,Townsville RSL Stadium Solar Array,392,,,,,,,
-AUS0000435,Fraser Coast Community Solar Farm,393,,,,,,,
-AUS0000436,Metricon (Gold Coast) Stadium Solar Array,394,,,,,,,
-AUS0000437,Carnarvon Solar Farm,436,,,,,,,
-AUS0000438,CSIRO Energy Centre,437,,,,,,,
-AUS0000439,Newington Solar Suburb,438,,,,,,,
-AUS0000440,Singleton Solar Farm,439,,,,,,,
-AUS0000441,Kogarah Town Square Solar Array,440,,,,,,,
-AUS0000442,Stadium Australia,441,,,,,,,
-AUS0000443,Mt Gambier,442,,,,,,,
-AUS0000444,Narrogin Bioenergy Plant,443,,,,,,,
-AUS0000445,Visy Paper Gibson Island,444,,,,,,,
-AUS0000446,Mica Creek,480,,,365,402,404,458,461
-AUS0000447,Wilpena Solar Farm,481,,,35,35,38,38,39
-AUS0000448,Mildura Solar Farm,482,,,,,,,
-AUS0000449,King Island (Currie),483,,,,,,,
-AUS0000450,Merredin,116,,,,,,,323
-AUS0000451,West Angelas Mine,484,,,,,374,431,326
-AUS0000452,Cannington Mine,485,,,,,,,
-AUS0000453,Hallett 1 Brown Hill  Wind Farm,486,,,14,14,15,15,15
-AUS0000454,Hallett 5 The Bluff  Wind Farm,487,Hallet 5 - The Bluff,,17,17,18,18,18
-AUS0000455,Hallett 2 Hallet Hill  Wind Farm,488,,,15,15,16,16,16
-AUS0000456,Snowtown Wind Farm Stage 2,489,Snowtown South  ,,,389&393,387&391,440&444,431&435
-AUS0000457,Cape Preston,445,,,,,,,
-AUS0000458,Solomon Iron Ore Mine,446,,,,416,418,475,476
-AUS0000459,Diamantina,447,,,,105,102,104,47
-AUS0000460,Leichhardt,448,,,,,,,
-AUS0000461,Bulwer Island,449,,,56,57,56,,
-AUS0000462,Cape Lambert,450,,,,,,,
-AUS0000463,Ernabella,451,,,,,,,
-AUS0000464,Umuwa,452,,,,,,,
-AUS0000465,Yuendumu,453,,,,,,407,390
-AUS0000466,Lajamanu,454,,,,,,375,358
-AUS0000467,Windorah,455,,,,,,,
-AUS0000468,DoubleTree by Hilton Hotel,456,,,,,,,
-AUS0000469,Alice Springs Airport,457,,,,,,,
-AUS0000470,Uterne Solar,458,,,,,,,
-AUS0000471,Hermannsburg,459,,,,,,,
-AUS0000472,Ballarat Solar Park,460,,,,,317,321,292
-AUS0000473,Liddell Solar Thermal,461,,,,,,,
-AUS0000474,Greenough River Solar Farm,462,,,,,,,
-AUS0000475,Mumbida Wind Farm,463,,,,,,308,151
-AUS0000476,Nyngan Solar Plant,464,,,,,27,27,28
-AUS0000477,Broken Hill Solar Plant,381,,,,,,6,6
-AUS0000478,Mt Mercer Wind Farm,18,,,,299,295,295,270
-AUS0000479,North Sydney,313,,,,,,,
-AUS0000480,Wadeye,465,,,,,,401,384
-AUS0000481,Traralgon Network Support Station,466,,,,,,,
-AUS0000482,Gullen Range Wind Farm,467,,,,312,310,312,283
-AUS0000483,Lake Bonney Stage 1 Wind Farm,468,,,,,,,
-AUS0000484,Lake Bonney Stage 3 Wind Farm,469,,,,,,,
-AUS0000485,Royalla Solar Farm,470,,,,,377,106,144
-AUS0000486,Timber Creek,471,,,,,,398,381
-AUS0000487,Daly Waters,472,,,,,,,
-AUS0000488,Elliott,473,,,,,,363,346
-,Ti-Tree,,,,part of AUS0000070,,,,
-AUS0000490,Roy Hill,475,,,,,,,
-AUS0000491,Moree,476,,,,,,453,444
-AUS0000492,Mortons Lane Wind Farm,478,,,289,308,306,306,279
-AUS0000493,Racecourse Mill,479,,,,,,,
-,Gullen Range Wind Farm,,,duplicate of AUS0000482,,,,,
-,Hallett 1 Brown Hill  Wind Farm,,,duplicate of AUS0000453 ,,,,,
-,Hallett 2 Hallet Hill  Wind Farm,,,duplicate of AUS0000455,,,,,
-,Playford B,,,duplicate of AUS0000247,,,,,
+gppd_idnr,orig_name,aremi_oid,aremi_name,aremi_comment,nger_2012-2013_index,nger_2013-2014_index,nger_2014-2015_index,nger_2015-2016_index,nger_2016-2017_index,nger_2017-2018_index
+AUS0000001,Wonthaggi Wind Farm,122,,,,383,381,,128,450
+AUS0000002,Walkaway Wind Farm,123,,,,,,,,
+AUS0000003,Cullerin Range Wind Farm,124,,,303,329,322,326,297,98
+AUS0000004,Wattle Point Wind Farm,92,,,32,32,35,35,36,38
+AUS0000005,Snowtown Wind Farm Stage 1,125,Snowtown North,,356,391,389,442,433,462
+AUS0000006,Challicum Hills Wind Farm,1,,,245,252,246,250,446,475
+AUS0000007,Cape Bridgewater Wind Farm,126,,,,,,,,
+AUS0000008,Barcaldine (Len Wishaw),127,,,,,,,170,182
+AUS0000009,Bluff Point (Woolnorth) Wind Farm,128,,,353,386,384,437,428,457
+AUS0000010,Studland Bay (Woolnorth) Wind Farm,129,,,354,387,385,438,429,458
+AUS0000011,The Drop,130,,,251,259,253,257,454,484
+AUS0000012,Pindari,131,,,24,25,,29,30,32
+AUS0000013,Nieterana,51,,,,,,,,
+AUS0000014,Banimboola,4,,,4,3,4,3,3,5
+AUS0000015,Codrington Wind Farm,14,,,,254,248,252,448,477
+AUS0000016,Oakland Hills Wind Farm,52,,,23,24,28,28,29,31
+AUS0000017,Shepparton Biogas Generation Plant,2,,,277,287,281,285,262,277
+AUS0000018,Tatura Biogas Generation Plant,53,,,,,,,,
+AUS0000019,Waubra Wind Farm,19,,,1,1,2,1,1,3
+AUS0000020,Yambuk Wind Farm,15,,,253,261,255,259,456,487
+AUS0000021,Jindabyne Dam Mini Hydro,54,,,,,,,,
+AUS0000024,Hallett 4 North Brown Hill  Wind Farm,55,North Brown Hill  Wind Farm,,16,16,17,17,17,19
+AUS0000025,Daandine,56,,,246,253,247,251,447,476
+AUS0000026,Wyangala A,57,,,209,217,211,211,200,209
+AUS0000027,Blayney Wind Farm,58,,,190,207,203,205,,
+AUS0000028,Woodlawn Wind Farm,59,,,258,267,261,265,240,249
+AUS0000029,Woodlawn Bioreactor,60,,,,,,,,
+AUS0000030,West Nowra (Shoalhaven),61,,,,,,,,
+AUS0000031,Tumut 3,62,,,,,,,,
+AUS0000032,Trevallyn,11,,,239,246,240,244,230,239
+AUS0000033,Summerhill,63,,,,,,,,
+AUS0000034,Mugga Lane,64,,,166,170,166,167,114,117
+AUS0000035,Lucas Heights III,,,,,,,,,
+AUS0000036,Lucas Heights II,65,,,160,164,160,163,110,125
+AUS0000037,Lucas Heights I,66,,,159,163,159,162,109,124
+AUS0000038,Jounama,67,,,,,,,,
+AUS0000039,Jacks Gully,68,,,155,159,154,156,104,123
+AUS0000040,Gunning,69,,,0,0,0,0,0,1
+AUS0000041,Grange Avenue,70,,,,,,153,101,122
+AUS0000042,Esperance Wind Farm Nine Mile Beach,71,,,,,,,,
+AUS0000043,Emu Downs Wind Farm,105,,,50,51,52,52,48,50
+AUS0000044,Eastern Creek 2,72,,,270,280,274,278,255,268
+AUS0000045,Eastern Creek,73,,,144,147,146,148,96,121
+AUS0000046,Crookwell Wind Farm,74,,,193,328,205,207,,
+AUS0000047,Capital Wind Farm,75,Capital Hill Wind Farm,,256,265,259,263,238,247
+AUS0000048,Burrinjuck Power Station,76,,,192,209,204,206,192,285
+AUS0000049,Awaba,77,,,265,275,269,273,250,263
+AUS0000050,Waterloo Wind Farm,91,,,182,193,189,189,178,191&344
+AUS0000051,Windy Hill Wind Farm,78,,,346,374,367,424,409,437
+AUS0000052,Starfish Hill Wind Farm,79,,,343,371,364,421,406,434
+AUS0000053,Pioneer Sugar Mill,80,,,,,,,,
+AUS0000054,Moranbah North,81,,,164,168,164,166,113,151
+AUS0000055,Koombooloomba,82,,,,,,,,
+AUS0000056,Invicta Sugar Mill,83,,,,,,,,
+AUS0000057,Wivenhoe,84,,,,,,,,
+AUS0000058,Terminal Storage,85,,,,,,,,
+AUS0000059,Suncoast Gold Macadamia,86,,,29,30,33,,,
+AUS0000060,Rocky Point Sugar Sugar Mill,87,,,,,,,,
+AUS0000061,Mount Millar Wind Farm,88,,,,300,296,296,271,289
+AUS0000062,Lake Bonney Wind Farm,89,Lake Bonney Stage 2 Wind Farm,,257,266,260,264,239,248
+AUS0000063,Cathedral Rocks Wind Farm,98,,,179,188,185,185,174,0
+AUS0000064,Canunda Wind Farm,31,,,87,88,77,78,73,79
+AUS0000065,Albany Wind Farm,90,,,104,110,107,111,153,153
+AUS0000066,Wyndham,132,,,282,292,288,292,267,282
+AUS0000067,Wollert,133,,,281,291,287,291,266,281
+AUS0000068,Whitwood Road,134,,,,,,,,
+AUS0000069,Toora Wind Farm,135,,,344,372,365,422,407,435
+AUS0000070,Ti Tree Bioenergy,136,,,,,,397,380,407
+AUS0000071,Springvale,20,,,170,175,172,173,120,138
+AUS0000072,Roghan Road,137,,,,,170,172,119,128
+AUS0000073,Rochedale,138,,,276,286,280,284,261,276
+AUS0000074,Plane Creek Sugar Mill,139,,,,,,,,
+AUS0000075,Loy Yang B,26,,,262,271,265,269,244,357
+AUS0000076,Hume,30,,,194,335,206,208,193,286
+AUS0000077,Hallam Road,21,,,,,,,,
+AUS0000078,Browns Plains,140,,,138,141,139,141,89,127
+AUS0000079,Brooklyn,141,,,136,139,137,139,87,135
+AUS0000080,Berwick,142,,,133,136,134,136,84,133
+AUS0000081,Bairnsdale,28,,,45,46,47,47,329,355
+AUS0000082,Broadmeadows,143,,,135,138,136,138,86,134
+AUS0000083,Clayton,9,Claytons,,139,142,141,143,90,136
+AUS0000084,Eildon,6,,,11,11,12,12,12,14
+AUS0000085,Energy Brix,144,,,207,215,209,,,
+AUS0000086,Lake Glenmaggie,145,,,248,256,250,254,450,480
+AUS0000087,Hazelwood,146,,,291,310,308,310,281,
+AUS0000088,Jeeralang A,24,,,,,,,,
+AUS0000089,Jeeralang B,23,,,,,,,,
+AUS0000090,Laverton North,7,,,358,395,396,448,439,468
+AUS0000091,Longford,147,,,,,,,,
+AUS0000092,Loy Yang A,25,,,3,20,23,23,24,26
+AUS0000093,Mornington,148,,,273,283,277,281,258,271
+AUS0000094,Newport,8,,,102,108,105,109,147,189
+AUS0000095,Rubicon,149,,,26,27,30,31,32,34
+AUS0000096,Somerton,150,,,28,29,32,33,34,36
+AUS0000097,Symex Port Melbourne,151,,,30,,,,,
+AUS0000098,Valley (Peaking Facility),27,,,360,397,399,451,442,471
+AUS0000099,Lake William Hovell,5,,,252,260,254,258,455,485
+AUS0000100,Yallourn,22,,,183,194,190,190,179,192
+AUS0000101,Yarrawonga,29,,,37,37,40,40,41,43
+AUS0000102,Bogong (Mount Beauty Hydro Scheme),152,,,5,4,6,5,5,7
+AUS0000103,Clover,153,,,7,7,8,8,8,10
+AUS0000104,McKay Creek (Mount Beauty Hydro Scheme),154,,,21,22,25,25,26,28
+AUS0000105,West Kiewa (Mount Beauty Hydro Scheme),155,,,34,34,37,37,38,40
+AUS0000106,Murray 2,156,,,,,,,,
+AUS0000107,Murray 1,157,,,,,,,,
+AUS0000108,Mortlake,17,,,312,340,332,336,307,331
+AUS0000109,Dartmouth (Mount Beauty Hydro Scheme),3,,,10,10,11,11,11,13
+AUS0000110,Cape Sir William Grant Wind Farm,158,,,,,,,,
+AUS0000111,Cape Nelson South Wind Farm,159,,,,,,,,
+AUS0000112,Cape Nelson North Wind Farm,160,,,,,,,,
+AUS0000113,Ballarat Base Hospital,161,,,266,276,270,274,251,264
+AUS0000114,Anglesea,162,,,40,39,44,44,,
+AUS0000115,Remount,163,,,275,285,279,283,260,275
+AUS0000116,Wayatinah,164,,,242,249,243,247,233,242
+AUS0000117,Tungatinah,165,,,241,248,242,246,232,241
+AUS0000118,Tods Corner,166,,,,245,239,243,229,238
+AUS0000119,Tarraleah,167,,,238,244,238,242,228,237
+AUS0000120,Repulse,40,,,235,241,235,239,225,234
+AUS0000121,Poatina,12,,,233,239,233,235,223,232
+AUS0000122,Meadowbank,168,,,229,236,230,232,220,229
+AUS0000123,Liapootah,169,,,227,234,228,230,218,227
+AUS0000124,Lake Echo,13,,,223,230,224,226,214,223
+AUS0000125,Cluny,170,,,216,223,217,218,207,216
+AUS0000126,Catagunya,171,,,214,221,215,216,205,214
+AUS0000127,Butlers Gorge,172,,,213,220,214,215,204,213
+AUS0000128,Tribute,43,,,240,247,241,245,231,240
+AUS0000129,Rowallan,173,,,236,242,236,240,226,235
+AUS0000130,Paloona,50,,,231,,231,233,221,230
+AUS0000131,Lower Lake Margaret,174,,,224,231,225,227,215,224
+AUS0000132,Lemonthyme,175,,,226,233,227,229,217,226
+AUS0000133,Upper Lake Margaret,176,,,225,232,226,228,216,225
+AUS0000134,John Butters,42,,,221,228,222,224,212,221
+AUS0000135,Fisher,177,,,218,225,219,220,209,218
+AUS0000136,Devils Gate,49,,,217,224,218,219,208,217
+AUS0000137,Bastyan,44,,,212,219,213,213,203,212
+AUS0000138,Tamar Valley,178,,,237,243,237,241,227,236
+AUS0000139,Bell Bay (Bell Bay Three),10,,,,,,,,
+AUS0000140,Wilmot,48,,,243,250,244,248,234,243
+AUS0000141,Reece,45,,,234,240,234,238,224,233
+AUS0000142,Mackintosh,46,,,228,235,229,231,219,228
+AUS0000143,Gordon,41,,,220,227,221,223,211,220
+AUS0000144,Cethana,47,,,215,222,216,217,206,215
+AUS0000145,Inkerman Sugar Mill,179,,,,,,,,
+AUS0000146,Mackay,180,,,364,401,403,457,460,491
+AUS0000147,Roma,181,,,316,344,336,340,311,335
+AUS0000148,Swanbank B,182,,,,,,,,
+AUS0000149,Swanbank E,183,,,367,404,406,,,494
+AUS0000150,Wivenhoe Hydroelectric,184,,,85,86,91,76,71,77
+AUS0000151,Barron Gorge,185,,,362,399,401,455,458,489
+AUS0000152,Braemar 1,186,,,46,47,48,48,330,356
+AUS0000153,Braemar 2,187,,,54,55,54,54,50,52
+AUS0000154,Condamine A,188,,,75,76,67,61,403,431
+AUS0000155,Daandine,189,,,52,53,82,85,130,47&88
+AUS0000156,Darling Downs,190,,,305,331,324,328,299,323
+AUS0000157,German Creek,191,,,153,156,150,151,99,115
+AUS0000158,Gladstone,192,,,295,316,314,316,287,312
+AUS0000159,Isis Central Sugar Mill,193,,,,,,,,
+AUS0000160,Kalamia Sugar Mill,194,,,,,,,,
+AUS0000161,Kareeya,195,,,363,400,402,456,459,490
+AUS0000162,Kogan Creek,196,,,84,85,90,75,70,76
+AUS0000163,Millmerran,197,,,322,351,343,346,318,342
+AUS0000164,Moranbah,198,,,22,23,26,26,27,29
+AUS0000165,Mount Stuart,199,,,314,342,334,338,309,333
+AUS0000166,Oakey,200,,,197,197,193,193,182,195
+AUS0000167,Oaky Creek,201,,,186,171,167,168,,
+AUS0000168,Stanwell,202,,,366,403,405,459,462,493
+AUS0000169,Tarong,243,,,,,,,,
+AUS0000170,Tarong North,244,,,,,,,,
+AUS0000171,Tarong,245,,,,,,,,
+AUS0000172,Yabulu,246,Townsville ,,345,373,366,423,408,436
+AUS0000173,Yarwun,247,,,,,,,,
+AUS0000174,Macknade Sugar Mill,248,,,,,,,,
+AUS0000175,Victoria Sugar Mill,249,,,,,,,,
+AUS0000176,Callide C,250,,,83,84,89,74,69,75
+AUS0000177,Callide B,251,,,82,83,88,73,68,74
+AUS0000178,Callide A,252,,,81,82,87,,,
+AUS0000179,Collinsville,253,,,341,,,,,
+AUS0000180,Broome,254,,,137,140,138,140,88,143
+AUS0000181,Burrup Peninsula (Karratha Gas Plant),255,,,,,,,,
+AUS0000182,Burrup Peninsula (Pluto Phase 1),256,,,,,,,,
+AUS0000183,Cockburn,113,,,106,112,109,113,155,155
+AUS0000184,Collie (Bluewaters),107,,,,,,,,
+AUS0000185,Dampier,120,,,,,,,,
+AUS0000186,Esperance,257,,,199,199,195,195,184,197
+AUS0000187,Geraldton,118,,,111,117,114,,,
+AUS0000188,Kalgoorlie (Parkeston),114,,,375,412,414,471,472,508
+AUS0000189,Karratha,258,,,57,58,57,56,52,54
+AUS0000190,Kwinana (Alcoa Refinery),259,,,,,,,,
+AUS0000191,Kwinana A,111,,,,,,,,
+AUS0000192,Kwinana C,112,,,,,,,,
+AUS0000193,Kwinana Cogeneration,109,,,260,269,263,267,242,251
+AUS0000194,Kwinan,260,Kwinana,,,,,,,
+AUS0000195,Kwinana High Efficiency Gas Turbine Plant,110,,,,,,,,
+AUS0000196,Kwinana (NewGen),261,Kwinana NewGen,,293,314,312,314,285,310
+AUS0000197,Kwinana Swift,262,,,,,,350,322,348
+AUS0000198,Neerabup,263,,,196,196,192,192,181,194
+AUS0000199,Newman Iron Ore Mine,264,,,47,48,49,49,331,358
+AUS0000200,Pinjar,104,,,119,125,122,124,166,167
+AUS0000201,Pinjarra Bauxite Mine and Alumina Refinery,265,,,42,41,42,42,43,45
+AUS0000202,Ravensthorpe,266,,,122,128,125,127,168,169
+AUS0000203,Wagerup Bauxite Mine and Alumina Refinery,267,,,,,,,,
+AUS0000204,Wagerup,108,,,,,,,,
+AUS0000205,West Kalgoorlie,268,,,,,,,,
+AUS0000206,Port Hedland,269,,,,,,,,
+AUS0000207,Mount Magnet,270,,,165,169,165,90,134,92
+AUS0000208,Collie A,106,,,107,113,110,114,156,156
+AUS0000209,Kalgoorlie Nickel Smelter,271,,,115,121,118,120,162,163
+AUS0000210,Kambalda,272,,,376,413,415,472,473,509
+AUS0000211,Kemerton,103,,,,370,363,420,405,433
+AUS0000212,Leinster Nickel Mine,273,,,377,414,416,473,474,510
+AUS0000213,Mount Keith Nickel Mine,274,,,378,415,417,474,475,511
+AUS0000214,Muja C,275,,,,,,,,
+AUS0000215,Muja D,102,,,,,,,,
+AUS0000216,Mungarra,117,,,118,124,121,123,165,166
+AUS0000217,Worsley Cogeneration,276,,,,,,,,
+AUS0000218,Yurralyi Maya (Karratha Seven Mile),121,,,,,375,432,327,353
+AUS0000219,Laverton (Granny Smith Gold Mine),277,,,,,,,,
+AUS0000220,Argyle Diamond Mine,278,,,,,,,,
+AUS0000221,Christmas Creek Iron Ore Mine,279,,,,,,,,
+AUS0000222,Jundee Gold Mine,280,,,,,,,,
+AUS0000223,Leonora (Murrin Murrin Nickel Mine),281,Murrin Murrin (Nickel Mine),,,,,,,
+AUS0000224,Ord River,101,,,249,257,251,255,451,481
+AUS0000225,Plutonic Gold Mine,282,,,,,,,,
+AUS0000226,Sunrise Dam,283,,,,,,,,
+AUS0000227,Wiluna Gold Mine,284,,,,,,,,
+AUS0000228,Paraburdoo (Standby),203,,,,,,,,
+AUS0000229,Paraburdoo,119,,,,,373,430,325,351
+AUS0000230,Telfer Gold Mine,204,,,,,,,,
+AUS0000231,Amcor Gawler,205,,,,,,,,
+AUS0000232,Angaston,39,,,,,393,446,437,466
+AUS0000233,Dry Creek,33,,,370,407,409,464,467,501
+AUS0000234,Lonsdale,206,,,,,,,,
+AUS0000235,Osborne,36,,,58,59,58,57,53,55
+AUS0000236,Pedler Creek,207,,,167,172,168,169,,
+AUS0000237,Pelican Point,37,,,324,353,345,348,320,346
+AUS0000238,Port Lincoln,97,,,372,409,411,466,469,503
+AUS0000239,Quarantine,38,,,315,343,335,339,310,334
+AUS0000240,Torrens Island A,34,,,,,,,,
+AUS0000241,Torrens Island B,35,,,,,,,,
+AUS0000242,Wingfield I,208,,,174,181,179,180,126,130
+AUS0000243,Wingfield II,209,,,175,182,180,181,127,131
+AUS0000244,Ladbroke Grove,210,,,310,338,330,334,305,329
+AUS0000245,Snuggery,32,,,373,410,412,467,470,504
+AUS0000246,Snowtown,,,,,,,,,
+AUS0000247,Playford,240,Playford B,,,,,,,
+AUS0000248,Northern,212,,,330,359,348,,,
+AUS0000249,Mintaro,93,,,371,408,410,465,468,502
+AUS0000250,Hallett,95,,,180,189,186,186,175,186
+AUS0000251,Berrimah,213,,,,,,,,
+AUS0000252,Landfill Management Services Shoal Bay,214,,,,,,,,
+AUS0000253,Tennant Creek,215,,,335,364,357,414,397,424
+AUS0000254,Ron Goodin,216,,,333,362,356,413,396,423
+AUS0000255,Owen Springs,217,,,331,360,355,412,395,422
+AUS0000256,Brewer,218,,,,186,183,183,,
+AUS0000257,Yulara,219,,,337,366,359,416,399,426
+AUS0000258,Pine Creek,220,,,168,173,169,170,117,141
+AUS0000259,Katherine,221,,,327,356,353,410,393,420
+AUS0000260,Weddell,100,,,336,365,358,415,398,425
+AUS0000261,Channel Island,99,,,326,355,352,409,392,419
+AUS0000262,Warrego,222,,,,,,,,
+AUS0000263,Condong Sugar Mill,223,,,,91,80,81,76,82
+AUS0000264,Appin (Mine),224,,,130,133,130,132,80,112
+AUS0000265,Bayswater,225,,,285,295,5&291,4,4,6
+AUS0000266,Bendeela (Shoalhaven Scheme),226,,,,,,,,
+AUS0000267,Blowering,227,,,,,,,,
+AUS0000268,Broadwater,228,,,,90,79,80,75,81
+AUS0000269,Brown Mountain,229,,,191,325,,,,
+AUS0000270,Capral (Aluminium Smelter),230,,,,,,,,
+AUS0000271,Colongra,231,,,95,99,99,447,438,467
+AUS0000272,EarthPower Biomass Plant,232,,,,,,,,
+AUS0000273,Eraring,233,,,,,,,,
+AUS0000274,Gadara,234,Visy Pulp and Paper Tumut,,,,,,,
+AUS0000275,Glenbawn,235,,,12,12,13,13,13,15
+AUS0000276,Glennies Creek,236,,,185,157,151,152,100,106
+AUS0000277,Hunter,237,,,,,,,,
+AUS0000278,Hunter Valley,238,,,286,296,20&292,20,20,22
+AUS0000279,Kangaroo Valley (Shoalhaven Scheme),239,,,,,,,,
+AUS0000280,Liddell,240,,,287,297,22&293,22,23,25
+AUS0000281,Mt Piper,241,,,97,101&190,187,187,176,188
+AUS0000282,Munmorah,242,,,,,,,,
+AUS0000283,Nymboida,285,,,,,,,,
+AUS0000284,Oaky,286,,,,,,,,
+AUS0000285,Redbank,287,,,,,,,,
+AUS0000286,Smithfield Energy,288,,,73,74,65,59,57,59
+AUS0000287,Tahmoor,289,,,187,176,173,174,121,110
+AUS0000288,Tallawarra,290,,,181,191,188,188,177,190
+AUS0000289,Teralba,291,,,,,,,,
+AUS0000290,Tomago Aluminium Smelter,292,,,,,,,,
+AUS0000291,Tower Mine,293,,,171,178,175,177,123,113
+AUS0000292,Tumut 1 (Upper Tumut),294,,,,,,,,
+AUS0000293,Tumut 2 (Upper Tumut),295,,,,,,,,
+AUS0000294,Uranquinty,296,,,,,340,344,315,339
+AUS0000295,Vales Point B,297,,,98,102,100,102&462,465,497
+AUS0000296,Wallerawang C,298,,,,,,,,
+AUS0000297,Warragamba,299,,,,,,,,
+AUS0000298,West Illawarra Leagues Club,300,,,,,,,,
+AUS0000299,Western Suburbs Leagues Club (Campbelltown),301,,,,,,,,
+AUS0000300,Burrendong,302,,,6,5,7,7,7,9
+AUS0000301,Copeton,303,,,9,9,10,10,10,12
+AUS0000302,Wilga Park,304,,,,381,379,434,425,454
+AUS0000303,Guthega,305,,,,,,,,
+AUS0000304,Lake Keepit,306,,,,213,207,209,194,287
+AUS0000305,Broken Hill,307,,,,,,,,
+AUS0000306,Eraring,308,,,297,333,326,330,301,325
+AUS0000307,Collgar Wind Farm,115,,,92,96,93,96,140,100
+AUS0000308,Maryvale Mill,309,,,,,,,,
+AUS0000309,Grasmere Wind Farm (Albany stage II),310,Grasmere Wind Farm (Albany Stage II),,,,,,,
+AUS0000310,Tully Sugar Mill,311,,,,,,,,
+AUS0000311,Proserpine Sugar Mill,312,,,,,,,,
+AUS0000313,Sydney,314,,,,,,,,
+AUS0000314,North Sydney,315,,,,,,,,
+AUS0000315,Blackmores,316,,,301,322,319,323,294,319
+AUS0000316,Nine Network,317,,,,,,,,
+AUS0000317,Revesby Workers Club,318,,,,,,,,
+AUS0000318,St George Leagues Club,319,,,,,,,,
+AUS0000319,University of New South Wales,320,,,318,347,339,343,314,338
+AUS0000320,Norseman Mine,321,,,90,94,85,91,135,93
+AUS0000321,Darlot Gold Mine,322,,,,,,,,
+AUS0000322,Windimurra Vanadium Mine,323,,,,,,,,
+AUS0000323,Rottnest Island Wind Turbine,324,,,,,,,,
+AUS0000324,Cloudbreak,325,,,89,93,84,88,,
+AUS0000325,Port Hedland,326,,,,,,,,
+AUS0000326,Noranda,327,,,,,,,,
+AUS0000327,Red Hill,328,,,,,,171,118,258
+AUS0000328,Shenton Park WMRC Project,329,,,,,,,,
+AUS0000329,Kalamunda,330,,,68,69,60,157,105,257
+AUS0000330,Canning Vale,331,,,,,,,,
+AUS0000331,Gosnells,332,,,,,,,,
+AUS0000332,KRC Cogeneration Plant,333,,,,,,,,
+AUS0000333,Melbourne,334,,,,,,,,
+AUS0000334,Carlton,335,,,,,,,,
+AUS0000335,Eildon Small Hydro,336,,,247,255,249,253,449,479
+AUS0000336,Corio,337,,,,,,145,92,137
+AUS0000337,South East Water Hallam Plant,338,,,,,,,,
+AUS0000338,Lower Rubicon,339,,,,,,,,
+AUS0000339,Royston,340,,,,,,,,
+AUS0000340,Rubicon Falls,341,,,,,,,,
+AUS0000341,Leonards Hill,342,,,,,,,,
+AUS0000342,Box Hill,343,,,,,,,,
+AUS0000343,Highbury,344,,,,,,155,,
+AUS0000344,Tea Tree Gully,345,,,,,,176,,
+AUS0000345,Port Stanvac,346,,,,,,,,
+AUS0000346,Maryborough,347,,,,,,,,
+AUS0000347,Stapylton Green Energy,348,,,,,283,287,264,279
+AUS0000348,Bremer Bay Wind Turbine,349,,,,,,,,
+AUS0000349,Bremer Bay Diesel Backup,350,,,,,,,,
+AUS0000350,Coral Bay Wind Turbines,351,,,,,,,,
+AUS0000351,Coral Bay Diesel Backup,352,,,,,,,,
+AUS0000352,Denham Wind Turbines,353,,,,,,,,
+AUS0000353,Denham Diesel Backup,354,,,,,,,,
+AUS0000354,Woodman Point,395,,,,,,,,
+AUS0000355,Henderson,396,,,,,,,,
+AUS0000356,Tamala Park,397,,,71,72,63,175,122,259
+AUS0000357,Mandurah,398,,,,,,,,
+AUS0000358,Rockingham,399,,,25,26,29,30,31,33
+AUS0000359,South Cardup (Shale Road Landfill),400,,,278,288,282,286,263,278
+AUS0000360,Cue,401,,,141,144,143,87,132,90
+AUS0000361,Sandstone,402,,,169,174,171,92,136,94
+AUS0000362,Nullagine Solar Farm,403,,,,,,,,
+AUS0000363,Nullagine Diesel Backup,404,,,,,,,,
+AUS0000364,Marble Bar Solar Farm,405,,,,,,,,
+AUS0000365,Marble Bar Diesel Backup,406,,,,,,,,
+AUS0000366,Derby,407,,,142,145,144,146,94,144
+AUS0000367,Fitzroy Crossing,408,,,151,154,148,149,97,145
+AUS0000368,Halls Creek,409,,,154,158,152,154,103,146
+AUS0000369,Warmun,410,,,,,176,178,124,180
+AUS0000370,Kununurra,411,,,,,,,414,442
+AUS0000371,Laverton,412,,,157,161,156,159,106,177
+AUS0000372,Exmouth,413,,,380,420,422,199,188,201
+AUS0000373,Tableland,414,,,,,,,,
+AUS0000374,South Johnstone,415,,,,,,,,
+AUS0000375,Mulgrave,416,,,,,,,,
+AUS0000376,Blue Lake Milling Power Plant,417,,,,,,,,
+AUS0000377,Tatiara Meats,418,,,,,,,,
+AUS0000378,Kalumburu,419,,,,,,,413,441
+AUS0000379,Ardyaloon,420,,,131,134,131,133,81,171
+AUS0000380,Djarindjin,421,,,143,146,145,147,95,175
+AUS0000381,Beagle Bay,422,,,132,135,132,134,82,172
+AUS0000382,Bidyadanga,423,,,134,137,135,137,85,173
+AUS0000383,Gascoyne Junction,424,,,152,155,149,150,98,176
+AUS0000384,Wiluna,425,,,173,180,178,93,137,95
+AUS0000385,Yalgoo,426,,,176,183,181,94,138,96
+AUS0000386,Carnarvon,427,,,350,378,369,426,411,439
+AUS0000387,Mungullah,428,,,,,,,,
+AUS0000388,Exmouth Advanced Mini Wind Farm,429,,,,,,,,
+AUS0000389,Worsley,430,,,,,,,,
+AUS0000390,Kalbarri PV System,431,,,113,119,116,,,
+AUS0000391,Esperance Wind Farm Ten Mile Lagoon,432,,,,,,,,
+AUS0000392,Muja B,433,,,,,,,,
+AUS0000393,Muja A,434,,,,,,,,
+AUS0000394,Boco Rock,435,,,,,95,98,142,102
+AUS0000395,Ben Lomond,355,,,,,,,,
+AUS0000396,Bannaby,,,,,,,,,
+AUS0000397,Bamarang,356,,,,,,,,
+AUS0000398,Bango Wind Farm,357,,,,,,,,
+AUS0000399,Bankstown Sports Club,358,,,,,,,,
+AUS0000400,Belconnen,359,,,172,179,177,179,125,118
+AUS0000401,Charlestown Square,360,,,,,,,,
+AUS0000402,Club Merrylands,361,,,,,,,,
+AUS0000403,Erskine Park,362,,,,,,,,
+AUS0000404,Kooragang,363,,,,,,,,
+AUS0000405,Kalbarri Wind Farm,364,,,114,120,117,119,161,162
+AUS0000406,Wodgina,365,,,,,,,,
+AUS0000407,Savannah Nickel Mine,366,,,,,,,,
+AUS0000408,Meekatharra,367,,,162,166,162,89,133,91
+AUS0000409,Leonora,368,,,158,162,157,160,107,178
+AUS0000410,Menzies,369,,,163,167,163,165,112,179
+AUS0000411,Onslow,370,,,,,,318,289,314
+AUS0000412,Hopetoun Diesel Backup,371,,,,,,,,
+AUS0000413,Hopetoun Wind Turbines,372,,,,,,,,
+AUS0000414,Camballin,373,,,,,,,,
+AUS0000415,Cawse Nickel Mine,374,,,,,,,,
+AUS0000416,Buronga,375,,,,,,,,
+AUS0000417,Macarthur Wind Farm,16,,,20,21,24,24,25,27
+AUS0000418,Glenorchy,376,,,13,13,14,14,14,16
+AUS0000419,Hobart,377,,,18,18,19,19,19,21
+AUS0000420,Musselroe,378,,,,,,,,
+AUS0000421,Kings Canyon,379,,,,,354,411,394,421
+AUS0000422,Bodangora Wind Farm,380,,,,,,,,
+AUS0000424,McArthur River Mine,382,,,161,165,161,164,111,140
+AUS0000425,University of Queensland (St Lucia Campus) Solar Array,383,,,,,,,,
+AUS0000426,Perth Zoo,384,,,,,,,,
+AUS0000427,Tulla Calder Interchange Solar Array,385,,,,,,,,
+AUS0000428,Bridgewater Solar,386,,,,,,,,
+AUS0000429,Monash University (Clayton Campus) Solar Array,387,,,,,,,,
+AUS0000430,Queen Victoria Market Solar Array,388,,,,,,,,
+AUS0000431,Bendigo Solar Park,389,,,,,318,322,293,318
+AUS0000432,Adelaide Showgrounds,390,,,,,,,,
+AUS0000433,Adelaide Airport,391,,,,,,,,
+AUS0000434,Townsville RSL Stadium Solar Array,392,,,,,,,,
+AUS0000435,Fraser Coast Community Solar Farm,393,,,,,,,,
+AUS0000436,Metricon (Gold Coast) Stadium Solar Array,394,,,,,,,,
+AUS0000437,Carnarvon Solar Farm,436,,,,,,,,
+AUS0000438,CSIRO Energy Centre,437,,,,,,,,
+AUS0000439,Newington Solar Suburb,438,,,,,,,,
+AUS0000440,Singleton Solar Farm,439,,,,,,,,
+AUS0000441,Kogarah Town Square Solar Array,440,,,,,,,,
+AUS0000442,Stadium Australia,441,,,,,,,,
+AUS0000443,Mt Gambier,442,,,,,,,,
+AUS0000444,Narrogin Bioenergy Plant,443,,,,,,,,
+AUS0000445,Visy Paper Gibson Island,444,,,,,,,,
+AUS0000446,Mica Creek,480,,,365,402,404,458,461,492
+AUS0000447,Wilpena Solar Farm,481,,,35,35,38,38,39,41
+AUS0000448,Mildura Solar Farm,482,,,,,,,,
+AUS0000449,King Island (Currie),483,,,,,,,,
+AUS0000450,Merredin,116,,,,,,,323,
+AUS0000451,West Angelas Mine,484,,,,,374,431,326,352
+AUS0000452,Cannington Mine,485,,,,,,,,
+AUS0000453,Hallett 1 Brown Hill  Wind Farm,486,,,14,14,15,15,15,17
+AUS0000454,Hallett 5 The Bluff  Wind Farm,487,Hallet 5 - The Bluff,,17,17,18,18,18,20
+AUS0000455,Hallett 2 Hallet Hill  Wind Farm,488,,,15,15,16,16,16,18
+AUS0000456,Snowtown Wind Farm Stage 2,489,Snowtown South  ,,,389&393,387&391,440&444,431&435,460&464
+AUS0000457,Cape Preston,445,,,,,,,,
+AUS0000458,Solomon Iron Ore Mine,446,,,,416,418,475,476,203&512
+AUS0000459,Diamantina,447,,,,105,102,104,47,48
+AUS0000460,Leichhardt,448,,,,,,,,
+AUS0000461,Bulwer Island,449,,,56,57,56,,,
+AUS0000462,Cape Lambert,450,,,,,,,,350
+AUS0000463,Ernabella,451,,,,,,,,
+AUS0000464,Umuwa,452,,,,,,,,
+AUS0000465,Yuendumu,453,,,,,,407,390,417
+AUS0000466,Lajamanu,454,,,,,,375,358,385
+AUS0000467,Windorah,455,,,,,,,,
+AUS0000468,DoubleTree by Hilton Hotel,456,,,,,,,,
+AUS0000469,Alice Springs Airport,457,,,,,,,,
+AUS0000470,Uterne Solar,458,,,,,,,,
+AUS0000471,Hermannsburg,459,,,,,,,,
+AUS0000472,Ballarat Solar Park,460,,,,,317,321,292,317
+AUS0000473,Liddell Solar Thermal,461,,,,,,,,
+AUS0000474,Greenough River Solar Farm,462,,,,,,,,160
+AUS0000475,Mumbida Wind Farm,463,,,,,,308,151,299
+AUS0000476,Nyngan Solar Plant,464,,,,,27,27,28,30
+AUS0000477,Broken Hill Solar Plant,381,,,,,,6,6,8
+AUS0000478,Mt Mercer Wind Farm,18,,,,299,295,295,270,288
+AUS0000479,North Sydney,313,,,,,,,,
+AUS0000480,Wadeye,465,,,,,,401,384,411
+AUS0000481,Traralgon Network Support Station,466,,,,,,,,
+AUS0000482,Gullen Range Wind Farm,467,,,,312,310,312,283,63
+AUS0000483,Lake Bonney Stage 1 Wind Farm,468,,,,,,,,
+AUS0000484,Lake Bonney Stage 3 Wind Farm,469,,,,,,,,
+AUS0000485,Royalla Solar Farm,470,,,,,377,106,144,104
+AUS0000486,Timber Creek,471,,,,,,398,381,408
+AUS0000487,Daly Waters,472,,,,,,,,
+AUS0000488,Elliott,473,,,,,,363,346,373
+,Ti-Tree,,,,part of AUS0000070,,,,,
+AUS0000490,Roy Hill,475,,,,,,,,
+AUS0000491,Moree,476,,,,,,453,444,473
+AUS0000492,Mortons Lane Wind Farm,478,,,289,308,306,306,279,297
+AUS0000493,Racecourse Mill,479,,,,,,,,
+,Gullen Range Wind Farm,,,duplicate of AUS0000482,,,,,,
+,Hallett 1 Brown Hill  Wind Farm,,,duplicate of AUS0000453 ,,,,,,
+,Hallett 2 Hallet Hill  Wind Farm,,,duplicate of AUS0000455,,,,,,
+,Playford B,,,duplicate of AUS0000247,,,,,,
+AUS0000493,Mt Gellibrand Wind Farm,,,,,,,,,2
+AUS0000494,Emu Downs Solar Farm,,,,,,,,,49
+AUS0000495,White Rock Wind Farm Pty Ltd,,,,,,,,,86
+AUS0000496,Oaky Creek II WCMG Power Station,,,,,,,,,107
+AUS0000497,Oaky Creek WCMG Power Station,,,,,,,,,108
+AUS0000498,Tahmoor WCMG Power Station,,,,,,,,,110
+AUS0000499,Looma NGD Power Station,,,,,,,,,147
+AUS0000500,Grosvenor 1 WCMG Power Station,,,,,,,,,149
+AUS0000501,Grosvenor 2 WCMG Power Station,,,,,,,,,150
+AUS0000502,Coober Pedy Facility,,,,,,,,,174
+AUS0000503,Essential Energy Generation Facility - Broken Hill Gas Turbine,,,,,,,,,199
+AUS0000504,Kidston Solar One - Solar – Qld,,,,,,,,,205
+AUS0000505,Kiata Wind Farm Pty Ltd,,,,,,,,,255
+AUS0000506,NAWMA Renewable Energy Facility,,,,,,,,,272
+AUS0000507,NAWMA Solar Facility,,,,,,,,,273
+AUS0000508,DEGRUSSA SOLAR PROJECT PTY LTD,,,,,,,,,301
+AUS0000509,DUBBO SOLAR HUB PTY LTD,,,,,,,,,302
+AUS0000510,GRIFFITH SOLAR FARM PTY LTD,,,,,,,,,303
+AUS0000511,HORNSDALE POWER RESERVE PTY LTD,,,,,,,,,304
+AUS0000512,HWF1 PTY LTD,,,,,,,,,305
+AUS0000513,HWF2 PTY LTD,,,,,,,,,306
+AUS0000514,HWF3 PTY LTD,,,,,,,,,307
+AUS0000515,PARKES SOLAR FARM PTY LTD,,,,,,,,,308
+AUS0000516,Visy Power Generation - Smithfield Energy Facility,,,,,,,,,429
+AUS0000517,Crowlands Wind Farm,,,f,,,,,,478
+AUS0000518,Yaloak South Wind Farm ,,,,,,,,,486
+AUS0000519,SWF 1 Operations Holdings Pty Ltd,,,,,,,,,499
+AUS0000520,Midlands Power Station,,,,,,,,,506
+AUS0000521,Weipa Solar Power Station,,,,,,,,,518
+AUS0000522,YPF UTILITIES PRODUCTION AND SUPPLY,,,,,,,,,520
