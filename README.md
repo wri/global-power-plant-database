@@ -1,8 +1,12 @@
 # Global Power Plant Database
 
+**This project is not currently maintained by WRI. There are no planned updates as of this time (early 2022). The last version of this database is version 1.3.0. If we learn of active forks or maintained versions of the code and database we will attempt to provide links in the future.**
+
+
+
 This project aims to build [an open database of all the power plants in the world](http://www.wri.org/publication/global-power-plant-database). It is the result of a large collaboration involving many partners, coordinated by the [World Resources Institute](https://www.wri.org/) and [Google Earth Outreach](https://www.google.com/earth/outreach/index.html). If you would like to get involved, please [email the team](mailto:powerexplorer@wri.org) or fork the repo and code! To learn more about how to contribute to this repository, read the [`CONTRIBUTING`](https://github.com/wri/global-power-plant-database/blob/master/.github/CONTRIBUTING.md) document.
 
-The latest database release (v1.2.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). A bleeding-edge version is in the [`output_database`](https://github.com/wri/global-power-plant-database/blob/master/output_database) directory of this repo.
+The latest database release (v1.3.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). A bleeding-edge version is in the [`output_database`](https://github.com/wri/global-power-plant-database/blob/master/output_database) directory of this repo.
 
 All Python source code is available under a [MIT license](https://opensource.org/licenses/MIT).
 
@@ -69,6 +73,23 @@ We assign a unique ID to each line of data that we read from each source. In som
 ## Power plant matching
 
 In many cases our data sources do not include power plant geolocation information. To address this, we attempt to match these plants with the GEO and CARMA databases, in order to use that geolocation data. We use an [elastic search matching technique](https://github.com/cbdavis/enipedia-search) developed by Enipedia to perform the matching based on plant name, country, capacity, location, with confirmed matches stored in a concordance file. This matching procedure is complex and the algorithm we employ can sometimes wrongly match two power plants or fail to match two entries for the same power plant. We are investigating using the Duke framework for matching, which allows us to do the matching offline.
+
+
+## Build Instructions
+The build system is as follows
+
+- Create a virtual environment with Python 2.7 and the third-party packages in `requirements.txt`
+- `cd` into `build_databases/`
+- run each `build_database_*.py` file for each data source or processing method that changed (when making a database update)
+- run `build_global_power_plant_database.py` which reads from the pickled store/sub-databases.
+- `cd` into `../utils`
+- run `database_country_summary.py` to produce summary table
+- `cd` into `../output_database`
+- copy `global_power_plant_database.csv` to the [`gppd-ai4earth-api`](https://github.com/wri/gppd-ai4earth-api) repository. Look a the `Makefile` in that repo to understand where it should be located
+- build new generation estimations as needed based on plant changes and updates compared to the stored and calculated values - this is not automatic, but there are some helper scripts for making the estimates
+- run the `make_gppd.py` script in `gppd-ai4earth-api` to construct a new version of the database with the full estimation data
+- copy the new merged dataset back to this repo, increment the `DATABASE_VERSION` file, commit, etc...
+
  
 ## Related repos
 
