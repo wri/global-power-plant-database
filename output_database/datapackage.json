@@ -1,0 +1,289 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "global-power-plant-database",
+      "path": "global_power_plant_database.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "format": "default",
+            "title": "Country Code",
+            "description": "The 3-letter ISO 3166-1 alpha code for each country"
+          },
+          {
+            "name": "country_long",
+            "type": "string",
+            "format": "default",
+            "title": "Country Name",
+            "description": "The name of the country the power plant is located within"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default",
+            "title": "Name",
+            "description": "The name of the power plant"
+          },
+          {
+            "name": "gppd_idnr",
+            "type": "string",
+            "format": "default",
+            "title": "GPPD ID",
+            "description": "The unique identifier for each power plant in the Global Power Plant Database"
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "format": "default",
+            "description": "Installed electrical capacity of eachpower plant (MW) ",
+            "title": "Installed Capacity (MW) "
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "format": "default",
+            "description": "The north-south position of a point on the Earth's surface",
+            "title": "Latitude"
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "format": "default",
+            "description": "The east–west position of a point on the Earth's surface",
+            "title": "Longitude"
+          },
+          {
+            "name": "primary_fuel",
+            "type": "string",
+            "format": "default",
+            "title": "Primary Fuel Type",
+            "description": "The primary fuel used by the power plant"
+          },
+          {
+            "name": "other_fuel1",
+            "type": "string",
+            "format": "default",
+            "description": "The secondary fuel used by the power plant",
+            "title": "Secondary Fuel Type"
+          },
+          {
+            "name": "other_fuel2",
+            "type": "string",
+            "format": "default",
+            "description": "The tertiary fuel used by the power plant",
+            "title": "Tertiary Fuel Type"
+          },
+          {
+            "name": "other_fuel3",
+            "type": "string",
+            "format": "default",
+            "description": "The quaternary fuel used by the power plant",
+            "title": "Quaternary Fuel Type"
+          },
+          {
+            "name": "commissioning_year",
+            "type": "year",
+            "format": "default",
+            "description": "The first year the plant generated electricity",
+            "title": "Commissioning Year"
+          },
+          {
+            "name": "owner",
+            "type": "string",
+            "format": "default",
+            "description": "The primary owner of the power plant",
+            "title": "Owner"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "format": "default",
+            "title": "Source",
+            "description": "The source of the data on each power plant"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "default",
+            "description": "URL linking directly to data source",
+            "title": "URL"
+          },
+          {
+            "name": "geolocation_source",
+            "type": "string",
+            "format": "default",
+            "title": "Geolocation Source",
+            "description": "The source of the spatial data on each power plant"
+          },
+          {
+            "name": "wepp_id",
+            "type": "number",
+            "format": "default",
+            "title": "PLATTS-WEPP ID",
+            "description": "The unique identifier used to refer to power plants in the PLATTS-WEBB dataset"
+          },
+          {
+            "name": "year_of_capacity_data",
+            "type": "year",
+            "format": "default",
+            "description": "The year of the reported capacity value",
+            "title": "Year of Capacity Report"
+          },
+          {
+            "name": "generation_gwh_2013",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2013) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2013"
+          },
+          {
+            "name": "generation_gwh_2014",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2014) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2014"
+          },
+          {
+            "name": "generation_gwh_2015",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2015) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2015"
+          },
+          {
+            "name": "generation_gwh_2016",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2016) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2016"
+          },
+          {
+            "name": "generation_gwh_2017",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2017) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2017"
+          },
+          {
+            "name": "generation_gwh_2018",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2018) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2018"
+          },
+          {
+            "name": "generation_gwh_2019",
+            "type": "number",
+            "format": "default",
+            "description": "Annual generation (during 2019) in gigawatt hours (GWhs), gross",
+            "title": "Annual Generation in 2019"
+          },
+          {
+            "name": "generation_data_source",
+            "type": "string",
+            "format": "default",
+            "title": "Generation Source",
+            "description": "The source of the generation data on each power plant"
+          },
+          {
+            "name": "estimated_generation_gwh_2013",
+            "type": "number",
+            "format": "default",
+            "title": "Estimated Annual Generation in 2013",
+            "description": "Estimated annual generation (during 2013) in gigawatt hours (GWhs), gross"
+          },
+          {
+            "name": "estimated_generation_gwh_2014",
+            "type": "number",
+            "format": "default",
+            "title": "Estimated Annual Generation in 2014",
+            "description": "Estimated annual generation (during 2014) in gigawatt hours (GWhs), gross"
+          },
+          {
+            "name": "estimated_generation_gwh_2015",
+            "type": "number",
+            "format": "default",
+            "title": "Estimated Annual Generation in 2015",
+            "description": "Estimated annual generation (during 2015) in gigawatt hours (GWhs), gross"
+          },
+          {
+            "name": "estimated_generation_gwh_2016",
+            "type": "number",
+            "format": "default",
+            "title": "Estimated Annual Generation in 2016",
+            "description": "Estimated annual generation (during 2016) in gigawatt hours (GWhs), gross"
+          },
+          {
+            "name": "estimated_generation_gwh_2017",
+            "type": "number",
+            "format": "default",
+            "title": "Estimated Annual Generation in 2017",
+            "description": "Estimated annual generation (during 2017) in gigawatt hours (GWhs), gross"
+          },
+          {
+            "name": "estimated_generation_note_2013",
+            "type": "string",
+            "format": "default",
+            "title": "Estimated Annual Generation Note for 2013",
+            "description": "A note on the estimation process behind calculating gross annual generation (during 2013)"
+          },
+          {
+            "name": "estimated_generation_note_2014",
+            "type": "string",
+            "format": "default",
+            "title": "Estimated Annual Generation Note for 2014",
+            "description": "A note on the estimation process behind calculating gross annual generation (during 2014)"
+          },
+          {
+            "name": "estimated_generation_note_2015",
+            "type": "string",
+            "format": "default",
+            "title": "Estimated Annual Generation Note for 2015",
+            "description": "A note on the estimation process behind calculating gross annual generation (during 2015)"
+          },
+          {
+            "name": "estimated_generation_note_2016",
+            "type": "string",
+            "format": "default",
+            "title": "Estimated Annual Generation Note for 2016",
+            "description": "A note on the estimation process behind calculating gross annual generation (during 2016)"
+          },
+          {
+            "name": "estimated_generation_note_2017",
+            "type": "string",
+            "format": "default",
+            "title": "Estimated Annual Generation Note for 2017",
+            "description": "A note on the estimation process behind calculating gross annual generation (during 2017)"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "climate",
+    "energy",
+    "power plants"
+  ],
+  "contributors": [
+    {
+      "title": "Global Energy Observatory",
+      "role": "author"
+    }
+  ],
+  "homepage": "https://datasets.wri.org/dataset/globalpowerplantdatabase",
+  "description": "The Global Power Plant Database is a comprehensive, open source database of power plants around the world. It centralizes power plant data to make it easier to navigate, compare and draw insights for one’s own analysis. The database covers approximately 35,000 power plants from 167 countries and includes thermal plants (e.g. coal, gas, oil, nuclear, biomass, waste, geothermal) and renewables (e.g. hydro, wind, solar). Each power plant is geolocated and entries contain information on plant capacity, generation, ownership, and fuel type. It will be continuously updated as data becomes available. \n\nThe methodology for the dataset creation is given in the World Resources Institute publication [\"A Global Database of Power Plants\"](https://www.wri.org/research/global-database-power-plants). Data updates may occur without associated updates to this manuscript.",
+  "version": "1.3.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "name": "global-power-plant-database",
+  "title": "Global Power Plant Database"
+}
