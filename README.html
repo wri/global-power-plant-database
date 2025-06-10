@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>README</title>
+<style>
+body { font-family: sans-serif; margin: 20px; line-height: 1.6; max-width: 800px; margin-left: auto; margin-right: auto; padding: 1em; }
+h1, h2, h3, h4, h5, h6 { color: #333; margin-top: 1.5em; }
+h1 { border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+table { border-collapse: collapse; margin-bottom: 1em; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+pre { background-color: #f5f5f5; padding: 10px; border: 1px solid #ddd; border-radius: 4px; overflow-x: auto; }
+code { font-family: monospace; background-color: #f5f5f5; padding: 0.2em 0.4em; border-radius: 3px;}
+pre code { background-color: transparent; padding: 0; border-radius: 0; border: none; }
+a { color: #0366d6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.toc { border: 1px solid #eee; padding: 10px; margin-bottom: 20px; background-color: #f9f9f9; border-radius: 4px; }
+.toc h2 { margin-top: 0; border-bottom: 1px solid #ddd; padding-bottom: 0.5em; }
+.toc ul { list-style-type: none; padding-left: 0; }
+.toc ul ul { padding-left: 20px; }
+img { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<div class="toc">
+<h2>Table of Contents</h2>
+<ul>
+  <li><a href="#capstone-project-analyzing-water-risk-exposure-of-global-power-plant-infrastructure">Capstone Project: Analyzing Water Risk Exposure of Global Power Plant Infrastructure</a>
+  <ul>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#the-problem">The Problem</a></li>
+    <li><a href="#why-this-problem-matters">Why This Problem Matters</a></li>
+    <li><a href="#key-research-questions">Key Research Questions</a></li>
+    <li><a href="#datasets-used">Datasets Used</a></li>
+    <li><a href="#methodology-tools">Methodology &amp; Tools</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#getting-started-setup">Getting Started / Setup</a>
+    <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#installation">Installation</a></li>
+    </ul></li>
+    <li><a href="#how-to-run">How to Run</a></li>
+    <li><a href="#project-outputs">Project Outputs</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ul></li>
+</ul>
+</div>
+<h1 id="capstone-project-analyzing-water-risk-exposure-of-global-power-plant-infrastructure">Capstone Project: Analyzing Water Risk Exposure of Global Power Plant Infrastructure</h1>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>This repository hosts the work for a Data Science Capstone project focused on analyzing the exposure of global power plant infrastructure to current and future water-related risks. The primary goal is to integrate detailed data on power plants worldwide with comprehensive water risk indicators from WRI's Aqueduct 4.0. This will allow for the identification of potential vulnerabilities and highlight areas of concern at the intersection of energy production and water scarcity.</p>
+
+<p>This repository is a fork of the World Resources Institute's (WRI) <a href="https://github.com/wri/global-power-plant-database">Global Power Plant Database</a> and utilizes data from WRI's <a href="https://www.wri.org/aqueduct">Aqueduct 4.0 Water Risk Atlas</a>.</p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>A significant portion of global electricity generation, particularly thermal power plants (coal, gas, nuclear) and hydropower, relies heavily on adequate and reliable water resources for processes such as cooling, steam generation, and direct energy production. The intricate relationship between water and energy production is often referred to as the "water-energy nexus."</p>
+
+<p>While this general dependence is known, a comprehensive, granular understanding of the specific water risk exposure faced by individual power plants worldwide—both currently and under future climate and socioeconomic scenarios—is often lacking or fragmented. This project aims to address this gap by identifying and quantifying the varying levels of water risk (such as water stress, depletion, and variability) faced by a global portfolio of power plants. The specific problem is to assess which types of power generation facilities, in which specific geographical basins, are most vulnerable to current and projected future water challenges, thereby providing insights into potential threats to energy security and production.</p>
+
+<h2 id="why-this-problem-matters">Why This Problem Matters</h2>
+
+<p>Understanding and quantifying the water risk exposure of power plants is critical for several reasons:</p>
+
+<ul>
+<li><strong>Energy Security:</strong> Water scarcity or variability can lead to reduced operational efficiency of power plants, temporary shutdowns, or even long-term unviability, directly impacting energy supply and grid reliability.</li>
+<li><strong>Economic Impacts:</strong> Disruption in power generation due to water issues can have significant economic consequences, affecting industrial output, commercial activities, and incurring costs associated with mitigation or alternative energy sourcing.</li>
+<li><strong>Sustainable Development:</strong> This analysis aligns with Sustainable Development Goals (SDGs) concerning clean water and sanitation (SDG 6), affordable and clean energy (SDG 7), and climate action (SDG 13).</li>
+<li><strong>Investment and Policy:</strong> A clearer understanding of these risks can inform investment decisions for new power infrastructure, guide policy-making for water resource management in the energy sector, and support the development of climate change adaptation strategies for existing assets.</li>
+<li><strong>Environmental Co-benefits:</strong> Promoting water-efficient energy systems can also reduce the strain on local ecosystems and water resources shared with other users (agriculture, domestic supply).</li>
+</ul>
+
+<h2 id="key-research-questions">Key Research Questions</h2>
+
+<ul>
+<li>What is the current level of water stress and other water risks faced by different types of power plants globally and in specific regions?</li>
+<li>How might these water risks change for existing power infrastructure under various future climate and socioeconomic scenarios (e.g., 2030, 2050, 2080)?</li>
+<li>Are there particular types of power plants or geographical regions that are disproportionately vulnerable to water scarcity?</li>
+<li>What are the potential implications of these water risks for energy security and sustainable development?</li>
+</ul>
+
+<h2 id="datasets-used">Datasets Used</h2>
+
+<ol>
+<li><p><strong>WRI Global Power Plant Database (GPPD):</strong></p>
+
+<ul>
+<li><strong>Description:</strong> A comprehensive, open-source database of power plants around the world, geolocated and containing information on capacity, primary fuel type, commissioning year, ownership, and other attributes.</li>
+<li><strong>Source:</strong> Forked from <a href="https://github.com/wri/global-power-plant-database">wri/global-power-plant-database</a>.</li>
+<li><strong>Key Variables:</strong> <code>gppd_idnr</code> (unique ID), <code>name</code>, <code>country</code>, <code>capacity_mw</code>, <code>primary_fuel</code>, <code>commissioning_year</code>, <code>latitude</code>, <code>longitude</code>, <code>estimated_generation_gwh_2017</code>.</li>
+</ul></li>
+<li><p><strong>WRI Aqueduct 4.0 Water Risk Atlas:</strong></p>
+
+<ul>
+<li><strong>Description:</strong> A suite of tools and datasets from WRI that map and analyze current and future water risks globally, primarily at the river basin level.</li>
+<li><strong>Source:</strong> <a href="https://www.wri.org/aqueduct">WRI Aqueduct Platform</a>.</li>
+<li><strong>Key Datasets &amp; Variables:</strong>
+<ul>
+<li><strong>Baseline Monthly Data:</strong> Provides monthly baseline (1979-2019 trend) indicators for <code>pfaf_id</code> basins (HydroBASIN Level 6 catchments). Key indicators include <code>bws</code> (Baseline Water Stress), <code>bwd</code> (Baseline Water Depletion), <code>iav</code> (Interannual Variability), each with raw values, scores, categories, and labels.</li>
+<li><strong>Future Annual Data:</strong> Provides future annual projections for <code>pfaf_id</code> basins for time horizons "30" (2015-2045), "50" (2035-2065), "80" (2065-2095) under <code>bau</code> (Business as Usual), <code>opt</code> (Optimistic), and <code>pes</code> (Pessimistic) scenarios. Key indicators include <code>ba</code> (Available blue water), <code>ww</code> (Gross water demand), <code>ws</code> (Water stress), <code>wd</code> (Water depletion), <code>iv</code> (Interannual variability), <code>sv</code> (Seasonal variability).</li>
+<li><strong>Baseline Annual Data:</strong> Contains comprehensive baseline annual indicators, including groundwater table decline, flood risk, drought risk, water quality, regulatory risks, and "Grouped Water Risk" scores for different industries, including "Electric Power" (<code>elp</code>).</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Linking Strategy:</strong></p>
+
+<ul>
+<li>Power plant locations (latitude/longitude from GPPD) are geospatially linked to the relevant water basin identifiers (<code>pfaf_id</code> from Aqueduct 4.0) using HydroBASIN Level 6 shapefiles. This assigns water risk indicators to each power plant.</li>
+</ul></li>
+</ol>
+
+<h2 id="methodology-tools">Methodology &amp; Tools</h2>
+
+<p>The project involves the following general steps:</p>
+
+<ol>
+<li><strong>Data Acquisition and Preprocessing:</strong>
+<ul>
+<li>Cleaning and preparing the Global Power Plant Database.</li>
+<li>Processing and understanding the Aqueduct 4.0 water risk data (baseline and future projections).</li>
+<li>Geospatially linking power plant locations to water basin identifiers.</li>
+<li>Merging the power plant data with the water risk indicators.</li>
+</ul></li>
+<li><strong>Exploratory Data Analysis (EDA):</strong>
+<ul>
+<li>Analyzing distributions, identifying patterns, and visualizing relationships between power plant characteristics and water risk indicators.</li>
+</ul></li>
+<li><strong>Water Risk Assessment:</strong>
+<ul>
+<li>Developing metrics to quantify current and future water risk exposure for individual plants and aggregated groups (by fuel type, country, basin).</li>
+</ul></li>
+<li><strong>Reporting and Visualization:</strong>
+<ul>
+<li>Summarizing findings and creating visualizations to communicate the results.</li>
+</ul></li>
+</ol>
+
+<p>Key tools and libraries used include Python, Pandas, GeoPandas, Jupyter Notebooks, and various data visualization libraries.</p>
+
+<h2 id="project-structure">Project Structure</h2>
+
+<ul>
+<li><code>build_databases/</code>: Contains Python scripts for processing raw data and building the core datasets.
+<ul>
+<li><code>build_global_power_plant_database.py</code>: Script to process the WRI GPPD.</li>
+<li><code>build_aqueduct_database.py</code>: Script to process and combine Aqueduct 4.0 datasets.</li>
+<li><code>join_power_plants_to_basins.py</code>: Script to perform the geospatial join between power plants and water basins.</li>
+</ul></li>
+<li><code>output_database/</code>: Contains the final processed datasets.
+<ul>
+<li><code>global_power_plant_database.csv</code>: The main enriched power plant database with water risk indicators.</li>
+<li><code>global_power_plant_database_country_summary.csv</code>: A summary of water risk exposure aggregated by country.</li>
+</ul></li>
+<li><code>raw_source_files/</code>: Stores the original downloaded datasets (e.g., from WRI). (Note: Large data files may be gitignored and require manual download).</li>
+<li><code>Exploratory_Data_Analysis.ipynb</code>: Jupyter Notebook for initial data exploration, cleaning, and visualization.</li>
+<li><code>Data_Curation_Deliverable.ipynb</code>: Jupyter Notebook detailing the data sourcing, cleaning, and linking processes.</li>
+</ul>
+
+<h2 id="getting-started-setup">Getting Started / Setup</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+<li>Python (version 3.8 or higher recommended)</li>
+<li>Access to a terminal or command prompt.</li>
+<li>Git for cloning the repository.</li>
+</ul>
+
+<h3 id="installation">Installation</h3>
+
+<ol>
+<li><strong>Clone the repository:</strong>
+<pre><code>git clone &lt;repository-url&gt;
+cd &lt;repository-directory&gt;
+</code></pre></li>
+<li><strong>Create and activate a virtual environment (recommended):</strong>
+<pre><code>python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+</code></pre></li>
+<li><strong>Install dependencies from <code>requirements.txt</code>:</strong>
+<pre><code>pip install -r requirements.txt
+</code></pre>
+(Note: Some geospatial libraries might have additional system dependencies. Refer to their respective documentation if issues arise.)</li>
+</ol>
+
+<h2 id="how-to-run">How to Run</h2>
+
+<ol>
+<li><strong>Download Raw Data:</strong> Ensure the necessary raw data files from WRI (Global Power Plant Database, Aqueduct 4.0 datasets, HydroBASIN shapefiles) are downloaded and placed in the <code>raw_source_files/</code> directory as expected by the build scripts. (Refer to scripts in <code>build_databases/</code> for specific file names and expected locations).</li>
+<li><strong>Build Databases:</strong> Run the Python scripts in the <code>build_databases/</code> directory in sequence:
+<pre><code>python build_databases/build_global_power_plant_database.py
+python build_databases/build_aqueduct_database.py
+python build_databases/join_power_plants_to_basins.py
+# (Order might vary, check script dependencies if any)
+</code></pre>
+This will generate the processed files in the <code>output_database/</code> directory.</li>
+<li><strong>Explore Data and Analysis:</strong>
+<ul>
+<li>Open and run cells in <code>Exploratory_Data_Analysis.ipynb</code> to understand the data.</li>
+<li>Review <code>Data_Curation_Deliverable.ipynb</code> for a detailed account of the data processing steps.</li>
+</ul></li>
+</ol>
+
+<h2 id="project-outputs">Project Outputs</h2>
+
+<ul>
+<li><strong><code>output_database/global_power_plant_database.csv</code></strong>: The primary output dataset. This CSV file contains each power plant from the WRI GPPD, augmented with relevant current and future water risk indicators from WRI Aqueduct 4.0, based on its location.</li>
+<li><strong><code>output_database/global_power_plant_database_country_summary.csv</code></strong>: A CSV file providing an aggregated summary of power plant capacities exposed to different levels of water risk, grouped by country and primary fuel type.</li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>Contributions to this project are welcome. Please refer to the <a href=".github/CONTRIBUTING.md">CONTRIBUTING.md</a> file for guidelines on how to contribute. (Note: As this is a capstone project fork, contributions may be context-specific).</p>
+
+<h2 id="license">License</h2>
+
+<p>This project is a fork of the WRI Global Power Plant Database, which is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). The original data from WRI Aqueduct 4.0 is also publicly available under its own terms (typically open access, refer to WRI for specific details).</p>
+
+<p>The work done in this fork (scripts, analysis, documentation) is made available under the <a href="./LICENSE">MIT License</a>, unless otherwise stated. Please ensure compliance with the original data source licenses when using or distributing any outputs.</p>
+</body>
+</html>
